@@ -1,4 +1,4 @@
-name: Sync Gist Files
+name: 🔄 同步 Gist 节点文件
 
 on:
   schedule:
@@ -7,18 +7,23 @@ on:
   workflow_dispatch: # 允许手动触发
   push:
     branches: [ main ]
-    paths:
-      - '.github/workflows/sync-gist.yml'
+    paths: [ '.github/workflows/sync-gist.yml' ]
+
+# 设置权限
+permissions:
+  contents: write
+  actions: read
 
 jobs:
   sync-gist:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - name: 📦 检出代码
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ github.token }}
+        fetch-depth: 0
         
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -116,6 +121,8 @@ jobs:
         else
           echo "ℹ️ 没有检测到文件变更"
         fi
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
         
     - name: Create release summary
       run: |
