@@ -117,17 +117,18 @@ jobs:
           # 在更新日志表格中添加新的自动同步记录
           # 检查是否已存在今天的自动更新记录
           today_date=$(date '+%Y-%m-%d')
+          
+          # 生成节点详情描述（在条件判断外定义，确保两个分支都能使用）
+          node_details="📊 自动更新"
+          if [ "$yaml_nodes" -gt 0 ] && [ "$base64_lines" -gt 0 ]; then
+            node_details="📊 自动更新 - YAML:${yaml_nodes}个 Base64:${base64_lines}行"
+          elif [ "$yaml_nodes" -gt 0 ]; then
+            node_details="📊 自动更新 - YAML节点:${yaml_nodes}个"
+          elif [ "$base64_lines" -gt 0 ]; then
+            node_details="📊 自动更新 - Base64:${base64_lines}行"
+          fi
+          
           if ! grep -q "| $today_date.*📊 自动更新" README.md; then
-            # 生成节点详情描述
-            node_details="📊 自动更新"
-            if [ "$yaml_nodes" -gt 0 ] && [ "$base64_lines" -gt 0 ]; then
-              node_details="📊 自动更新 - YAML:${yaml_nodes}个 Base64:${base64_lines}行"
-            elif [ "$yaml_nodes" -gt 0 ]; then
-              node_details="📊 自动更新 - YAML节点:${yaml_nodes}个"
-            elif [ "$base64_lines" -gt 0 ]; then
-              node_details="📊 自动更新 - Base64:${base64_lines}行"
-            fi
-            
             # 在表格头部后面插入新记录
             sed -i '/|------|------|----------|/a\| '"$current_date"' | '"$total_nodes"'个节点 | '"$node_details"' |' README.md
             echo "✅ 已添加新的更新日志记录: $current_date - $total_nodes 个节点"
