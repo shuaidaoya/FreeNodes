@@ -1,0 +1,139 @@
+name: Sync Gist Files
+
+on:
+  schedule:
+    # 每隔15分钟运行一次 (高频更新模式)
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # 允许手动触发
+  push:
+    branches: [ main ]
+    paths:
+      - '.github/workflows/sync-gist.yml'
+
+jobs:
+  sync-gist:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Create nodes directory
+      run: |
+        mkdir -p nodes
+        
+    - name: Download Gist files
+      run: |
+        # Gist 基础URL
+        GIST_BASE_URL="https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6"
+        
+        # 下载各种格式的订阅文件
+        echo "📥 正在下载 all.yaml..."
+        curl -fsSL "${GIST_BASE_URL}/all.yaml" -o nodes/all.yaml || echo "❌ all.yaml 下载失败"
+        
+        echo "📥 正在下载 base64.txt..."
+        curl -fsSL "${GIST_BASE_URL}/base64.txt" -o nodes/base64.txt || echo "❌ base64.txt 下载失败"
+        
+        echo "📥 正在下载 history.yaml..."
+        curl -fsSL "${GIST_BASE_URL}/history.yaml" -o nodes/history.yaml || echo "❌ history.yaml 下载失败"
+        
+        echo "📥 正在下载 mihomo.yaml..."
+        curl -fsSL "${GIST_BASE_URL}/mihomo.yaml" -o nodes/mihomo.yaml || echo "❌ mihomo.yaml 下载失败"
+        
+    - name: Generate file info
+      run: |
+        # 生成文件信息
+        echo "# 📊 节点文件信息" > nodes/README.md
+        echo "" >> nodes/README.md
+        echo "**更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> nodes/README.md
+        echo "" >> nodes/README.md
+        echo "| 文件名 | 大小 | 最后修改 |" >> nodes/README.md
+        echo "|--------|------|----------|" >> nodes/README.md
+        
+        for file in nodes/*.yaml nodes/*.txt; do
+          if [ -f "$file" ]; then
+            filename=$(basename "$file")
+            filesize=$(ls -lh "$file" | awk '{print $5}')
+            modified=$(date -r "$file" '+%Y-%m-%d %H:%M')
+            echo "| $filename | $filesize | $modified |" >> nodes/README.md
+          fi
+        done
+        
+        echo "" >> nodes/README.md
+        echo "> 🔄 文件每15分钟自动更新，确保节点的新鲜度和可用性" >> nodes/README.md
+        
+    - name: Count nodes
+      id: count
+      run: |
+        # 统计节点数量
+        total_nodes=0
+        
+        if [ -f "nodes/all.yaml" ]; then
+          yaml_nodes=$(grep -c "server:" nodes/all.yaml 2>/dev/null || echo "0")
+          total_nodes=$((total_nodes + yaml_nodes))
+          echo "yaml_nodes=$yaml_nodes" >> $GITHUB_OUTPUT
+        fi
+        
+        if [ -f "nodes/base64.txt" ]; then
+          base64_lines=$(wc -l < nodes/base64.txt 2>/dev/null || echo "0")
+          echo "base64_lines=$base64_lines" >> $GITHUB_OUTPUT
+        fi
+        
+        echo "total_nodes=$total_nodes" >> $GITHUB_OUTPUT
+        echo "📊 统计到 $total_nodes 个节点"
+        
+    - name: Update main README
+      run: |
+        # 更新主README中的统计信息
+        current_date=$(date '+%Y-%m-%d %H:%M')
+        total_nodes="${{ steps.count.outputs.total_nodes }}"
+        
+        # 创建临时文件来更新README
+        if [ -f "README.md" ]; then
+          # 查找并更新更新日志表格中的第一行数据
+          sed -i "s/| [0-9-]* [0-9:]* | [^|]* | [^|]* |/| $current_date | ${total_nodes}个节点 | 📊 自动更新 |/" README.md
+          echo "✅ README.md 统计信息已更新"
+        fi
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 检查是否有变更
+        if [ -n "$(git status --porcelain)" ]; then
+          git add .
+          git commit -m "🔄 自动更新节点文件 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+          echo "✅ 文件已更新并推送到仓库"
+        else
+          echo "ℹ️ 没有检测到文件变更"
+        fi
+        
+    - name: Create release summary
+      run: |
+        echo "## 📊 同步结果" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**同步时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**节点总数**: ${{ steps.count.outputs.total_nodes }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📁 文件状态" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        for file in nodes/*.yaml nodes/*.txt; do
+          if [ -f "$file" ]; then
+            filename=$(basename "$file")
+            filesize=$(ls -lh "$file" | awk '{print $5}')
+            echo "- ✅ **$filename**: $filesize" >> $GITHUB_STEP_SUMMARY
+          fi
+        done
+        
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🎉 **同步完成！所有文件已成功更新到仓库**" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,65 @@
+# Git 属性配置文件
+# 统一处理换行符，确保跨平台兼容性
+
+# 默认行为：自动处理换行符
+* text=auto
+
+# 文本文件：强制使用 LF 换行符
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.xml text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.go text eol=lf
+*.java text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+
+# Windows 批处理文件：使用 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 配置文件
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
+README* text eol=lf
+
+# 二进制文件：不进行换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# 字体文件
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+
+# 其他二进制格式
+*.mp4 binary
+*.mp3 binary
+*.wav binary
+*.mov binary
+*.avi binary
