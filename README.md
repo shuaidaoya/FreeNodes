@@ -1,10 +1,9 @@
 ﻿# 🚀 FreeNodes
 
-
-[![GitHub stars](https://img.shields.io/github/stars/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/network)
-[![GitHub issues](https://img.shields.io/github/issues/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/issues)
-[![License](https://img.shields.io/github/license/username/FreeNodes?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/network)
+[![GitHub issues](https://img.shields.io/github/issues/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/issues)
+[![License](https://img.shields.io/github/license/shuaidaoya/FreeNodes?style=flat-square)](LICENSE)
 [![Last Update](https://img.shields.io/badge/Last%20Update-Daily-brightgreen?style=flat-square)](#)
 ---
 
@@ -31,9 +30,7 @@
 | 2025-10-11 11:00:51 | YAML:28个, Base64:28个 | 📊 自动更新 - YAML:28个, Base64:28个 |
 | 2025-10-10 23:58:58 | 121个节点 | 📊 自动更新 - YAML节点:121个 |
 
-
 > 📅 **更新频率**: 每隔半小时、自动更新节点列表  
-
 
 ## 📖 项目简介
 
@@ -96,292 +93,20 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 3. **更新订阅**: 客户端会自动获取最新的节点列表
 4. **选择节点**: 从节点列表中选择合适的节点连接
 
-## 🤖 自动化流程
-
-### 📅 定时更新机制
-
-本项目使用 **GitHub Actions** 实现全自动化的节点同步和更新：
-
-#### ⏰ 自动同步时间表
-- **高频更新**: 每隔 30 分钟自动运行一次
-- **手动触发**: 支持手动运行工作流
-- **代码更新**: 推送到 `main` 分支时自动触发
-
-#### 🔄 同步流程说明
-
-1. **文件拉取**: 自动从 Gist 拉取最新的节点配置文件
-2. **本地存储**: 将文件保存到 `nodes/` 目录
-3. **统计分析**: 自动统计节点数量和文件信息
-4. **文档更新**: 更新 README 中的统计信息
-5. **版本提交**: 自动提交变更并推送到仓库
-
-#### 📁 自动生成文件
-
-| 文件路径 | 描述 | 更新频率 |
-|----------|------|----------|
-| `nodes/all.yaml` | 完整 YAML 配置文件 | 每30分钟 |
-| `nodes/base64.txt` | Base64 编码节点列表 | 每30分钟 |
-| `nodes/history.yaml` | 历史节点备份 | 每30分钟 |
-| `nodes/mihomo.yaml` | Mihomo 专用配置 | 每30分钟 |
-| `nodes/README.md` | 文件信息和统计 | 每30分钟 |
-
-#### 🛠️ 手动同步脚本
-
-如需本地同步或测试，可使用提供的脚本：
-
-**Linux/macOS 用户**:
-```bash
-# 赋予执行权限
-chmod +x scripts/sync-nodes.sh
-
-# 运行同步脚本
-./scripts/sync-nodes.sh
-```
-
-**Windows 用户**:
-```cmd
-# 运行批处理脚本
-scripts\sync-nodes.bat
-```
-
-#### 📊 同步状态监控
-
-- **GitHub Actions**: 查看 [Actions 页面](../../actions) 了解同步状态
-- **提交历史**: 查看 [Commits](../../commits) 了解更新记录
-- **文件状态**: 查看 `nodes/README.md` 了解文件详情
-
-> 💡 **提示**: 所有同步过程完全自动化，无需人工干预。如遇同步异常，请查看 GitHub Actions 日志。
-
-### 📊 节点命名规则
-
-节点按照以下格式命名，方便用户识别和选择：
-
-
-- **TW²_1|1.9MB/s**
-- **JP¹-US⁰_1|3.1MB/s**
-- **JP²_1|1.0MB/s**
-- **US¹⁺_1|1.6MB/s**
-
-
-## 📱 推荐客户端
-
-### 🖥️ Windows 平台
-
-| 客户端 | 特点 | 支持协议 | 下载链接 |
-|--------|------|----------|----------|
-| **V2RayN** | 轻量级，易用 | V2Ray, VMess, VLESS | [GitHub](https://github.com/2dust/v2rayN/releases) |
-| **Clash for Windows** | 功能强大，规则丰富 | Clash, SS, V2Ray | [GitHub](https://github.com/Fndroid/clash_for_windows_pkg/releases) |
-| **Shadowsocks-Windows** | 经典稳定 | Shadowsocks | [GitHub](https://github.com/shadowsocks/shadowsocks-windows/releases) |
-| **Mihomo** | 高性能内核 | Clash, SS, V2Ray | [GitHub](https://github.com/MetaCubeX/mihomo/releases) |
-
-### 🍎 macOS 平台
-
-| 客户端 | 特点 | 支持协议 | 下载链接 |
-|--------|------|----------|----------|
-| **ClashX** | 原生 macOS 体验 | Clash, SS, V2Ray | [GitHub](https://github.com/yichengchen/clashX/releases) |
-| **V2RayU** | 简洁高效 | V2Ray, VMess, VLESS | [GitHub](https://github.com/yanue/V2rayU/releases) |
-| **ShadowsocksX-NG** | 轻量稳定 | Shadowsocks | [GitHub](https://github.com/shadowsocks/ShadowsocksX-NG/releases) |
-| **Surge** | 专业级网络工具 | 多协议支持 | [App Store](https://apps.apple.com/app/surge-5/id1442620678) |
-
-### 🐧 Linux 平台
-
-| 客户端 | 特点 | 支持协议 | 安装方式 |
-|--------|------|----------|----------|
-| **V2Ray** | 官方核心 | V2Ray 全协议 | `bash <(curl -L -s https://install.direct/go.sh)` |
-| **Clash** | 命令行版本 | Clash, SS, V2Ray | [GitHub](https://github.com/Dreamacro/clash/releases) |
-| **Shadowsocks-libev** | 轻量高效 | Shadowsocks | `sudo apt install shadowsocks-libev` |
-| **Mihomo** | 高性能内核 | Clash, SS, V2Ray | [GitHub](https://github.com/MetaCubeX/mihomo/releases) |
-
-### 📱 Android 平台
-
-| 客户端 | 特点 | 支持协议 | 下载链接 |
-|--------|------|----------|----------|
-| **V2RayNG** | 功能全面 | V2Ray, VMess, VLESS | [GitHub](https://github.com/2dust/v2rayNG/releases) |
-| **Clash for Android** | 规则强大 | Clash, SS, V2Ray | [GitHub](https://github.com/Kr328/ClashForAndroid/releases) |
-| **Shadowsocks Android** | 经典稳定 | Shadowsocks | [Google Play](https://play.google.com/store/apps/details?id=com.github.shadowsocks) |
-| **Surfboard** | 界面美观 | SS, V2Ray, Trojan | [Google Play](https://play.google.com/store/apps/details?id=com.getsurfboard) |
-
-### 📱 iOS 平台
-
-| 客户端 | 特点 | 支持协议 | 下载链接 |
-|--------|------|----------|----------|
-| **Shadowrocket** | 功能强大 | 多协议支持 | [App Store](https://apps.apple.com/app/shadowrocket/id932747118) |
-| **Quantumult X** | 专业级工具 | 多协议支持 | [App Store](https://apps.apple.com/app/quantumult-x/id1443988620) |
-| **Surge** | 网络调试神器 | 多协议支持 | [App Store](https://apps.apple.com/app/surge-5/id1442620678) |
-| **Loon** | 简洁易用 | SS, V2Ray, Trojan | [App Store](https://apps.apple.com/app/loon/id1373567447) |
-
-### 💡 选择建议
-
-#### 🔰 新手推荐
+#### 🔰 新手推荐客户端
 - **Windows**: V2RayN 或 Clash for Windows
 - **macOS**: ClashX 或 V2RayU  
 - **Android**: V2RayNG 或 Clash for Android
 - **iOS**: Shadowrocket 或 Quantumult X
 
-#### 🚀 进阶用户
-- **跨平台**: Mihomo (高性能)
-- **规则控制**: Clash 系列
-- **网络调试**: Surge (iOS/macOS)
-- **轻量使用**: Shadowsocks 系列
+### 📊 节点命名规则
 
-#### ⚙️ 配置要点
-1. **订阅导入**: 复制订阅链接到客户端
-2. **自动更新**: 建议开启订阅自动更新
-3. **节点选择**: 优先选择地理位置近的节点
-4. **规则设置**: 建议使用 PAC 或分流规则
+节点按照以下格式命名，方便用户识别和选择：
 
-## 📚 使用说明
-
-### 🚀 快速配置指南
-
-#### 1️⃣ V2RayN (Windows) 配置步骤
-
-1. **下载安装**: 从 [GitHub](https://github.com/2dust/v2rayN/releases) 下载最新版本
-2. **添加订阅**: 
-   - 点击 `订阅` → `订阅设置`
-   - 点击 `添加` 按钮
-   - 粘贴 `all.yaml` 订阅链接
-   - 点击 `确定` 保存
-3. **更新订阅**: 点击 `订阅` → `更新订阅`
-4. **选择节点**: 在服务器列表中选择合适的节点
-5. **启动代理**: 点击 `启动` 按钮开始使用
-
-#### 2️⃣ Clash for Windows 配置步骤
-
-1. **下载安装**: 从 [GitHub](https://github.com/Fndroid/clash_for_windows_pkg/releases) 下载
-2. **导入配置**:
-   - 点击 `Profiles` 标签
-   - 在 `Download remote profile` 输入框粘贴 `all.yaml` 链接
-   - 点击 `Download` 下载配置
-3. **选择配置**: 点击下载的配置文件激活
-4. **启动代理**: 在 `General` 标签中开启 `System Proxy`
-5. **选择节点**: 在 `Proxies` 标签中选择节点
-
-#### 3️⃣ V2RayNG (Android) 配置步骤
-
-1. **安装应用**: 从 [GitHub](https://github.com/2dust/v2rayNG/releases) 下载 APK
-2. **添加订阅**:
-   - 点击右上角 `+` 号
-   - 选择 `从剪贴板导入` 或 `扫描二维码`
-   - 粘贴 `all.yaml` 订阅链接
-3. **更新订阅**: 下拉刷新服务器列表
-4. **选择节点**: 点击选择合适的服务器
-5. **连接**: 点击右下角连接按钮
-
-#### 4️⃣ Shadowrocket (iOS) 配置步骤
-
-1. **购买安装**: 从 App Store 购买并安装 Shadowrocket
-2. **添加订阅**:
-   - 点击右上角 `+` 号
-   - 选择 `Subscribe`
-   - 在 URL 栏粘贴 `all.yaml` 订阅链接
-   - 点击 `完成`
-3. **更新订阅**: 下拉刷新节点列表
-4. **选择节点**: 点击选择服务器
-5. **连接**: 点击连接开关启动
-
-### 🔧 高级配置
-
-#### 📋 分流规则配置
-
-**Clash 规则示例**:
-```yaml
-rules:
-  - DOMAIN-SUFFIX,google.com,PROXY
-  - DOMAIN-SUFFIX,youtube.com,PROXY
-  - DOMAIN-SUFFIX,github.com,PROXY
-  - GEOIP,CN,DIRECT
-  - MATCH,PROXY
-```
-
-**V2Ray 路由规则**:
-```json
-{
-  "routing": {
-    "rules": [
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": ["geosite:cn"]
-      },
-      {
-        "type": "field",
-        "outboundTag": "proxy",
-        "domain": ["geosite:geolocation-!cn"]
-      }
-    ]
-  }
-}
-```
-
-#### ⚙️ 性能优化建议
-
-1. **节点选择**:
-   - 优先选择地理位置近的节点
-   - 选择标注为"高速"或"超高速"的节点
-   - 避免同时连接多个节点
-
-2. **网络设置**:
-   - 开启 TCP Fast Open (如果支持)
-   - 调整合适的并发连接数
-   - 使用 mKCP 或 QUIC 传输协议 (如果可用)
-
-3. **系统优化**:
-   - 关闭不必要的后台应用
-   - 使用有线网络而非 WiFi (如果可能)
-   - 定期清理 DNS 缓存
-
-### 🛠️ 故障排除
-
-#### ❌ 常见问题及解决方案
-
-**问题 1: 无法连接节点**
-- ✅ 检查网络连接是否正常
-- ✅ 尝试更换其他节点
-- ✅ 检查客户端是否为最新版本
-- ✅ 重启客户端或设备
-
-**问题 2: 速度较慢**
-- ✅ 选择地理位置更近的节点
-- ✅ 尝试不同的传输协议
-- ✅ 检查本地网络带宽
-- ✅ 避开网络高峰时段
-
-**问题 3: 订阅更新失败**
-- ✅ 检查订阅链接是否正确
-- ✅ 确认网络可以访问 GitHub
-- ✅ 尝试手动复制配置内容
-- ✅ 清除客户端缓存后重试
-
-**问题 4: 部分网站无法访问**
-- ✅ 检查分流规则配置
-- ✅ 尝试全局代理模式
-- ✅ 清除浏览器缓存和 Cookie
-- ✅ 更换 DNS 服务器
-
-#### 🔍 日志分析
-
-**启用详细日志**:
-- V2Ray: 设置日志级别为 `debug`
-- Clash: 开启 `log-level: debug`
-- 查看错误信息定位问题
-
-**常见错误代码**:
-- `connection timeout`: 连接超时，尝试其他节点
-- `authentication failed`: 认证失败，检查配置
-- `network unreachable`: 网络不可达，检查网络设置
-
-
-
-### 📞 技术支持
-
-如果遇到问题，可以通过以下方式获取帮助:
-
-1. **查看文档**: 仔细阅读客户端官方文档
-2. **社区支持**: 在相关 GitHub 项目提交 Issue
-3. **在线搜索**: 搜索相关错误信息和解决方案
-4. **重置配置**: 删除配置文件重新导入
-5. **同步状态**: 检查 GitHub Actions 工作流状态
+- **TW²_1|1.9MB/s**
+- **JP¹-US⁰_1|3.1MB/s**
+- **JP²_1|1.0MB/s**
+- **US¹⁺_1|1.6MB/s**
 
 > ⚠️ **注意**: 本项目仅提供节点分享，不提供技术支持服务。
 
@@ -409,7 +134,6 @@ rules:
 3. **日志记录**: 节点提供方可能记录用户访问日志
 4. **第三方风险**: 节点可能存在被监控或记录的风险
 
-
 ### 📜 最终条款
 
 **使用本项目即表示您已充分理解并同意承担所有相关风险。如不同意以上条款，请立即停止使用本项目。**
@@ -435,9 +159,9 @@ rules:
 
 ### 📞 联系方式
 
-- 📧 **项目地址**: [GitHub Repository](https://github.com/username/FreeNodes)
-- 🐛 **问题反馈**: [Issues](https://github.com/username/FreeNodes/issues)
-- 💡 **功能建议**: [Discussions](https://github.com/username/FreeNodes/discussions)
+- 📧 **项目地址**: [GitHub Repository](https://github.com/shuaidaoya/FreeNodes)
+- 🐛 **问题反馈**: [Issues](https://github.com/shuaidaoya/FreeNodes/issues)
+- 💡 **功能建议**: [Discussions](https://github.com/shuaidaoya/FreeNodes/discussions)
 
 > ⚠️ **重要提醒**: 本项目仅提供节点分享，不提供技术支持。使用前请确保了解相关风险。
 
