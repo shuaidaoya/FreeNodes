@@ -1,5 +1,5 @@
 ﻿# 🚀 FreeNodes
-
+时间是GitHub Actions服务器时间，和国内时间不同
 <!-- AUTO_STATS_START -->
 ## 📊 实时统计
 
