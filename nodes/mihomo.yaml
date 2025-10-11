@@ -1,7 +1,7 @@
 proxies:
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_1|1.6MB/s|KeepSucced"
-    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+    name: "\U0001F1EF\U0001F1F5JP²_1|1.5MB/s|KeepSucced"
+    password: d48fd52e-f058-497d-aa36-f4b6666c647b
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -11,7 +11,7 @@ proxies:
     type: hysteria2
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_2|1.6MB/s|KeepSucced"
+    name: "\U0001F1EF\U0001F1F5JP²_2|1.5MB/s|KeepSucced"
     password: 29052194-f3c4-4e7c-929d-2c6127f19991
     port: 50000
     server: 133.18.163.202
@@ -21,9 +21,37 @@ proxies:
     sub_was_succeed: true
     type: hysteria2
     udp: true
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR²_1|1.6MB/s|KeepSucced"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria
+    udp: true
+    up: '100'
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_3|1.6MB/s|KeepSucced"
+    name: "\U0001F1EF\U0001F1F5JP²_3|1.5MB/s|KeepSucced"
     password: 729632f0-4037-4b76-a86f-8668153015fc
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria2
+    udp: true
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_4|1.5MB/s|KeepSucced"
+    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -38,7 +66,7 @@ proxies:
     auth_str: dongtaiwang.com
     country: "\U0001F1EB\U0001F1F7FR"
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL²_1|3.2MB/s|KeepSucced"
+    name: "\U0001F1F3\U0001F1F1NL²_1|1.3MB/s|KeepSucced"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -49,154 +77,32 @@ proxies:
     type: hysteria
     udp: true
     up: '11'
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.0MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai100.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.4MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai23.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
   - alpn:
       - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR²_1|2.2MB/s|KeepSucced"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria
-    udp: true
-    up: '100'
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.4MB/s|KeepSucced"
+    client-fingerprint: random
+    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|3.3MB/s|KeepHistory"
     network: ws
-    port: 8880
-    server: wangcai248.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.7MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai180.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /Telegram@freecodes/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_5|5.5MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai192.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_6|1.0MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai130.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - name: "\U0001F1F0\U0001F1F7KR²_1|6.4MB/s|KeepHistory"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
+    port: 2083
+    server: 162.159.142.252
+    skip-cert-verify: false
     sub_from_history: true
     sub_was_succeed: false
     tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_7|1.1MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai226.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
     type: vless
     udp: true
     uuid: d2965257-0536-4811-a0d5-cdce54e90326
     ws-opts:
       headers:
         Host: fei.634676.xyz
-      path: /Telegram@freecodes/
+      path: /
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: fei.634676.xyz
   - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_8|1.3MB/s|KeepHistory"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.2MB/s|KeepHistory"
     network: ws
     port: 8880
-    server: wangcai2.cloudflare.182682.xyz
+    server: wangcai58.cloudflare.182682.xyz
     sub_from_history: true
     sub_was_succeed: false
     type: vless
@@ -209,8 +115,8 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_4|1.5MB/s|KeepHistory"
-    password: d48fd52e-f058-497d-aa36-f4b6666c647b
+    name: "\U0001F1EF\U0001F1F5JP²_5|1.5MB/s|KeepHistory"
+    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -219,112 +125,6 @@ proxies:
     sub_was_succeed: false
     type: hysteria2
     udp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_1|2.5MB/s|KeepHistory"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 4400
-    server: 221.128.195.220
-    sni: www.nintendogames.net
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_1|1.5MB/s|KeepHistory"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 3.70.0.107
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_9|1.2MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai255.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_10|2.4MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai82.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /Telegram@freecodes/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_5|1.3MB/s|KeepHistory"
-    password: 938bb4b3-e360-42a1-9a08-285a0eeffc3d
-    port: 50000
-    server: 133.18.163.202
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    sub_from_history: true
-    sub_was_succeed: false
-    type: hysteria2
-    udp: true
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_11|2.9MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai218.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_2|1.1MB/s|KeepHistory"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 52.47.176.67
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_12|2.1MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai157.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
 rule-providers:
   private:
     url: >-
