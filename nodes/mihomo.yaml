@@ -1,4 +1,14 @@
 proxies:
+  - name: "\U0001F1ED\U0001F1F0HK²_1|2.0MB/s|KeepSucced"
+    password: ef269dbc-0486-451f-b94b-d0c354bc3f1c
+    port: 443
+    server: tuntro001.instconn.com
+    skip-cert-verify: true
+    sni: awshk.686911.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: trojan
+    udp: true
   - delay: 837
     grpc-opts:
       grpc-service-name: >-
@@ -17,7 +27,7 @@ proxies:
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_2|1.5MB/s|KeepSucced"
+    name: "\U0001F1EB\U0001F1F7FR²_2|1.6MB/s|KeepSucced"
     network: grpc
     port: 23279
     server: 141.94.210.231
@@ -27,21 +37,11 @@ proxies:
     udp: true
     uuid: 30198cba-c828-4b34-8165-25942bad201e
     xudp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_1|2.6MB/s|KeepSucced"
-    password: ef269dbc-0486-451f-b94b-d0c354bc3f1c
-    port: 443
-    server: tuntro001.instconn.com
-    skip-cert-verify: true
-    sni: awshk.686911.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: trojan
-    udp: true
   - encryption: none
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_3|1.2MB/s|KeepSucced"
+    name: "\U0001F1EB\U0001F1F7FR²_3|1.4MB/s|KeepSucced"
     network: grpc
     port: 42817
     server: 141.227.132.199
@@ -54,7 +54,7 @@ proxies:
   - alpn:
       - h3
     client-fingerprint: random
-    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|1.9MB/s|KeepSucced"
+    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|1.0MB/s|KeepSucced"
     network: ws
     port: 2083
     server: 162.159.142.252
@@ -72,11 +72,49 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: fei.634676.xyz
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_4|1.2MB/s|KeepSucced"
+    network: grpc
+    port: 22808
+    server: 51.178.253.133
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
+    xudp: true
+  - encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE²_1|1.3MB/s|KeepSucced"
+    network: tcp
+    port: 42671
+    server: 91.98.175.72
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: f0fa07bb-fda3-43fc-9930-361444e05a9a
+    xudp: true
+  - cipher: aes-256-gcm
+    country: "\U0001F1E8\U0001F1F3CN"
+    name: "\U0001F1FA\U0001F1F8US²_1|1.6MB/s|KeepSucced"
+    password: 0199d1fe-b400-75dd-95c0-5d0c230785c3
+    port: 43568
+    server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
+    sub_from_history: false
+    sub_was_succeed: true
+    type: ss
   - grpc-opts:
       grpc-mode: gun
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1E8\U0001F1E6CA²_1|2.1MB/s|KeepSucced"
+    name: "\U0001F1E8\U0001F1E6CA²_1|1.4MB/s|KeepSucced"
     network: grpc
     port: 40853
     server: 15.235.45.229
@@ -86,76 +124,7 @@ proxies:
     type: vless
     udp: true
     uuid: b0ff01b1-04d3-4b01-8ba9-b1dc47416c07
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_1|1.4MB/s|KeepSucced"
-    password: 29052194-f3c4-4e7c-929d-2c6127f19991
-    port: 50000
-    server: 133.18.163.202
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria2
-    udp: true
-  - cipher: aes-256-gcm
-    country: "\U0001F1E8\U0001F1F3CN"
-    name: "\U0001F1FA\U0001F1F8US²_1|1.2MB/s|KeepSucced"
-    password: 0199d1fe-b400-75dd-95c0-5d0c230785c3
-    port: 43568
-    server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
-    sub_from_history: false
-    sub_was_succeed: true
-    type: ss
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.3MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai23.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.2MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai208.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.3MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai82.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /Telegram@freecodes/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - name: "\U0001F1F0\U0001F1F7KR²_1|1.8MB/s|KeepSucced"
+  - name: "\U0001F1F0\U0001F1F7KR²_1|1.0MB/s|KeepSucced"
     password: test.+
     port: 30446
     server: testkr3.ssv.vc
@@ -167,8 +136,24 @@ proxies:
     udp: true
     username: test
     sni: testkr3.ssv.vc
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.3MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai198.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
   - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.6MB/s|KeepSucced"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.8MB/s|KeepSucced"
     network: ws
     port: 8880
     server: wangcai220.cloudflare.182682.xyz
@@ -184,7 +169,163 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
   - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_5|1.3MB/s|KeepSucced"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.4MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai208.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.4MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai100.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_5|1.0MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai82.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /Telegram@freecodes/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1E6\U0001F1F7AR²_1|2.0MB/s|KeepSucced"
+    password: cc542dec-782b-4081-a12b-51cc6dbfa3fd
+    port: 40054
+    server: b.myzxdy.top
+    sub_from_history: false
+    sub_was_succeed: true
+    type: ss
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_6|1.3MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai192.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_7|1.4MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai23.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_1|1.4MB/s|KeepSucced"
+    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria2
+    udp: true
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_2|1.4MB/s|KeepSucced"
+    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria2
+    udp: true
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_8|1.4MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai202.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_3|1.4MB/s|KeepSucced"
+    password: 29052194-f3c4-4e7c-929d-2c6127f19991
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria2
+    udp: true
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_1|1.6MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai226.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /Telegram@freecodes/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_9|1.2MB/s|KeepSucced"
     network: ws
     port: 8880
     server: wangcai157.cloudflare.182682.xyz
@@ -200,7 +341,7 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
   - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_6|6.8MB/s|KeepSucced"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_10|2.5MB/s|KeepSucced"
     network: ws
     port: 8880
     server: wangcai214.cloudflare.182682.xyz
@@ -215,28 +356,8 @@ proxies:
       path: /freecodes节点狂魔/
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1E6\U0001F1F7AR²_1|1.3MB/s|KeepSucced"
-    password: cc542dec-782b-4081-a12b-51cc6dbfa3fd
-    port: 40054
-    server: b.myzxdy.top
-    sub_from_history: false
-    sub_was_succeed: true
-    type: ss
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_2|1.4MB/s|KeepSucced"
-    password: 729632f0-4037-4b76-a86f-8668153015fc
-    port: 50000
-    server: 133.18.163.202
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria2
-    udp: true
   - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_7|3.9MB/s|KeepSucced"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_11|1.7MB/s|KeepSucced"
     network: ws
     port: 8880
     server: wangcai179.cloudflare.182682.xyz
@@ -253,7 +374,7 @@ proxies:
       max-early-data: 2560
     servername: fei.634676.xyz
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_3|1.5MB/s|KeepSucced"
+    name: "\U0001F1EF\U0001F1F5JP²_4|1.4MB/s|KeepSucced"
     password: d48fd52e-f058-497d-aa36-f4b6666c647b
     port: 50000
     server: 133.18.163.202
@@ -264,19 +385,8 @@ proxies:
     type: hysteria2
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_4|1.4MB/s|KeepSucced"
-    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
-    port: 50000
-    server: 133.18.163.202
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria2
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_5|1.4MB/s|KeepSucced"
-    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+    password: 729632f0-4037-4b76-a86f-8668153015fc
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -287,7 +397,7 @@ proxies:
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_6|1.4MB/s|KeepSucced"
-    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
+    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -296,40 +406,8 @@ proxies:
     sub_was_succeed: true
     type: hysteria2
     udp: true
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_8|7.0MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai206.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_1|4.9MB/s|KeepSucced"
-    network: ws
-    port: 8880
-    server: wangcai198.cloudflare.182682.xyz
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
   - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_1|1.9MB/s|KeepSucced"
+    name: "\U0001F1E9\U0001F1EADE²_2|1.4MB/s|KeepSucced"
     password: telegram-id-privatevpns
     port: 22222
     server: 3.122.164.64
@@ -339,66 +417,42 @@ proxies:
     sub_was_succeed: true
     type: trojan
     udp: true
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_4|1.2MB/s|KeepSucced"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 13.36.131.171
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_3|1.1MB/s|KeepSucced"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 3.122.164.64
     skip-cert-verify: true
     sni: trojan.burgerip.co.uk
     sub_from_history: false
     sub_was_succeed: true
     type: trojan
     udp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR²_5|3.1MB/s|KeepSucced"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria
-    udp: true
-    up: '100'
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F3\U0001F1F1NL²_1|1.9MB/s|KeepSucced"
-    network: tcp
-    port: 8080
+    grpc-opts:
+      grpc-service-name: grpc-jd
+    name: "\U0001F1EC\U0001F1E7GB²_1|1.2MB/s|KeepSucced"
+    network: grpc
+    port: 8443
     reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 77.246.100.169
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 41a4cee2c50c4fc3
+    server: fr.pixvpn.app
     sub_from_history: false
     sub_was_succeed: true
     tls: true
     type: vless
     udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+    uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
     xudp: true
-    servername: yandex.com
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F5\U0001F1F1PL"
-    name: "\U0001F1F3\U0001F1F1NL²_2|2.6MB/s|KeepSucced"
-    password: EacZIMFwmMCR6dWqN5Ah0c
-    port: 1419
-    server: 194.135.46.13
-    sub_from_history: false
-    sub_was_succeed: true
-    type: ss
+    servername: jd.com
   - alterId: 0
     cipher: auto
     country: "\U0001F1EB\U0001F1F7FR"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1EB\U0001F1F7FR²_6|5.4MB/s|KeepSucced"
+    name: "\U0001F1EB\U0001F1F7FR²_5|1.4MB/s|KeepSucced"
     network: ws
     port: 443
     server: 91.134.8.101
@@ -413,8 +467,130 @@ proxies:
         HOST: fapeng.org
       path: /linkvws
     servername: fapeng.org
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_12|2.1MB/s|KeepSucced"
+    network: ws
+    port: 8880
+    server: wangcai206.cloudflare.182682.xyz
+    sub_from_history: false
+    sub_was_succeed: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR²_6|3.6MB/s|KeepSucced"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria
+    udp: true
+    up: '100'
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL²_1|1.2MB/s|KeepSucced"
+    port: 8443
+    reality-opts:
+      public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE
+      short-id: 3be8ba17d00eb522
+    server: de.monkeyisland.life
+    skip-cert-verify: false
+    sub_from_history: false
+    sub_was_succeed: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: fd71044e-127b-429c-9f4a-bd2432e473be
+    network: tcp
+    servername: www.stackoverflow.com
   - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US¹-JP⁰_1|1.1MB/s|KeepSucced"
+    name: "\U0001F1EB\U0001F1F7FR²_7|1.3MB/s|KeepSucced"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 51.44.130.78
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    sub_from_history: false
+    sub_was_succeed: true
+    type: trojan
+    udp: true
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_8|1.4MB/s|KeepSucced"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 13.36.131.171
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    sub_from_history: false
+    sub_was_succeed: true
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US²_4|1.2MB/s|KeepSucced"
+    network: tcp
+    port: 30227
+    reality-opts:
+      public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
+    server: 216.133.149.235
+    sub_from_history: false
+    sub_was_succeed: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9a54bad8-538d-4744-b7bc-640629840490
+    servername: aws.amazon.com
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.4MB/s|KeepSucced"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.39
+    sub_from_history: false
+    sub_was_succeed: true
+    type: ss
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_9|1.3MB/s|KeepSucced"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 13.36.131.171
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    sub_from_history: false
+    sub_was_succeed: true
+    type: trojan
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US¹⁺_13|1.4MB/s|KeepSucced"
+    network: ws
+    packet-encoding: ''
+    port: 2096
+    server: 188.42.145.253
+    sub_from_history: false
+    sub_was_succeed: true
+    tls: true
+    type: vless
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    ws-opts:
+      headers:
+        Host: gaosir.unfeeling.sbs
+      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+    servername: gaosir.unfeeling.sbs
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8US¹-JP⁰_1|1.5MB/s|KeepSucced"
     network: ws
     port: 443
     server: wwwopensignalcom-goodspeed-8xx.pages.dev.
@@ -435,7 +611,7 @@ proxies:
     auth_str: dongtaiwang.com
     country: "\U0001F1EB\U0001F1F7FR"
     down: '55'
-    name: "\U0001F1F3\U0001F1F1NL²_3|4.8MB/s|KeepSucced"
+    name: "\U0001F1F3\U0001F1F1NL²_2|4.7MB/s|KeepSucced"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -446,11 +622,22 @@ proxies:
     type: hysteria
     udp: true
     up: '11'
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_2|2.2MB/s|KeepSucced"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 3.65.9.84
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1EB\U0001F1F7FR²_10|2.6MB/s|KeepSucced"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 51.44.130.78
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    sub_from_history: false
+    sub_was_succeed: true
+    type: trojan
+    udp: true
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_11|3.0MB/s|KeepSucced"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 15.188.36.211
     skip-cert-verify: true
     sni: trojan.burgerip.co.uk
     sub_from_history: false
@@ -460,7 +647,7 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US²_2|3.5MB/s|KeepSucced"
+    name: "\U0001F1FA\U0001F1F8US²_2|1.4MB/s|KeepSucced"
     network: tcp
     port: 443
     reality-opts:
@@ -475,77 +662,45 @@ proxies:
     uuid: 30dd2eea-fe78-4660-a04f-096a7dac41e3
     xudp: true
     servername: mirror.yandex.ru
-  - name: "\U0001F1FA\U0001F1F8US¹⁺_9|1.1MB/s|KeepSucced"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E8\U0001F1E6CA²_2|7.2MB/s|KeepSucced"
     network: ws
-    packet-encoding: ''
-    port: 2096
-    server: 188.42.145.253
+    port: 443
+    server: cdnjs.com
     sub_from_history: false
     sub_was_succeed: true
     tls: true
     type: vless
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    udp: true
+    uuid: 0f65a4ee-ac15-4451-8b37-72230181c06c
     ws-opts:
       headers:
-        Host: gaosir.unfeeling.sbs
-      path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-    servername: gaosir.unfeeling.sbs
+        Host: ca-1.rAyAn-rVp.cLoUdNs.cLuB
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /ws
+    xudp: true
+    servername: ca-1.rAyAn-rVp.cLoUdNs.cLuB
   - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: grpc-jd
-    name: "\U0001F1EC\U0001F1E7GB²_1|3.8MB/s|KeepSucced"
-    network: grpc
-    port: 8443
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR²_12|2.5MB/s|KeepSucced"
+    network: tcp
+    port: 443
     reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 41a4cee2c50c4fc3
-    server: fr.pixvpn.app
+      public-key: 21MNt-O8tq9gP9o7yeT9iVQslHPdNVHtqI9Kg5p-lHo
+    server: 38.54.122.118
     sub_from_history: false
     sub_was_succeed: true
     tls: true
     type: vless
     udp: true
-    uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
-    xudp: true
-    servername: jd.com
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR²_7|2.2MB/s|KeepSucced"
-    port: 40099
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria
-    udp: true
-    up: '100'
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    down: '55'
-    name: "\U0001F1EB\U0001F1F7FR²_8|2.2MB/s|KeepSucced"
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
-    skip-cert-verify: true
-    sni: apple.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria
-    udp: true
-    up: '11'
+    uuid: 9f4b9824-df02-49c3-a976-d4f9a31f81fe
+    servername: dash.cloudflare.com
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG²_1|1.8MB/s|KeepSucced"
+    name: "\U0001F1F8\U0001F1ECSG²_1|5.7MB/s|KeepSucced"
     network: ws
     port: 443
     server: 170.114.52.22
@@ -565,10 +720,10 @@ proxies:
     xudp: true
     servername: partner.lkzoom.space
   - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_10|5.0MB/s|KeepHistory"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_14|4.0MB/s|KeepHistory"
     network: ws
     port: 8880
-    server: wangcai192.cloudflare.182682.xyz
+    server: wangcai70.cloudflare.182682.xyz
     sub_from_history: true
     sub_was_succeed: false
     type: vless
@@ -585,8 +740,25 @@ proxies:
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     country: "\U0001F1EB\U0001F1F7FR"
+    down: '55'
+    name: "\U0001F1EB\U0001F1F7FR²_13|2.2MB/s|KeepSucced"
+    port: 35511
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria
+    udp: true
+    up: '11'
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_9|2.2MB/s|KeepSucced"
+    name: "\U0001F1EB\U0001F1F7FR²_14|2.2MB/s|KeepSucced"
     port: 50011
     protocol: udp
     server: 62.210.127.217
@@ -597,436 +769,149 @@ proxies:
     type: hysteria
     udp: true
     up: 11 Mbps
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR²_10|2.7MB/s|KeepSucced"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: 21MNt-O8tq9gP9o7yeT9iVQslHPdNVHtqI9Kg5p-lHo
-    server: 38.54.122.118
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR²_15|2.2MB/s|KeepSucced"
+    port: 40099
+    protocol: udp
+    server: 62.210.127.217
+    skip-cert-verify: true
+    sni: apple.com
     sub_from_history: false
     sub_was_succeed: true
+    type: hysteria
+    udp: true
+    up: '100'
+  - cipher: aes-256-cfb
+    country: "\U0001F1F8\U0001F1F0SK"
+    name: "\U0001F1F8\U0001F1F0SK²_1|4.6MB/s|KeepHistory"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 156.146.40.194
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E6\U0001F1FAAU²_1|2.4MB/s"
+    network: ws
+    port: 443
+    server: alhilal.com
+    sub_from_history: false
+    sub_was_succeed: false
     tls: true
     type: vless
     udp: true
-    uuid: 9f4b9824-df02-49c3-a976-d4f9a31f81fe
-    servername: dash.cloudflare.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EC\U0001F1E7GB²_2|1.1MB/s|KeepSucced"
-    network: ws
-    port: 30836
-    server: v36.heduian.link
-    skip-cert-verify: true
-    sub_from_history: false
-    sub_was_succeed: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    uuid: 35edd316-09cd-4e1f-a6a6-d91dfea28a52
     ws-opts:
       headers:
-        HOST: baidu.com
-        Host: v36.heduian.link
-      path: /oooo
-    servername: baidu.com
+        Host: aU-1.rAyAn-rVp.cLoUdNs.cLuB
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/44.0.2403.157 Safari/537.36
+      path: /ws
+    xudp: true
+    servername: aU-1.rAyAn-rVp.cLoUdNs.cLuB
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1EEFI²_1|2.2MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: ZYRpBcSSAGtXIKqjHqZbdbp4WpxwVvuWLSXufsf0-3w
+      short-id: 1aa49d75
+    server: 109.172.54.49
+    sub_from_history: false
+    sub_was_succeed: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    xudp: true
+    servername: vk.cc
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_2|2.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.207
+    sub_from_history: false
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_3|1.2MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.104
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_2|1.7MB/s|KeepHistory"
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    port: 22153
+    server: 103.136.150.23
+    skip-cert-verify: true
+    sni: hsxg.huasuan666.top
+    sub_from_history: true
+    sub_was_succeed: false
+    type: hysteria2
+    udp: true
+  - country: "\U0001F1E8\U0001F1F3CN"
+    name: "\U0001F1EF\U0001F1F5JP²_7|5.3MB/s|KeepHistory"
+    network: tcp
+    port: 11443
+    server: 183.240.179.88
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: df245bf8-8253-4029-90d8-ef30cfac75f1
+  - encryption: none
+    name: "\U0001F1EC\U0001F1E7GB²_2|2.9MB/s"
+    network: ws
+    port: 80
+    server: 172.66.40.99
+    sub_from_history: false
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: b0942af1-9b67-41d7-8170-95138218d9c4
+    ws-opts:
+      headers:
+        Host: >-
+          websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.103 Safari/537.36
+      path: >-
+        /@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec
+    xudp: true
   - encryption: none
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_11|6.4MB/s|KeepHistory"
+    name: "\U0001F1EB\U0001F1F7FR²_16|5.7MB/s|KeepHistory"
     network: grpc
-    port: 22808
-    server: 51.178.253.133
+    port: 54983
+    server: 141.227.134.240
     sub_from_history: true
     sub_was_succeed: false
     type: vless
     udp: true
-    uuid: 713f6b9e-6200-405d-9ca8-77bc45be625b
+    uuid: 6016845b-61d0-49c5-b20c-d61e860778d4
     xudp: true
-  - auth: c232f411-96b5-4b07-b2f7-66a434725ffb
-    name: "\U0001F1FA\U0001F1F8US²_3|1.2MB/s|KeepHistory"
-    password: c232f411-96b5-4b07-b2f7-66a434725ffb
-    port: 23891
-    server: 108.165.213.197
-    skip-cert-verify: false
-    sni: fus01.mistea.top
-    sub_from_history: true
-    sub_was_succeed: false
-    type: hysteria2
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_12|4.4MB/s"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 15.188.36.211
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: false
-    sub_was_succeed: false
-    type: trojan
-    udp: true
   - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_2|1.3MB/s|KeepHistory"
-    network: ws
-    port: 2096
-    server: 72.167.25.253
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-    ws-opts:
-      headers:
-        Host: gaosir.unfeeling.sbs
-      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/"
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: gaosir.unfeeling.sbs
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_11|6.2MB/s|KeepHistory"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_15|5.1MB/s|KeepHistory"
     network: ws
     port: 8880
-    server: wangcai202.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - cipher: aes-128-gcm
-    name: "\U0001F1F8\U0001F1ECSG²_2|5.9MB/s|KeepHistory"
-    password: 7af26eae-63c7-43c8-b335-e3528f790459
-    port: 595
-    server: saisato-b.ilayernet.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_4|5.7MB/s|KeepHistory"
-    port: 8443
-    reality-opts:
-      public-key: NvdLgcQKj0XeAmqIpCEdvcsgfNrtSyfGnQYNdZ7eTFE
-      short-id: 3be8ba17d00eb522
-    server: de.monkeyisland.life
-    skip-cert-verify: false
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: fd71044e-127b-429c-9f4a-bd2432e473be
-    network: tcp
-    servername: www.stackoverflow.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1E8\U0001F1E6CA¹⁺_1|1.1MB/s"
-    port: 42557
-    reality-opts:
-      public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
-      short-id: f430927d
-    server: 132.145.108.97
-    skip-cert-verify: false
-    sub_from_history: false
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-    network: tcp
-    servername: www.yahoo.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F1\U0001F1F9LT²_1|1.2MB/s|KeepHistory"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 195.66.25.21
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    xudp: true
-    servername: yandex.com
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F8\U0001F1ECSG²_2|3.8MB/s|KeepHistory"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '(TG @WangCai2)32cf132:178330'
-      mode: tls
-    port: 2377
-    server: 5.44.249.43
-    sub_from_history: true
-    sub_was_succeed: false
-    type: ss
-  - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1EB\U0001F1F7FR²_13|2.9MB/s|KeepHistory"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 51.44.130.78
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_14|5.1MB/s|KeepHistory"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 13.36.131.171
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US²_4|6.0MB/s|KeepHistory"
-    network: tcp
-    port: 30227
-    reality-opts:
-      public-key: y0QO-mD8hrDE3rV7C8BX-gQiCANoasGKQlq2ReIVXkI
-    server: 216.133.149.235
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9a54bad8-538d-4744-b7bc-640629840490
-    servername: aws.amazon.com
-  - country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1FA\U0001F1F8US²_5|2.9MB/s|KeepHistory"
-    password: faa13874-bc7a-4667-89f9-9cce8a70dd7a
-    port: 16090
-    server: els.ylccloud.top
-    skip-cert-verify: false
-    sni: els.ylccloud.top
-    sub_from_history: true
-    sub_was_succeed: false
-    type: hysteria2
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F1FB\U0001F1F3VN"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.6MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.39
-    sub_from_history: false
-    sub_was_succeed: false
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F7\U0001F1FARU"
-    name: "\U0001F1EF\U0001F1F5JP²_7|1.0MB/s"
-    password: C0sF645F1uM2svp5EOIRX3
-    port: 1235
-    server: 91.194.160.151
-    sub_from_history: false
-    sub_was_succeed: false
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1F8\U0001F1EASE"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_6|4.7MB/s"
-    network: tcp
-    port: 35500
-    server: 148.135.184.84
-    skip-cert-verify: true
-    sub_from_history: false
-    sub_was_succeed: false
-    type: vmess
-    uuid: 869b6722-799d-4d3b-b930-bebd42fd1e28
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1F9LT²_2|1.9MB/s|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-      short-id: '31'
-    server: lva-0001-xr.packet-drop-society.net
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe27c0c7-6602-4b20-a8e4-d8eff275dbee
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1EB\U0001F1F7FR²_15|5.1MB/s|KeepHistory"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 51.44.130.78
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB²_3|1.3MB/s"
-    network: tcp
-    port: 443
-    server: 51.68.215.27
-    sub_from_history: false
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: d00ba617-8d04-4f7b-a952-8fa031b39879
-    xudp: true
-    servername: uk-09.allhubb.info
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1F8\U0001F1EASE"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_7|5.9MB/s"
-    network: tcp
-    port: 35500
-    server: 148.135.184.84
-    skip-cert-verify: true
-    sub_from_history: false
-    sub_was_succeed: false
-    type: vmess
-    uuid: 744847f4-8549-4bab-a8e4-6b410d271c16
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1F0MK²_1|2.1MB/s|KeepHistory"
-    network: tcp
-    port: 51423
-    reality-opts:
-      public-key: aTmRClRKFCvNi6aFQnmKt3CJ2hrLG3wQJ5WgrbWk1Xs
-      short-id: b8ee759f
-    server: mk5.9966662.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    servername: www.cloudflare.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F1\U0001F1F9LT²_3|6.0MB/s|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-      short-id: '31'
-    server: 94.131.13.14
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: fe27c0c7-6602-4b20-a8e4-d8eff275dbee
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - country: "\U0001F1F8\U0001F1ECSG"
-    name: "\U0001F1F8\U0001F1ECSG²_3|4.6MB/s|KeepHistory"
-    password: installshield
-    port: 8443
-    server: 38.180.106.124
-    skip-cert-verify: true
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F9\U0001F1F7TR²_1|2.4MB/s|KeepHistory"
-    network: tcp
-    port: 8080
-    reality-opts:
-      public-key: iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs
-      short-id: 27cfa05000c23cc4
-    server: 77.83.245.220
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-    xudp: true
-    servername: yandex.com
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_12|4.8MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai100.cloudflare.182682.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /freecodes节点狂魔/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_3|5.5MB/s|KeepHistory"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 3.122.164.64
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F1FB\U0001F1F3VN"
-    name: "\U0001F1FB\U0001F1F3VN²_2|2.0MB/s|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.230
-    sub_from_history: true
-    sub_was_succeed: false
-    type: ss
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_16|3.8MB/s"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 15.188.36.211
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    sub_from_history: false
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - country: "\U0001F3C1ZZ"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_13|4.1MB/s|KeepHistory"
-    network: ws
-    port: 8880
-    server: wangcai226.cloudflare.182682.xyz
+    server: wangcai57.cloudflare.182682.xyz
     sub_from_history: true
     sub_was_succeed: false
     type: vless
@@ -1039,109 +924,409 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: fei.634676.xyz
-  - encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE²_4|5.4MB/s"
-    network: tcp
-    port: 42671
-    server: 91.98.175.72
-    sub_from_history: false
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_16|4.8MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai145.cloudflare.182682.xyz
+    sub_from_history: true
     sub_was_succeed: false
     type: vless
     udp: true
-    uuid: f0fa07bb-fda3-43fc-9930-361444e05a9a
-    xudp: true
-  - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    name: "\U0001F1F8\U0001F1ECSG²_4|2.8MB/s|KeepHistory"
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: dv-sg-3.9966661.xyz
-    skip-cert-verify: false
-    sni: dv-sg.9966661.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: hysteria2
-    udp: true
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_8|4.5MB/s|KeepHistory"
-    password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-    port: 3000
-    server: dv-jp.9966661.xyz
-    skip-cert-verify: false
-    sni: dv-jp.9966661.xyz
-    sub_from_history: true
-    sub_was_succeed: false
-    type: hysteria2
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EA\U0001F1F8ES"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_8|1.5MB/s"
-    network: ws
-    port: 25168
-    server: 212.192.15.176
-    skip-cert-verify: true
-    sub_from_history: false
-    sub_was_succeed: false
-    type: vmess
-    uuid: 4a5674b1-3964-46e3-a84d-d704b2662f11
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
     ws-opts:
-      path: /
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EF\U0001F1F5JP"
-    h2-opts: {}
-    http-opts:
-      method: GET
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1ECSG²_5|4.0MB/s|KeepHistory"
-    network: http
-    port: 80
-    server: 161.118.233.204
-    skip-cert-verify: true
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_17|5.4MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai79.cloudflare.182682.xyz
     sub_from_history: true
     sub_was_succeed: false
-    type: vmess
-    uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
-    servername: a.189.cn
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_4|1.1MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.250
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1EE\U0001F1F9IT"
+    name: "\U0001F1EE\U0001F1F9IT²_1|3.0MB/s|KeepHistory"
+    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+    port: 990
+    server: 212.102.54.45
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_18|4.0MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai180.cloudflare.182682.xyz
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /Telegram@freecodes/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
   - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1E8\U0001F1E6CA²_2|4.9MB/s"
+    name: "\U0001F1E9\U0001F1EADE²_4|4.6MB/s"
     network: ws
     port: 443
-    server: cdnjs.com
+    server: androidauthority.com
     sub_from_history: false
     sub_was_succeed: false
     tls: true
     type: vless
     udp: true
-    uuid: 0f65a4ee-ac15-4451-8b37-72230181c06c
+    uuid: 028ad849-cb35-4934-9a6a-79a7b480ab0f
     ws-opts:
       headers:
-        Host: ca-1.rAyAn-rVp.cLoUdNs.cLuB
+        Host: fr-1.rAyAn-rVp.cLoUdNs.cLuB
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/57.0.2987.133 Safari/537.36
       path: /ws
     xudp: true
-    servername: ca-1.rAyAn-rVp.cLoUdNs.cLuB
-  - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1E8\U0001F1E6CA²_3|1.0MB/s|KeepHistory"
-    password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-    port: 54530
-    server: 40.233.81.116
-    skip-cert-verify: true
-    sni: www.bing.com
+    servername: fr-1.rAyAn-rVp.cLoUdNs.cLuB
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_5|1.2MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.103
     sub_from_history: true
     sub_was_succeed: false
-    type: hysteria2
+    type: ss
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_2|5.6MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai108.cloudflare.182682.xyz
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
     udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /Telegram@freecodes/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_19|5.1MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai150.cloudflare.182682.xyz
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - delay: 835
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_17|5.7MB/s|KeepHistory"
+    network: grpc
+    port: 18541
+    server: 141.227.138.82
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: 49ffd741-9736-40fb-9217-76a8fcfb3ffd
+    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_6|1.1MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.23
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_7|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.237
+    sub_from_history: false
+    sub_was_succeed: false
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US²_3|1.7MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+      short-id: f8c64c7a
+    server: 212.18.104.19
+    sub_from_history: false
+    sub_was_succeed: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+    xudp: true
+    servername: nspk.ru
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_8|1.1MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.200
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_20|6.8MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai130.cloudflare.182682.xyz
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_9|1.3MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.129
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_10|1.1MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.218
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_11|2.0MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.133
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_12|1.2MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.62
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_3|3.2MB/s|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.191
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_13|1.1MB/s|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.57
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - cipher: aes-256-gcm
+    country: "\U0001F1E8\U0001F1F3CN"
+    name: "\U0001F1EF\U0001F1F5JP²_8|1.8MB/s"
+    password: 0199d200-14fe-75dd-a2a2-8c3a4cbd075b
+    port: 43679
+    server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
+    sub_from_history: false
+    sub_was_succeed: false
+    type: ss
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EC\U0001F1E7GB²_3|1.2MB/s|KeepHistory"
+    network: ws
+    port: 30829
+    server: v29.heduian.link
+    skip-cert-verify: true
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        HOST: v29.heduian.link
+        Host: v29.heduian.link
+      path: /oooo
+    servername: v29.heduian.link
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_5|5.3MB/s|KeepHistory"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 3.65.9.84
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    sub_from_history: true
+    sub_was_succeed: false
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE²_6|3.7MB/s|KeepHistory"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: IarU4xicX8qiVO5nqzeHc6MK9A_Vw9YaAtnPHB4DswU
+      short-id: 916a
+    server: yt.ducks.tel
+    sub_from_history: true
+    sub_was_succeed: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 30dd2eea-fe78-4660-a04f-096a7dac41e3
+    xudp: true
+    servername: mirror.yandex.ru
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7GB²_4|5.1MB/s"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
+      short-id: 3f8ad1
+    server: 64.188.125.45
+    sub_from_history: false
+    sub_was_succeed: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 80db8cee-bd3d-4dde-a3b2-02b6cdb70d99
+    xudp: true
+    servername: stats.vk-portal.net
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1F8\U0001F1ECSG²_2|3.1MB/s|KeepHistory"
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    plugin: obfs
+    plugin-opts:
+      host: '(TG @WangCai2)26af988:57468'
+      mode: tls
+    port: 2377
+    server: 5.44.249.42
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE²_7|3.8MB/s|KeepHistory"
+    network: tcp
+    port: 15919
+    reality-opts:
+      public-key: Q7B94qjnMk48_2054jmhOKdPbqRkyUbLIHSNLb8Zz2w
+      short-id: 90658dac0f08c239
+    server: 84.201.4.247
+    sub_from_history: true
+    sub_was_succeed: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: c297710c-ac33-4817-a8ff-2368d76dc6b0
+    xudp: true
+    servername: refersion.com
+  - country: "\U0001F3C1ZZ"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_21|4.5MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai6.cloudflare.182682.xyz
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_18|4.2MB/s|KeepHistory"
+    network: grpc
+    port: 59995
+    server: 141.227.162.18
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F1FB\U0001F1F3VN"
+    name: "\U0001F1FB\U0001F1F3VN²_14|1.0MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.55
+    sub_from_history: false
+    sub_was_succeed: false
+    type: ss
 rule-providers:
   private:
     url: >-
