@@ -1,7 +1,7 @@
 proxies:
     - country: "\U0001F1EF\U0001F1F5JP"
       name: "\U0001F1EF\U0001F1F5JP²_1|1.5MB/s|KeepSucced"
-      password: d48fd52e-f058-497d-aa36-f4b6666c647b
+      password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
@@ -10,31 +10,16 @@ proxies:
       udp: true
     - country: "\U0001F1EF\U0001F1F5JP"
       name: "\U0001F1EF\U0001F1F5JP²_2|1.5MB/s|KeepSucced"
-      password: 29052194-f3c4-4e7c-929d-2c6127f19991
+      password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
       udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR²_1|1.6MB/s|KeepSucced"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "100"
     - country: "\U0001F1EF\U0001F1F5JP"
       name: "\U0001F1EF\U0001F1F5JP²_3|1.5MB/s|KeepSucced"
-      password: 729632f0-4037-4b76-a86f-8668153015fc
+      password: 29052194-f3c4-4e7c-929d-2c6127f19991
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
@@ -43,7 +28,16 @@ proxies:
       udp: true
     - country: "\U0001F1EF\U0001F1F5JP"
       name: "\U0001F1EF\U0001F1F5JP²_4|1.5MB/s|KeepSucced"
-      password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+      password: 729632f0-4037-4b76-a86f-8668153015fc
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_5|1.5MB/s|KeepSucced"
+      password: d48fd52e-f058-497d-aa36-f4b6666c647b
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
@@ -52,23 +46,8 @@ proxies:
       udp: true
     - alpn:
         - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: "55"
-      name: "\U0001F1F3\U0001F1F1NL²_1|1.3MB/s|KeepSucced"
-      port: 49003
-      protocol: udp
-      server: 51.159.226.1
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "11"
-    - alpn:
-        - h3
       client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|3.3MB/s|KeepHistory"
+      name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|4.3MB/s|KeepSucced"
       network: ws
       port: 2083
       server: 162.159.142.252
@@ -83,7 +62,7 @@ proxies:
             Host: fei.634676.xyz
         path: /?ed=2560
     - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.2MB/s|KeepHistory"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.2MB/s|KeepSucced"
       network: ws
       port: 8880
       server: wangcai58.cloudflare.182682.xyz
@@ -94,12 +73,151 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: freecodes节点狂魔/?ed=2560
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR²_1|2.1MB/s|KeepSucced"
+      port: 15010
+      protocol: udp
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: "100"
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      down: "55"
+      name: "\U0001F1F3\U0001F1F1NL²_1|2.2MB/s|KeepSucced"
+      port: 49003
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: "11"
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.0MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai5.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
     - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_5|1.5MB/s|KeepHistory"
-      password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
+      name: "\U0001F1EF\U0001F1F5JP²_6|1.5MB/s|KeepHistory"
+      password: cf364459-ffad-4b3c-987f-38169650470d
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
       udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.1MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai163.cloudflare.182682.xyz
+      servername: fei.634676.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: Telegram@freecodes/?ed=2560
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_7|1.5MB/s|KeepHistory"
+      password: 9f326a06-dfe5-435d-af48-0831f8095827
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.6MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai202.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_5|1.0MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai255.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_6|1.1MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai248.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_8|1.5MB/s|KeepHistory"
+      password: 938bb4b3-e360-42a1-9a08-285a0eeffc3d
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EA\U0001F1F8ES"
+      name: "\U0001F1EC\U0001F1E7GB²_1|3.5MB/s|KeepHistory"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22156
+      server: hsyg.huasuan666.top
+      skip-cert-verify: true
+      sni: hsyg.huasuan666.top
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_9|1.5MB/s|KeepHistory"
+      password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_7|5.1MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai232.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
