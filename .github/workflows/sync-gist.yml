@@ -77,43 +77,100 @@ jobs:
     - name: Count nodes
       id: count
       run: |
-        # 统计节点数量
-        total_nodes=0
+        # 统计节点数量 - 增强错误处理
         yaml_nodes=0
         base64_lines=0
         
+        echo "🔍 开始统计节点数量..."
+        
+        # 统计YAML节点
         if [ -f "nodes/all.yaml" ]; then
-          yaml_nodes=$(grep -c "server:" nodes/all.yaml 2>/dev/null || echo "0")
-          total_nodes=$((total_nodes + yaml_nodes))
+          if [ -s "nodes/all.yaml" ]; then
+            yaml_nodes=$(grep -c "server:" nodes/all.yaml 2>/dev/null || echo "0")
+            # 验证YAML统计结果
+            if ! [[ "$yaml_nodes" =~ ^[0-9]+$ ]]; then
+              echo "⚠️ YAML节点统计异常，重置为0"
+              yaml_nodes=0
+            fi
+            echo "✅ YAML节点统计: $yaml_nodes 个"
+          else
+            echo "⚠️ all.yaml 文件为空"
+            yaml_nodes=0
+          fi
           echo "yaml_nodes=$yaml_nodes" >> $GITHUB_OUTPUT
+        else
+          echo "⚠️ all.yaml 文件不存在"
+          yaml_nodes=0
+          echo "yaml_nodes=0" >> $GITHUB_OUTPUT
         fi
         
+        # 统计Base64节点
         if [ -f "nodes/base64.txt" ]; then
-          base64_lines=$(wc -l < nodes/base64.txt 2>/dev/null || echo "0")
-          total_nodes=$((total_nodes + base64_lines))
+          if [ -s "nodes/base64.txt" ]; then
+            # 尝试解码并统计，增加错误处理
+            echo "🔍 正在解码base64.txt文件..."
+            decoded_content=$(base64 -d nodes/base64.txt 2>/dev/null)
+            if [ $? -eq 0 ] && [ -n "$decoded_content" ]; then
+              base64_lines=$(echo "$decoded_content" | grep -c "^[a-zA-Z0-9]*://" 2>/dev/null || echo "0")
+              # 验证Base64统计结果
+              if ! [[ "$base64_lines" =~ ^[0-9]+$ ]]; then
+                echo "⚠️ Base64节点统计异常，重置为0"
+                base64_lines=0
+              fi
+              echo "✅ Base64解码后统计: $base64_lines 个节点"
+            else
+              echo "❌ Base64解码失败，可能文件损坏"
+              base64_lines=0
+            fi
+          else
+            echo "⚠️ base64.txt 文件为空"
+            base64_lines=0
+          fi
           echo "base64_lines=$base64_lines" >> $GITHUB_OUTPUT
+        else
+          echo "⚠️ base64.txt 文件不存在"
+          base64_lines=0
+          echo "base64_lines=0" >> $GITHUB_OUTPUT
         fi
         
-        echo "total_nodes=$total_nodes" >> $GITHUB_OUTPUT
-        echo "📊 统计到 $total_nodes 个节点 (YAML: $yaml_nodes, Base64: $base64_lines)"
+        echo "📊 节点统计完成: YAML: $yaml_nodes 个, Base64: $base64_lines 个"
+        
+        # 统计验证
+        if [ "$yaml_nodes" -eq 0 ] && [ "$base64_lines" -eq 0 ]; then
+          echo "⚠️ 警告: 未统计到任何节点，请检查文件内容"
+        fi
         
     - name: Update main README
       run: |
-        # 更新主README中的统计信息
+        # 更新主README中的统计信息 - 增强错误处理
         current_date=$(date '+%Y-%m-%d %H:%M:%S')
         current_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
-        total_nodes="${{ steps.count.outputs.total_nodes }}"
         yaml_nodes="${{ steps.count.outputs.yaml_nodes }}"
         base64_lines="${{ steps.count.outputs.base64_lines }}"
         
+        echo "🔍 开始更新README.md..."
+        echo "📊 统计数据: YAML=$yaml_nodes, Base64=$base64_lines"
+        
+        # 验证输入数据
+        if ! [[ "$yaml_nodes" =~ ^[0-9]+$ ]]; then
+          echo "⚠️ YAML节点数无效，使用默认值0"
+          yaml_nodes=0
+        fi
+        if ! [[ "$base64_lines" =~ ^[0-9]+$ ]]; then
+          echo "⚠️ Base64节点数无效，使用默认值0"
+          base64_lines=0
+        fi
+        
         # 更新实时统计区域
         if [ -f "README.md" ]; then
+          # 备份README.md
+          cp README.md README.md.backup
+          echo "✅ 已备份README.md"
           # 使用 sed 更新 AUTO_STATS 区域内的统计信息
           sed -i '/<!-- AUTO_STATS_START -->/,/<!-- AUTO_STATS_END -->/{
             s/| 🕐 \*\*最后更新时间\*\* | .* |/| 🕐 **最后更新时间** | '"$current_utc"' |/
-            s/| 🌐 \*\*节点总数\*\* | .* |/| 🌐 **节点总数** | '"$total_nodes"' 个 |/
             s/| 📄 \*\*YAML 节点\*\* | .* |/| 📄 **YAML 节点** | '"$yaml_nodes"' 个 |/
-            s/| 📝 \*\*Base64 行数\*\* | .* |/| 📝 **Base64 行数** | '"$base64_lines"' 行 |/
+            s/| 📝 \*\*Base64 节点数\*\* | .* |/| 📝 **Base64 节点数** | '"$base64_lines"' 个 |/
             s/| 🔄 \*\*同步状态\*\* | .* |/| 🔄 **同步状态** | 🟢 已同步 |/
           }' README.md
           
@@ -121,27 +178,54 @@ jobs:
           # 检查是否已存在今天的自动更新记录
           today_date=$(date '+%Y-%m-%d')
           
-          # 生成节点详情描述（在条件判断外定义，确保两个分支都能使用）
+          # 生成节点详情描述（确保格式统一）
           node_details="📊 自动更新"
+          node_summary="节点更新"
           if [ "$yaml_nodes" -gt 0 ] && [ "$base64_lines" -gt 0 ]; then
-            node_details="📊 自动更新 - YAML:${yaml_nodes}个 Base64:${base64_lines}行"
+            node_details="📊 自动更新 - YAML:${yaml_nodes}个, Base64:${base64_lines}个"
+            node_summary="YAML:${yaml_nodes}个, Base64:${base64_lines}个"
           elif [ "$yaml_nodes" -gt 0 ]; then
-            node_details="📊 自动更新 - YAML节点:${yaml_nodes}个"
+            node_details="📊 自动更新 - YAML:${yaml_nodes}个"
+            node_summary="YAML:${yaml_nodes}个"
           elif [ "$base64_lines" -gt 0 ]; then
-            node_details="📊 自动更新 - Base64:${base64_lines}行"
+            node_details="📊 自动更新 - Base64:${base64_lines}个"
+            node_summary="Base64:${base64_lines}个"
           fi
           
-          if ! grep -q "| $today_date.*📊 自动更新" README.md; then
-            # 在表格头部后面插入新记录
-            sed -i '/|------|------|----------|/a\| '"$current_date"' | '"$total_nodes"'个节点 | '"$node_details"' |' README.md
-            echo "✅ 已添加新的更新日志记录: $current_date - $total_nodes 个节点"
+          echo "🔍 检查更新日志: 今日日期=$today_date, 节点详情=$node_details"
+          
+          # 检查今天是否已有自动更新记录（使用更精确的匹配）
+          if grep -q "| $today_date.*📊 自动更新" README.md; then
+            # 更新今天的记录
+            sed -i "/| $today_date.*📊 自动更新/c\| $current_date | $node_summary | $node_details |" README.md
+            echo "✅ 已更新今天的更新日志记录: $current_date - $node_summary"
           else
-            # 如果今天已有记录，则更新现有记录
-            sed -i "s/| $today_date.*| [^|]* | .*📊 自动更新.* |/| $current_date | ${total_nodes}个节点 | $node_details |/" README.md
-            echo "✅ 已更新今天的更新日志记录"
+            # 添加新记录到表格头部
+            sed -i '/|------|------|----------|/a\| '"$current_date"' | '"$node_summary"' | '"$node_details"' |' README.md
+            echo "✅ 已添加新的更新日志记录: $current_date - $node_summary"
           fi
           
-          echo "✅ README.md 实时统计和更新日志已更新"
+          # 验证更新是否成功
+          if grep -q "| 📄 \*\*YAML 节点\*\* | $yaml_nodes 个 |" README.md && grep -q "| 📝 \*\*Base64 节点数\*\* | $base64_lines 个 |" README.md; then
+            echo "✅ README.md 实时统计更新成功"
+          else
+            echo "❌ README.md 实时统计更新失败，尝试恢复"
+            if [ -f "README.md.backup" ]; then
+              cp README.md.backup README.md
+              echo "✅ 已从备份恢复README.md"
+            fi
+          fi
+          
+          # 验证更新日志是否正确添加
+          if grep -q "| $current_date.*📊 自动更新" README.md; then
+            echo "✅ 更新日志记录添加成功"
+          else
+            echo "⚠️ 更新日志记录可能添加失败"
+          fi
+          
+          echo "✅ README.md 更新完成"
+        else
+          echo "❌ README.md 文件不存在，跳过更新"
         fi
         
     - name: Commit and push changes
