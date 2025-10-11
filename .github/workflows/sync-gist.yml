@@ -79,6 +79,8 @@ jobs:
       run: |
         # 统计节点数量
         total_nodes=0
+        yaml_nodes=0
+        base64_lines=0
         
         if [ -f "nodes/all.yaml" ]; then
           yaml_nodes=$(grep -c "server:" nodes/all.yaml 2>/dev/null || echo "0")
@@ -88,11 +90,12 @@ jobs:
         
         if [ -f "nodes/base64.txt" ]; then
           base64_lines=$(wc -l < nodes/base64.txt 2>/dev/null || echo "0")
+          total_nodes=$((total_nodes + base64_lines))
           echo "base64_lines=$base64_lines" >> $GITHUB_OUTPUT
         fi
         
         echo "total_nodes=$total_nodes" >> $GITHUB_OUTPUT
-        echo "📊 统计到 $total_nodes 个节点"
+        echo "📊 统计到 $total_nodes 个节点 (YAML: $yaml_nodes, Base64: $base64_lines)"
         
     - name: Update main README
       run: |
