@@ -36,8 +36,8 @@ jobs:
         
     - name: Download Gist files
       run: |
-        # Gist 基础URL
-        GIST_BASE_URL="https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6"
+        # Gist 基础URL (使用最新版本，不固定commit hash)
+        GIST_BASE_URL="https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw"
         
         # 下载各种格式的订阅文件
         echo "📥 正在下载 all.yaml..."
