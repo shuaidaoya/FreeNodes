@@ -12,6 +12,8 @@
 - 18:30--01:00这个时间段节点较少在20-50之间；
 - 01:00到06:30节点较多普遍100+
 - 其余时间段节点数量一般在50-100之间
+
+> ⚠️ **注意**: 本项目仅提供节点分享，不提供技术支持服务。
 <!-- AUTO_STATS_START -->
 ## 📊 实时统计
 
@@ -79,7 +81,7 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 | 格式类型 | 描述 | 订阅链接 | 适用客户端 |
 |---------|------|----------|-----------|
-| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/all.yaml` | V2Ray、Clash、Shadowrocket |
+| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
 | 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/base64.txt` | 通用客户端 |
 | 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/history.yaml` | 备用节点 |
 | ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/mihomo.yaml` | Mihomo |
@@ -94,9 +96,9 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 4. **选择节点**: 从节点列表中选择合适的节点连接
 
 #### 🔰 新手推荐客户端
-- **Windows**: V2RayN 或 Clash for Windows
+- **Windows**: Clash Party 或 V2RayN 或 Clash for Windows
 - **macOS**: ClashX 或 V2RayU  
-- **Android**: V2RayNG 或 Clash for Android
+- **Android**: NekoBox 或 V2RayNG 或 Clash for Android
 - **iOS**: Shadowrocket 或 Quantumult X
 
 ### 📊 节点命名规则
@@ -107,8 +109,6 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 - **JP¹-US⁰_1|3.1MB/s**
 - **JP²_1|1.0MB/s**
 - **US¹⁺_1|1.6MB/s**
-
-> ⚠️ **注意**: 本项目仅提供节点分享，不提供技术支持服务。
 
 ## ⚠️ 免责声明
 
