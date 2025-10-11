@@ -1,16 +1,7 @@
 proxies:
   - cipher: aes-256-gcm
     country: "\U0001F1E8\U0001F1F3CN"
-    name: "\U0001F1F8\U0001F1ECSG²_1|1.0MB/s|KeepSucced"
-    password: 0199d1e4-1451-75dd-a0c8-5231a441c4b7
-    port: 43566
-    server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
-    sub_from_history: false
-    sub_was_succeed: true
-    type: ss
-  - cipher: aes-256-gcm
-    country: "\U0001F1E8\U0001F1F3CN"
-    name: "\U0001F1FA\U0001F1F8US²_1|1.0MB/s|KeepSucced"
+    name: "\U0001F1FA\U0001F1F8US²_1|4.5MB/s|KeepSucced"
     password: 0199d1fe-b400-75dd-95c0-5d0c230785c3
     port: 43568
     server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
@@ -18,8 +9,8 @@ proxies:
     sub_was_succeed: true
     type: ss
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_1|1.5MB/s|KeepSucced"
-    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+    name: "\U0001F1EF\U0001F1F5JP²_1|1.4MB/s|KeepSucced"
+    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -30,7 +21,7 @@ proxies:
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_2|1.5MB/s|KeepSucced"
-    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+    password: d48fd52e-f058-497d-aa36-f4b6666c647b
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -39,18 +30,20 @@ proxies:
     sub_was_succeed: true
     type: hysteria2
     udp: true
-  - cipher: aes-256-gcm
-    country: "\U0001F1E8\U0001F1F3CN"
-    name: "\U0001F1ED\U0001F1F0HK²_1|1.2MB/s|KeepHistory"
-    password: 0199d1da-58ad-75dd-bd17-8f09b8be98cd
-    port: 45579
-    server: m1c6c955-iac9-sc9f-t424-szcm26524fe3.themars.top
-    sub_from_history: true
-    sub_was_succeed: false
-    type: ss
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_3|1.5MB/s|KeepHistory"
-    password: d48fd52e-f058-497d-aa36-f4b6666c647b
+    name: "\U0001F1EF\U0001F1F5JP²_3|1.5MB/s|KeepSucced"
+    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria2
+    udp: true
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_4|1.4MB/s|KeepHistory"
+    password: 29052194-f3c4-4e7c-929d-2c6127f19991
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -59,26 +52,55 @@ proxies:
     sub_was_succeed: false
     type: hysteria2
     udp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EC\U0001F1E7GB²_1|1.0MB/s|KeepHistory"
-    network: ws
-    port: 30808
-    server: v8.heduian.link
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_5|1.5MB/s|KeepHistory"
+    password: 9f326a06-dfe5-435d-af48-0831f8095827
+    port: 50000
+    server: 133.18.163.202
     skip-cert-verify: true
+    sni: www.microsoft.com
     sub_from_history: true
     sub_was_succeed: false
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    type: hysteria2
+    udp: true
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_6|1.4MB/s|KeepHistory"
+    password: 729632f0-4037-4b76-a86f-8668153015fc
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: true
+    sub_was_succeed: false
+    type: hysteria2
+    udp: true
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|3.9MB/s|KeepHistory"
+    network: ws
+    port: 8880
+    server: wangcai145.cloudflare.182682.xyz
+    sub_from_history: true
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
     ws-opts:
       headers:
-        HOST: v8.heduian.link
-        Host: v8.heduian.link
-      path: /oooo
-    servername: v8.heduian.link
+        Host: fei.634676.xyz
+      path: /freecodes节点狂魔/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1EF\U0001F1F5JP²_7|1.4MB/s|KeepHistory"
+    password: cf364459-ffad-4b3c-987f-38169650470d
+    port: 50000
+    server: 133.18.163.202
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    sub_from_history: true
+    sub_was_succeed: false
+    type: hysteria2
+    udp: true
 rule-providers:
   private:
     url: >-
