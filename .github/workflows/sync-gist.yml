@@ -17,6 +17,8 @@ permissions:
 jobs:
   sync-gist:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     
     steps:
     - name: 📦 检出代码
@@ -57,7 +59,7 @@ jobs:
         # 生成文件信息
         echo "# 📊 节点文件信息" > nodes/README.md
         echo "" >> nodes/README.md
-        echo "**更新时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> nodes/README.md
+        echo "**更新时间**: $(date '+%Y-%m-%d %H:%M:%S 北京时间')" >> nodes/README.md
         echo "" >> nodes/README.md
         echo "| 文件名 | 大小 | 最后修改 |" >> nodes/README.md
         echo "|--------|------|----------|" >> nodes/README.md
@@ -144,7 +146,7 @@ jobs:
       run: |
         # 更新主README中的统计信息 - 增强错误处理
         current_date=$(date '+%Y-%m-%d %H:%M:%S')
-        current_utc=$(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        current_utc=$(date '+%Y-%m-%d %H:%M:%S 北京时间')
         yaml_nodes="${{ steps.count.outputs.yaml_nodes }}"
         base64_lines="${{ steps.count.outputs.base64_lines }}"
         
@@ -258,7 +260,7 @@ jobs:
       run: |
         echo "## 📊 同步结果" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "**同步时间**: $(date '+%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+        echo "**同步时间**: $(date '+%Y-%m-%d %H:%M:%S 北京时间')" >> $GITHUB_STEP_SUMMARY
         echo "**节点总数**: ${{ steps.count.outputs.total_nodes }}" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "### 📁 文件状态" >> $GITHUB_STEP_SUMMARY

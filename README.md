@@ -7,7 +7,7 @@
 [![Last Update](https://img.shields.io/badge/Last%20Update-Daily-brightgreen?style=flat-square)](#)
 ---
 
-- 时间是GitHub Actions服务器时间，和国内时间不同（后期会考虑转换为国内时间） 
+- ~~时间是GitHub Actions服务器时间，和国内时间不同（后期会考虑转换为国内时间）~~ 
 - 测速是河南家宽测速所以受到墙的影响
 - 18:30--01:00这个时间段节点较少在20-50之间；
 - 01:00到06:30节点较多普遍100+
