@@ -1,4 +1,14 @@
 ﻿# 🚀 FreeNodes
+---
+
+[![GitHub stars](https://img.shields.io/github/stars/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/network)
+[![GitHub issues](https://img.shields.io/github/issues/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/issues)
+[![License](https://img.shields.io/github/license/username/FreeNodes?style=flat-square)](LICENSE)
+[![Last Update](https://img.shields.io/badge/Last%20Update-Daily-brightgreen?style=flat-square)](#)
+
+---
+
 - 时间是GitHub Actions服务器时间，和国内时间不同（后期会考虑转换为国内时间） 
 - 测速是河南家宽测速所以受到墙的影响
 - 18:30--01:00这个时间段节点较少在20-50之间；
@@ -25,15 +35,7 @@
 
 > 📅 **更新频率**: 每隔半小时、自动更新节点列表  
 
----
 
-[![GitHub stars](https://img.shields.io/github/stars/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/network)
-[![GitHub issues](https://img.shields.io/github/issues/username/FreeNodes?style=flat-square)](https://github.com/username/FreeNodes/issues)
-[![License](https://img.shields.io/github/license/username/FreeNodes?style=flat-square)](LICENSE)
-[![Last Update](https://img.shields.io/badge/Last%20Update-Daily-brightgreen?style=flat-square)](#)
-
----
 ## 📖 项目简介
 
 FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开源项目。所有节点都经过 **[SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI)** 严格测试验证，确保连接稳定性和可用性。
