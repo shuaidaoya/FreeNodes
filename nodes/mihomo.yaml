@@ -1,18 +1,7 @@
 proxies:
-  - country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_1|3.9MB/s|KeepSucced"
-    password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-    port: 63979
-    server: 113.192.61.19
-    skip-cert-verify: true
-    sni: www.bing.com
-    sub_from_history: false
-    sub_was_succeed: true
-    type: hysteria2
-    udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_1|1.4MB/s|KeepSucced"
-    password: e0fafa17-7ac1-4435-af1a-d61e2904f367
+    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -23,7 +12,7 @@ proxies:
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_2|1.4MB/s|KeepSucced"
-    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
+    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -32,30 +21,9 @@ proxies:
     sub_was_succeed: true
     type: hysteria2
     udp: true
-  - alpn:
-      - h3
-    client-fingerprint: random
-    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|1.5MB/s|KeepSucced"
-    network: ws
-    port: 2083
-    server: 162.159.142.252
-    skip-cert-verify: false
-    sub_from_history: false
-    sub_was_succeed: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_3|1.4MB/s|KeepSucced"
-    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+    password: 9f326a06-dfe5-435d-af48-0831f8095827
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -76,8 +44,8 @@ proxies:
     type: hysteria2
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_5|1.3MB/s|KeepSucced"
-    password: 9f326a06-dfe5-435d-af48-0831f8095827
+    name: "\U0001F1EF\U0001F1F5JP²_5|1.4MB/s|KeepSucced"
+    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -88,11 +56,50 @@ proxies:
     udp: true
   - alpn:
       - h3
+    client-fingerprint: random
+    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|3.0MB/s|KeepSucced"
+    network: ws
+    port: 2083
+    server: 162.159.142.252
+    skip-cert-verify: false
+    sub_from_history: false
+    sub_was_succeed: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - country: "\U0001F1EF\U0001F1F5JP"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.0MB/s|KeepSucced"
+    network: ws
+    port: 443
+    server: 161.118.129.8
+    sub_from_history: false
+    sub_was_succeed: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d2965257-0536-4811-a0d5-cdce54e90326
+    ws-opts:
+      headers:
+        Host: fei.634676.xyz
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: fei.634676.xyz
+  - alpn:
+      - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     country: "\U0001F1EB\U0001F1F7FR"
     down: '100'
-    name: "\U0001F1EB\U0001F1F7FR²_1|2.0MB/s|KeepSucced"
+    name: "\U0001F1EB\U0001F1F7FR²_1|1.3MB/s|KeepSucced"
     port: 15010
     protocol: udp
     server: 195.154.200.40
@@ -125,9 +132,9 @@ proxies:
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     country: "\U0001F1EB\U0001F1F7FR"
-    down: '100'
+    down: 55 Mbps
     name: "\U0001F1EB\U0001F1F7FR²_2|1.2MB/s|KeepSucced"
-    port: 40099
+    port: 50011
     protocol: udp
     server: 62.210.127.217
     skip-cert-verify: true
@@ -136,88 +143,27 @@ proxies:
     sub_was_succeed: true
     type: hysteria
     udp: true
-    up: '100'
+    up: 11 Mbps
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     country: "\U0001F1EB\U0001F1F7FR"
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_3|1.2MB/s|KeepHistory"
-    port: 50011
+    down: '55'
+    name: "\U0001F1EB\U0001F1F7FR²_3|1.0MB/s|KeepSucced"
+    port: 35511
     protocol: udp
     server: 62.210.127.217
     skip-cert-verify: true
     sni: apple.com
-    sub_from_history: true
-    sub_was_succeed: false
+    sub_from_history: false
+    sub_was_succeed: true
     type: hysteria
     udp: true
-    up: 11 Mbps
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP¹-GB⁰_1|1.0MB/s|KeepHistory"
-    network: ws
-    port: 443
-    server: 1password.com
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2d0f796-edb0-427a-af32-ae360679f9e7
-    ws-opts:
-      headers:
-        Host: rayan-007.foton.dpdns.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: rAyAn-007.fOtOn.dPdNs.oRg
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US²_2|1.5MB/s"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 2381
-    server: 36.156.102.84
-    skip-cert-verify: true
-    sni: fe2.update.microsoft.com
-    sub_from_history: false
-    sub_was_succeed: false
-    type: trojan
-    udp: true
-  - name: "\U0001F1EF\U0001F1F5JP²_6|1.1MB/s|KeepHistory"
-    password: 253bc477d4e43c209f2d427272968280
-    port: 443
-    server: 126.47.92.160
-    skip-cert-verify: true
-    sni: fe2.update.microsoft.com
-    sub_from_history: true
-    sub_was_succeed: false
-    type: trojan
+    up: '11'
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.5MB/s|KeepHistory"
-    network: ws
-    port: 443
-    server: 161.118.129.8
-    sub_from_history: true
-    sub_was_succeed: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2965257-0536-4811-a0d5-cdce54e90326
-    ws-opts:
-      headers:
-        Host: fei.634676.xyz
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: fei.634676.xyz
-  - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_7|1.4MB/s|KeepHistory"
-    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+    name: "\U0001F1EF\U0001F1F5JP²_6|1.2MB/s|KeepHistory"
+    password: 729632f0-4037-4b76-a86f-8668153015fc
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -226,23 +172,93 @@ proxies:
     sub_was_succeed: false
     type: hysteria2
     udp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    down: '55'
-    name: "\U0001F1EB\U0001F1F7FR²_4|1.5MB/s|KeepHistory"
-    port: 35511
-    protocol: udp
-    server: 62.210.127.217
+  - encryption: none
+    name: "\U0001F1EB\U0001F1EEFI²_1|1.0MB/s"
+    network: ws
+    port: 8080
+    server: 104.17.147.22
+    sub_from_history: false
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: Parsashonam-Bot-30
+    ws-opts:
+      headers:
+        Host: Fi.Parsashonam.CfD.
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: >-
+        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2056
+    xudp: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_1|2.4MB/s"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
+    sub_from_history: false
+    sub_was_succeed: false
+    type: vless
+    udp: true
+    uuid: c63dd788-47f2-4634-96cb-e50dff9d4218
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1F2\U0001F1FEMY"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_1|1.3MB/s|KeepHistory"
+    network: none
+    port: 38618
+    server: 154.83.95.26
     skip-cert-verify: true
-    sni: apple.com
     sub_from_history: true
     sub_was_succeed: false
-    type: hysteria
+    type: vmess
+    uuid: fe8c9a92-ee24-4416-a2ad-6500826cb3f5
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1EE\U0001F1F9IT²_1|1.2MB/s|KeepHistory"
+    network: ws
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    sub_from_history: true
+    sub_was_succeed: false
+    tls: false
+    type: vmess
     udp: true
-    up: '11'
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      headers:
+        Host: v5.heduian.link
+      path: /oooo
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5JP²_7|1.3MB/s"
+    network: tcp
+    port: 443
+    server: 219.94.252.114
+    sub_from_history: false
+    sub_was_succeed: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2e8a036a-f353-4de7-8889-32eadb936822
+    servername: glc-jp4.windowsupdatea.com
 rule-providers:
   private:
     url: >-
