@@ -22,6 +22,60 @@
 | 🔄 **同步状态** | 🟢 已同步 |
 <!-- AUTO_STATS_END -->
 
+## 📖 项目简介
+
+FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开源项目。所有节点都经过 **[SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI)** 严格测试验证，确保连接稳定性和可用性。
+
+> 🙏 **特别感谢**: 感谢 [sinspired/SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI) 项目提供的优秀节点测试工具，为本项目的节点质量保证提供了强有力的技术支持。
+
+我们致力于为用户提供：
+- 🔍 **经过验证的节点** - 每个节点都通过专业工具测试
+- 🌍 **全球覆盖** - 覆盖多个国家和地区的高速节点  
+- 📱 **多格式支持** - 支持各种主流代理客户端
+- 🔄 **高频更新** -每30分钟自动拉取最新节点文件确保可用性
+
+## ✨ 项目特性
+
+### 🎯 核心特性
+- ✅ **质量保证** - 所有节点经过 SubsCheck-Win-GUI 测试验证
+- 🌐 **多地区覆盖** - 美国、日本、新加坡、香港等热门地区
+- ⚡ **速度分级** - 按照网络速度进行分类标注
+- 📦 **多格式订阅** - 支持 YAML、Base64、Mihomo 等格式
+
+### 🔧 技术特性  
+- 🔄 **每30分钟自动更新** - 自动化测试和更新流程
+- 📡 **Gist 订阅** - 基于 GitHub Gist 的稳定订阅服务
+- 🛡️ **安全可靠** - 开源透明，无隐私收集
+- 📱 **跨平台支持** - 支持 Windows、macOS、Linux、Android、iOS
+
+### 📊 数据格式
+- `all.yaml` - 完整的 YAML 格式配置文件
+- `base64.txt` - Base64 编码的节点列表  
+- `history.yaml` - 历史节点记录文件
+- `mihomo.yaml` - Mihomo 客户端专用配置
+
+## 🚀 快速开始
+
+1. **选择订阅格式** - 根据您的客户端选择合适的订阅链接
+2. **复制订阅链接** - 从下方订阅链接部分复制对应格式的链接
+3. **导入客户端** - 将链接导入到您的代理客户端中
+4. **开始使用** - 选择合适的节点开始使用
+
+> 💡 **提示**: 建议优先测试一遍节点延迟-选择延迟较低切速度不错的的节点以获得更好的使用体验。
+
+## 📡 订阅链接
+
+### 🔗 Gist 订阅地址
+
+| 格式类型 | 描述 | 订阅链接 | 适用客户端 |
+|---------|------|----------|-----------|
+| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
+| 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/base64.txt` | 通用客户端 |
+| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/history.yaml` | 备用节点 |
+| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/mihomo.yaml` | Mihomo |
+
+> 🎯 **一键复制**: 点击上方链接可直接复制到剪贴板，然后粘贴到您的代理客户端中
+
 ## 📋 更新日志
 
 | 时间 -仅显示24小时| 节点数量 | 节点详情 |
@@ -83,60 +137,6 @@
 | 2025-10-10 23:58:58 | 121个节点 | 📊 自动更新 - YAML节点:121个 |
 
 > 📅 **更新频率**: 每隔半小时、自动更新节点列表  
-
-## 📖 项目简介
-
-FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开源项目。所有节点都经过 **[SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI)** 严格测试验证，确保连接稳定性和可用性。
-
-> 🙏 **特别感谢**: 感谢 [sinspired/SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI) 项目提供的优秀节点测试工具，为本项目的节点质量保证提供了强有力的技术支持。
-
-我们致力于为用户提供：
-- 🔍 **经过验证的节点** - 每个节点都通过专业工具测试
-- 🌍 **全球覆盖** - 覆盖多个国家和地区的高速节点  
-- 📱 **多格式支持** - 支持各种主流代理客户端
-- 🔄 **高频更新** -每30分钟自动拉取最新节点文件确保可用性
-
-## ✨ 项目特性
-
-### 🎯 核心特性
-- ✅ **质量保证** - 所有节点经过 SubsCheck-Win-GUI 测试验证
-- 🌐 **多地区覆盖** - 美国、日本、新加坡、香港等热门地区
-- ⚡ **速度分级** - 按照网络速度进行分类标注
-- 📦 **多格式订阅** - 支持 YAML、Base64、Mihomo 等格式
-
-### 🔧 技术特性  
-- 🔄 **每30分钟自动更新** - 自动化测试和更新流程
-- 📡 **Gist 订阅** - 基于 GitHub Gist 的稳定订阅服务
-- 🛡️ **安全可靠** - 开源透明，无隐私收集
-- 📱 **跨平台支持** - 支持 Windows、macOS、Linux、Android、iOS
-
-### 📊 数据格式
-- `all.yaml` - 完整的 YAML 格式配置文件
-- `base64.txt` - Base64 编码的节点列表  
-- `history.yaml` - 历史节点记录文件
-- `mihomo.yaml` - Mihomo 客户端专用配置
-
-## 🚀 快速开始
-
-1. **选择订阅格式** - 根据您的客户端选择合适的订阅链接
-2. **复制订阅链接** - 从下方订阅链接部分复制对应格式的链接
-3. **导入客户端** - 将链接导入到您的代理客户端中
-4. **开始使用** - 选择合适的节点开始使用
-
-> 💡 **提示**: 建议优先测试一遍节点延迟-选择延迟较低切速度不错的的节点以获得更好的使用体验。
-
-## 📡 订阅链接
-
-### 🔗 Gist 订阅地址
-
-| 格式类型 | 描述 | 订阅链接 | 适用客户端 |
-|---------|------|----------|-----------|
-| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
-| 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/base64.txt` | 通用客户端 |
-| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/history.yaml` | 备用节点 |
-| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/mihomo.yaml` | Mihomo |
-
-> 🎯 **一键复制**: 点击上方链接可直接复制到剪贴板，然后粘贴到您的代理客户端中
 
 ### 📋 使用方法
 
