@@ -2,7 +2,7 @@ name: 🔄 同步 Gist 节点文件
 
 on:
   schedule:
-    # 每隔30分钟运行一次 (高频更新模式)
+    # 每隔30分钟运行一次 (高频更新模式) - 重新激活定时触发器
     - cron: '*/30 * * * *'
   workflow_dispatch: # 允许手动触发
   push:
