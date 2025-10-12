@@ -1,7 +1,7 @@
 proxies:
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_1|1.4MB/s|KeepSucced"
-    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+    password: 9f326a06-dfe5-435d-af48-0831f8095827
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -12,7 +12,7 @@ proxies:
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_2|1.4MB/s|KeepSucced"
-    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
+    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -33,8 +33,8 @@ proxies:
     type: hysteria2
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
-    name: "\U0001F1EF\U0001F1F5JP²_4|1.3MB/s|KeepSucced"
-    password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+    name: "\U0001F1EF\U0001F1F5JP²_4|1.4MB/s|KeepSucced"
+    password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -45,7 +45,7 @@ proxies:
     udp: true
   - country: "\U0001F1EF\U0001F1F5JP"
     name: "\U0001F1EF\U0001F1F5JP²_5|1.4MB/s|KeepSucced"
-    password: 9f326a06-dfe5-435d-af48-0831f8095827
+    password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
     port: 50000
     server: 133.18.163.202
     skip-cert-verify: true
@@ -57,7 +57,7 @@ proxies:
   - alpn:
       - h3
     client-fingerprint: random
-    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|2.0MB/s|KeepSucced"
+    name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|2.3MB/s|KeepSucced"
     network: ws
     port: 2083
     server: 162.159.142.252
@@ -75,9 +75,26 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2560
     servername: fei.634676.xyz
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    down: '55'
+    name: "\U0001F1F3\U0001F1F1NL²_1|1.4MB/s|KeepSucced"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    sub_from_history: false
+    sub_was_succeed: true
+    type: hysteria
+    udp: true
+    up: '11'
   - auth: 9f9584df-9cdc-4314-b038-88884d39ec37
     down: 1000
-    name: "\U0001F1EF\U0001F1F5JP²_6|1.9MB/s|KeepSucced"
+    name: "\U0001F1EF\U0001F1F5JP²_6|1.3MB/s|KeepSucced"
     password: 9f9584df-9cdc-4314-b038-88884d39ec37
     port: 58046
     ports: 56000-59000
@@ -89,40 +106,25 @@ proxies:
     type: hysteria2
     udp: true
     up: 200
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1EE\U0001F1F9IT²_1|3.7MB/s|KeepHistory"
-    network: ws
-    port: 30805
-    server: v5.heduian.link
+  - cipher: aes-256-gcm
+    country: "\U0001F1F8\U0001F1ECSG"
+    name: "\U0001F1F8\U0001F1ECSG²_4|1.9MB/s|KeepHistory"
+    password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+    port: 34502
+    server: cgroup.node3.s2.nodelist-airport.com
+    sub_from_history: true
+    sub_was_succeed: false
+    type: ss
+  - auth: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
+    name: "\U0001F1FA\U0001F1F8US²_1|2.8MB/s|KeepHistory"
+    password: 790e385a-7b0a-47bd-8d2a-254e6a12c2ca
+    port: 37771
+    server: xjp1.xiaohuolongjc.top
     skip-cert-verify: false
+    sni: xjp1.xiaohuolongjc.top
     sub_from_history: true
     sub_was_succeed: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: v5.heduian.link
-      path: /oooo
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    down: '55'
-    name: "\U0001F1F3\U0001F1F1NL²_1|1.1MB/s|KeepHistory"
-    port: 49003
-    protocol: udp
-    server: 51.159.226.1
-    skip-cert-verify: true
-    sni: apple.com
-    sub_from_history: true
-    sub_was_succeed: false
-    type: hysteria
-    udp: true
-    up: '11'
+    type: hysteria2
 rule-providers:
   private:
     url: >-
