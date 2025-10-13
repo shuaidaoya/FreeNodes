@@ -25206,3 +25206,54 @@ proxies:
       type: vless
       udp: true
       uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    - country: "\U0001F1E9\U0001F1EADE"
+      name: "\U0001F1E9\U0001F1EADE¹-US⁰_42|2.3MB/s"
+      network: ws
+      port: 443
+      server: 194.233.167.212
+      servername: fei.634676.xyz
+      tls: true
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: /?ed=2560
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE²_9|3.7MB/s"
+      network: http
+      port: "2095"
+      server: 161.35.207.27
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 55622e4c-bf61-42ce-bb9d-33b5eb1c21a2
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E8\U0001F1EDCH²_1|5.0MB/s"
+      network: tcp
+      port: "8094"
+      reality-opts:
+        public-key: Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU
+        short-id: 828348fc6d8e49cf
+      server: switzerland.marzxo.biz
+      servername: refersion.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 09a00baf-691e-2ab9-f3d7-0c3fe7ed0cdd
+      xudp: true
