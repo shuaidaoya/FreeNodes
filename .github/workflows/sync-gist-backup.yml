@@ -1,13 +1,10 @@
-name: 🔄 同步 Gist 节点文件
+name: 🔄 备用同步 Gist 节点文件
 
 on:
   schedule:
-    # 每小时15分执行 (避开整点高峰，提高稳定性)
-    - cron: '15 */1 * * *'
+    # 每小时45分执行 (备用触发器，错开主触发器30分钟)
+    - cron: '45 */1 * * *'
   workflow_dispatch: # 允许手动触发
-  push:
-    branches: [ main ]
-    paths: [ '.github/workflows/sync-gist.yml' ]
 
 # 设置权限
 permissions:
@@ -15,7 +12,7 @@ permissions:
   actions: read
 
 jobs:
-  sync-gist:
+  backup-sync-gist:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
@@ -27,10 +24,10 @@ jobs:
         token: ${{ github.token }}
         fetch-depth: 0
         
-    - name: 🔍 健康检查 - 避免重复执行
+    - name: 🔍 备用健康检查 - 避免重复执行
       id: health_check
       run: |
-        echo "🔍 开始执行健康检查..."
+        echo "🔍 开始执行备用健康检查..."
         
         # 获取最后更新时间
         if [ -f "README.md" ]; then
@@ -47,42 +44,42 @@ jobs:
             echo "⏰ 当前时间: $CURRENT_TIME"
             echo "⏱️ 时间间隔: $TIME_DIFF 分钟"
             
-            # 判断执行策略
-            if [ "$TIME_DIFF" -lt 30 ]; then
-              echo "✅ 距离上次更新不足30分钟，跳过本次执行"
+            # 备用触发器的判断策略（更保守）
+            if [ "$TIME_DIFF" -lt 45 ]; then
+              echo "✅ 距离上次更新不足45分钟，备用触发器跳过执行"
               echo "SKIP_EXECUTION=true" >> $GITHUB_OUTPUT
-              echo "EXECUTION_REASON=距离上次更新仅${TIME_DIFF}分钟" >> $GITHUB_OUTPUT
-            elif [ "$TIME_DIFF" -gt 120 ]; then
-              echo "⚠️ 距离上次更新超过2小时，强制执行更新"
+              echo "EXECUTION_REASON=距离上次更新仅${TIME_DIFF}分钟，主触发器应该正常工作" >> $GITHUB_OUTPUT
+            elif [ "$TIME_DIFF" -gt 90 ]; then
+              echo "⚠️ 距离上次更新超过90分钟，备用触发器强制执行"
               echo "SKIP_EXECUTION=false" >> $GITHUB_OUTPUT
               echo "FORCE_UPDATE=true" >> $GITHUB_OUTPUT
-              echo "EXECUTION_REASON=超过2小时未更新，强制执行" >> $GITHUB_OUTPUT
+              echo "EXECUTION_REASON=超过90分钟未更新，主触发器可能失效，备用触发器接管" >> $GITHUB_OUTPUT
             else
-              echo "✅ 正常执行间隔，继续更新"
+              echo "✅ 备用触发器正常执行间隔，继续更新"
               echo "SKIP_EXECUTION=false" >> $GITHUB_OUTPUT
               echo "FORCE_UPDATE=false" >> $GITHUB_OUTPUT
-              echo "EXECUTION_REASON=正常执行间隔(${TIME_DIFF}分钟)" >> $GITHUB_OUTPUT
+              echo "EXECUTION_REASON=正常备用执行间隔(${TIME_DIFF}分钟)" >> $GITHUB_OUTPUT
             fi
           else
-            echo "⚠️ 无法获取最后更新时间，执行更新"
+            echo "⚠️ 无法获取最后更新时间，备用触发器执行更新"
             echo "SKIP_EXECUTION=false" >> $GITHUB_OUTPUT
             echo "FORCE_UPDATE=true" >> $GITHUB_OUTPUT
-            echo "EXECUTION_REASON=无法获取更新时间，强制执行" >> $GITHUB_OUTPUT
+            echo "EXECUTION_REASON=无法获取更新时间，备用触发器强制执行" >> $GITHUB_OUTPUT
           fi
         else
-          echo "⚠️ README.md不存在，执行初始化更新"
+          echo "⚠️ README.md不存在，备用触发器执行初始化更新"
           echo "SKIP_EXECUTION=false" >> $GITHUB_OUTPUT
           echo "FORCE_UPDATE=true" >> $GITHUB_OUTPUT
-          echo "EXECUTION_REASON=README.md不存在，初始化执行" >> $GITHUB_OUTPUT
+          echo "EXECUTION_REASON=README.md不存在，备用触发器初始化执行" >> $GITHUB_OUTPUT
         fi
         
         # 记录触发方式
-        echo "🎯 触发方式: ${{ github.event_name }}"
+        echo "🎯 触发方式: ${{ github.event_name }} (备用工作流)"
         echo "TRIGGER_TYPE=${{ github.event_name }}" >> $GITHUB_OUTPUT
         
-    - name: 📊 执行状态报告
+    - name: 📊 备用执行状态报告
       run: |
-        echo "## 🔍 执行状态检查" >> $GITHUB_STEP_SUMMARY
+        echo "## 🔄 备用触发器执行状态" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**触发方式**: ${{ steps.health_check.outputs.TRIGGER_TYPE }}" >> $GITHUB_STEP_SUMMARY
         echo "**执行原因**: ${{ steps.health_check.outputs.EXECUTION_REASON }}" >> $GITHUB_STEP_SUMMARY
@@ -91,9 +88,9 @@ jobs:
         echo "" >> $GITHUB_STEP_SUMMARY
         
         if [ "${{ steps.health_check.outputs.SKIP_EXECUTION }}" = "true" ]; then
-          echo "⏭️ **本次执行将被跳过**" >> $GITHUB_STEP_SUMMARY
+          echo "⏭️ **备用触发器跳过执行（主触发器正常工作）**" >> $GITHUB_STEP_SUMMARY
         else
-          echo "▶️ **继续执行更新流程**" >> $GITHUB_STEP_SUMMARY
+          echo "🚨 **备用触发器接管执行（主触发器可能失效）**" >> $GITHUB_STEP_SUMMARY
         fi
 
     - name: Setup Node.js
@@ -133,6 +130,7 @@ jobs:
         echo "# 📊 节点文件信息" > nodes/README.md
         echo "" >> nodes/README.md
         echo "**更新时间**: $(date '+%Y-%m-%d %H:%M:%S 北京时间')" >> nodes/README.md
+        echo "**更新方式**: 🔄 备用触发器" >> nodes/README.md
         echo "" >> nodes/README.md
         echo "| 文件名 | 大小 | 最后修改 |" >> nodes/README.md
         echo "|--------|------|----------|" >> nodes/README.md
@@ -147,7 +145,7 @@ jobs:
         done
         
         echo "" >> nodes/README.md
-        echo "> 🔄 文件每30分钟自动更新，确保节点的新鲜度和可用性" >> nodes/README.md
+        echo "> 🔄 备用触发器：当主触发器失效时自动接管，确保节点文件的持续更新" >> nodes/README.md
         
     - name: Count nodes
       if: steps.health_check.outputs.SKIP_EXECUTION != 'true'
@@ -219,13 +217,13 @@ jobs:
     - name: Update main README
       if: steps.health_check.outputs.SKIP_EXECUTION != 'true'
       run: |
-        # 更新主README中的统计信息 - 增强错误处理
+        # 更新主README中的统计信息 - 备用触发器版本
         current_date=$(date '+%Y-%m-%d %H:%M:%S')
         current_utc=$(date '+%Y-%m-%d %H:%M:%S 北京时间')
         yaml_nodes="${{ steps.count.outputs.yaml_nodes }}"
         base64_lines="${{ steps.count.outputs.base64_lines }}"
         
-        echo "🔍 开始更新README.md..."
+        echo "🔍 开始更新README.md (备用触发器)..."
         echo "📊 统计数据: YAML=$yaml_nodes, Base64=$base64_lines"
         
         # 验证输入数据
@@ -248,34 +246,30 @@ jobs:
             s/| 🕐 \*\*最后更新时间\*\* | .* |/| 🕐 **最后更新时间** | '"$current_utc"' |/
             s/| 📄 \*\*YAML 节点\*\* | .* |/| 📄 **YAML 节点** | '"$yaml_nodes"' 个 |/
             s/| 📝 \*\*Base64 节点数\*\* | .* |/| 📝 **Base64 节点数** | '"$base64_lines"' 个 |/
-            s/| 🔄 \*\*同步状态\*\* | .* |/| 🔄 **同步状态** | 🟢 已同步 |/
-            s/| 🎯 \*\*主触发器\*\* | .* | .* | .* |/| 🎯 **主触发器** | 🟢 正常 | 每小时15分 | 主要同步触发器 |/
-            s/| 🔄 \*\*备用触发器\*\* | .* | .* | .* |/| 🔄 **备用触发器** | 🟢 待命 | 每小时45分 | 主触发器失效时接管 |/
+            s/| 🔄 \*\*同步状态\*\* | .* |/| 🔄 **同步状态** | 🔄 备用同步 |/
+            s/| 🎯 \*\*主触发器\*\* | .* | .* | .* |/| 🎯 **主触发器** | ⚠️ 异常 | 每小时15分 | 主触发器可能失效 |/
+            s/| 🔄 \*\*备用触发器\*\* | .* | .* | .* |/| 🔄 **备用触发器** | 🟢 已激活 | 每小时45分 | 备用触发器接管中 |/
             s/| 🚨 \*\*紧急恢复\*\* | .* | .* | .* |/| 🚨 **紧急恢复** | 🟢 监控中 | 每2小时检查 | 超过90分钟未更新时触发 |/
           }' README.md
           
-          # 在更新日志表格中添加新的自动同步记录
-          # 检查是否已存在今天的自动更新记录
-          today_date=$(date '+%Y-%m-%d')
-          
-          # 生成节点详情描述（确保格式统一）
-          node_details="📊 自动更新"
-          node_summary="节点更新"
+          # 在更新日志表格中添加新的备用同步记录
+          node_details="🔄 备用触发器更新"
+          node_summary="备用同步"
           if [ "$yaml_nodes" -gt 0 ] && [ "$base64_lines" -gt 0 ]; then
-            node_details="📊 自动更新 - YAML:${yaml_nodes}个, Base64:${base64_lines}个"
+            node_details="🔄 备用触发器更新 - YAML:${yaml_nodes}个, Base64:${base64_lines}个"
             node_summary="YAML:${yaml_nodes}个, Base64:${base64_lines}个"
           elif [ "$yaml_nodes" -gt 0 ]; then
-            node_details="📊 自动更新 - YAML:${yaml_nodes}个"
+            node_details="🔄 备用触发器更新 - YAML:${yaml_nodes}个"
             node_summary="YAML:${yaml_nodes}个"
           elif [ "$base64_lines" -gt 0 ]; then
-            node_details="📊 自动更新 - Base64:${base64_lines}个"
+            node_details="🔄 备用触发器更新 - Base64:${base64_lines}个"
             node_summary="Base64:${base64_lines}个"
           fi
           
           echo "🔍 更新日志处理: 时间=$current_date, 节点详情=$node_details"
           
-          # 总是添加新记录到表格头部（不再检查重复）
-          echo "📝 添加新的更新日志记录..."
+          # 添加备用触发器记录到表格头部
+          echo "📝 添加新的备用更新日志记录..."
           sed -i '/|------|------|----------|/a\| '"$current_date"' | '"$node_summary"' | '"$node_details"' |' README.md
           
           # 限制更新日志记录数量为10条
@@ -292,27 +286,8 @@ jobs:
           { print }
           ' README.md > README.md.tmp && mv README.md.tmp README.md
           
-          echo "✅ 更新日志记录已添加: $current_date - $node_summary"
-          
-          # 验证更新是否成功
-          if grep -q "| 📄 \*\*YAML 节点\*\* | $yaml_nodes 个 |" README.md && grep -q "| 📝 \*\*Base64 节点数\*\* | $base64_lines 个 |" README.md; then
-            echo "✅ README.md 实时统计更新成功"
-          else
-            echo "❌ README.md 实时统计更新失败，尝试恢复"
-            if [ -f "README.md.backup" ]; then
-              cp README.md.backup README.md
-              echo "✅ 已从备份恢复README.md"
-            fi
-          fi
-          
-          # 验证更新日志是否正确添加
-          if grep -q "| $current_date.*📊 自动更新" README.md; then
-            echo "✅ 更新日志记录添加成功"
-          else
-            echo "⚠️ 更新日志记录可能添加失败"
-          fi
-          
-          echo "✅ README.md 更新完成"
+          echo "✅ 备用更新日志记录已添加: $current_date - $node_summary"
+          echo "✅ README.md 更新完成 (备用触发器)"
         else
           echo "❌ README.md 文件不存在，跳过更新"
         fi
@@ -321,37 +296,45 @@ jobs:
       if: steps.health_check.outputs.SKIP_EXECUTION != 'true'
       run: |
         git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.name "GitHub Action (Backup)"
         
         # 检查是否有变更
         if [ -n "$(git status --porcelain)" ]; then
           git add .
-          git commit -m "🔄 自动更新节点文件 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git commit -m "🔄 备用触发器更新节点文件 - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
-          echo "✅ 文件已更新并推送到仓库"
+          echo "✅ 文件已通过备用触发器更新并推送到仓库"
         else
           echo "ℹ️ 没有检测到文件变更"
         fi
       env:
         GITHUB_TOKEN: ${{ github.token }}
         
-    - name: Create release summary
+    - name: Create backup summary
       run: |
-        echo "## 📊 同步结果" >> $GITHUB_STEP_SUMMARY
+        echo "## 🔄 备用同步结果" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "**同步时间**: $(date '+%Y-%m-%d %H:%M:%S 北京时间')" >> $GITHUB_STEP_SUMMARY
-        echo "**节点总数**: ${{ steps.count.outputs.total_nodes }}" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### 📁 文件状态" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**触发器类型**: 🔄 备用触发器" >> $GITHUB_STEP_SUMMARY
         
-        for file in nodes/*.yaml nodes/*.txt; do
-          if [ -f "$file" ]; then
-            filename=$(basename "$file")
-            filesize=$(ls -lh "$file" | awk '{print $5}')
-            echo "- ✅ **$filename**: $filesize" >> $GITHUB_STEP_SUMMARY
-          fi
-        done
-        
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "🎉 **同步完成！所有文件已成功更新到仓库**" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.health_check.outputs.SKIP_EXECUTION }}" = "true" ]; then
+          echo "**执行状态**: ⏭️ 跳过执行（主触发器正常）" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "**执行状态**: 🚨 接管执行（主触发器失效）" >> $GITHUB_STEP_SUMMARY
+          echo "**YAML节点数**: ${{ steps.count.outputs.yaml_nodes }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Base64节点数**: ${{ steps.count.outputs.base64_lines }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📁 文件状态" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          for file in nodes/*.yaml nodes/*.txt; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              filesize=$(ls -lh "$file" | awk '{print $5}')
+              echo "- ✅ **$filename**: $filesize" >> $GITHUB_STEP_SUMMARY
+            fi
+          done
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🎉 **备用同步完成！备用触发器成功接管并更新了所有文件**" >> $GITHUB_STEP_SUMMARY
+        fi
