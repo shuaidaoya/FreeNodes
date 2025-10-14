@@ -1,6 +1,16 @@
 proxies:
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP²_1|3.9MB/s|KeepSucced"
+      port: 47083
+      server: entrance02.qqa678.cc
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
     - encryption: none
-      name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|3.1MB/s|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|2.6MB/s|KeepSucced"
       network: ws
       port: "2095"
       server: www.shopify.com
@@ -14,17 +24,8 @@ proxies:
         path: /
       xudp: true
     - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_1|1.4MB/s|KeepSucced"
-      password: d48fd52e-f058-497d-aa36-f4b6666c647b
-      port: 50000
-      server: 133.18.163.202
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1EF\U0001F1F5JP"
       name: "\U0001F1EF\U0001F1F5JP²_2|1.4MB/s|KeepSucced"
-      password: 729632f0-4037-4b76-a86f-8668153015fc
+      password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
@@ -42,54 +43,33 @@ proxies:
       udp: true
     - country: "\U0001F1EF\U0001F1F5JP"
       name: "\U0001F1EF\U0001F1F5JP²_4|1.4MB/s|KeepSucced"
-      password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
+      password: 9f326a06-dfe5-435d-af48-0831f8095827
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
       sni: www.microsoft.com
       type: hysteria2
       udp: true
-    - name: "\U0001F1F0\U0001F1F7KR²_1|1.6MB/s|KeepSucced"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
+    - alterId: "0"
+      cipher: auto
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0HK²_1|2.6MB/s|KeepSucced"
+      network: http
+      port: "41522"
+      server: 43.247.135.17
+      skip-cert-verify: false
+      tls: false
+      type: vmess
       udp: true
-      username: test
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E7\U0001F1EABE"
-      name: "\U0001F1EC\U0001F1E7GB²_1|1.5MB/s|KeepSucced"
-      password: k1v5g9FefdoO
-      port: 8388
-      server: 57.129.140.88
-      type: ss
-    - encryption: none
-      name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.9MB/s|KeepSucced"
-      network: ws
-      port: "2095"
-      server: support.cloudflare.com
-      type: vless
-      udp: true
-      uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-      ws-opts:
-        headers:
-            Host: freedom.pusytroller.cf
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-        path: /
+      uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
       xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1EE\U0001F1F3IN²_1|1.1MB/s|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 43.205.237.107
-      type: ss
     - alpn:
         - h3
       client-fingerprint: random
-      name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|5.1MB/s|KeepSucced"
+      name: "\U0001F1EF\U0001F1F5JP¹-US⁰_1|5.7MB/s|KeepSucced"
       network: ws
       port: 2083
       server: 162.159.142.252
@@ -103,42 +83,22 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_1|2.4MB/s|KeepSucced"
-      network: ws
-      port: 2096
-      server: 130.250.137.253
-      servername: vlesspro.llengcugit.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
-      ws-opts:
-        headers:
-            Host: vlesspro.llengcugit.sbs
-        path: /Telegram@freecodes/?ed=2560
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: "55"
-      name: "\U0001F1F3\U0001F1F1NL²_1|2.9MB/s|KeepSucced"
-      port: 49003
-      protocol: udp
-      server: 51.159.226.1
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_5|1.4MB/s|KeepSucced"
+      password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+      port: 50000
+      server: 133.18.163.202
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+      sni: www.microsoft.com
+      type: hysteria2
       udp: true
-      up: "11"
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
       down: "100"
-      name: "\U0001F1EB\U0001F1F7FR²_1|4.4MB/s|KeepSucced"
+      name: "\U0001F1EB\U0001F1F7FR²_1|3.0MB/s|KeepSucced"
       port: 15010
       protocol: udp
       server: 195.154.200.40
@@ -147,48 +107,48 @@ proxies:
       type: hysteria
       udp: true
       up: "100"
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_6|1.4MB/s|KeepSucced"
+      password: 29052194-f3c4-4e7c-929d-2c6127f19991
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      down: "55"
+      name: "\U0001F1F3\U0001F1F1NL²_1|2.5MB/s|KeepSucced"
+      port: 49003
+      protocol: udp
+      server: 51.159.226.1
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: "11"
     - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.5MB/s|KeepSucced"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.1MB/s|KeepSucced"
       network: ws
       port: 8880
-      server: wangcai177.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_3|2.2MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai58.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1F0\U0001F1F7KR¹-JP⁰_1|3.9MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 158.180.87.165
+      server: wangcai94.cloudflare.182682.xyz
       servername: fei.634676.xyz
-      tls: true
       type: vless
       udp: true
       uuid: d2965257-0536-4811-a0d5-cdce54e90326
       ws-opts:
         headers:
             Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹-JP⁰_1|1.3MB/s|KeepSucced"
+        path: Telegram@freecodes/?ed=2560
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_2|3.3MB/s|KeepSucced"
       network: ws
       port: 8880
-      server: wangcai30.cloudflare.182682.xyz
+      server: wangcai206.cloudflare.182682.xyz
       type: vless
       udp: true
       uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -198,7 +158,7 @@ proxies:
         path: freecodes节点狂魔/?ed=2560
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1F3\U0001F1F1NL²_2|2.2MB/s|KeepSucced"
+      name: "\U0001F1F3\U0001F1F1NL²_2|1.3MB/s|KeepSucced"
       network: ws
       port: "443"
       server: tfl.gov.uk
@@ -214,478 +174,21 @@ proxies:
         path: /ws
       xudp: true
     - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1F8\U0001F1ECSG¹-JP⁰_1|2.9MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 161.118.129.8
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_1|1.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.254.99
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_2|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.254.173
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_1|1.7MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.252.61
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_3|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 37.59.97.135
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_4|1.5MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.207.153
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_5|2.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 37.59.96.23
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_2|2.1MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 37.59.96.48
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_6|2.0MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.248.253
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_7|2.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.253.174
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_8|2.3MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.207.218
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_9|2.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.253.245
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_3|1.1MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.222.33
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_4|1.7MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.68.162
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|1.5MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 139.162.183.50
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_5|2.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.250.152
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.4MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai150.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_6|2.0MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.222.188
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EE\U0001F1F7IR"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_2|1.2MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 128.140.121.191
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_7|1.3MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.222.3
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_8|1.4MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.221.79
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_9|1.3MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.254.189
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_3|2.0MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 51.195.119.195
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_4|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 91.107.167.242
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_10|1.3MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 91.121.40.210
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EE\U0001F1F7IR"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_5|1.4MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 91.107.189.217
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_5|3.1MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 5.75.203.78
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: "55"
-      name: "\U0001F1EB\U0001F1F7FR²_2|1.9MB/s|KeepSucced"
-      port: 35511
-      protocol: udp
-      server: 62.210.127.217
+      name: "\U0001F1EF\U0001F1F5JP²_7|1.4MB/s|KeepSucced"
+      password: 729632f0-4037-4b76-a86f-8668153015fc
+      port: 50000
+      server: 133.18.163.202
       skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+      sni: www.microsoft.com
+      type: hysteria2
       udp: true
-      up: "11"
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_6|3.8MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai218.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_6|1.4MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 136.243.204.103
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_7|1.2MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai6.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_8|1.7MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai50.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_10|2.3MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.254.111
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_11|1.1MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.249.29
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_7|2.4MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 91.99.215.214
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
       down: "100"
-      name: "\U0001F1EB\U0001F1F7FR²_3|1.6MB/s|KeepSucced"
+      name: "\U0001F1EB\U0001F1F7FR²_2|1.5MB/s|KeepSucced"
       port: 40099
       protocol: udp
       server: 62.210.127.217
@@ -694,453 +197,31 @@ proxies:
       type: hysteria
       udp: true
       up: "100"
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_11|1.5MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.221.78
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1F0\U0001F1F7KR¹-US⁰_1|1.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 158.180.73.165
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_8|1.7MB/s|KeepSucced"
-      network: ws
-      port: 2083
-      server: 188.245.92.220
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-JP⁰_1|1.8MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 172.105.71.139
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E7\U0001F1EABE"
-      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_2|2.3MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 91.199.32.179
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1EASE¹-US⁰_1|1.6MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 95.182.99.108
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_9|1.0MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 5.75.197.203
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_12|1.1MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.249.93
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_12|1.2MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.249.115
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-JP⁰_13|1.4MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 51.38.227.155
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_13|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.251.16
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_9|1.7MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai192.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1E7\U0001F1EABE"
-      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_3|1.2MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 91.199.32.191
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_14|1.2MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.204.167
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      country: "\U0001F1EE\U0001F1F3IN"
-      name: "\U0001F1EE\U0001F1F3IN²_2|1.8MB/s|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 52.66.211.233
-      type: ss
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_10|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 159.69.185.118
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_11|3.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 172.105.67.238
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - delay: 1443
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_12|1.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 46.4.27.170
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: fei.634676.xyz
-        max-early-data: 2560
-        path: /
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_13|1.2MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 49.13.161.60
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_14|1.0MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 162.55.92.198
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - encryption: none
-      name: "\U0001F1E6\U0001F1FAAU²_1|1.4MB/s|KeepSucced"
-      network: ws
-      port: "80"
-      server: tgju.org
-      type: vless
-      udp: true
-      uuid: b67a8bdc-5d77-4ff9-b2ed-b9259617be4c
-      ws-opts:
-        headers:
-            Host: JOYful-EMPLoYEE.OneEAT.cO
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
-        path: /?ed=2048
-      xudp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_10|1.9MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai206.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_11|1.7MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai180.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: Telegram@freecodes/?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_15|1.8MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.206.222
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_16|2.0MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.206.218
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_17|1.6MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.222.46
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_15|2.0MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 139.162.185.191
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_4|2.2MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai7.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_18|1.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.250.21
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_19|2.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.255.197
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_16|1.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 172.104.144.213
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - cipher: aes-256-cfb
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR²_4|1.9MB/s|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 15.237.118.240
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_12|1.1MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai255.cloudflare.182682.xyz
-      type: vless
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR²_3|1.3MB/s|KeepSucced"
+      port: 35511
+      protocol: udp
+      server: 62.210.127.217
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_13|1.2MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai208.cloudflare.182682.xyz
-      type: vless
+      up: "11"
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_8|1.4MB/s|KeepSucced"
+      password: d48fd52e-f058-497d-aa36-f4b6666c647b
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_17|1.7MB/s|KeepSucced"
+    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|2.0MB/s|KeepSucced"
       network: ws
       port: 443
       server: 172.104.203.143
@@ -1153,135 +234,44 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_18|2.4MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 85.10.253.205
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      down: 55 Mbps
+      name: "\U0001F1EB\U0001F1F7FR²_4|1.1MB/s|KeepSucced"
+      port: 50011
+      protocol: udp
+      server: 62.210.127.217
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E8\U0001F1E6CA²_1|2.7MB/s|KeepSucced"
-      network: ws
-      port: "443"
-      server: glassdoor.com
-      servername: rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg
-      tls: true
-      type: vless
+      up: 11 Mbps
+    - country: "\U0001F1EA\U0001F1F8ES"
+      name: "\U0001F1EC\U0001F1E7GB²_1|1.3MB/s|KeepSucced"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22156
+      server: 83.147.17.147
+      skip-cert-verify: true
+      sni: hsyg.huasuan666.top
+      type: hysteria2
       udp: true
-      uuid: 0f65a4ee-ac15-4451-8b37-72230181c06c
-      ws-opts:
-        headers:
-            Host: rAyAn-cOnFiG-ca-1.pArSa.dPdNs.oRg
-            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-        path: /ws
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_19|1.6MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 91.107.251.232
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
+    - country: "\U0001F1EA\U0001F1F8ES"
+      name: "\U0001F1EC\U0001F1E7GB²_2|1.8MB/s|KeepSucced"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22156
+      server: hsyg.huasuan666.top
+      skip-cert-verify: true
+      sni: hsyg.huasuan666.top
+      type: hysteria2
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_20|2.4MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.255.121
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EE\U0001F1F7IR"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_20|2.0MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 91.107.135.29
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1F5\U0001F1F1PL¹-US⁰_1|3.0MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 95.169.162.223
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1FA\U0001F1F8US¹⁺_14|1.8MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 65.109.188.1
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_21|1.6MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.252.61
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1F7\U0001F1FARU"
-      name: "\U0001F1F8\U0001F1EASE¹-US⁰_2|1.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 46.8.232.217
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
     - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_15|3.6MB/s|KeepSucced"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.2MB/s|KeepHistory"
       network: ws
       port: 8880
-      server: wangcai100.cloudflare.182682.xyz
+      server: wangcai23.cloudflare.182682.xyz
       type: vless
       udp: true
       uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -1289,85 +279,135 @@ proxies:
         headers:
             Host: fei.634676.xyz
         path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_22|2.3MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.91.250.33
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_23|1.6MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 51.178.141.191
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_21|1.8MB/s|KeepSucced"
-      network: ws
+    - auth: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
+      name: "\U0001F1ED\U0001F1F0HK²_2|1.1MB/s|KeepHistory"
+      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
       port: 443
-      server: 139.162.155.147
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
+      server: 1b6683f2-t44ps0-t85e8f-141tv.hk1.hyhuawei.com
+      skip-cert-verify: true
+      type: hysteria2
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_22|1.8MB/s|KeepSucced"
+    - country: "\U0001F1FB\U0001F1F3VN"
+      name: "\U0001F1FB\U0001F1F3VN¹⁺_1|1.6MB/s|KeepHistory"
+      password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+      port: 3000
+      server: vnvnnian-u-do-vn2.9966661.xyz
+      skip-cert-verify: false
+      sni: vnvnnian-u-do-vn2.9966661.xyz
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F3\U0001F1F1NL²_3|3.8MB/s|KeepHistory"
       network: ws
-      port: 2053
-      server: 89.19.44.247
-      servername: fei.634676.xyz
+      port: "443"
+      server: codepen.io
+      servername: rAyAn-cOnFiG-nl-1.pArSa.dPdNs.oRg
       tls: true
       type: vless
       udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      uuid: f59e2420-b706-4bee-bcdd-1c2162e5372a
       ws-opts:
         headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      name: "\U0001F1EB\U0001F1F7FR²_5|2.0MB/s|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 13.39.112.103
-      type: ss
-    - country: "\U0001F1EE\U0001F1F7IR"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_23|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 91.99.71.148
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_16|3.4MB/s|KeepSucced"
+            Host: rAyAn-cOnFiG-nl-1.pArSa.dPdNs.oRg
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+        path: /ws
+      xudp: true
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹-JP⁰_1|2.1MB/s|KeepHistory"
       network: ws
       port: 8880
-      server: wangcai220.cloudflare.182682.xyz
+      server: wangcai157.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_4|2.3MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai57.cloudflare.182682.xyz
+      servername: fei.634676.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: Telegram@freecodes/?ed=2560
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_1|4.0MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai231.cloudflare.182682.xyz
+      servername: fei.634676.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_2|3.1MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai5.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_1|2.3MB/s|KeepHistory"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22154
+      server: 107.173.37.52
+      skip-cert-verify: true
+      sni: hsxjp.huasuan666.top
+      type: hysteria2
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US²_2|7.2MB/s|KeepHistory"
+      port: 47084
+      server: entrance04.qqa678.cc
+      skip-cert-verify: true
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
+    - client-fingerprint: chrome
+      name: "\U0001F1F8\U0001F1ECSG²_1|1.3MB/s|KeepHistory"
+      password: e9368912c4ed6046dca6949229cbff02
+      port: "5321"
+      server: 36.156.102.84
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_5|1.0MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai130.cloudflare.182682.xyz
+      type: vless
+      udp: true
+      uuid: d2965257-0536-4811-a0d5-cdce54e90326
+      ws-opts:
+        headers:
+            Host: fei.634676.xyz
+        path: freecodes节点狂魔/?ed=2560
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1FA\U0001F1F8US¹-JP⁰_2|1.2MB/s|KeepHistory"
+      network: ws
+      port: 8880
+      server: wangcai40.cloudflare.182682.xyz
       type: vless
       udp: true
       uuid: d2965257-0536-4811-a0d5-cdce54e90326
@@ -1377,876 +417,86 @@ proxies:
         path: freecodes节点狂魔/?ed=2560
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP²_5|5.3MB/s|KeepSucced"
-      port: 47083
-      server: entrance02.qqa678.cc
-      skip-cert-verify: true
-      tls: false
-      type: vmess
-      udp: true
-      uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_24|1.4MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.220.168
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_24|1.9MB/s|KeepSucced"
-      network: ws
-      port: 2083
-      server: 91.107.182.33
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_17|3.4MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai93.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1EE\U0001F1F7IR"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_25|1.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 91.107.172.20
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_25|2.0MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.223.49
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - delay: 1466
-      name: "\U0001F1F8\U0001F1EASE¹-US⁰_3|2.1MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 31.56.196.64
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        early-data-header-name: Sec-WebSocket-Protocol
-        headers:
-            Host: fei.634676.xyz
-        max-early-data: 2560
-        path: /
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_26|2.0MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.221.119
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1F8\U0001F1EASE¹-US⁰_4|1.8MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 188.130.206.82
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1F8\U0001F1EASE¹-US⁰_5|2.6MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 45.38.139.10
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EE\U0001F1F7IR"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_26|1.2MB/s|KeepSucced"
-      network: ws
-      port: 2087
-      server: 91.107.129.100
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_1|1.3MB/s|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 54.90.199.180
-      type: ss
-    - country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_27|1.3MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 192.46.237.38
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_27|3.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.248.38
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1E9\U0001F1EADE¹-US⁰_28|1.4MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 152.228.134.239
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_28|4.9MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.248.61
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_29|2.7MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 45.38.145.208
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_29|1.5MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.251.37
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EE\U0001F1F3IN²_3|3.9MB/s|KeepSucced"
-      network: ws
-      port: "443"
-      server: 1password.com
-      servername: rAyAn-cOnFiG-in-1.pArSa.dPdNs.oRg
-      tls: true
-      type: vless
-      udp: true
-      uuid: e4114a7b-ab89-4670-9948-28192363b9b1
-      ws-opts:
-        headers:
-            Host: rAyAn-cOnFiG-in-1.pArSa.dPdNs.oRg
-            User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-        path: /ws
-      xudp: true
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_18|1.4MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai206.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_30|1.0MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 37.59.96.50
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_6|1.4MB/s|KeepSucced"
-      password: 29052194-f3c4-4e7c-929d-2c6127f19991
-      port: 50000
-      server: 133.18.163.202
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_31|1.0MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.68.157
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_32|2.1MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 51.91.250.183
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_19|3.8MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai219.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_7|1.1MB/s|KeepSucced"
-      password: 9f326a06-dfe5-435d-af48-0831f8095827
-      port: 50000
-      server: 133.18.163.202
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK²_1|4.4MB/s|KeepSucced"
-      network: http
-      port: "41522"
-      server: 43.247.135.17
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
-      xudp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_20|3.8MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai240.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_21|3.3MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai2.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_22|3.2MB/s|KeepSucced"
-      network: ws
-      port: 8880
-      server: wangcai145.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - name: "\U0001F1F3\U0001F1F1NL¹-JP⁰_1|2.2MB/s|KeepSucced"
-      network: ws
-      port: 443
-      server: 178.32.58.147
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_2|1.3MB/s|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 54.209.249.254
-      type: ss
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_33|1.5MB/s|KeepSucced"
-      network: ws
-      port: 2053
-      server: 141.94.221.230
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - name: "\U0001F1EB\U0001F1F7FR¹-US⁰_34|1.6MB/s|KeepSucced"
-      network: ws
-      port: 8443
-      server: 141.94.222.42
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_35|1.1MB/s|KeepHistory"
-      network: ws
-      port: 8443
-      server: 51.91.251.149
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_36|2.3MB/s|KeepHistory"
-      network: ws
-      port: 8443
-      server: 141.94.206.137
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI²_1|1.9MB/s|KeepHistory"
-      network: tcp
-      port: 20223
-      reality-opts:
-        public-key: 2hmTpdZk2JPHCIBM0ism_AAr9HjtnyMV9syarwvj-Q4
-        short-id: 587d20c4
-      server: fi1-2.9966662.xyz
-      servername: www.cloudflare.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR²_6|2.2MB/s|KeepHistory"
-      port: 50011
-      protocol: udp
-      server: 62.210.127.217
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: 11 Mbps
-    - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_8|1.4MB/s|KeepHistory"
-      password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
-      port: 50000
-      server: 133.18.163.202
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_23|3.8MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai198.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1E8\U0001F1E6CA²_2|2.3MB/s|KeepHistory"
-      password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-      port: 47262
-      server: 40.233.103.51
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: hysteria2
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1E6\U0001F1FAAU²_2|2.1MB/s|KeepHistory"
-      password: amazonskr05
-      port: 443
-      server: 16.176.157.139
-      type: ss
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR¹-US⁰_37|1.3MB/s|KeepHistory"
-      network: ws
-      port: 8443
-      server: 51.91.249.209
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_24|4.5MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai202.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_25|1.0MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai223.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1F8\U0001F1EASE¹-US⁰_6|2.1MB/s|KeepHistory"
-      network: ws
-      port: 2053
-      server: 104.252.127.63
-      servername: fei.634676.xyz
-      tls: true
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: /?ed=2560
-    - country: "\U0001F1FB\U0001F1F3VN"
-      name: "\U0001F1FB\U0001F1F3VN¹⁺_1|1.5MB/s"
-      password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
-      port: 3000
-      server: vnvn-u-do-vn1-3.9966661.xyz
-      skip-cert-verify: false
-      sni: vnvn-u-do-vn1.9966661.xyz
-      type: hysteria2
-      udp: true
-    - auth: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0HK²_2|1.0MB/s|KeepHistory"
-      password: bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b
-      port: 443
-      server: e268e7de-t46kg0-t85e8f-141tv.hk2.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_1|2.5MB/s|KeepHistory"
-      network: ws
-      port: "80"
-      server: abc.turboo-server.com
-      type: vless
-      udp: true
-      uuid: turboo-sever
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /TurbooServer
-      xudp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹-DE⁰_1|1.2MB/s|KeepHistory"
-      network: ws
-      port: 443
-      server: wwwopensignalcom-goodspeed-8xx.pages.dev.
-      servername: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
-      tls: true
-      type: vless
-      udp: true
-      uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-      ws-opts:
-        headers:
-            Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
-        path: //
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_5|4.7MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai248.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - cipher: aes-256-cfb
-      country: "\U0001F1EE\U0001F1F3IN"
-      name: "\U0001F1EE\U0001F1F3IN²_4|1.8MB/s|KeepHistory"
-      password: amazonskr05
-      port: 443
-      server: 65.2.189.85
-      type: ss
-    - cipher: rc4-md5
-      country: "\U0001F1EC\U0001F1E7GB"
-      name: "\U0001F1EC\U0001F1E7GB²_2|1.2MB/s|KeepHistory"
-      password: 14fFPrbezE3HDZzsMOr6
-      port: 8080
-      server: 146.70.61.37
-      type: ss
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1EC\U0001F1E7GB¹-US⁰_6|5.8MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai79.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_26|4.5MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai214.cloudflare.182682.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - auth: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-      name: "\U0001F1ED\U0001F1F0HK²_3|1.1MB/s|KeepHistory"
-      password: 460749c2-bcef-11ee-89fc-f23c913c8d2b
-      port: 443
-      server: c097e742-t44ps0-tbe46y-1la7v.hk1.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1EA\U0001F1F8ES"
-      name: "\U0001F1EC\U0001F1E7GB²_3|3.8MB/s|KeepHistory"
-      password: 571ec94e-613c-430a-93de-397d3d237475
-      port: 22156
-      server: 83.147.17.147
-      skip-cert-verify: true
-      sni: hsyg.huasuan666.top
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_27|5.7MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai167.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: Telegram@freecodes/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_28|2.8MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai94.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: Telegram@freecodes/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1EB\U0001F1EEFI²_2|5.4MB/s"
-      network: ws
-      port: 8080
-      server: 104.17.147.22
-      type: vless
-      udp: true
-      uuid: Parsashonam-Bot-30
-      ws-opts:
-        headers:
-            Host: Fi.Parsashonam.CfD.
-        path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1E9\U0001F1EADE²_2|1.6MB/s|KeepHistory"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 63.178.101.45
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_29|4.4MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai216.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_30|3.3MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai157.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_3|2.3MB/s|KeepHistory"
-      password: 571ec94e-613c-430a-93de-397d3d237475
-      port: 22151
-      server: hsmg.huasuan666.top
-      skip-cert-verify: true
-      sni: hsmg.huasuan666.top
-      type: hysteria2
-      udp: true
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_31|4.2MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai45.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: freecodes节点狂魔/?ed=2560
-    - auth: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-      name: "\U0001F1ED\U0001F1F0HK²_4|1.0MB/s|KeepHistory"
-      password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-      port: 443
-      server: afada3f8-t44ps0-th9kx9-1os43.hk1.hyhuawei.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1FA\U0001F1F8US¹-JP⁰_2|3.2MB/s|KeepHistory"
-      network: ws
-      port: 8880
-      server: wangcai0.cloudflare.182682.xyz
-      servername: fei.634676.xyz
-      type: vless
-      udp: true
-      uuid: d2965257-0536-4811-a0d5-cdce54e90326
-      ws-opts:
-        headers:
-            Host: fei.634676.xyz
-        path: Telegram@freecodes/?ed=2560
-    - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_9|8.4MB/s|KeepHistory"
-      network: ws
-      password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a
-      port: 20230
-      server: jp006.421421.xyz
-      skip-cert-verify: true
-      sni: www.alibaba.com
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: www.alibaba.com
-        path: /
-    - cipher: aes-128-gcm
-      name: "\U0001F1FA\U0001F1F8US²_4|5.4MB/s|KeepHistory"
-      password: 7af26eae-63c7-43c8-b335-e3528f790459
-      port: 612
-      server: stancsus-alpha.ilayernet.xyz
-      type: ss
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_1|1.0MB/s|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.192
-      type: ss
-    - alterId: 2
-      cipher: auto
       country: "\U0001F1E8\U0001F1F3CN"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1EE\U0001F1F9IT²_1|3.1MB/s|KeepHistory"
-      network: ws
-      port: 30805
-      server: v5.heduian.link
-      servername: v5.heduian.link
+      name: "\U0001F1EF\U0001F1F5JP²_9|8.9MB/s|KeepHistory"
+      network: tcp
+      port: 47083
+      server: entrance02.qqa678.cc
+      servername: entrance02.qqa678.cc
       skip-cert-verify: true
       type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            HOST: v5.heduian.link
-        path: /oooo
-    - country: "\U0001F1EA\U0001F1F8ES"
-      name: "\U0001F1EC\U0001F1E7GB²_4|2.4MB/s|KeepHistory"
-      password: 571ec94e-613c-430a-93de-397d3d237475
-      port: 22156
-      server: hsyg.huasuan666.top
-      skip-cert-verify: true
-      sni: hsyg.huasuan666.top
+      uuid: a6560b60-5122-40d7-bcb6-650c98c88ea5
+    - cipher: aes-128-gcm
+      name: "\U0001F1EC\U0001F1E7GB²_3|5.0MB/s|KeepHistory"
+      password: 7af26eae-63c7-43c8-b335-e3528f790459
+      port: 2074
+      server: oeulay-o1.ilayernet.xyz
+      type: ss
+      udp: true
+    - auth: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+      name: "\U0001F1F8\U0001F1ECSG²_2|1.3MB/s|KeepHistory"
+      password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+      port: 3000
+      server: dv-sg.9966661.xyz
+      skip-cert-verify: false
+      sni: dv-sg.9966661.xyz
       type: hysteria2
       udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_1|2.4MB/s|KeepHistory"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
-        short-id: 175d
-      server: aut-0001-xr.packet-drop-society.net
-      servername: hls-svod.itunes.apple.com
+    - cipher: aes-256-gcm
+      country: "\U0001F1FA\U0001F1F8 US"
+      name: "\U0001F1F8\U0001F1E8SC²_1|1.8MB/s|KeepHistory"
+      password: 2b5fad3874e5
+      plugin: v2ray-plugin
+      plugin-opts:
+        host: hk6v1.dsjsapp.com
+        mode: websocket
+        mux: true
+        path: /aqwshiog
+        skip-cert-verify: false
+        tls: true
+      port: 443
+      server: 156.251.179.135
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_6|1.2MB/s|KeepHistory"
+      network: ws
+      port: 2096
+      server: 45.153.7.253
+      servername: vlesspro.llengcugit.sbs
       tls: true
       type: vless
       udp: true
-      uuid: 562c71d0-f18b-402c-b1ad-5c2bbfcd6e02
-      xudp: true
+      uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+      ws-opts:
+        headers:
+            Host: vlesspro.llengcugit.sbs
+        path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_3|2.0MB/s|KeepHistory"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22154
+      server: hsxjp.huasuan666.top
+      skip-cert-verify: true
+      sni: hsxjp.huasuan666.top
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_10|3.8MB/s|KeepHistory"
+      password: abf03bbd-ec5c-45d9-bf63-c1851a1f4c4d
+      port: 3000
+      server: dv-jp-4.9966661.xyz
+      skip-cert-verify: false
+      sni: dv-jp.9966661.xyz
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US²_4|1.6MB/s|KeepHistory"
+      password: e9368912c4ed6046dca6949229cbff02
+      port: "24673"
+      server: 36.156.102.84
+      skip-cert-verify: true
+      sni: fe2.update.microsoft.com
+      type: trojan
+      udp: true
