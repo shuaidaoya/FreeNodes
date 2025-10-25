@@ -77,10 +77,10 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 | 格式类型 | 描述 | 订阅链接 | 适用客户端 |
 |---------|------|----------|-----------|
-| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/51c30c7906c7930eed4c9dfffde10b6f9e26e735/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
-| 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/51c30c7906c7930eed4c9dfffde10b6f9e26e735/base64.txt` | 通用客户端 |
-| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/51c30c7906c7930eed4c9dfffde10b6f9e26e735/mihomo.yaml` | 备用节点 |
-| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/51c30c7906c7930eed4c9dfffde10b6f9e26e735/mihomo.yaml` | Mihomo |
+| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
+| 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt` | 通用客户端 |
+| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | 备用节点 |
+| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | Mihomo |
 
 > 🎯 **一键复制**: 点击上方链接可直接复制到剪贴板，然后粘贴到您的代理客户端中
 
