@@ -34,7 +34,7 @@
 FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开源项目。所有节点都经过 **[SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI)** 严格测试验证，确保连接稳定性和可用性。
 
 > 🙏 **特别感谢**: 感谢 [sinspired/SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI) 项目提供的优秀节点测试工具，为本项目的节点质量保证提供了强有力的技术支持。
-> 🙏各位大佬和其对应的开源项目开源项目在下方统一表示感谢
+> - 🙏各位大佬和其对应的开源项目开源项目在下方统一表示感谢
 
 我们致力于为用户提供：
 - 🔍 **经过验证的节点** - 每个节点都通过专业工具测试
