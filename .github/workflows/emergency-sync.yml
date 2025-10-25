@@ -197,6 +197,20 @@ jobs:
           
           sed -i '/|------|------|----------|/a\| '"$current_date"' | '"$node_summary"' | '"$node_details"' |' README.md
           
+          # 限制更新日志记录数量为10条
+          echo "🔧 清理超出限制的旧记录..."
+          awk '
+          BEGIN { in_changelog = 0; record_count = 0 }
+          /## 📋 更新日志/ { in_changelog = 1; print; next }
+          /^## / && in_changelog && !/## 📋 更新日志/ { in_changelog = 0 }
+          in_changelog && /^\|.*\|.*\|.*\|$/ && !/^\|.*---\|.*---\|.*\|$/ && !/时间.*节点数量.*节点详情/ {
+              record_count++
+              if (record_count <= 10) print
+              next
+          }
+          { print }
+          ' README.md > README.md.tmp && mv README.md.tmp README.md
+          
           echo "✅ README.md 紧急更新完成"
         fi
         
