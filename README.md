@@ -172,7 +172,7 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ### 感谢以下大佬和其对应的开源项目开源项目
 
--  [sinspired]([https://github.com/shuaidaoya/FreeNodes](https://github.com/sinspired/SubsCheck-Win-GUI))
+-  [sinspired](https://github.com/sinspired/SubsCheck-Win-GUI)
 -  [cmliu-CM大佬](https://github.com/cmliu/SubsCheck-Win-GUI)
 -  [beck-8](https://github.com/beck-8/subs-check)
 -  [bestruirui](https://github.com/bestruirui/BestSub)
