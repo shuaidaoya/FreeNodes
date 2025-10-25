@@ -170,14 +170,14 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ---
 
-### 📞 联系方式
+### 感谢以下大佬和其对应的开源项目开源项目
 
-- 📧 **项目地址**: [GitHub Repository](https://github.com/shuaidaoya/FreeNodes)
-- 🐛 **问题反馈**: [Issues](https://github.com/shuaidaoya/FreeNodes/issues)
-- 💡 **功能建议**: [Discussions](https://github.com/shuaidaoya/FreeNodes/discussions)
+-  [sinspired]([https://github.com/shuaidaoya/FreeNodes](https://github.com/sinspired/SubsCheck-Win-GUI))
+-  [cmliu-CM大佬](https://github.com/cmliu/SubsCheck-Win-GUI)
+-  [beck-8](https://github.com/beck-8/subs-check)
+-  [bestruirui](https://github.com/bestruirui/BestSub)
 
-> ⚠️ **重要提醒**: 本项目仅提供节点分享，不提供技术支持。使用前请确保了解相关风险。
-
+> **感谢以上大佬的开源项目**: 正是有以上大佬的开源项目才有本项目。
 ---
 
 <div align="center">
