@@ -1,22 +1,98 @@
 proxies:
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK²_1|4.6MB/s|KeepHistory"
-      network: http
-      port: 80
-      server: 43.161.253.82
-      servername: a.189.cn
-      skip-cert-verify: true
-      type: vmess
-      uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
     - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.8MB/s|KeepSucced"
+      name: "\U0001F1FA\U0001F1F8US²_1|3.0MB/s|KeepSucced"
+      password: 16955d72-1794-11f0-a035-f23c95b6f51d
+      port: 1743
+      server: 09705f8d-t2zz40-t2wdks-dnss.la.shifen.uk
+      skip-cert-verify: false
+      sni: 09705f8d-t2zz40-t2wdks-dnss.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_2|2.1MB/s|KeepSucced"
+      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      port: 1743
+      server: da03bf4b-t28740-t2zeef-d70y.la.shifen.uk
+      skip-cert-verify: false
+      sni: da03bf4b-t28740-t2zeef-d70y.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_3|1.0MB/s|KeepSucced"
+      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
+      port: 1743
+      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      skip-cert-verify: false
+      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_4|1.0MB/s|KeepSucced"
+      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+      port: 1743
+      server: 297d1dc8-t2y4g0-t2zeef-d70y.la.shifen.uk
+      skip-cert-verify: false
+      sni: 297d1dc8-t2y4g0-t2zeef-d70y.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_5|1.0MB/s|KeepSucced"
+      password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+      port: 1743
+      server: 6647d8f1-t0fds0-t3fjp7-cdfn.la.shifen.uk
+      skip-cert-verify: false
+      sni: 6647d8f1-t0fds0-t3fjp7-cdfn.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      delay: 1146
+      name: "\U0001F1FA\U0001F1F8US²_6|0.9MB/s|KeepSucced"
+      password: ysJpLBx46OMWWkkMCW0pywU6
+      port: 10012
+      server: 143.20.156.251
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: tuic
+      udp-relay-mode: native
+      uuid: dad58782-ffd5-48bd-994c-7b82555c1384
+      version: 5
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_7|0.9MB/s|KeepSucced"
+      password: 1b609740-eec2-11ef-8543-f23c93136cb3
+      port: 1743
+      server: 6493f70c-t2cio0-t3rh3g-au6.la.shifen.uk
+      skip-cert-verify: false
+      sni: 6493f70c-t2cio0-t3rh3g-au6.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_1|1.1MB/s|KeepSucced"
+      password: 9f326a06-dfe5-435d-af48-0831f8095827
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      down: "100"
+      name: "\U0001F1EB\U0001F1F7FR²_1|2.4MB/s|KeepSucced"
+      port: 15010
+      protocol: udp
+      server: 195.154.200.40
+      skip-cert-verify: true
+      sni: apple.com
+      type: hysteria
+      udp: true
+      up: "100"
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US¹⁺_1|2.0MB/s|KeepSucced"
       network: ws
       port: 2096
       server: 159.112.235.253
@@ -29,29 +105,33 @@ proxies:
         headers:
             Host: gaosir.unfeeling.sbs
         path: /X@节点狂魔/?ed=2560
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_1|1.8MB/s|KeepSucced"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      server: 297d1dc8-t2y4g0-t2zeef-d70y.la.shifen.uk
+    - name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.5MB/s|KeepSucced"
+      network: ws
+      packet-encoding: ""
+      port: 2096
+      server: 188.42.145.253
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US¹-NL⁰_1|2.2MB/s|KeepSucced"
+      network: ws
+      password: 8r<[9'l6hAO#8ZQi
+      port: "8443"
+      server: 172.66.44.230
       skip-cert-verify: false
-      sni: 297d1dc8-t2y4g0-t2zeef-d70y.la.shifen.uk
-      type: hysteria2
+      sni: Koma-YT.PAGeS.Dev
+      type: trojan
       udp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      delay: 1146
-      name: "\U0001F1FA\U0001F1F8US²_2|0.6MB/s|KeepSucced"
-      password: ysJpLBx46OMWWkkMCW0pywU6
-      port: 10012
-      server: 143.20.156.251
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: tuic
-      udp-relay-mode: native
-      uuid: dad58782-ffd5-48bd-994c-7b82555c1384
-      version: 5
+      ws-opts:
+        headers:
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        path: /tro8sFW1S91B6sZrM1?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
@@ -68,17 +148,8 @@ proxies:
       udp: true
       up: "11"
     - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_1|1.1MB/s|KeepSucced"
-      password: cdb9fa76-10a0-436b-bc49-c24506eed2ba
-      port: 50000
-      server: 133.18.163.202
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_2|1.2MB/s|KeepSucced"
-      password: 9f326a06-dfe5-435d-af48-0831f8095827
+      name: "\U0001F1EF\U0001F1F5JP²_2|0.6MB/s|KeepSucced"
+      password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
       port: 50000
       server: 133.18.163.202
       skip-cert-verify: true
@@ -87,38 +158,7 @@ proxies:
       udp: true
     - client-fingerprint: chrome
       encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU²_1|1.4MB/s|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SfaN19bzY1LdAGU1cIOAW8YU2XaInYxMgonHlC_mTgg
-        short-id: ""
-      server: nl.pickvpn.live
-      servername: github.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: afe821e2-75a2-4b94-8960-c3f180c24d3e
-      xudp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR²_1|2.1MB/s|KeepSucced"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "100"
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB²_1|1.3MB/s|KeepSucced"
+      name: "\U0001F1EC\U0001F1E7GB²_1|1.8MB/s|KeepSucced"
       network: tcp
       port: "8443"
       reality-opts:
@@ -131,22 +171,8 @@ proxies:
       udp: true
       uuid: 136abfc9-777c-4c17-be73-16ebcde64c82
       xudp: true
-    - country: "\U0001F1F7\U0001F1FARU"
-      name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.2MB/s|KeepSucced"
-      network: ws
-      port: 2096
-      server: 195.13.45.253
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: /X@节点狂魔/
     - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US¹-KR⁰_1|1.7MB/s|KeepSucced"
+      name: "\U0001F1FA\U0001F1F8US¹-NL⁰_2|2.1MB/s|KeepSucced"
       network: ws
       password: 8r<[9'l6hAO#8ZQi
       port: "8443"
@@ -159,51 +185,19 @@ proxies:
         headers:
             User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /tro8sFW1S91B6sZrM1?ed=2560
-    - encryption: none
-      name: "\U0001F1F3\U0001F1F1NL²_2|2.7MB/s|KeepSucced"
-      network: ws
-      port: "2082"
-      server: 104.17.147.22
-      type: vless
-      udp: true
-      uuid: 20-COPE-AZ-KANAL-JKVPN-JKVPN
-      ws-opts:
-        headers:
-            Host: jokervip.ahang-alpha.ir
-            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
-        path: /TELEGRAM--BYA--CHANEL--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.5MB/s|KeepSucced"
-      network: ws
-      packet-encoding: ""
-      port: 2096
-      server: 188.42.145.253
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US¹-DE⁰_1|3.8MB/s|KeepSucced"
-      network: ws
-      password: 8r<[9'l6hAO#8ZQi
-      port: "8443"
-      server: 172.66.44.230
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US²_8|2.4MB/s|KeepHistory"
+      password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+      port: 1743
+      server: f4a414c7-t0fds0-tclkqs-deip.la.shifen.uk
       skip-cert-verify: false
-      sni: Koma-YT.PAGeS.Dev
-      type: trojan
+      sni: f4a414c7-t0fds0-tclkqs-deip.la.shifen.uk
+      type: hysteria2
       udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /tro8sFW1S91B6sZrM1?ed=2560
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E7\U0001F1ECBG²_1|1.3MB/s|KeepSucced"
+      name: "\U0001F1E7\U0001F1ECBG²_1|1.1MB/s|KeepSucced"
       network: tcp
       port: "443"
       reality-opts:
@@ -216,28 +210,107 @@ proxies:
       udp: true
       uuid: dfb01e06-7538-424b-8e83-b24d9760ef55
       xudp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      down: "55"
-      name: "\U0001F1EB\U0001F1F7FR²_2|2.1MB/s|KeepSucced"
-      port: 35511
-      protocol: udp
-      server: 62.210.127.217
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL²_2|3.3MB/s|KeepSucced"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: SfaN19bzY1LdAGU1cIOAW8YU2XaInYxMgonHlC_mTgg
+        short-id: ""
+      server: nl01.pickvpn.live
+      servername: github.com
+      tls: true
+      type: vless
       udp: true
-      up: "11"
+      uuid: afe821e2-75a2-4b94-8960-c3f180c24d3e
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1FARU²_1|2.8MB/s|KeepSucced"
+      port: 443
+      reality-opts:
+        public-key: YPOvUT8wDaEaMQGlWFySLMJ8VFFvSQ8ptzoA6NsdBxM
+        short-id: ed28e58365f38dd3
+      server: 103.88.242.119
+      servername: ru.moktana.digital
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 9d0d265d-0df6-4bcd-b029-9407a88ec2d8
+    - encryption: none
+      name: "\U0001F1F3\U0001F1F1NL²_3|2.6MB/s|KeepSucced"
+      network: ws
+      port: "2082"
+      server: 104.17.147.22
+      type: vless
+      udp: true
+      uuid: 20-COPE-AZ-KANAL-JKVPN-JKVPN
+      ws-opts:
+        headers:
+            Host: jokervip.ahang-alpha.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36
+        path: /TELEGRAM--BYA--CHANEL--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048
+      xudp: true
+    - encryption: none
+      name: "\U0001F1F3\U0001F1F1NL²_4|1.9MB/s|KeepSucced"
+      network: ws
+      port: "2082"
+      server: www.speedtest.net
+      type: vless
+      udp: true
+      uuid: 20-COPE-AZ-KANAL-JKVPN-JKVPN
+      ws-opts:
+        headers:
+            Host: jokervip.ahang-alpha.ir
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+        path: /TELEGRAM--BYA--CHANEL--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048
+      xudp: true
+    - country: "\U0001F1F0\U0001F1F7KR"
+      name: "\U0001F1F0\U0001F1F7KR¹-US⁰_1|0.9MB/s|KeepHistory"
+      network: ws
+      port: 12176
+      server: 218.54.55.117
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: X@节点狂魔/?ed=2560
+    - country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1F8\U0001F1ECSG²_1|0.6MB/s|KeepSucced"
+      password: BxceQaOe
+      port: 24392
+      server: 36.151.251.35
+      skip-cert-verify: true
+      type: trojan
+      udp: true
+    - country: "\U0001F1F0\U0001F1F7KR"
+      name: "\U0001F1F0\U0001F1F7KR¹-US⁰_2|1.2MB/s|KeepSucced"
+      network: ws
+      port: 50001
+      server: 220.72.245.245
+      servername: gaosir.unfeeling.sbs
+      tls: true
+      type: vless
+      udp: true
+      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+      ws-opts:
+        headers:
+            Host: gaosir.unfeeling.sbs
+        path: /X@节点狂魔/?ed=2560
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
       down: "100"
-      name: "\U0001F1EB\U0001F1F7FR²_3|2.0MB/s|KeepSucced"
+      name: "\U0001F1EB\U0001F1F7FR²_2|2.1MB/s|KeepSucced"
       port: 40099
       protocol: udp
       server: 62.210.127.217
@@ -252,7 +325,7 @@ proxies:
       auth_str: dongtaiwang.com
       country: "\U0001F1EB\U0001F1F7FR"
       down: 55 Mbps
-      name: "\U0001F1EB\U0001F1F7FR²_4|1.0MB/s|KeepSucced"
+      name: "\U0001F1EB\U0001F1F7FR²_3|2.1MB/s|KeepSucced"
       port: 50011
       protocol: udp
       server: 62.210.127.217
@@ -261,139 +334,125 @@ proxies:
       type: hysteria
       udp: true
       up: 11 Mbps
-    - auth: 321df928-fbb9-4a1e-b675-e291f5c3674c
-      name: "\U0001F1FA\U0001F1F8US²_3|1.0MB/s|KeepHistory"
-      password: 321df928-fbb9-4a1e-b675-e291f5c3674c
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    - alpn:
+        - h3
+      auth-str: dongtaiwang.com
+      auth_str: dongtaiwang.com
+      country: "\U0001F1EB\U0001F1F7FR"
+      down: "55"
+      name: "\U0001F1EB\U0001F1F7FR²_4|2.1MB/s|KeepSucced"
+      port: 35511
+      protocol: udp
+      server: 62.210.127.217
       skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
+      sni: apple.com
+      type: hysteria
       udp: true
-    - auth: a32458d1-4bd3-416a-bdfb-73178e36eb38
-      name: "\U0001F1FA\U0001F1F8US²_4|1.0MB/s|KeepHistory"
-      password: a32458d1-4bd3-416a-bdfb-73178e36eb38
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_5|2.9MB/s|KeepHistory"
-      password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-      port: 1743
-      server: 6647d8f1-t0fds0-t3fjp7-cdfn.la.shifen.uk
+      up: "11"
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP²_3|0.8MB/s"
+      port: 28788
+      server: distm-g06.jp07-sh-vm0.entry.fr0528.art
       skip-cert-verify: false
-      sni: 6647d8f1-t0fds0-t3fjp7-cdfn.la.shifen.uk
-      type: hysteria2
+      tfo: false
+      tls: false
+      type: vmess
       udp: true
-    - country: "\U0001F1EF\U0001F1F5JP"
-      name: "\U0001F1EF\U0001F1F5JP²_3|1.1MB/s|KeepHistory"
-      password: 8e8418dc-f06c-4a19-91a1-235f3d6a3f4a
-      port: 50000
-      server: 133.18.163.202
-      skip-cert-verify: true
-      sni: www.microsoft.com
-      type: hysteria2
-      udp: true
-    - delay: 575
-      name: "\U0001F1ED\U0001F1F0HK²_2|1.0MB/s|KeepHistory"
-      password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-      port: 20021
-      server: oss-cn-shanghai.letssepub.com
-      skip-cert-verify: true
-      sni: dingding-doc.com
-      type: trojan
-      udp: true
+      uuid: e02de1c9-47c2-3671-abb9-f3a6ba73fa2c
     - alterId: 1
       cipher: auto
       name: "\U0001F1EF\U0001F1F5JP²_4|0.6MB/s"
-      port: 28785
-      server: ut7m1-g03.jp07-sh-vm0.entry.fr0528.art
+      port: 446
+      server: en1ps-g03.jp04-1d-vm0.entry.fr0528.art
       skip-cert-verify: false
       tfo: false
       tls: false
       type: vmess
       udp: true
       uuid: 39adda75-0a81-3603-8a9d-d5a369dff386
-    - country: "\U0001F1F0\U0001F1F7KR"
-      name: "\U0001F1F0\U0001F1F7KR¹-US⁰_1|1.8MB/s|KeepHistory"
-      network: ws
-      port: 27879
-      server: 125.130.15.106
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: /Telegram@freecodes/?ed=2560
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_1|5.7MB/s|KeepHistory"
-      network: ws
-      port: "2083"
-      server: 160.153.0.11
-      servername: fraG2.MAhSAAmINI.cC
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5e802e1a-3c82-41ec-aaca-f6371b8b86a5
-      ws-opts:
-        headers:
-            Host: fraG2.MAhSAAmINI.cC
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
-        path: /CPI
-      xudp: true
-    - delay: 2248
-      name: "\U0001F1EF\U0001F1F5JP²_5|0.5MB/s|KeepHistory"
-      password: b8bdabb5-ddd2-4b89-a13c-6a7d1e9024b0
-      port: 32002
-      server: lazy.rsqpq.cn
-      skip-cert-verify: true
-      sni: lazy.rsqpq.cn
-      type: trojan
-      udp: true
-    - alterId: 1
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP²_6|0.6MB/s"
-      port: 21586
-      server: oz99x-g06.jp01-nn-vm0.entry.fr0528.art
-      skip-cert-verify: false
-      tfo: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: e02de1c9-47c2-3671-abb9-f3a6ba73fa2c
-    - country: "\U0001F1F0\U0001F1F7KR"
-      name: "\U0001F1F0\U0001F1F7KR¹-US⁰_2|0.7MB/s|KeepHistory"
-      network: ws
-      port: 50001
-      server: 220.72.245.245
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: /X@节点狂魔/?ed=2560
     - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_6|0.5MB/s|KeepHistory"
-      password: 16955d72-1794-11f0-a035-f23c95b6f51d
-      port: 1743
-      server: 09705f8d-t2zz40-t2wdks-dnss.la.shifen.uk
-      skip-cert-verify: false
-      sni: 09705f8d-t2zz40-t2wdks-dnss.la.shifen.uk
+      name: "\U0001F1FA\U0001F1F8US²_9|0.9MB/s|KeepHistory"
+      password: 571ec94e-613c-430a-93de-397d3d237475
+      port: 22154
+      server: hsxjp.huasuan666.top
+      skip-cert-verify: true
+      sni: hsxjp.huasuan666.top
       type: hysteria2
       udp: true
-    - auth: 0fc81038-0f9c-4a4f-980f-aa91c4a0afb4
-      name: "\U0001F1FA\U0001F1F8US²_7|0.7MB/s|KeepHistory"
-      password: 0fc81038-0f9c-4a4f-980f-aa91c4a0afb4
+    - country: "\U0001F1E9\U0001F1EADE"
+      name: "\U0001F1E9\U0001F1EADE²_1|3.1MB/s|KeepHistory"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 35.158.30.194
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - country: "\U0001F1EF\U0001F1F5JP"
+      name: "\U0001F1EF\U0001F1F5JP²_5|1.3MB/s|KeepHistory"
+      password: e21a3cb6-cbdc-4df3-968f-c0f460c39e19
+      port: 50000
+      server: 133.18.163.202
+      skip-cert-verify: true
+      sni: www.microsoft.com
+      type: hysteria2
+      udp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      name: "\U0001F1EB\U0001F1F7FR²_5|3.6MB/s|KeepHistory"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 15.236.165.170
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - name: "\U0001F1E9\U0001F1EADE²_2|2.5MB/s"
+      password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
+      port: 44001
+      server: 141.147.52.24
+      skip-cert-verify: true
+      type: hysteria2
+    - auth: 1b609740-eec2-11ef-8543-f23c93136cb3
+      name: "\U0001F1FA\U0001F1F8US²_10|1.7MB/s|KeepHistory"
+      password: 1b609740-eec2-11ef-8543-f23c93136cb3
+      port: 1743
+      server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+      type: hysteria2
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EC\U0001F1E7GB²_2|3.8MB/s"
+      network: tcp
+      port: "40721"
+      reality-opts:
+        public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+        short-id: df8611c07d
+      server: 140.238.100.35
+      servername: yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+      xudp: true
+    - alterId: 1
+      cipher: auto
+      name: "\U0001F1EF\U0001F1F5JP²_6|0.5MB/s"
+      port: 28785
+      server: zdzox-g03.jp07-sh-vm0.entry.fr0528.art
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 39adda75-0a81-3603-8a9d-d5a369dff386
+    - auth: 8c227ff4-fda2-44a5-aa19-ed49cf7bc3a7
+      name: "\U0001F1FA\U0001F1F8US²_11|0.5MB/s|KeepHistory"
+      password: 8c227ff4-fda2-44a5-aa19-ed49cf7bc3a7
       port: 54265
       server: banmabanmabanmabanmabanmabanma1.wanlidag.top
       skip-cert-verify: true
@@ -402,9 +461,9 @@ proxies:
       udp: true
     - alterId: 1
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP²_7|1.4MB/s"
-      port: 28788
-      server: vxzyp-g06.jp07-sh-vm0.entry.fr0528.art
+      name: "\U0001F1EF\U0001F1F5JP²_7|0.7MB/s"
+      port: 449
+      server: nvkyj-g06.jp04-1d-vm0.entry.fr0528.art
       skip-cert-verify: false
       tfo: false
       tls: false
@@ -412,139 +471,31 @@ proxies:
       udp: true
       uuid: e02de1c9-47c2-3671-abb9-f3a6ba73fa2c
     - encryption: none
-      name: "\U0001F1F3\U0001F1F1NL²_3|2.8MB/s"
-      network: ws
-      port: "2082"
-      server: www.speedtest.net
-      type: vless
-      udp: true
-      uuid: 20-COPE-AZ-KANAL-JKVPN-JKVPN
-      ws-opts:
-        headers:
-            Host: jokervip.ahang-alpha.ir
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
-        path: /TELEGRAM--BYA--CHANEL--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN--@JKVPN?ed=2048
-      xudp: true
-    - country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1F8\U0001F1ECSG²_1|0.8MB/s|KeepHistory"
-      password: BxceQaOe
-      port: 24392
-      server: 36.151.251.35
-      skip-cert-verify: true
-      type: trojan
-      udp: true
-    - name: "\U0001F1F0\U0001F1F7KR¹-US⁰_3|1.0MB/s|KeepHistory"
-      network: ws
-      port: 50001
-      server: 211.177.114.117
-      servername: gaosir.unfeeling.sbs
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            Host: gaosir.unfeeling.sbs
-        path: telegram@freecodes/?ed=2560
-    - auth: 53275353-175d-4aea-901b-8bba12c7453d
-      name: "\U0001F1FA\U0001F1F8US²_8|1.2MB/s|KeepHistory"
-      password: 53275353-175d-4aea-901b-8bba12c7453d
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL²_4|3.9MB/s|KeepHistory"
+      name: "\U0001F1F3\U0001F1F1NL²_5|2.9MB/s"
       network: tcp
-      port: "443"
-      reality-opts:
-        public-key: SfaN19bzY1LdAGU1cIOAW8YU2XaInYxMgonHlC_mTgg
-        short-id: ""
-      server: nl01.pickvpn.live
-      servername: github.com
-      tls: true
+      port: "4655"
+      server: 104.248.81.75
       type: vless
       udp: true
-      uuid: afe821e2-75a2-4b94-8960-c3f180c24d3e
+      uuid: c1792e2a-f0bb-4108-ba06-8dd1c1361251
       xudp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_9|1.0MB/s|KeepHistory"
-      password: 1b609740-eec2-11ef-8543-f23c93136cb3
-      port: 1743
-      server: 6493f70c-t2cio0-t3rh3g-au6.la.shifen.uk
-      skip-cert-verify: false
-      sni: 6493f70c-t2cio0-t3rh3g-au6.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - auth: 239d6383-a858-458d-886b-12c3de509129
-      name: "\U0001F1FA\U0001F1F8US²_10|1.1MB/s|KeepHistory"
-      password: 239d6383-a858-458d-886b-12c3de509129
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_11|2.2MB/s|KeepHistory"
-      password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-      port: 1743
-      server: da03bf4b-t28740-t2zeef-d70y.la.shifen.uk
-      skip-cert-verify: false
-      sni: da03bf4b-t28740-t2zeef-d70y.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_12|2.3MB/s|KeepHistory"
-      password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-      port: 1743
-      server: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      skip-cert-verify: false
-      sni: b9c3912b-t07z40-t1l1nh-d6ar.la.shifen.uk
-      type: hysteria2
-      udp: true
-    - auth: aaf48778-bd61-4f71-a867-398171377d5b
-      name: "\U0001F1FA\U0001F1F8US²_13|1.0MB/s|KeepHistory"
-      password: aaf48778-bd61-4f71-a867-398171377d5b
-      port: 54265
-      server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      skip-cert-verify: true
-      sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-      type: hysteria2
-      udp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU²_2|4.7MB/s|KeepHistory"
-      port: 443
-      reality-opts:
-        public-key: YPOvUT8wDaEaMQGlWFySLMJ8VFFvSQ8ptzoA6NsdBxM
-        short-id: ed28e58365f38dd3
-      server: 103.88.242.119
-      servername: ru.moktana.digital
-      skip-cert-verify: false
-      tls: true
-      type: vless
-      udp: true
-      uuid: 9d0d265d-0df6-4bcd-b029-9407a88ec2d8
-    - cipher: aes-256-gcm
-      name: "\U0001F1ED\U0001F1F0HK²_3|3.8MB/s|KeepHistory"
-      password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-      port: 11688
-      server: ss.009.node-for-bigairport.win
-      type: ss
-      udp: true
     - alterId: 1
       cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP²_8|1.5MB/s"
-      port: 11775
-      server: z9rpf-g03.jp02-e3-vm0.entry.fr0528.art
+      name: "\U0001F1EF\U0001F1F5JP²_8|0.9MB/s"
+      port: 46484
+      server: ggwrh-g03.jp05-h6-vm0.entry.fr0528.art
       skip-cert-verify: false
       tfo: false
       tls: false
       type: vmess
       udp: true
       uuid: 39adda75-0a81-3603-8a9d-d5a369dff386
+    - country: "\U0001F1E9\U0001F1EADE"
+      name: "\U0001F1E9\U0001F1EADE²_3|1.2MB/s|KeepHistory"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 35.158.30.194
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
