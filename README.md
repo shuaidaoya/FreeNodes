@@ -75,10 +75,10 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ### 🔗 Gist 订阅地址
 
-| 格式类型 | 描述 | 订阅链接 | 适用客户端 |
+| 格式类型 | 适用客户端 | 订阅链接 | 适用客户端 |
 |---------|------|----------|-----------|
-| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
-| 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt` | 通用客户端 |
+| 📄 **all.yaml** | Clash Party、V2Ray、Clash、Shadowrocket | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
+| 📝 **base64.txt** | 通用订阅，不知道选什么协议 优先选这个 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt` | 通用客户端 |
 | 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | 备用节点 |
 | ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | Mihomo |
 
