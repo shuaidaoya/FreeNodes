@@ -1,19 +1,21 @@
 proxies:
-    - auth: 37e590de-ff81-4da9-9540-60a34d66e1f4
-      name: "\U0001F1E9\U0001F1EADE²_1|1.7MB/s|GPT⁺|YT|NF|D+|16%|KeepSucced"
-      password: 37e590de-ff81-4da9-9540-60a34d66e1f4
-      port: 58338
-      server: lsdg1.lansecs.top
-      skip-cert-verify: true
-      sni: lsdg1.lansecs.top
-      type: hysteria2
-      udp: true
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1E9\U0001F1EADE²_1|2.5MB/s|GPT⁺|YT|NF|D+|13%|KeepSucced"
+      password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+      port: 15938
+      reduce-rtt: false
+      request-timeout: 0
+      server: detuic.yydzx.xyz
+      sni: detuic.yydzx.xyz
+      type: tuic
+      uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
     - alterId: 0
       cipher: auto
       country: "\U0001F1ED\U0001F1F0HK"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK¹⁺_1|4.9MB/s|YT|NF|D+|6%|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK¹⁺_1|6.6MB/s|YT|NF|D+|6%|KeepSucced"
       network: ws
       port: 443
       server: 219.76.13.166
@@ -27,7 +29,7 @@ proxies:
             HOST: aa.nbee.pp.ua
         path: /qq
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_2|3.5MB/s|GPT⁺|YT-US|NF|11%|KeepSucced"
+      name: "\U0001F1E9\U0001F1EADE²_2|4.3MB/s|GPT⁺|YT-US|NF|11%|KeepSucced"
       network: ws
       port: "2082"
       server: www.speedtest.net
@@ -40,13 +42,20 @@ proxies:
             User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36
         path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
       xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_1|1.4MB/s|GPT⁺|YT-US|NF|GM"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.229
+      type: ss
     - alpn:
         - h3
       auth-str: dongtaiwang.com
       auth_str: dongtaiwang.com
       delay: 1547
       down: 55
-      name: "\U0001F1F3\U0001F1F1NL²_1|4.0MB/s|GPT⁺|NF|KeepSucced"
+      name: "\U0001F1F3\U0001F1F1NL²_1|4.3MB/s|GPT⁺|NF|KeepSucced"
       port: 49003
       protocol: udp
       server: 51.159.226.1
@@ -55,46 +64,10 @@ proxies:
       type: hysteria
       udp: true
       up: 11
-    - auth: 37e590de-ff81-4da9-9540-60a34d66e1f4
-      name: "\U0001F1FA\U0001F1F8US²_1|1.2MB/s|GPT⁺|YT-CN|NF|D+|100%|KeepHistory"
-      password: 37e590de-ff81-4da9-9540-60a34d66e1f4
-      port: 58338
-      server: lsus2.lansecs.top
-      skip-cert-verify: true
-      sni: lsus2.lansecs.top
-      type: hysteria2
-      udp: true
-    - alpn:
-        - h3
-      auth-str: dongtaiwang.com
-      auth_str: dongtaiwang.com
-      country: "\U0001F1EB\U0001F1F7FR"
-      delay: 1223
-      down: "100"
-      name: "\U0001F1EB\U0001F1F7FR²_1|3.1MB/s|GPT⁺|YT|NF|KeepHistory"
-      port: 15010
-      protocol: udp
-      server: 195.154.200.40
-      skip-cert-verify: true
-      sni: apple.com
-      type: hysteria
-      udp: true
-      up: "100"
-    - congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1E9\U0001F1EADE²_3|3.0MB/s|GPT⁺|YT|NF|D+|13%|KeepHistory"
-      password: 4e084535-bd62-458b-84a2-a0dc57c957aa
-      port: 15938
-      reduce-rtt: false
-      request-timeout: 0
-      server: detuic.yydzx.xyz
-      sni: detuic.yydzx.xyz
-      type: tuic
-      uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1FA\U0001F1F8US²_2|1.2MB/s|GPT⁺|YT-CN|NF|0%"
-      password: dc9ea653-becc-44f1-95f9-16773a0519e9
-      port: 31013
-      server: fl01.lr9soflhleb.top
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_2|1.9MB/s|GPT⁺|YT-US|NF|GM"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.114
       type: ss
-      udp: true
