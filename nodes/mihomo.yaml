@@ -1,42 +1,31 @@
 proxies:
-  - auth: bc5e171b-fe66-47af-a600-b972104fe995
-    down: 10000
-    name: "\U0001F1FA\U0001F1F8US²_1|7.0MB/s|GPT⁺|YT|NF|D+|17%|KeepSucced"
-    password: bc5e171b-fe66-47af-a600-b972104fe995
-    port: 8871
-    server: vo2.shigure.eu.org
-    skip-cert-verify: true
-    sni: vo2.shigure.eu.org
-    type: hysteria2
-    udp: true
-    up: 10000
-  - auth: bc5e171b-fe66-47af-a600-b972104fe995
-    down: 1000
-    name: "\U0001F1FA\U0001F1F8US²_2|4.1MB/s|GPT⁺|YT|NF|D+|GM|48%|KeepSucced"
-    password: bc5e171b-fe66-47af-a600-b972104fe995
-    port: 8870
-    server: us1.shigure.eu.org
-    skip-cert-verify: true
-    sni: us1.shigure.eu.org
-    type: hysteria2
-    udp: true
-    up: 1000
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EA\U0001F1F8ES²_1|2.1MB/s|GPT⁺|YT-RU|NF|31%|KeepSucced"
-    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|6.2MB/s|YT|NF|D+|6%|KeepSucced"
+    network: ws
     port: 443
-    server: 213.159.67.124
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US²_3|2.2MB/s|GPT⁺|YT-CA|NF|GM|38%|KeepSucced"
-    password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+    server: 219.76.13.166
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+    ws-opts:
+      headers:
+        HOST: aa.nbee.pp.ua
+      path: /qq
+    servername: aa.nbee.pp.ua
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1E6 CA"
+    name: "\U0001F1E8\U0001F1E6CA²_1|1.8MB/s|GPT|NF|GM|9%|KeepSucced"
+    password: amazonskr05
     port: 443
-    server: 23.95.75.146
+    server: 15.223.195.244
     type: ss
-    udp: true
   - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_1|3.8MB/s|GPT⁺|YT-US|NF|11%"
+    name: "\U0001F1E9\U0001F1EADE²_1|2.2MB/s|GPT⁺|YT-US|NF|11%|KeepSucced"
     network: ws
     port: 2082
     server: www.speedtest.net
@@ -54,13 +43,38 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2082
     xudp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EA\U0001F1F8ES²_1|2.1MB/s|GPT⁺|YT-RU|NF|31%|KeepSucced"
+    password: mbhqsStnFQT1cTZYCdsmkugGUC6GT6rp
+    port: 443
+    server: 213.159.67.124
+    type: ss
+    udp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1F1\U0001F1FBLV"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F1\U0001F1FBLV²_1|2.7MB/s|GPT⁺|NF|0%"
+    network: ws
+    port: 44749
+    server: 213.21.233.46
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     delay: 1547
     down: 55
-    name: "\U0001F1F3\U0001F1F1NL²_1|3.1MB/s|GPT⁺|NF|KeepSucced"
+    name: "\U0001F1F3\U0001F1F1NL²_1|2.3MB/s|GPT⁺|NF|KeepSucced"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -69,192 +83,213 @@ proxies:
     type: hysteria
     udp: true
     up: 11
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_4|5.3MB/s|GPT⁺|YT|NF|D+|6%|KeepSucced"
-    network: ws
-    port: 443
-    server: wto.org
+  - name: "\U0001F1EF\U0001F1F5JP²_1|1.6MB/s|GPT⁺|YT|NF|D+|GM|25%"
+    password: 6f28a7ec-8294-448e-91c0-a6d5477cd3a4
+    port: 24401
+    server: cdnfire.xiaomispeed.com
     skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 97b5343c-f8bd-40f2-b32d-7c98e1c196d4
-    ws-opts:
-      headers:
-        HOST: floral-vol-lexington-liverpool.trycloudflare.com
-      path: /97b5343c-f8bd-40f2-b32d-7c98e1c196d4-vm
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: floral-vol-lexington-liverpool.trycloudflare.com
-  - delay: 1655
-    name: "\U0001F1F0\U0001F1F7KR²_1|1.6MB/s|GPT⁺|YT|D+|GM|43%"
-    password: ada65271-e83d-401e-8508-fae0280ff447
-    port: 22100
-    server: n001.xunxunmimisbs.sbs
-    sni: kr01.xxxxyyyysbs.sbs
-    type: trojan
-    udp: true
-  - delay: 480
-    name: "\U0001F1F8\U0001F1ECSG²_1|2.4MB/s|GPT⁺|YT|NF|D+|43%"
-    password: 10e11114-efa1-4978-8a39-dafae19a4b49
-    port: 31201
-    server: n002.xunxunmimisbs.sbs
-    sni: sg02.xxxxyyyysbs.sbs
-    type: trojan
-    udp: true
-  - delay: 999
-    name: "\U0001F1FA\U0001F1F8US²_5|1.4MB/s|YT-CN|37%"
-    password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
-    port: 24100
-    server: n002.xunxunmimisbs.sbs
-    sni: us01.xxxxyyyysbs.sbs
-    type: trojan
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|5.4MB/s|YT|NF|D+|6%|KeepHistory"
-    network: ws
-    port: 443
-    server: 219.76.13.166
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-    ws-opts:
-      headers:
-        HOST: aa.nbee.pp.ua
-      path: /qq
-    servername: aa.nbee.pp.ua
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1E9\U0001F1F0DK"
-    delay: 480
-    name: "\U0001F1E9\U0001F1F0DK²_1|1.3MB/s|GPT⁺|YT-NL|NF|31%"
-    password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo
-    port: 443
-    server: 95.164.10.228
-    type: ss
-  - delay: 1184
-    name: "\U0001F1EE\U0001F1F3IN²_1|2.0MB/s|GPT⁺|NF"
-    password: 10e11114-efa1-4978-8a39-dafae19a4b49
-    port: 27100
-    server: n002.xunxunmimisbs.sbs
-    sni: in01.xxxxyyyysbs.sbs
+    sni: cdnfire.xiaomispeed.com
     type: trojan
     udp: true
   - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1E6 CA"
-    name: "\U0001F1E8\U0001F1E6CA²_1|2.0MB/s|GPT⁺|YT|NF|GM|9%|KeepHistory"
+    name: "\U0001F1FA\U0001F1F8US²_1|3.1MB/s|GPT⁺|YT|GM|3%|KeepHistory"
     password: amazonskr05
     port: 443
-    server: 15.223.195.244
+    server: 3.129.21.37
     type: ss
-  - delay: 246
-    name: "\U0001F1EF\U0001F1F5JP²_1|3.3MB/s|GPT⁺|YT-CN|NF|D+|0%"
-    password: 10e11114-efa1-4978-8a39-dafae19a4b49
-    port: 41300
-    server: n001.xunxunmimisbs.sbs
-    skip-cert-verify: true
-    sni: jp01.xxxxyyyysbs.sbs
-    type: trojan
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F3\U0001F1F1NL²_2|2.0MB/s|GPT⁺|NF|22%|KeepHistory"
-    network: ws
-    port: 2083
-    server: sub.633399.xyz
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 18ba872c-533a-4121-b220-257ed7f358bf
-    ws-opts:
-      headers:
-        HOST: sub.633399.xyz
-      path: /
-    servername: sub.633399.xyz
-  - delay: 675
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.3MB/s|GPT⁺|NF"
-    password: e1ebca70-1761-4496-a0b7-75ff99a6cd75
-    port: 28200
-    server: n002.xunxunmimisbs.sbs
-    sni: vn01.xxxxyyyysbs.sbs
-    type: trojan
-    udp: true
-  - alterId: 0
-    cipher: auto
-    delay: 1626
-    name: "\U0001F1ED\U0001F1F0HK²_1|5.7MB/s|GPT|YT|NF|0%"
-    port: 53941
-    server: show.bilibilicloud01.com
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-  - name: "\U0001F1F0\U0001F1F7KR²_2|4.3MB/s|GPT⁺|YT|NF|D+|GM|14%|KeepHistory"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - alterId: 0
-    cipher: auto
-    delay: 2054
-    name: "\U0001F1ED\U0001F1F0HK²_2|1.5MB/s|GPT|YT|NF|0%"
-    port: 50882
-    server: show.bilibilicloud01.net
-    skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-  - delay: 1717
-    name: "\U0001F1FB\U0001F1F3VN²_2|2.6MB/s|GPT⁺|YT-CN|NF"
-    password: 10e11114-efa1-4978-8a39-dafae19a4b49
-    port: 28200
-    server: n002.xunxunmimisbs.sbs
-    sni: vn01.xxxxyyyysbs.sbs
-    type: trojan
     udp: true
   - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8 US"
-    name: "\U0001F1FA\U0001F1F8US²_6|2.2MB/s|GPT⁺|YT|NF|GM|3%|KeepHistory"
-    password: amazonskr05
-    port: 443
-    server: 13.59.110.241
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.6MB/s|GPT⁺|YT-LA|NF|GM|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.35
     type: ss
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_2|3.8MB/s|GPT⁺|YT|NF|4%"
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F0\U0001F1F7KR²_1|1.0MB/s|GPT⁺|YT|NF|GM|4%|KeepHistory"
     network: ws
-    port: 8080
-    server: 104.17.147.22
+    port: 2096
+    server: dv4.789900.xyz
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+    ws-opts:
+      headers:
+        Host: dv4.789900.xyz
+      path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+    servername: dv4.789900.xyz
+  - alterId: 0
+    cipher: auto
+    name: Moscow-GetAFreeNode-11|2.4MB/s
+    network: ws
+    port: 44749
+    server: 95.81.114.252
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
+    ws-opts:
+      headers:
+        Host: imafake.locker
+      path: /speedtest
+    xudp: true
+    servername: imafake.locker
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EE\U0001F1F7IR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EE\U0001F1F7IR_316|2.9MB/s"
+    network: ws
+    port: 44749
+    server: 95.81.114.252
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: f1a513d2-c32a-49dc-8e64-d4f8a2f1e001
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_2|2.1MB/s|GPT⁺|YT-US|NF|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.66
+    type: ss
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8 美国|2.7MB/s|GPT⁺|YT-US|NF|D+|KeepHistory"
+    network: tcp
+    port: 17836
+    server: usvless.yydzx.xyz
+    tls: true
     type: vless
     udp: true
-    uuid: Parsashonam-Bot-35
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    servername: usvless.yydzx.xyz
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|1.2MB/s|GPT⁺|NF|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.30
+    type: ss
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F0\U0001F1F7KR²_2|2.0MB/s|GPT⁺|YT|NF|GM|4%|KeepHistory"
+    network: ws
+    port: 2087
+    server: lv4.789900.xyz
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
     ws-opts:
       headers:
-        Host: Fi.Parsashonam.CfD.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: >-
-        /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2056
-    xudp: true
+        Host: lv4.789900.xyz
+      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+    servername: lv4.789900.xyz
+  - name: "\U0001F1F8\U0001F1ECSG²_1|4.2MB/s|GPT⁺|YT|NF|D+|GM|25%"
+    password: 6f28a7ec-8294-448e-91c0-a6d5477cd3a4
+    port: 23301
+    server: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    sni: cdnfire.xiaomispeed.com
+    type: trojan
+    udp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EE\U0001F1F7IR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F7\U0001F1FARU²_1|2.9MB/s"
+    network: ws
+    port: 44749
+    server: 95.81.114.252
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1F1\U0001F1FBLV"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F1\U0001F1FBLV²_2|1.9MB/s|GPT⁺|NF|0%"
+    network: ws
+    port: 44749
+    server: 213.21.233.46
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1E9\U0001F1EADE²_2|3.2MB/s|GPT⁺|YT|NF|D+|13%"
+    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    port: 15827
+    reduce-rtt: false
+    request-timeout: 0
+    server: detuic.yydzx.xyz
+    sni: detuic.yydzx.xyz
+    type: tuic
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    version: 5
+  - congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1E9\U0001F1EADE²_3|3.1MB/s|GPT⁺|YT|NF|D+|13%|KeepHistory"
+    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    port: 15938
+    reduce-rtt: false
+    request-timeout: 0
+    server: detuic.yydzx.xyz
+    sni: detuic.yydzx.xyz
+    type: tuic
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    version: 5
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    country: "\U0001F1EB\U0001F1F7FR"
+    delay: 1223
+    down: '100'
+    name: "\U0001F1EB\U0001F1F7FR²_1|3.7MB/s|GPT⁺|YT|NF|KeepHistory"
+    port: 15010
+    protocol: udp
+    server: 195.154.200.40
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: '100'
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|1.1MB/s|GPT⁺|YT|NF|GM|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.243
+    type: ss
 rule-providers:
   private:
     url: >-
