@@ -1,133 +1,24 @@
 proxies:
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK²_1|1.1MB/s|GPT⁺|YT-CN|KeepSucced"
-    obfs: plain
-    password: Mv4e0QHWPwdbKiCF
-    port: 54127
-    protocol: auth_aes128_sha1
-    protocol-param: '264131:B47lYywpUlDUXAVa'
-    server: show.bilibilicloud01.net
-    type: ssr
-    udp: true
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK²_2|1.3MB/s|GPT|YT-CN|NF|2%|KeepSucced"
-    obfs: plain
-    password: Mv4e0QHWPwdbKiCF
-    port: 54125
-    protocol: auth_aes128_sha1
-    protocol-param: '264131:B47lYywpUlDUXAVa'
-    server: show.bilibilicloud01.net
-    type: ssr
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EF\U0001F1F5JP²_1|1.2MB/s|GPT⁺|YT|NF|D+|GM|0%|KeepSucced"
-    network: tcp
-    port: 50188
-    server: game.jp02.bilibilicloud01.com
+  - auth: 9125901a-4518-4d25-adfc-c8f8c3bb5a4c
+    name: "\U0001F1ED\U0001F1F0HK²_1|4.1MB/s|YT-US|NF|GM|27%|KeepSucced"
+    password: 9125901a-4518-4d25-adfc-c8f8c3bb5a4c
+    port: 50000
+    server: 103.214.22.205
     skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: game.jp02.bilibilicloud01.com
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EF\U0001F1F5JP²_2|1.9MB/s|GPT⁺|YT|NF|D+|GM|0%|KeepSucced"
-    port: 50189
-    server: game.jp03.bilibilicloud01.com
-    type: vmess
+    type: hysteria2
     udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: 1111-2222.0012.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_1|2.1MB/s|GPT⁺|YT-US|NF|11%|KeepSucced"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 6d4acdff-e3fe-46e9-9629-f935bc5720f2
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F0\U0001F1F7KR²_1|5.9MB/s|GPT⁺|YT|NF|GM|3%|KeepSucced"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: yh4yX6_pM_VzpAx-tYb33PCzHYE6vC9w7Ov1FwNUjR8
-      short-id: ''
-    server: 3.36.62.128
-    tls: true
-    type: vless
-    udp: true
-    uuid: ead2118c-8b60-4805-b264-bb794c8600d0
-    xudp: true
-    servername: www.ebay.com
   - cipher: chacha20-ietf-poly1305
     country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EB\U0001F1EEFI²_1|1.0MB/s|GPT⁺|YT-DE|NF|6%|KeepSucced"
+    name: "\U0001F1EB\U0001F1EEFI²_1|2.4MB/s|GPT⁺|YT-DE|NF|6%|KeepSucced"
     password: passxzHDLxkZoSAzqgKyq24Z
     port: 31043
     server: solar-3xui-hel-40-002.devastation.ru
     type: ss
   - alterId: 0
     cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_1|1.2MB/s|GPT⁺|YT|NF|D+|GM|0%|KeepSucced"
-    network: tcp
-    port: 49121
-    server: game.us02.bilibilicloud01.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: game.us02.bilibilicloud01.net
-  - cipher: chacha20-ietf
-    country: "\U0001F1E8\U0001F1F3CN"
-    group: SSRProvider
-    name: "\U0001F1EE\U0001F1F3IN²_1|1.3MB/s|GPT⁺|YT-CN|NF|KeepHistory"
-    obfs: plain
-    password: Mv4e0QHWPwdbKiCF
-    port: 53845
-    protocol: auth_aes128_sha1
-    protocol-param: '264131:B47lYywpUlDUXAVa'
-    server: live.bilibilicloud01.com
-    type: ssr
-  - cipher: chacha20-ietf
-    name: "\U0001F1F0\U0001F1F7KR²_2|1.3MB/s|GPT⁺|YT|NF|14%|KeepSucced"
-    obfs: plain
-    password: Mv4e0QHWPwdbKiCF
-    port: 54114
-    protocol: auth_aes128_sha1
-    protocol-param: '264131:B47lYywpUlDUXAVa'
-    server: show.bilibilicloud01.com
-    type: ssr
-    udp: true
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F0\U0001F1F7KR²_3|1.8MB/s|GPT⁺|YT|NF|GM|4%|KeepSucced"
+    name: "\U0001F1F0\U0001F1F7KR²_1|2.0MB/s|GPT⁺|YT|NF|GM|4%|KeepSucced"
     network: ws
     port: 2087
     server: lv4.789900.xyz
@@ -146,7 +37,7 @@ proxies:
     auth_str: dongtaiwang.com
     delay: 1547
     down: 55
-    name: "\U0001F1F3\U0001F1F1NL²_1|3.5MB/s|GPT⁺|NF|KeepSucced"
+    name: "\U0001F1F3\U0001F1F1NL²_1|3.1MB/s|GPT⁺|NF|KeepSucced"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -155,58 +46,27 @@ proxies:
     type: hysteria
     udp: true
     up: 11
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_3|1.1MB/s|GPT|YT|NF|0%|KeepHistory"
-    network: tcp
-    port: 47836
-    server: show.bilibilicloud01.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: show.bilibilicloud01.net
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI²_2|1.1MB/s|GPT|NF|4%|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: PibTHd_8WQ7AKYULLX7boeQsMBd5UI0JBwXIKrVEUy4
-      short-id: b735e8d1c332a164
-    server: 46.62.202.135
-    tls: true
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_1|4.1MB/s|GPT⁺|YT-US|NF|11%"
+    network: ws
+    port: 2082
+    server: www.speedtest.net
     type: vless
     udp: true
-    uuid: cfd98140-4747-46b8-9618-606b21617b47
+    uuid: 53bdd517-90a0-4543-a53f-77aaa9319872
+    ws-opts:
+      headers:
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2082
     xudp: true
-    servername: cdn.jsdelivr.net
-  - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.8MB/s|GPT⁺|YT-US|NF|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.237
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|1.2MB/s|GPT⁺|YT-LA|NF|GM|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.35
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|1.1MB/s|GPT⁺|YT-US|NF|GM|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.72
-    type: ss
   - country: "\U0001F3C1ZZ"
-    name: "\U0001F1E9\U0001F1EADE²_2|4.0MB/s|GPT⁺|YT|NF|4%"
+    name: "\U0001F1E9\U0001F1EADE²_2|2.7MB/s|4%|KeepSucced"
     network: ws
     port: 8080
     server: 104.17.147.22
@@ -220,238 +80,218 @@ proxies:
         /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2056
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EF\U0001F1F5JP²_3|1.3MB/s|GPT⁺|YT-CN|D+|GM|0%"
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US²_1|3.5MB/s|GPT⁺|YT|NF|GM|9%|KeepHistory"
+    port: 443
+    reality-opts:
+      public-key: hnec5SxCD6Os-u0FNi_YS5CML1a_oWb0niZJ1mGuFBo
+      short-id: 07e904766d29b958
+    server: 77.110.119.225
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
     network: tcp
-    port: 50001
-    server: manga.jp01.bilibilicloud01.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: manga.jp01.bilibilicloud01.net
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1E6\U0001F1FAAU²_1|2.6MB/s|GPT⁺|YT|NF|D+|4%|KeepHistory"
-    port: 60317
-    server: live.bilibilicloud01.com
-    type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: 1111-2222.0018.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_2|1.1MB/s|GPT⁺|YT|NF|D+|GM|0%|KeepHistory"
-    port: 49126
-    server: game.us04.bilibilicloud01.net
-    type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: 1111-2222.0010.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_4|1.6MB/s|GPT|YT|NF|0%|KeepHistory"
-    network: tcp
-    port: 34794
-    server: show.bilibilicloud01.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: show.bilibilicloud01.net
-  - cipher: chacha20-ietf
-    country: "\U0001F1E8\U0001F1F3CN"
-    group: SSRProvider
-    name: "\U0001F1ED\U0001F1F0HK²_5|6.2MB/s|YT-CN|NF|2%|KeepHistory"
-    obfs: plain
-    password: Mv4e0QHWPwdbKiCF
-    port: 54102
-    protocol: auth_aes128_sha1
-    protocol-param: '264131:B47lYywpUlDUXAVa'
-    server: 1111-2222.0028.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
-    type: ssr
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    country: "\U0001F1EB\U0001F1F7FR"
-    delay: 1223
-    down: '100'
-    name: "\U0001F1EB\U0001F1F7FR²_1|1.4MB/s|GPT⁺|YT|NF|KeepHistory"
-    port: 15010
-    protocol: udp
-    server: 195.154.200.40
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: '100'
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_6|5.9MB/s|YT|NF|0%|KeepHistory"
-    network: tcp
-    port: 60301
-    server: show.bilibilicloud01.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    ws-path: /
-    servername: show.bilibilicloud01.net
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_3|4.1MB/s|GPT⁺|YT|NF|D+|GM|26%|KeepHistory"
-    port: 48861
-    server: game.us04.bilibilicloud01.com
-    type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: 1111-2222.0022.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_4|4.6MB/s|GPT⁺|YT|NF|D+|GM|26%|KeepHistory"
-    network: tcp
-    port: 23009
-    server: game.us02.bilibilicloud01.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: game.us02.bilibilicloud01.com
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_7|3.9MB/s|YT|NF|0%|KeepHistory"
-    port: 36672
-    server: show.bilibilicloud01.net
-    type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: 1111-2222.0017.aaaa-cloud-cdna-apia-gwsd-aaaa-aabb.com
-  - cipher: chacha20-ietf
-    country: "\U0001F1E8\U0001F1F3CN"
-    group: SSRProvider
-    name: "\U0001F1ED\U0001F1F0HK²_8|6.3MB/s|GPT|YT-CN|NF|2%|KeepHistory"
-    obfs: plain
-    password: Mv4e0QHWPwdbKiCF
-    port: 54101
-    protocol: auth_aes128_sha1
-    protocol-param: '264131:B47lYywpUlDUXAVa'
-    server: 1111-2222.0028.bbbb-cloud-cdna-apia-gwsd-aaaa-aabb.com
-    type: ssr
+    servername: st.ozone.ru
   - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|1.4MB/s|GPT⁺|YT-US|NF|KeepHistory"
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.1MB/s|GPT⁺|YT-US|NF|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.206
+    server: 103.186.155.237
     type: ss
-  - auth: 3fe32f0c-4e0f-4834-b546-13bbb96191f3
-    name: "\U0001F1FA\U0001F1F8US²_5|1.8MB/s|GPT⁺|YT-CN|NF|D+|100%|KeepHistory"
-    password: 3fe32f0c-4e0f-4834-b546-13bbb96191f3
-    port: 54265
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  - auth: 691597f9-66bf-48cd-ac5e-1ffb10b24eb3
+    name: "\U0001F1FA\U0001F1F8US²_2|1.7MB/s|GPT⁺|YT-CN|NF|D+|100%|KeepHistory"
+    password: 691597f9-66bf-48cd-ac5e-1ffb10b24eb3
+    port: 58338
+    server: lsus4.lansecs.top
     skip-cert-verify: true
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    sni: lsus4.lansecs.top
     type: hysteria2
     udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_9|2.5MB/s|YT-CN|NF|D+|0%|KeepHistory"
-    network: tcp
-    port: 49511
-    server: show.bilibilicloud01.net
+  - auth: c9cbbd2e-1884-4a91-9bea-2969b1d25d13
+    name: "\U0001F1FA\U0001F1F8US²_3|1.6MB/s|GPT⁺|YT-CN|NF|D+|100%|KeepHistory"
+    password: c9cbbd2e-1884-4a91-9bea-2969b1d25d13
+    port: 58338
+    server: lsus5.lansecs.top
     skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: show.bilibilicloud01.net
+    sni: lsus5.lansecs.top
+    type: hysteria2
+    udp: true
+  - auth: 809f6ac6-74aa-462a-85a9-da93b6a0d6ff
+    name: "\U0001F1E9\U0001F1EADE²_3|1.6MB/s|GPT⁺|YT|NF|D+|16%|KeepHistory"
+    password: 809f6ac6-74aa-462a-85a9-da93b6a0d6ff
+    port: 58338
+    server: lsdg1.lansecs.top
+    skip-cert-verify: true
+    sni: lsdg1.lansecs.top
+    type: hysteria2
+    udp: true
+  - congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1E9\U0001F1EADE²_4|2.5MB/s|GPT⁺|YT|NF|D+|13%|KeepHistory"
+    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    port: 15938
+    reduce-rtt: false
+    request-timeout: 0
+    server: detuic.yydzx.xyz
+    sni: detuic.yydzx.xyz
+    type: tuic
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    version: 5
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|1.2MB/s|GPT⁺|YT-US|NF|GM|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.129
+    name: "\U0001F1FA\U0001F1F8US²_4|2.5MB/s|GPT⁺|YT|NF|GM|3%"
+    password: amazonskr05
+    port: 443
+    server: 3.147.64.175
     type: ss
-  - auth: 8c9b7575-f238-4c9e-997d-6e07d91249af
-    name: "\U0001F1FA\U0001F1F8US²_6|1.6MB/s|GPT⁺|NF|D+|100%"
-    password: 8c9b7575-f238-4c9e-997d-6e07d91249af
-    port: 54265
-    server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    udp: true
+  - auth: c9cbbd2e-1884-4a91-9bea-2969b1d25d13
+    name: "\U0001F1E9\U0001F1EADE²_5|1.2MB/s|GPT⁺|YT|NF|D+|16%"
+    password: c9cbbd2e-1884-4a91-9bea-2969b1d25d13
+    port: 58338
+    server: lsdg1.lansecs.top
     skip-cert-verify: true
-    sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+    sni: lsdg1.lansecs.top
+    type: hysteria2
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US²_5|3.0MB/s|GPT|YT|NF|GM|28%|KeepHistory"
+    network: ws
+    port: 443
+    server: 172.67.162.50
+    tls: true
+    type: vless
+    udp: true
+    uuid: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+    ws-opts:
+      headers:
+        Host: eEedFR5.7777155.Xyz
+      path: /6OWLjRc26b0nHYr5hYXD
+    servername: eEedFR5.7777155.Xyz
+  - auth: 8f1553a5-5693-4f0b-8f13-070d6363c301
+    name: "\U0001F1FA\U0001F1F8US²_6|1.3MB/s|GPT⁺|YT-CN|NF|D+|100%"
+    password: 8f1553a5-5693-4f0b-8f13-070d6363c301
+    port: 58338
+    server: lsus4.lansecs.top
+    skip-cert-verify: true
+    sni: lsus4.lansecs.top
+    type: hysteria2
+    udp: true
+  - auth: 28caf368-831f-49d4-8e2b-5496cb6ce197
+    name: "\U0001F1FA\U0001F1F8US²_7|1.4MB/s|GPT⁺|YT-CN|NF|D+|100%|KeepHistory"
+    password: 28caf368-831f-49d4-8e2b-5496cb6ce197
+    port: 58338
+    server: lsus4.lansecs.top
+    skip-cert-verify: true
+    sni: lsus4.lansecs.top
     type: hysteria2
     udp: true
   - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN²_6|1.0MB/s|GPT⁺|YT-US|NF|GM|KeepHistory"
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT⁺|YT-US|GM|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.233
+    server: 103.186.155.153
     type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|2.6MB/s|GPT⁺|YT-US|NF|GM"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.188
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_10|6.8MB/s|GPT|YT|NF|0%"
-    network: tcp
-    port: 47835
-    server: show.bilibilicloud01.com
+  - auth: bcd22f7d-6def-492b-9fea-ae377cb07ce8
+    name: "\U0001F1FA\U0001F1F8US²_8|1.4MB/s|GPT⁺|YT-CN|NF|D+|100%"
+    password: bcd22f7d-6def-492b-9fea-ae377cb07ce8
+    port: 58338
+    server: lsus1.lansecs.top
     skip-cert-verify: true
-    type: vmess
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
-    servername: show.bilibilicloud01.com
-  - auth: 9125901a-4518-4d25-adfc-c8f8c3bb5a4c
-    name: "\U0001F1ED\U0001F1F0HK²_11|3.7MB/s|YT-US|NF|GM|27%|KeepHistory"
-    password: 9125901a-4518-4d25-adfc-c8f8c3bb5a4c
-    port: 50000
-    server: 103.214.22.205
-    skip-cert-verify: true
+    sni: lsus1.lansecs.top
     type: hysteria2
     udp: true
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_1|3.5MB/s|GPT⁺|NF|3%|KeepHistory"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 15.188.72.68
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
   - alterId: 0
     cipher: auto
-    delay: 2823
-    name: "\U0001F1E9\U0001F1EADE²_3|2.6MB/s|GPT⁺|NF|14%|KeepHistory"
-    port: 53943
-    server: live.bilibilicloud01.com
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|6.0MB/s|YT|NF|D+|6%|KeepHistory"
+    network: ws
+    port: 443
+    server: 219.76.13.166
     skip-cert-verify: true
-    tls: false
+    tls: true
     type: vmess
-    udp: true
-    uuid: 01064987-9f57-37f6-ab1a-3aba15066686
+    uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+    ws-opts:
+      headers:
+        HOST: aa.nbee.pp.ua
+      path: /qq
+    servername: aa.nbee.pp.ua
+  - congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1ED\U0001F1F0HK²_2|4.3MB/s|YT|NF|D+|0%|KeepHistory"
+    password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    port: 12955
+    reduce-rtt: false
+    request-timeout: 0
+    server: hktuic01.yydzx.xyz
+    sni: hktuic01.yydzx.xyz
+    type: tuic
+    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    version: 5
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_8|1.2MB/s|GPT⁺|YT-US|NF|GM|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.10
+    name: "\U0001F1EC\U0001F1E7GB²_1|3.0MB/s|GPT⁺|YT"
+    password: amazonskr05
+    port: 443
+    server: 18.175.224.25
     type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1EC\U0001F1E7GB²_2|3.6MB/s|GPT|YT|NF|12%"
+    password: amazonskr05
+    port: 443
+    server: 3.8.172.214
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1EC\U0001F1E7GB²_3|2.7MB/s|GPT⁺|YT|12%"
+    password: amazonskr05
+    port: 443
+    server: 35.178.40.2
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US²_9|2.2MB/s|GPT⁺|YT|NF|D+|GM|17%|KeepHistory"
+    network: tcp
+    port: 17836
+    server: usvless.yydzx.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    servername: usvless.yydzx.xyz
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1E9\U0001F1EADE²_6|1.3MB/s|GPT⁺|YT|NF|0%"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 63.180.193.173
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1E8\U0001F1E6CA²_1|2.9MB/s|GPT⁺|YT|NF|8%"
+    password: amazonskr05
+    port: 443
+    server: 16.52.152.103
+    type: ss
+    udp: true
 rule-providers:
   private:
     url: >-
