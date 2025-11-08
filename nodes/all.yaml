@@ -1,28 +1,6 @@
 proxies:
-    - name: "\U0001F1FA\U0001F1F8US²_1|0%|X|KeepSucced"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      type: http
-      username: fQ67Dpe5dU
     - country: "\U0001F1ED\U0001F1F0HK"
       name: "\U0001F1ED\U0001F1F0HK²_1|2%|YT-CN|NF|X|KeepSucced"
-      password: BxceQaOe
-      port: 443
-      server: 58.152.30.26
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1EF\U0001F1F5JP²_1|33%|GPT⁺|YT-CN|TK|NF|X|KeepSucced"
-      password: I1qrYxOXxPYCOkhT
-      port: 50189
-      server: jp9.web3sp.com
-      type: ss
-    - country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK²_2|2%|YT-CN|NF|X|KeepSucced"
       password: BxceQaOe
       port: 443
       server: 58.152.53.186
@@ -32,11 +10,20 @@ proxies:
       udp: true
     - cipher: aes-128-gcm
       country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1EF\U0001F1F5JP²_2|13%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK²_2|20%|GPT⁺|GM|YT|TK-TW|NF|X|KeepSucced"
       password: I1qrYxOXxPYCOkhT
-      port: 50169
-      server: jp7.web3sp.com
+      port: 50039
+      server: hk3.web3sp.com
       type: ss
+    - country: "\U0001F1ED\U0001F1F0HK"
+      name: "\U0001F1ED\U0001F1F0HK²_3|2%|YT-CN|NF|X|KeepSucced"
+      password: BxceQaOe
+      port: 443
+      server: 58.152.30.26
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
     - cipher: aes-128-gcm
       country: "\U0001F3C1 ZZ"
       name: "\U0001F1FB\U0001F1F3VN²_1|GPT⁺|YT-CN|TK|NF|X|KeepSucced"
@@ -45,20 +32,11 @@ proxies:
       server: vn1.web3sp.com
       type: ss
     - country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK²_3|2%|YT-CN|NF|X|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK²_4|2%|YT-CN|NF|X|KeepSucced"
       password: BxceQaOe
       port: 443
       server: 58.152.46.98
       skip-cert-verify: true
-      type: trojan
-      udp: true
-    - country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK²_4|2%|YT-CN|NF|X|KeepSucced"
-      password: 1b57001bd214304027025a740b6cf1ac
-      port: 443
-      server: 203.198.122.194
-      skip-cert-verify: true
-      sni: www.nintendogames.net
       type: trojan
       udp: true
     - cipher: chacha20-ietf-poly1305
@@ -68,37 +46,6 @@ proxies:
       server: 134.255.211.95
       type: ss
       udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7 KR"
-      name: "\U0001F1F0\U0001F1F7KR²_1|0%|GPT⁺|YT-CN|TK|NF|X|KeepSucced"
-      password: qwerREWQ@@
-      port: 37008
-      server: 221.139.79.57
-      type: ss
-    - country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK²_5|2%|YT-CN|NF|X|KeepSucced"
-      password: BxceQaOe
-      port: 443
-      server: 203.198.122.129
-      skip-cert-verify: true
-      sni: 203.198.122.129
-      type: trojan
-      udp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EE\U0001F1E9ID²_1|4%|GPT⁺|YT|TK|NF|X|KeepSucced"
-      network: ws
-      port: 443
-      server: 1762596741.bilibiliapp.cn
-      servername: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-      ws-opts:
-        headers:
-            Host: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
-        path: /
     - alterId: 0
       cipher: auto
       country: "\U0001F1ED\U0001F1F0HK"
@@ -122,16 +69,23 @@ proxies:
       country: "\U0001F1ED\U0001F1F0HK"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK²_6|0%|YT|NF|X|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK²_5|0%|YT|NF|X|KeepSucced"
       network: none
       port: 30651
       server: 123.254.106.68
       skip-cert-verify: true
       type: vmess
       uuid: 669c37c3-0e5a-4e68-a28e-ab6d5d85669a
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7 KR"
+      name: "\U0001F1F0\U0001F1F7KR²_1|0%|GPT⁺|YT-CN|TK|NF|X|KeepSucced"
+      password: qwerREWQ@@
+      port: 37008
+      server: 221.139.79.57
+      type: ss
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EE\U0001F1E9ID²_2|4%|GPT⁺|YT|TK|NF|X|KeepSucced"
+      name: "\U0001F1EE\U0001F1E9ID²_1|4%|GPT⁺|YT|TK|NF|X|KeepSucced"
       network: ws
       port: 443
       server: 1762596741.bilibiliapp.cn
@@ -144,13 +98,29 @@ proxies:
         headers:
             Host: lxjm8z0tq.speed.ydnxyd.cccp.useraaca.pp.ua
         path: /
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F7\U0001F1FARU²_1|YT|TK|X|KeepSucced"
-      password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA
-      port: "443"
-      server: 45.144.31.24
-      type: ss
+    - country: "\U0001F3C1ZZ"
+      name: "\U0001F1ED\U0001F1F0HK²_6|0%|YT|NF|X|KeepSucced"
+      password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15
+      port: 13008
+      server: naiu-hk.05vr9nyqg5.download
+      sni: cloudflare.node-ssl.cdn-alibaba.com
+      type: trojan
       udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EE\U0001F1E9ID²_2|4%|GPT⁺|YT|TK|NF|X|KeepSucced"
+      network: ws
+      port: 443
+      server: 1762596741.bilibiliapp.cn
+      servername: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+      ws-opts:
+        headers:
+            Host: fzbdll.speed.ydnxyc.cccp.useraaca.pp.ua
+        path: /
     - alterId: 0
       cipher: auto
       name: "\U0001F1F9\U0001F1EDTH²_1|0%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
@@ -166,1479 +136,70 @@ proxies:
         headers:
             Host: 6omstg.speed.thasduba.cccp.useraaca.pp.ua
         path: /
-    - name: "\U0001F1F0\U0001F1F7KR²_2|14%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
+    - cipher: aes-128-gcm
+      country: "\U0001F1FA\U0001F1E6 UA"
+      name: "\U0001F1EF\U0001F1F5JP²_1|0%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      password: I1qrYxOXxPYCOkhT
+      port: 50159
+      server: jp6.web3sp.com
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0HK²_7|29%|GPT⁺|YT-CN|TK-US|NF|X|KeepSucced"
+      password: 1c0b6e0a-9af9-4116-bc0f-a7d04bc20d2e
+      port: 21112
+      server: xinrelibao.xuwuge.xyz
       skip-cert-verify: true
-      tls: true
-      type: http
+      sni: apple.com
+      type: trojan
       udp: true
-      username: test
     - alterId: 0
       cipher: auto
-      name: "\U0001F1EE\U0001F1F3IN²_1|GPT⁺|GM|YT|TK-FR|NF|X|KeepSucced"
-      network: ws
-      port: 443
-      server: 1762596741.bilibiliapp.cn
-      servername: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
-      skip-cert-verify: false
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F3\U0001F1F1NL²_1|31%|GPT⁺|YT-RU|TK|NF|X|KeepSucced"
+      port: 2083
+      server: nl-v2ray.freevmess.com
+      servername: nl-v2ray.freevmess.com
       tls: true
       type: vmess
-      uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-      ws-opts:
-        headers:
-            Host: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
-        path: /
+      udp: true
+      uuid: c3d066bc-4170-4006-a95c-0012367e8f13
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
       name: "\U0001F1FB\U0001F1F3VN²_2|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.189
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_3|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.84
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_4|GPT⁺|GM|YT|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.218
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_5|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.220
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_6|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.174
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_7|GPT⁺|GM|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.141
-      type: ss
-    - name: "\U0001F1ED\U0001F1F0HK²_7|58%|NF|X|KeepSucced"
-      password: 76nlxJLO35
-      port: 36855
-      server: 172.93.165.193
-      type: http
-      username: xZedCGy2A5
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_8|GPT⁺|GM|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.52
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_9|GPT⁺|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.40
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_10|GPT|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.8
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_11|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.215
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_12|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.50
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_1|13%|GPT|YT-AT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "13718"
-      reality-opts:
-        public-key: RE5pTjMWTYxFQvDtxxKOCZCnnyYbR2a25zlLnYXWOVw
-        short-id: "96"
-      server: darkterror.fonixapp.org
-      servername: eightsleep.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: a5394554-6677-4922-b203-a539be9411c3
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_13|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.233
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_14|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.44
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_15|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.63
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_16|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.53
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_17|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.232
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_18|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.226
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_19|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.179
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_20|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.44
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_2|16%|GPT⁺|YT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "39352"
-      reality-opts:
-        public-key: bqBZxwknIQGVNxvW6agjANLI6jdKG8jgIJ6cLKBbjns
-        short-id: 8f
-      server: traxex.fonixapp.org
-      servername: lowes.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 84ac6559-30a8-4c3e-bbcb-894edd4de743
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_21|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.140
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_22|GPT⁺|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.206
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_23|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.109
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_24|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.55
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_25|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.69
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_26|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.213
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_27|GPT⁺|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.172
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_28|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.23
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI²_1|26%|GPT⁺|YT-DE|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "37843"
-      reality-opts:
-        public-key: _i2_awg5k15giouaYv4HqMGsbUC7OuY5YAU2CZVBpE8
-        short-id: 5e
-      server: necrolyte.fonixapp.org
-      servername: ilovepdf.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 3c4486a2-68af-4fa9-80f9-7f2e0387871d
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_29|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
       server: 103.186.155.143
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_30|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.21
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI²_2|49%|GPT⁺|YT-NL|TK|X|KeepSucced"
-      network: tcp
-      port: "13955"
-      reality-opts:
-        public-key: 01fWMRp1FAcZQ7NzoLwmfdY9bCYGUGGiUyB-mfiB_Rc
-        short-id: b5482c
-      server: dl.huskar.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 5926e98a-f6af-4676-8c73-3f3d0146357d
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1FECY"
-      delay: 545
-      name: "\U0001F1F8\U0001F1EESI²_1|31%|GPT⁺|YT-NL|TK|NF|X|KeepSucced"
-      password: HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC
-      port: 443
-      server: 45.83.131.43
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1EC\U0001F1E7 GB"
-      name: "\U0001F1EC\U0001F1E7GB²_1|12%|GPT|TK|NF|X|KeepSucced"
-      password: amazonskr05
-      port: 443
-      server: 3.8.172.214
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_31|GPT|GM|YT-US|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.239
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_32|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.32
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL²_1|43%|GPT⁺|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "31603"
-      reality-opts:
-        public-key: OLM6uNG4kXvdtjI8uak4GsPsO1p7g9pSsHSJSVZx_D0
-        short-id: a1db
-      server: amsterdam.fonixapp.org
-      servername: merriam-webster.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0581705f-e7ae-40df-9d27-f51fbbc7c42f
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_33|GPT⁺|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.106
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_34|GPT⁺|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.221
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI²_3|43%|GPT⁺|X|KeepSucced"
-      network: tcp
-      port: "23747"
-      reality-opts:
-        public-key: u7gBBaokHefxp8JS3G_Nu1X5y6Rh5SsRBrVC1L-4ySY
-        short-id: b7
-      server: helsinki.fonixapp.org
-      servername: lowes.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 38ced162-2eb3-4aee-998f-747961f02c01
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_35|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.107
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_36|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.110
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_37|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.45
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_38|GPT|GM|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.69
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_39|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.204
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_40|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.56
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_41|YT-US|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.48
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_42|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.131
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR²_1|43%|GPT|NF|X|KeepSucced"
-      network: tcp
-      port: "15833"
-      reality-opts:
-        public-key: 8z6qPN2t7wZ0nmOGhSTYaq__XqP8gDZar85XauwP4i0
-        short-id: d0
-      server: paris.fonixapp.org
-      servername: canva.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 40c4812d-b1fe-4ff1-922b-a10e95ee1d70
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_43|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.37
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_44|GPT⁺|YT-US|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.127
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_3|26%|GPT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "46490"
-      reality-opts:
-        public-key: mNnK0d5tF-8FazWFmDLsp9YPAf1PL2k9S1bvKV8p_Uk
-        short-id: fa41
-      server: ezalor.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 28e8d9d8-3442-46e8-8697-0280c2917242
-      xudp: true
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6CA¹⁺_1|6%|GPT|GM|YT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: 40106
-      reality-opts:
-        public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
-        short-id: f44fd3dd
-      server: 40.233.78.152
-      servername: apple.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_45|GPT⁺|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.42
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_46|GPT|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.85
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F7\U0001F1FARU²_2|X|KeepSucced"
-      password: VVlAff77CnAU43Aoc5j15Y
-      port: 5112
-      server: 90.156.203.62
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US²_2|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
-      password: 1b57001bd214304027025a740b6cf1ac
-      port: "373"
-      server: 117.172.176.22
-      skip-cert-verify: false
-      sni: www.nintendogames.net
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_47|GPT⁺|GM|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.28
-      type: ss
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1EE\U0001F1F9IT²_1|31%|GPT⁺|X|KeepSucced"
-      network: tcp
-      port: 30805
-      server: v5.heduian.link
-      servername: v5.heduian.link
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_4|15%|GPT⁺|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "36563"
-      reality-opts:
-        public-key: tPpkzwOVa4li8CurZc07pnxl8ytBUm9x4b9TBP99h00
-        short-id: c294d6ba98e6a7
-      server: facelessvoid.fonixapp.org
-      servername: expedia.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: c25a90ea-6a3b-4d87-95b3-8ca4232f2a6e
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_5|16%|GPT⁺|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "49406"
-      reality-opts:
-        public-key: UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20
-        short-id: a7
-      server: beast-masters.fonixapp.org
-      servername: ilovepdf.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 49d74535-837e-4132-90c7-4e06de7db303
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_48|GPT⁺|GM|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.126
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_49|GPT|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.222
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_50|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.220
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US²_3|X|KeepSucced"
-      network: tcp
-      port: "52230"
-      reality-opts:
-        public-key: DdhKUXb4ICPfsWixehUQ56-4p6H5eE0DfEYtEvbKkUs
-        short-id: 42c0ec0a
-      server: virginia.fonixapp.org
-      servername: ilovepdf.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: dd2961de-3cff-4b6d-bbd1-819d571df66b
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_51|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.112
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_52|GPT⁺|GM|YT-US|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.173
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EC\U0001F1E7GB²_2|X|KeepSucced"
-      network: tcp
-      port: "11133"
-      reality-opts:
-        public-key: y3umRzGnap4t5V4C_rlt870Rku-TG4F8ttsq-_5gKTY
-        short-id: d3e9
-      server: london.fonixapp.org
-      servername: cloudtalk.io
-      tls: true
-      type: vless
-      udp: true
-      uuid: 160a7b5d-fd67-4e83-8d8e-73dcfb6d91c2
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_53|GPT⁺|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.230
-      type: ss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1E8\U0001F1E6CA¹⁺_2|6%|X|KeepSucced"
-      network: tcp
-      port: 26113
-      reality-opts:
-        public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
-        short-id: 1fbd20fd
-      server: 40.233.71.65
-      servername: www.yahoo.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_54|GPT⁺|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.153
-      type: ss
-    - client-fingerprint: chrome
-      name: "\U0001F1ED\U0001F1F0HK²_8|0%|X|KeepSucced"
-      password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
-      port: "13007"
-      server: naiu-hk.05vr9nyqg5.download
-      skip-cert-verify: false
-      sni: cloudflare.node-ssl.cdn-alibaba.com
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_55|GPT|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.80
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_56|GPT⁺|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.45
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_6|26%|GPT⁺|YT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "36827"
-      reality-opts:
-        public-key: n3DJmBTvXThSytT0NeVD64myEx7cniyCvI1T2yzZ8nc
-        short-id: "95"
-      server: broodmother.fonixapp.org
-      servername: lowes.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 88c30a4c-bc85-42d5-a5ac-38252612fd0e
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_57|GPT|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.159
-      type: ss
-    - country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1FA\U0001F1F8US²_4|GPT⁺|GM|YT|TK|X|KeepSucced"
-      password: BxceQaOe
-      port: 25891
-      server: 36.151.251.38
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_58|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.4
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_59|GPT⁺|GM|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.177
-      type: ss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1ED\U0001F1F0HK²_9|8%|GPT|GM|X|KeepSucced"
-      port: 53214
-      server: linkgulang.evoay.com
-      servername: www.lamer.com.hk
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_60|GPT⁺|GM|YT-US|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.153
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_61|GPT⁺|YT-US|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.207
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_62|GPT⁺|GM|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.64
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_63|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.170
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_64|GPT⁺|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.52
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1EC\U0001F1E7GB²_3|0%|GPT⁺|YT-US|NF|X|KeepSucced"
-      network: tcp
-      port: "80"
-      reality-opts:
-        public-key: 9Ie_yGzhOZbjK8OeoCx-iWl0uFe0qu63dtVRAO_aVUI
-        short-id: 2d
-      server: 212.134.84.117
-      servername: tgju.org
-      tls: true
-      type: vless
-      udp: true
-      uuid: d6afdc56-8c96-43e5-9164-43f504d8793f
-      xudp: true
-    - name: "\U0001F1ED\U0001F1F0HK²_10|NF|X|KeepSucced"
+    - name: "\U0001F1ED\U0001F1F0HK²_8|X|KeepSucced"
       password: "123"
       port: 10862
       server: 47.76.175.67
       type: http
       username: "123"
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1ED\U0001F1F0HK²_11|25%|GPT⁺|X|KeepSucced"
-      password: 57bc0c04-8184-48f5-906b-897d095ed445
-      port: 17459
-      server: liubu9.singdns.com
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_3|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.44
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_65|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      name: "\U0001F1FB\U0001F1F3VN²_4|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.206
+      server: 103.186.155.153
       type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_66|GPT|YT|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.151
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_67|GPT⁺|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.139
-      type: ss
-    - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1F4RO²_1|13%|GPT⁺|X|KeepSucced"
-      network: tcp
-      port: 443
-      reality-opts:
-        public-key: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
-        short-id: bc60d5de
-      server: ro.otunnel.icu
-      servername: www.orange.ro
-      tls: true
-      type: vless
-      udp: true
-      uuid: b41bfc57-24af-42c7-a791-89e7099958c5
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_68|GPT⁺|GM|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.147
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1F0\U0001F1F7KR"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK¹⁺_2|6%|YT|NF|X|KeepSucced"
-      network: ws
-      port: 50001
-      server: 221.164.142.10
-      servername: aa.nbee.pp.ua
-      skip-cert-verify: true
-      tls: true
-      type: vmess
-      uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
-      ws-opts:
-        headers:
-            HOST: aa.nbee.pp.ua
-        path: /qq
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_69|GPT⁺|YT-US|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.152
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_70|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.39
-      type: ss
-    - alterId: 2
-      cipher: auto
-      client-fingerprint: chrome
-      name: "\U0001F1E9\U0001F1EADE²_7|GPT⁺|TK|NF|X|KeepSucced"
-      network: ws
-      port: 30833
-      server: v33.heduian.link
-      skip-cert-verify: false
-      tfo: false
-      tls: false
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /oooo
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_71|GPT⁺|GM|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.57
-      type: ss
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1F8\U0001F1ECSG²_2|X|KeepSucced"
-      network: ws
-      port: 30839
-      server: v39.heduian.link
-      servername: baidu.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            HOST: baidu.com
-        path: /oooo
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US²_5|67%|X|KeepSucced"
-      network: ws
-      port: 30804
-      server: v4.heduian.link
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        path: /oooo
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_72|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.108
-      type: ss
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1ED\U0001F1F0HK"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK²_12|3%|NF|X|KeepSucced"
-      network: ws
-      port: 30807
-      server: v10.heduian.link
-      servername: baidu.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            HOST: baidu.com
-        path: /oooo
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK²_13|3%|X|KeepSucced"
-      network: ws
-      port: 30807
-      server: v10.heduian.link
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: v10.heduian.link
-        path: /oooo
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US²_6|29%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k
-        short-id: f529bb49dc4de6
-      server: 104.167.199.50
-      servername: bit-site.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: b25e3c62-f4eb-45df-adda-eb738959b845
-      xudp: true
-    - alpn:
-        - h3
-        - h2
-        - http/1.1
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG²_3|8%|X|KeepSucced"
-      network: tcp
-      port: "2083"
-      server: sg-v2ray.freevmess.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: 820ceab0-de1d-4d3b-9d5f-7e83664c3f0c
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1FFKZ²_1|X|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k
-        short-id: f529bb49dc4de6
-      server: 91.224.74.178
-      servername: bit-site.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: b25e3c62-f4eb-45df-adda-eb738959b845
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_1|0%|GPT⁺|X|KeepSucced"
-      network: tcp
-      port: "10726"
-      reality-opts:
-        public-key: DqdP9AbO6vA0F8axlBoKTmrVbi_r_WjdHLisxUiD3Wk
-        short-id: 738017277a
-      server: windrunner.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 6cd8c95a-b58a-45e5-9af0-7d454f961dc9
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1F3\U0001F1F1NL²_2|31%|GPT⁺|NF|X|KeepSucced"
-      network: ws
-      port: 30830
-      server: v30.heduian.link
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: ocbc.com
-        path: /oooo
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1EAAE²_1|X|KeepSucced"
-      network: tcp
-      port: "53654"
-      reality-opts:
-        public-key: lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk
-        short-id: f7
-      server: dubai.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: cef4ee17-07fd-492f-921e-ddaa6294ba51
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_2|0%|X|KeepSucced"
-      network: tcp
-      port: "56765"
-      reality-opts:
-        public-key: DHIEcMf3BTEwQ_XEFx1j02jzn0KkKKeyPWH7wnWwuG8
-        short-id: f50f5a
-      server: drow-ranger.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 866f919c-aa0d-4edb-b6a9-d5412c1c2ca3
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK²_14|X|KeepSucced"
-      network: ws
-      port: 30809
-      server: v9.heduian.link
-      servername: baidu.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            HOST: baidu.com
-        path: /oooo
-    - cipher: aes-256-cfb
-      country: "\U0001F1E6\U0001F1FAAU"
-      name: "\U0001F1E6\U0001F1FAAU²_1|GPT⁺|X|KeepSucced"
-      password: f8f7aCzcPKbsF8p3
-      port: 989
-      server: 103.75.119.38
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_3|0%|GPT|X|KeepSucced"
-      network: tcp
-      port: "43326"
-      reality-opts:
-        public-key: e4jsuyfW6xyjfYOVsFI4AKnJihGp4MMqtRv5TaVurlw
-        short-id: c3
-      server: earthshaker.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 7b6df8d0-100c-48e1-beec-30effe41c04e
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_4|GPT⁺|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "10922"
-      reality-opts:
-        public-key: BWGB4WcFMvsxbu7rfyGTqVSWVlxNUz0HbmotfvlXuxg
-        short-id: d2900d
-      server: magnataur.fonixapp.org
-      servername: ilovepdf.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 31d35cbe-92d1-44cd-9991-e58d00499fb2
-      xudp: true
-    - alterId: 2
-      cipher: auto
-      name: "\U0001F1F8\U0001F1ECSG²_4|NF|X|KeepSucced"
-      network: ws
-      port: 30839
-      server: v39.heduian.link
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /oooo
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_5|0%|GPT⁺|X|KeepSucced"
-      network: tcp
-      port: "37876"
-      reality-opts:
-        public-key: ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM
-        short-id: 907e
-      server: antimage.fonixapp.org
-      servername: yelp.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 29397c5b-be3b-41d9-8a49-21575668e915
-      xudp: true
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_8|4%|GPT|X|KeepSucced"
-      network: ws
-      port: "8080"
-      server: 104.17.147.22
-      type: vless
-      udp: true
-      uuid: Parsashonam-Bot-35
-      ws-opts:
-        headers:
-            Host: Fi.Parsashonam.CfD.
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-        path: /Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_6|6%|GPT|NF|X|KeepSucced"
-      network: tcp
-      port: "22925"
-      reality-opts:
-        public-key: Pzsb-3zlxbYLJwRE0ACSqzTL7h3ubqREGMEs17q_1z4
-        short-id: 886d
-      server: bonefletcher.fonixapp.org
-      servername: ilovepdf.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0226ef52-e556-4f36-ab0f-6c9f5414942a
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1F1\U0001F1F9LT"
-      name: "\U0001F1F3\U0001F1F1NL²_3|X|KeepSucced"
-      password: 1RWwXhwfAB5gAEozU4G2Pg
-      port: 443
-      server: 45.87.175.166
-      type: ss
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1F8\U0001F1EASE"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE²_9|X|KeepSucced"
-      network: ws
-      port: 80
-      server: 185.146.173.82
-      servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-      skip-cert-verify: true
-      type: vmess
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EA\U0001F1F8ES²_1|49%|GPT|X|KeepSucced"
-      network: tcp
-      port: "34270"
-      reality-opts:
-        public-key: foleRktxkiFhRpzlI9JQtPnnUn6uC_69MQOZIedPIRo
-        short-id: b0f3c87d8b
-      server: bountyhunter.fonixapp.org
-      servername: stackoverflow.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 820bc646-6b81-471a-8c6b-f7a6f750c62d
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_7|X|KeepSucced"
-      network: tcp
-      port: "50151"
-      reality-opts:
-        public-key: 4U5Q1I9IVS4086blx7Zgo7tnq2-B5V1ARtpNinTcjHY
-        short-id: de1e92
-      server: shadowshaman.fonixapp.org
-      servername: steampowered.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 840ae376-483b-48d5-bc49-22b0769b5860
-      xudp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1F9\U0001F1FCTW²_1|GPT⁺|X|KeepSucced"
-      password: I1qrYxOXxPYCOkhT
-      port: 50429
-      server: tw1.web3sp.com
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F9\U0001F1F7TR²_1|GPT|X|KeepSucced"
-      password: KgcKQpFCkXnOJXceV68o12
-      port: "1580"
-      server: 62.133.63.230
-      type: ss
-      udp: true
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1F3\U0001F1F1NL²_4|X|KeepSucced"
-      network: ws
-      port: 30830
-      server: v30.heduian.link
-      servername: ocbc.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            HOST: ocbc.com
-        path: /oooo
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK²_15|2%|X|KeepSucced"
-      network: ws
-      port: "30809"
-      server: v9.heduian.link
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /oooo
-      xudp: true
-    - name: "\U0001F1E9\U0001F1EADE²_10|X|KeepSucced"
-      port: 47387
-      server: 198.186.131.216
-      skip-cert-verify: false
-      tls: false
-      type: vless
-      udp: true
-      uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_11|KeepSucced"
-      network: ws
-      port: "80"
-      server: 141.101.121.26
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      xudp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1ED\U0001F1F0HK²_16|20%|GPT|GM|YT|TK-TW|NF|X|KeepSucced"
-      password: I1qrYxOXxPYCOkhT
-      port: 50039
-      server: hk3.web3sp.com
-      type: ss
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - 103.243.26.209
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK²_17|X|KeepSucced"
-      network: http
-      port: "10086"
-      server: 103.243.26.209
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
-      xudp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1E6\U0001F1FAAU²_2|0%|GM|KeepSucced"
-      password: I1qrYxOXxPYCOkhT
-      port: 50719
-      server: au2.web3sp.com
-      type: ss
-    - name: "\U0001F1EF\U0001F1F5JP²_3|51%|GPT⁺|YT|TK|NF|X"
-      password: c3a66484-bde4-11ef-9410-f23c93141fad
-      port: 3235
-      server: 9e7e3f53-t5jc00-t5v27d-88rr.h2tkydc2.cdnbytescm.com
-      tls: true
+    - name: "\U0001F1ED\U0001F1F0HK²_9|58%|NF|X|KeepSucced"
+      password: 76nlxJLO35
+      port: 36855
+      server: 172.93.165.193
       type: http
-      udp: true
-      username: c3a66484-bde4-11ef-9410-f23c93141fad
+      username: xZedCGy2A5
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_8|6%|GPT|X|KeepSucced"
-      network: tcp
-      port: "20220"
-      reality-opts:
-        public-key: KSW4e1R98qljwxyP6YaRrwGF4Rp_8hfXQaaShYUXwSc
-        short-id: d91671
-      server: butcher.fonixapp.org
-      servername: cloudtalk.io
-      tls: true
-      type: vless
-      udp: true
-      uuid: cac59dc2-e5a9-44f0-88da-e56ba06eac15
-      xudp: true
-    - name: "\U0001F1EF\U0001F1F5JP²_4|30%|GPT⁺|GM|NF|X"
-      password: c3a66484-bde4-11ef-9410-f23c93141fad
-      port: 3236
-      server: 7e5f8639-t5jc00-t5v27d-88rr.h2tkydc1.cdnbytescm.com
-      tls: true
-      type: http
-      udp: true
-      username: c3a66484-bde4-11ef-9410-f23c93141fad
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_12|KeepSucced"
-      network: ws
-      port: "80"
-      server: 104.18.240.238
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      xudp: true
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_13|0%|KeepSucced"
-      network: ws
-      port: "80"
-      server: 185.146.173.117
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      xudp: true
-    - name: "\U0001F1FA\U0001F1F8US²_7|X|KeepSucced"
-      network: tcp
-      port: 36987
-      server: 216.133.148.215
-      skip-cert-verify: true
-      tls: false
-      type: vless
-      udp: true
-      uuid: 0f4f3a75-ae36-4992-8cb5-6638f45afcb2
-    - alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_14|X|KeepSucced"
-      network: ws
-      port: "80"
-      server: 185.146.173.16
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1EF\U0001F1F5JP²_5|4%|GPT|NF|X|KeepHistory"
-      network: ws
-      port: 443
-      server: 1762596741.bilibiliapp.cn
-      servername: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-      ws-opts:
-        headers:
-            Host: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
-        path: /
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E9\U0001F1EADE²_15|26%|GPT|X|KeepHistory"
+      name: "\U0001F1E9\U0001F1EADE²_1|26%|GPT⁺|TK|NF|X|KeepSucced"
       network: tcp
       port: "20579"
       reality-opts:
@@ -1652,145 +213,100 @@ proxies:
       uuid: 93cd7e0f-8a81-4076-be8b-6d3bf3f8f810
       xudp: true
     - client-fingerprint: chrome
-      name: "\U0001F1EF\U0001F1F5JP²_6|GPT|YT-CN|NF|X|KeepHistory"
-      password: BxceQaOe
-      port: "4492"
-      server: 36.150.215.248
-      skip-cert-verify: true
-      sni: t.me/ripaojiedian
-      type: trojan
-      udp: true
-    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_9|0%|GPT|X"
+      name: "\U0001F1EB\U0001F1EEFI²_1|26%|GPT⁺|YT-DE|TK|X|KeepSucced"
       network: tcp
-      port: "47072"
+      port: "36534"
       reality-opts:
-        public-key: 5-GF4dwBQeyOgXR7OPMEHlXd47odGu1r8ukE-0Prd0o
-        short-id: e39212f3
-      server: huskar.fonixapp.org
-      servername: yelp.com
+        public-key: Vq0bh06jdIg-3eyAjHfA8_RZKT9C-a9IbqRqzayWl28
+        short-id: 41f255
+      server: lifestealer.fonixapp.org
+      servername: asos.com
       tls: true
       type: vless
       udp: true
-      uuid: 6e6cc44d-2ced-49a2-a7f1-e879847c1c57
+      uuid: 28a6787d-b076-4c7a-be0c-772f5990a25d
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_5|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.222
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_6|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.40
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1EC\U0001F1E7 GB"
+      name: "\U0001F1EC\U0001F1E7GB²_1|GPT⁺|TK|NF|X|KeepSucced"
+      password: amazonskr05
+      port: 443
+      server: 3.8.172.214
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1FA\U0001F1F8US²_1|GPT⁺|GM|YT|TK|X|KeepSucced"
+      password: 1b57001bd214304027025a740b6cf1ac
+      port: "373"
+      server: 117.172.176.22
+      skip-cert-verify: false
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1EE\U0001F1F3IN²_1|GPT⁺|GM|YT|NF|X|KeepSucced"
+      network: ws
+      port: 443
+      server: 1762596741.bilibiliapp.cn
+      servername: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+      ws-opts:
+        headers:
+            Host: mrotr1mrl.speed.ydindda.cccp.useraaca.pp.ua
+        path: /
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_2|26%|GPT⁺|NF|X|KeepSucced"
+      network: tcp
+      port: "46490"
+      reality-opts:
+        public-key: mNnK0d5tF-8FazWFmDLsp9YPAf1PL2k9S1bvKV8p_Uk
+        short-id: fa41
+      server: ezalor.fonixapp.org
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 28e8d9d8-3442-46e8-8697-0280c2917242
       xudp: true
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_73|YT-US|KeepHistory"
+      name: "\U0001F1FB\U0001F1F3VN²_7|GPT⁺|GM|YT-US|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.147
+      server: 103.186.155.204
       type: ss
-    - congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1ED\U0001F1F0HK²_18|0%|YT|NF|X|KeepHistory"
-      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-      port: 12955
-      reduce-rtt: false
-      request-timeout: 0
-      server: hktuic01.yydzx.xyz
-      sni: hktuic01.yydzx.xyz
-      type: tuic
-      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1E9\U0001F1EADE²_16|2%|GPT⁺|TK|X"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 63.177.22.67
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG²_5|0%|GPT⁺|GM|YT|NF|X|KeepHistory"
-      password: 4e084535-bd62-458b-84a2-a0dc57c957aa
-      port: 13174
-      reduce-rtt: false
-      request-timeout: 0
-      server: sgtuic01.yydzx.xyz
-      sni: sgtuic01.yydzx.xyz
-      type: tuic
-      uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1ED\U0001F1F0HK²_10|25%|GPT⁺|GM|YT|NF|X|KeepSucced"
+      password: 57bc0c04-8184-48f5-906b-897d095ed445
+      port: 17459
+      server: liubu9.singdns.com
+      type: ss
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_10|0%|GPT⁺|NF|X"
-      network: tcp
-      port: "54226"
-      reality-opts:
-        public-key: Mhw0szMuy7R0U89Vm0bf-hF0DQ5pEWYdgdPF6UWLRXY
-        short-id: 49eb
-      server: dwarvensniper.fonixapp.org
-      servername: yelp.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2c649958-a029-431a-920b-94e87ccbc715
-      xudp: true
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_17|X|KeepHistory"
-      network: ws
-      port: "80"
-      server: 141.101.121.120
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      xudp: true
-    - name: "\U0001F1ED\U0001F1F0HK²_19|0%|KeepHistory"
-      password: wanghui1
-      port: 3000
-      server: 43.252.229.243
-      type: http
-      username: wanghui1
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_11|6%|NF"
-      network: tcp
-      port: "26143"
-      reality-opts:
-        public-key: ng3D2eUM-UM3ariA2eCDibCNo_peaKijOWUZJJKiIUI
-        short-id: 0d
-      server: bloodseeker.fonixapp.org
-      servername: steampowered.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 2360d5e9-5503-4e6d-9e4a-fe5fb25c38fa
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1F8\U0001F1EASE"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE²_18|KeepSucced"
-      network: ws
-      port: 80
-      server: 185.146.173.24
-      servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-      skip-cert-verify: true
-      type: vmess
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1ECSG²_6|49%|YT-GB|TK-SE"
+      name: "\U0001F1F8\U0001F1ECSG²_2|49%|GPT⁺|TK-SE|NF|X|KeepSucced"
       network: tcp
       port: "58604"
       reality-opts:
@@ -1806,43 +322,1278 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1EEFI²_4|26%|GPT⁺|YT-DE|TK|X"
+      name: "\U0001F1EB\U0001F1F7FR²_1|43%|GPT⁺|YT-US|NF|X|KeepSucced"
       network: tcp
-      port: "36534"
+      port: "15833"
       reality-opts:
-        public-key: Vq0bh06jdIg-3eyAjHfA8_RZKT9C-a9IbqRqzayWl28
-        short-id: 41f255
-      server: lifestealer.fonixapp.org
-      servername: asos.com
+        public-key: 8z6qPN2t7wZ0nmOGhSTYaq__XqP8gDZar85XauwP4i0
+        short-id: d0
+      server: paris.fonixapp.org
+      servername: canva.com
       tls: true
       type: vless
       udp: true
-      uuid: 28a6787d-b076-4c7a-be0c-772f5990a25d
+      uuid: 40c4812d-b1fe-4ff1-922b-a10e95ee1d70
       xudp: true
-    - cipher: aes-128-gcm
-      name: "\U0001F1F0\U0001F1F7KR²_3|X|KeepSucced"
-      password: I1qrYxOXxPYCOkhT
-      port: 50329
-      server: kr1.web3sp.com
-      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US²_2|0%|GPT⁺|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "52230"
+      reality-opts:
+        public-key: DdhKUXb4ICPfsWixehUQ56-4p6H5eE0DfEYtEvbKkUs
+        short-id: 42c0ec0a
+      server: virginia.fonixapp.org
+      servername: ilovepdf.com
+      tls: true
+      type: vless
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP²_7|YT|TK|NF|X"
-      password: c3a66484-bde4-11ef-9410-f23c93141fad
-      port: 3443
-      server: 9508ec4c-t5jc00-t5v27d-88rr.tky05.east.189ti.com
+      uuid: dd2961de-3cff-4b6d-bbd1-819d571df66b
+      xudp: true
+    - name: "\U0001F1F0\U0001F1F7KR²_2|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
       type: http
       udp: true
-      username: c3a66484-bde4-11ef-9410-f23c93141fad
+      username: test
+    - country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1FA\U0001F1F8US²_3|GPT⁺|YT|TK|NF|X|KeepSucced"
+      password: BxceQaOe
+      port: 25891
+      server: 36.151.251.38
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F7\U0001F1FARU²_1|YT|TK|X|KeepSucced"
+      password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA
+      port: "443"
+      server: 45.144.31.24
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F3\U0001F1F1NL²_2|GPT⁺|YT-US|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "31603"
+      reality-opts:
+        public-key: OLM6uNG4kXvdtjI8uak4GsPsO1p7g9pSsHSJSVZx_D0
+        short-id: a1db
+      server: amsterdam.fonixapp.org
+      servername: merriam-webster.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0581705f-e7ae-40df-9d27-f51fbbc7c42f
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_8|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.177
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_9|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.173
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US²_4|29%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k
+        short-id: f529bb49dc4de6
+      server: 104.167.199.50
+      servername: bit-site.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: b25e3c62-f4eb-45df-adda-eb738959b845
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_10|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.85
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_3|GPT⁺|YT|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "49406"
+      reality-opts:
+        public-key: UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20
+        short-id: a7
+      server: beast-masters.fonixapp.org
+      servername: ilovepdf.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 49d74535-837e-4132-90c7-4e06de7db303
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_11|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.206
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_12|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.55
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F7\U0001F1FARU²_2|X|KeepSucced"
+      password: VVlAff77CnAU43Aoc5j15Y
+      port: 5112
+      server: 90.156.203.62
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_13|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.179
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_14|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.84
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_15|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.213
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_16|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.63
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_17|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.57
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_18|GPT|GM|YT|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.218
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_19|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.221
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_20|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.140
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_21|GPT⁺|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.172
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_22|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.52
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_23|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.45
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1E9\U0001F1EADE²_4|2%|GPT⁺|NF|X|KeepSucced"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 63.177.22.67
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_24|GPT⁺|GM|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.127
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_25|GPT⁺|GM|YT-US|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.108
+      type: ss
     - alterId: 0
       cipher: auto
+      name: "\U0001F1F3\U0001F1F1NL²_3|31%|GPT⁺|NF|X|KeepSucced"
+      port: 2083
+      server: nl-v2ray.freevmess.com
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      udp: true
+      uuid: c3d066bc-4170-4006-a95c-0012367e8f13
+    - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_26|GPT⁺|GM|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.126
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_27|GPT⁺|GM|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.53
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_28|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.110
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_5|15%|GPT⁺|YT|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "36563"
+      reality-opts:
+        public-key: tPpkzwOVa4li8CurZc07pnxl8ytBUm9x4b9TBP99h00
+        short-id: c294d6ba98e6a7
+      server: facelessvoid.fonixapp.org
+      servername: expedia.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: c25a90ea-6a3b-4d87-95b3-8ca4232f2a6e
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_29|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.112
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_30|GPT⁺|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.239
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_31|GPT⁺|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.8
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_32|GPT|GM|YT|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.174
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_33|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.206
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1E6CA¹⁺_1|6%|GPT⁺|YT|TK|NF|X|KeepSucced"
+      network: tcp
+      port: 26113
+      reality-opts:
+        public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+        short-id: 1fbd20fd
+      server: 40.233.71.65
+      servername: www.yahoo.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_34|GPT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.230
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_6|13%|GPT⁺|YT-AT|TK|X|KeepSucced"
+      network: tcp
+      port: "13718"
+      reality-opts:
+        public-key: RE5pTjMWTYxFQvDtxxKOCZCnnyYbR2a25zlLnYXWOVw
+        short-id: "96"
+      server: darkterror.fonixapp.org
+      servername: eightsleep.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: a5394554-6677-4922-b203-a539be9411c3
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_7|16%|GPT⁺|YT|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "39352"
+      reality-opts:
+        public-key: bqBZxwknIQGVNxvW6agjANLI6jdKG8jgIJ6cLKBbjns
+        short-id: 8f
+      server: traxex.fonixapp.org
+      servername: lowes.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 84ac6559-30a8-4c3e-bbcb-894edd4de743
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1FECY"
+      delay: 545
+      name: "\U0001F1F8\U0001F1EESI²_1|31%|GPT⁺|TK|NF|X|KeepSucced"
+      password: HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC
+      port: 443
+      server: 45.83.131.43
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_35|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.159
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_36|GPT|GM|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.23
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI²_2|26%|GPT⁺|YT-DE|TK|X|KeepSucced"
+      network: tcp
+      port: "37843"
+      reality-opts:
+        public-key: _i2_awg5k15giouaYv4HqMGsbUC7OuY5YAU2CZVBpE8
+        short-id: 5e
+      server: necrolyte.fonixapp.org
+      servername: ilovepdf.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 3c4486a2-68af-4fa9-80f9-7f2e0387871d
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_37|GPT⁺|GM|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.69
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F0\U0001F1F7 KR"
+      h2-opts: {}
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "\U0001F1F0\U0001F1F7KR²_3|4%|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      network: http
+      port: 80
+      server: 152.70.92.69
+      type: vmess
+      udp: true
+      uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_38|GM|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.44
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_39|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.21
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_40|GPT⁺|GM|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.45
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI²_3|49%|GPT⁺|YT-NL|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "13955"
+      reality-opts:
+        public-key: 01fWMRp1FAcZQ7NzoLwmfdY9bCYGUGGiUyB-mfiB_Rc
+        short-id: b5482c
+      server: dl.huskar.fonixapp.org
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 5926e98a-f6af-4676-8c73-3f3d0146357d
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_41|GPT|GM|YT|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.39
+      type: ss
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1ED\U0001F1F0HK²_18|X|KeepSucced"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 12955
+      reduce-rtt: false
+      request-timeout: 0
+      server: hktuic01.yydzx.xyz
+      sni: hktuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI²_4|43%|GPT⁺|YT-US|NF|X|KeepSucced"
+      network: tcp
+      port: "23747"
+      reality-opts:
+        public-key: u7gBBaokHefxp8JS3G_Nu1X5y6Rh5SsRBrVC1L-4ySY
+        short-id: b7
+      server: helsinki.fonixapp.org
+      servername: lowes.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 38ced162-2eb3-4aee-998f-747961f02c01
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_42|GPT|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.189
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_43|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.48
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_44|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.107
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1F7\U0001F1F4RO²_1|13%|X|KeepSucced"
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: _e4RpYgOhpfmdPLtqzEzSbEnl0a6moiCKtU9DXK0phI
+        short-id: bc60d5de
+      server: ro.otunnel.icu
+      servername: www.orange.ro
+      tls: true
+      type: vless
+      udp: true
+      uuid: b41bfc57-24af-42c7-a791-89e7099958c5
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_45|GPT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.42
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_46|GPT|GM|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.215
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F9\U0001F1F7TR²_1|37%|GPT⁺|X|KeepSucced"
+      network: tcp
+      port: "11594"
+      reality-opts:
+        public-key: 3HEjTRfm4CREo6uPExMNwscXcT00q-zlMocwlhmg2DM
+        short-id: 4f
+      server: istanbul.fonixapp.org
+      servername: yelp.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: caaea994-1af3-47af-8352-f51c49d4c5c2
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_47|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.232
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_8|26%|GPT⁺|X|KeepSucced"
+      network: tcp
+      port: "36827"
+      reality-opts:
+        public-key: n3DJmBTvXThSytT0NeVD64myEx7cniyCvI1T2yzZ8nc
+        short-id: "95"
+      server: broodmother.fonixapp.org
+      servername: lowes.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 88c30a4c-bc85-42d5-a5ac-38252612fd0e
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E9\U0001F1F0DK²_1|31%|GPT⁺|NF|X|KeepSucced"
+      password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo
+      port: 443
+      server: 95.164.10.228
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1F8\U0001F1ECSG²_3|GPT|X|KeepSucced"
+      password: 014e90df-a3ee-4654-a9f6-d118e02dd02a
+      port: 41047
+      server: sl.fgmcx.top
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_48|GPT⁺|GM|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.147
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_49|GPT|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.131
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_50|GPT⁺|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.207
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EC\U0001F1E7GB²_2|0%|GPT⁺|YT-US|NF|X|KeepSucced"
+      network: tcp
+      port: "80"
+      reality-opts:
+        public-key: 9Ie_yGzhOZbjK8OeoCx-iWl0uFe0qu63dtVRAO_aVUI
+        short-id: 2d
+      server: 212.134.84.117
+      servername: tgju.org
+      tls: true
+      type: vless
+      udp: true
+      uuid: d6afdc56-8c96-43e5-9164-43f504d8793f
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_51|GPT|GM|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.56
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_52|GPT|GM|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.64
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_53|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.170
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_54|GPT|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.220
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_55|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.152
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_56|GPT⁺|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.139
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EC\U0001F1E7GB²_3|37%|GPT⁺|TK|X|KeepSucced"
+      network: tcp
+      port: "11133"
+      reality-opts:
+        public-key: y3umRzGnap4t5V4C_rlt870Rku-TG4F8ttsq-_5gKTY
+        short-id: d3e9
+      server: london.fonixapp.org
+      servername: cloudtalk.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: 160a7b5d-fd67-4e83-8d8e-73dcfb6d91c2
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_57|GPT|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.69
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_58|GPT|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.4
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_59|GPT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.151
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1EAAE²_1|43%|NF|X|KeepSucced"
+      network: tcp
+      port: "53654"
+      reality-opts:
+        public-key: lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk
+        short-id: f7
+      server: dubai.fonixapp.org
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: cef4ee17-07fd-492f-921e-ddaa6294ba51
+      xudp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1E8\U0001F1E6CA¹⁺_2|6%|GPT⁺|TK|NF|X|KeepSucced"
+      network: tcp
+      port: 40106
+      reality-opts:
+        public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
+        short-id: f44fd3dd
+      server: 40.233.78.152
+      servername: apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_60|GPT⁺|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.233
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_61|GPT|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.37
+      type: ss
+    - country: "\U0001F1ED\U0001F1F0HK"
+      name: "\U0001F1ED\U0001F1F0HK²_11|2%|YT-CN|NF|X|KeepSucced"
+      password: 1b57001bd214304027025a740b6cf1ac
+      port: 443
+      server: 203.198.122.194
+      skip-cert-verify: true
+      sni: www.nintendogames.net
+      type: trojan
+      udp: true
+    - alterId: "2"
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK²_12|X|KeepSucced"
+      network: ws
+      port: "30809"
+      server: v9.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: baidu.com
+        path: /oooo
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_62|GPT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.153
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_63|GPT⁺|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.220
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_64|GPT⁺|GM|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.28
+      type: ss
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE²_19|KeepSucced"
+      name: "\U0001F1F3\U0001F1F1NL²_4|31%|GPT⁺|TK-CY|X|KeepSucced"
+      network: ws
+      port: 30830
+      server: v30.heduian.link
+      servername: ocbc.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: ocbc.com
+        path: /oooo
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1F0\U0001F1FFKZ²_1|29%|GPT⁺|X|KeepSucced"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k
+        short-id: f529bb49dc4de6
+      server: 91.224.74.178
+      servername: bit-site.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: b25e3c62-f4eb-45df-adda-eb738959b845
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_65|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.147
+      type: ss
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1ED\U0001F1F0HK²_13|GPT|GM|X|KeepSucced"
+      port: 53214
+      server: linkgulang.evoay.com
+      servername: www.lamer.com.hk
+      skip-cert-verify: true
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_66|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.50
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_67|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.52
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_68|GPT⁺|GM|YT-US|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.32
+      type: ss
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1EE\U0001F1F9IT²_1|GPT⁺|TK-NL|NF|X|KeepSucced"
+      network: tcp
+      port: 30805
+      server: v5.heduian.link
+      servername: v5.heduian.link
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_69|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.106
+      type: ss
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1NL²_5|31%|GPT⁺|TK-CY|X|KeepSucced"
+      network: ws
+      port: 30830
+      server: v30.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: ocbc.com
+        path: /oooo
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_70|GPT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.141
+      type: ss
+    - client-fingerprint: chrome
+      name: "\U0001F1EF\U0001F1F5JP²_2|0%|X|KeepSucced"
+      password: BxceQaOe
+      port: "4492"
+      server: 36.150.215.248
+      skip-cert-verify: true
+      sni: t.me/ripaojiedian
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_71|GPT⁺|YT-US|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.166
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_72|GPT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.109
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F0\U0001F1F7KR"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK¹⁺_2|YT|NF|X|KeepSucced"
+      network: ws
+      port: 50001
+      server: 221.164.142.10
+      servername: aa.nbee.pp.ua
+      skip-cert-verify: true
+      tls: true
+      type: vmess
+      uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+      ws-opts:
+        headers:
+            HOST: aa.nbee.pp.ua
+        path: /qq
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1EB\U0001F1EEFI²_5|4%|GPT⁺|X|KeepHistory"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: PibTHd_8WQ7AKYULLX7boeQsMBd5UI0JBwXIKrVEUy4
+        short-id: b735e8d1c332a164
+      server: 46.62.202.135
+      servername: cdn.jsdelivr.net
+      tls: true
+      type: vless
+      udp: true
+      uuid: cfd98140-4747-46b8-9618-606b21617b47
+      xudp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1FA\U0001F1F8US²_5|67%|GPT⁺|X|KeepSucced"
+      network: ws
+      port: 30804
+      server: v4.heduian.link
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        path: /oooo
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1ED\U0001F1F0HK"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1ED\U0001F1F0HK²_14|3%|X|KeepSucced"
+      network: ws
+      port: 30807
+      server: v10.heduian.link
+      servername: baidu.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: baidu.com
+        path: /oooo
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1ED\U0001F1F0HK²_15|3%|X|KeepSucced"
+      network: ws
+      port: 30807
+      server: v10.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: v10.heduian.link
+        path: /oooo
+      xudp: true
+    - alterId: 2
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F8\U0001F1ECSG²_4|X|KeepSucced"
+      network: ws
+      port: 30839
+      server: v39.heduian.link
+      servername: baidu.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            HOST: baidu.com
+        path: /oooo
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_73|YT|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.226
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_1|GPT⁺|TK|X|KeepSucced"
+      network: tcp
+      port: "37876"
+      reality-opts:
+        public-key: ldoGIafEPJu2W4gODAoLjobXOOe9NKb-110WCz1-EwM
+        short-id: 907e
+      server: antimage.fonixapp.org
+      servername: yelp.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 29397c5b-be3b-41d9-8a49-21575668e915
+      xudp: true
+    - alterId: 2
+      cipher: auto
+      client-fingerprint: chrome
+      name: "\U0001F1E9\U0001F1EADE²_9|GPT⁺|X|KeepSucced"
+      network: ws
+      port: 30833
+      server: v33.heduian.link
+      skip-cert-verify: false
+      tfo: false
+      tls: false
+      type: vmess
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: baidu.com
+        path: /oooo
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_74|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.80
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E6\U0001F1FAAU"
+      name: "\U0001F1E6\U0001F1FAAU²_1|100%|GPT|NF|X|KeepSucced"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 103.75.119.38
+      type: ss
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F9\U0001F1F7TR²_2|X|KeepSucced"
+      password: KgcKQpFCkXnOJXceV68o12
+      port: "1580"
+      server: 62.133.63.230
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_2|6%|GPT|X|KeepSucced"
+      network: tcp
+      port: "26143"
+      reality-opts:
+        public-key: ng3D2eUM-UM3ariA2eCDibCNo_peaKijOWUZJJKiIUI
+        short-id: 0d
+      server: bloodseeker.fonixapp.org
+      servername: steampowered.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2360d5e9-5503-4e6d-9e4a-fe5fb25c38fa
+      xudp: true
+    - country: "\U0001F1ED\U0001F1F0HK"
+      name: "\U0001F1ED\U0001F1F0HK²_16|2%|X|KeepSucced"
+      password: BxceQaOe
+      port: 443
+      server: 203.198.122.129
+      skip-cert-verify: true
+      sni: 203.198.122.129
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_3|0%|GPT⁺|NF|X|KeepSucced"
+      network: tcp
+      port: "10922"
+      reality-opts:
+        public-key: BWGB4WcFMvsxbu7rfyGTqVSWVlxNUz0HbmotfvlXuxg
+        short-id: d2900d
+      server: magnataur.fonixapp.org
+      servername: ilovepdf.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 31d35cbe-92d1-44cd-9991-e58d00499fb2
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_4|0%|GPT⁺|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "10726"
+      reality-opts:
+        public-key: DqdP9AbO6vA0F8axlBoKTmrVbi_r_WjdHLisxUiD3Wk
+        short-id: 738017277a
+      server: windrunner.fonixapp.org
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6cd8c95a-b58a-45e5-9af0-7d454f961dc9
+      xudp: true
+    - alterId: 2
+      cipher: auto
+      name: "\U0001F1F8\U0001F1ECSG²_5|GPT⁺|X|KeepSucced"
+      network: ws
+      port: 30839
+      server: v39.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      ws-opts:
+        headers:
+            Host: baidu.com
+        path: /oooo
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_5|6%|GPT|NF|X|KeepSucced"
+      network: tcp
+      port: "20220"
+      reality-opts:
+        public-key: KSW4e1R98qljwxyP6YaRrwGF4Rp_8hfXQaaShYUXwSc
+        short-id: d91671
+      server: butcher.fonixapp.org
+      servername: cloudtalk.io
+      tls: true
+      type: vless
+      udp: true
+      uuid: cac59dc2-e5a9-44f0-88da-e56ba06eac15
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_6|6%|GPT⁺|NF|X|KeepSucced"
+      network: tcp
+      port: "22925"
+      reality-opts:
+        public-key: Pzsb-3zlxbYLJwRE0ACSqzTL7h3ubqREGMEs17q_1z4
+        short-id: 886d
+      server: bonefletcher.fonixapp.org
+      servername: ilovepdf.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0226ef52-e556-4f36-ab0f-6c9f5414942a
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_7|0%|GPT|TK|X|KeepSucced"
+      network: tcp
+      port: "54226"
+      reality-opts:
+        public-key: Mhw0szMuy7R0U89Vm0bf-hF0DQ5pEWYdgdPF6UWLRXY
+        short-id: 49eb
+      server: dwarvensniper.fonixapp.org
+      servername: yelp.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 2c649958-a029-431a-920b-94e87ccbc715
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_8|X|KeepSucced"
+      network: tcp
+      port: "47072"
+      reality-opts:
+        public-key: 5-GF4dwBQeyOgXR7OPMEHlXd47odGu1r8ukE-0Prd0o
+        short-id: e39212f3
+      server: huskar.fonixapp.org
+      servername: yelp.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6e6cc44d-2ced-49a2-a7f1-e879847c1c57
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      disable-sni: false
+      name: "\U0001F1E8\U0001F1E6CA²_1|4%|GPT⁺|YT|TK|NF|X|KeepSucced"
+      password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+      port: 52434
+      reduce-rtt: false
+      request-timeout: "0"
+      server: 40.233.77.57
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: tuic
+      uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+      version: "5"
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F8\U0001F1EASE"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1EADE²_10|X|KeepSucced"
       network: ws
       port: 80
-      server: 141.101.121.26
+      server: 185.146.173.24
       servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
       skip-cert-verify: true
       type: vmess
@@ -1851,45 +1602,88 @@ proxies:
         headers:
             HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
         path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK²_20|KeepHistory"
-      network: http
-      port: "59516"
-      server: 43.247.134.213
-      type: vmess
-      uuid: 2906e19e-c99f-456e-bcb3-c5472fd594e5
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1F3\U0001F1F1NL²_5|KeepHistory"
-      password: I1qrYxOXxPYCOkhT
-      port: 50829
-      server: nl1.web3sp.com
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1E9\U0001F1EADE²_11|34%|GPT⁺|YT-RU|X|KeepSucced"
+      password: XEgifzBjI9TWGZzzOU6XOg
+      port: "56259"
+      server: 147.45.178.24
       type: ss
-    - alterId: "0"
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7 KR"
+      name: "\U0001F1F0\U0001F1F7KR²_4|GPT|YT-CN|X|KeepSucced"
+      password: qwerREWQ@@
+      port: 4652
+      server: 218.237.185.230
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_9|6%|GPT⁺|X|KeepSucced"
+      network: tcp
+      port: "44393"
+      reality-opts:
+        public-key: QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM
+        short-id: "05"
+      server: tuskar.fonixapp.org
+      servername: lowes.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0eaab689-82c5-4678-8ac6-d58ef4357dbe
+      xudp: true
+    - alpn:
+        - h3
+        - h2
+        - http/1.1
+      alterId: "0"
       cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_20|KeepHistory"
-      network: ws
-      port: "80"
-      server: 185.146.173.24
+      name: "\U0001F1F8\U0001F1ECSG²_6|GPT|X|KeepSucced"
+      network: tcp
+      port: "2083"
+      server: sg-v2ray.freevmess.com
       skip-cert-verify: false
-      tls: false
+      tls: true
       type: vmess
       udp: true
-      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-      ws-opts:
-        headers:
-            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      uuid: 820ceab0-de1d-4d3b-9d5f-7e83664c3f0c
       xudp: true
+    - country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1ED\U0001F1F0HK²_17|X|KeepSucced"
+      password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+      port: 20021
+      server: oss-cn-shanghai.letssepub.com
+      sni: dingding-doc.com
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_10|TK|NF|X|KeepSucced"
+      network: tcp
+      port: "56765"
+      reality-opts:
+        public-key: DHIEcMf3BTEwQ_XEFx1j02jzn0KkKKeyPWH7wnWwuG8
+        short-id: f50f5a
+      server: drow-ranger.fonixapp.org
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 866f919c-aa0d-4edb-b6a9-d5412c1c2ca3
+      xudp: true
+    - cipher: aes-128-gcm
+      name: "\U0001F1F0\U0001F1F7KR²_5|X|KeepSucced"
+      password: I1qrYxOXxPYCOkhT
+      port: 50329
+      server: kr1.web3sp.com
+      type: ss
+      udp: true
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_21|KeepSucced"
+      name: "\U0001F1E9\U0001F1EADE²_12|GPT|X|KeepSucced"
       network: ws
       port: "80"
       server: 141.101.121.3
@@ -1903,82 +1697,112 @@ proxies:
             Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
         path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       xudp: true
-    - country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1ED\U0001F1F0HK²_21|YT|NF|X|KeepHistory"
-      password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-      port: 20021
-      server: oss-cn-shanghai.letssepub.com
-      sni: dingding-doc.com
-      type: trojan
-      udp: true
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_12|KeepSucced"
+      name: "\U0001F1E6\U0001F1F9AT²_11|6%|TK|KeepSucced"
       network: tcp
-      port: "29993"
+      port: "28392"
       reality-opts:
-        public-key: uI8gEGoSUu0Dbs8ng8wHZZaiyGPopE4eLBfoEOZybW8
-        short-id: a2
-      server: arcwarden.fonixapp.org
-      servername: merriam-webster.com
+        public-key: Pq_a-rDvNROjMaNtA7v2tSSsfPR8KspHwKfu2tEv_F8
+        short-id: cf34f84f37
+      server: silverzebra.fonixapp.org
+      servername: yelp.com
       tls: true
       type: vless
       udp: true
-      uuid: f97211b0-1564-4f3b-a88b-f39d536a01a1
+      uuid: 247f264b-54dc-4e18-b55f-4769a4a80980
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1F8\U0001F1ECSG²_7|NF|KeepHistory"
-      password: 014e90df-a3ee-4654-a9f6-d118e02dd02a
-      port: 41047
-      server: sl.fgmcx.top
-      type: ss
-    - name: "\U0001F1F5\U0001F1EDPH²_1|X|KeepSucced"
-      password: Ejtp4SfY82
-      port: 10881
-      server: 38.54.87.34
-      type: http
-      username: 09ahaEWmXn
-    - cipher: aes-128-gcm
-      name: "\U0001F1F0\U0001F1F7KR²_4|1%|GM|KeepHistory"
-      password: I1qrYxOXxPYCOkhT
-      port: 50339
-      server: kr2.web3sp.com
-      type: ss
-      udp: true
-    - alterId: 0
+    - alterId: "0"
       cipher: auto
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1F3\U0001F1F1NL²_6|31%"
-      port: 2083
-      server: nl-v2ray.freevmess.com
-      servername: nl-v2ray.freevmess.com
-      tls: true
-      type: vmess
-      udp: true
-      uuid: c3d066bc-4170-4006-a95c-0012367e8f13
-    - alterId: 0
-      cipher: auto
-      name: "\U0001F1F3\U0001F1F1NL²_7|31%|GPT⁺|TK|NF|X"
-      port: 2083
-      server: nl-v2ray.freevmess.com
-      skip-cert-verify: false
-      tls: true
-      type: vmess
-      udp: true
-      uuid: c3d066bc-4170-4006-a95c-0012367e8f13
-    - alpn:
-        - h2
-        - http/1.1
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_22|GPT⁺|X|KeepHistory"
+      name: "\U0001F1E9\U0001F1EADE²_13|0%|KeepSucced"
       network: ws
       port: "80"
-      server: 104.18.240.238
-      servername: TABRIZ.NET
+      server: 185.146.173.24
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F1\U0001F1F9LT"
+      name: "\U0001F1F3\U0001F1F1NL²_6|GPT⁺|TK|X|KeepSucced"
+      password: 1RWwXhwfAB5gAEozU4G2Pg
+      port: 443
+      server: 45.87.175.166
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EE\U0001F1F1IL²_1|GPT⁺|X|KeepSucced"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+        short-id: 55e6af1a35e64a98
+      server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+      servername: i2pd.website
+      tls: true
+      type: vless
+      udp: true
+      uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+      xudp: true
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1EF\U0001F1F5JP²_3|X|KeepSucced"
+      password: I1qrYxOXxPYCOkhT
+      port: 50179
+      server: jp8.web3sp.com
+      type: ss
+    - alterId: "0"
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - 103.243.26.209
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0HK²_18|X|KeepSucced"
+      network: http
+      port: "8080"
+      server: 103.243.26.209
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E6\U0001F1F9AT²_12|6%|GPT⁺|TK|X|KeepSucced"
+      network: tcp
+      port: "50151"
+      reality-opts:
+        public-key: 4U5Q1I9IVS4086blx7Zgo7tnq2-B5V1ARtpNinTcjHY
+        short-id: de1e92
+      server: shadowshaman.fonixapp.org
+      servername: steampowered.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 840ae376-483b-48d5-bc49-22b0769b5860
+      xudp: true
+    - alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE²_14|KeepSucced"
+      network: ws
+      port: "80"
+      server: 185.146.173.117
       skip-cert-verify: false
       tls: false
       type: vmess
@@ -1992,47 +1816,221 @@ proxies:
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EE\U0001F1F1IL²_1|X|KeepSucced"
+      name: "\U0001F1E6\U0001F1F9AT²_13|X|KeepSucced"
       network: tcp
-      port: "443"
+      port: "43326"
       reality-opts:
-        public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
-        short-id: 55e6af1a35e64a98
-      server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
-      servername: i2pd.website
+        public-key: e4jsuyfW6xyjfYOVsFI4AKnJihGp4MMqtRv5TaVurlw
+        short-id: c3
+      server: earthshaker.fonixapp.org
+      servername: stackoverflow.com
       tls: true
       type: vless
       udp: true
-      uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+      uuid: 7b6df8d0-100c-48e1-beec-30effe41c04e
       xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E9\U0001F1EADE²_23|KeepHistory"
-      password: XEgifzBjI9TWGZzzOU6XOg
-      port: "56259"
-      server: 147.45.178.24
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1ED\U0001F1F0HK²_19|KeepSucced"
+      password: I1qrYxOXxPYCOkhT
+      port: 50069
+      server: hk2.web3sp.com
       type: ss
-      udp: true
-    - name: "\U0001F1ED\U0001F1F0HK²_22|29%|YT-CN|TK-US|X"
-      password: 1c0b6e0a-9af9-4116-bc0f-a7d04bc20d2e
-      port: 21112
-      server: xinrelibao.xuwuge.xyz
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F9\U0001F1EDTH²_2|GPT⁺|GM|YT|TK|X|KeepHistory"
+      network: tcp
+      port: 38637
+      server: tkcmi.5tk.top
+      servername: tai01.xxxxyyyysbs.sbs
       skip-cert-verify: true
-      sni: apple.com
-      type: trojan
+      type: vmess
+      uuid: 93058ab5-bb29-44d4-c309-d224c0967732
+    - cipher: chacha20-ietf-poly1305
+      name: "\U0001F1F8\U0001F1EASE²_1|60%|GPT|X|KeepHistory"
+      password: 85qJ4wjHhPbVNxWKT1mJnE
+      port: "55818"
+      server: 46.246.98.39
+      type: ss
       udp: true
     - alterId: 0
       cipher: auto
-      country: "\U0001F1F8\U0001F1EASE"
+      name: "\U0001F1EF\U0001F1F5JP²_5|X|KeepSucced"
+      network: ws
+      port: 443
+      server: 1762596741.bilibiliapp.cn
+      servername: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
+      skip-cert-verify: false
+      tls: true
+      type: vmess
+      uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+      ws-opts:
+        headers:
+            Host: vkwhjvjry8.speed.jpsacibnc.cccp.useraaca.pp.ua
+        path: /
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE²_15|0%|NF|KeepHistory"
+      network: ws
+      port: "80"
+      server: 141.101.121.251
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      xudp: true
+    - alpn:
+        - h2
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EB\U0001F1EEFI¹⁺_1|GPT⁺|YT-US|TK|NF|X|KeepHistory"
+      network: ws
+      port: "443"
+      server: axe.soyet2j.ir
+      servername: menu.gejeh683bm.ir
+      tls: true
+      type: vless
+      udp: true
+      uuid: 4fdf51d5-4731-41de-a07f-42a0a9ee9f1c
+      ws-opts:
+        headers:
+            Host: menu.gejeh683bm.ir
+            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        path: /77d76f3d-5da8-4198-b5d2-9634d3059ad0
+      xudp: true
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE²_16|0%|KeepHistory"
+      network: ws
+      port: "80"
+      server: 185.146.173.126
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1E8\U0001F1F3CN"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE²_24|KeepHistory"
+      name: "\U0001F1F9\U0001F1EDTH²_3|GPT⁺|GM|YT|NF|X|KeepHistory"
+      network: tcp
+      port: 38637
+      server: tkcmi.5tk.top
+      skip-cert-verify: true
+      type: vmess
+      uuid: 93058ab5-bb29-44d4-c309-d224c0967732
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1EB\U0001F1F7FR²_2|3%|GPT|NF|X"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 51.45.27.162
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      flow: xtls-rprx-vision
+      name: "\U0001F1EA\U0001F1F8ES²_1|49%|GPT⁺|YT|TK|NF|X|KeepHistory"
+      network: tcp
+      port: "34270"
+      reality-opts:
+        public-key: foleRktxkiFhRpzlI9JQtPnnUn6uC_69MQOZIedPIRo
+        short-id: b0f3c87d8b
+      server: 5.22.216.74
+      servername: stackoverflow.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 820bc646-6b81-471a-8c6b-f7a6f750c62d
+      xudp: true
+    - cipher: aes-128-gcm
+      country: "\U0001F1EE\U0001F1F3 IN"
+      name: "\U0001F1EE\U0001F1F3IN²_2|GPT⁺|X|KeepHistory"
+      password: I1qrYxOXxPYCOkhT
+      port: 50619
+      server: in2.web3sp.com
+      type: ss
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_17|NF|X|KeepHistory"
+      network: tcp
+      port: "23328"
+      reality-opts:
+        public-key: Za4d7M22mOEGXV23Tkb_STUCIznMbtlUS89ZAaECjU0
+        short-id: 1af22e9c44f798bc
+      server: alchemistss.fonixapp.org
+      servername: ilovepdf.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee16b7cb-1c0a-421c-9083-3649cb0fe00e
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - 43.247.135.64
+        method: GET
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0HK²_20|KeepHistory"
+      network: http
+      port: 54804
+      server: 43.247.135.64
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
+    - alterId: "0"
+      cipher: auto
+      http-opts:
+        headers:
+            Host:
+                - 103.243.26.209
+        path:
+            - /
+      name: "\U0001F1ED\U0001F1F0HK²_21|X|KeepSucced"
+      network: http
+      port: "10086"
+      server: 103.243.26.209
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1EADE²_18|KeepHistory"
       network: ws
       port: 80
-      server: 185.146.173.16
+      server: 141.101.121.120
       servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
       skip-cert-verify: true
       type: vmess
@@ -2041,58 +2039,101 @@ proxies:
         headers:
             HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
         path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-    - country: "\U0001F3C1ZZ"
-      name: "\U0001F1ED\U0001F1F0HK²_23|0%|X"
-      password: 3c77ad6b-9c9c-4aff-beff-0a16e2cdea15
-      port: 13008
-      server: naiu-hk.05vr9nyqg5.download
-      sni: cloudflare.node-ssl.cdn-alibaba.com
+    - cipher: aes-256-gcm
+      country: "\U0001F1ED\U0001F1F0HK"
+      name: "Relay_\U0001F1ED\U0001F1F0HK-\U0001F1FA\U0001F1F8US_401|X|KeepHistory"
+      password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+      port: 15099
+      server: ss.015.node-for-bigairport.win
+      type: ss
+    - cipher: aes-256-gcm
+      country: "\U0001F1ED\U0001F1F0HK"
+      name: "Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_94|X"
+      password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+      port: 19888
+      server: ss.012.node-for-bigairport.win
+      type: ss
+    - cipher: aes-256-gcm
+      country: "\U0001F1FA\U0001F1F8US"
+      name: "Relay_\U0001F1FA\U0001F1F8US-\U0001F1FA\U0001F1F8US_419|X"
+      password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+      port: 16688
+      server: ss.036.node-for-bigairport.win
+      type: ss
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1E6\U0001F1FAAU²_2|KeepSucced"
+      password: I1qrYxOXxPYCOkhT
+      port: 50719
+      server: au2.web3sp.com
+      type: ss
+    - country: "\U0001F1EB\U0001F1F7FR"
+      name: "\U0001F1EB\U0001F1F7FR²_3|3%|GPT⁺|YT|NF|X"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 35.181.212.211
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
       type: trojan
       udp: true
-    - name: "\U0001F1EF\U0001F1F5JP²_8|27%|X"
-      password: c3a66484-bde4-11ef-9410-f23c93141fad
-      port: 3443
-      server: 665cb53b-t5jc00-t5v27d-88rr.tky02.east.189ti.com
-      tls: true
-      type: http
+    - cipher: aes-256-cfb
+      country: "\U0001F1F0\U0001F1F7KR"
+      name: "\U0001F1F0\U0001F1F7KR²_6|GPT|YT-CN|NF|X|KeepHistory"
+      password: qwerREWQ@@
+      port: 4652
+      server: p141.panda001.net
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1EADE²_19|0%|KeepHistory"
+      network: ws
+      port: 80
+      server: 141.101.121.251
+      servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+      skip-cert-verify: true
+      type: vmess
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1EF\U0001F1F5 JP"
+      h2-opts: {}
+      http-opts:
+        method: GET
+        path:
+            - /
+      name: "Relay_\U0001F1EF\U0001F1F5 JP-\U0001F1EF\U0001F1F5JP_202|X"
+      network: http
+      port: 80
+      server: jp35g.wi-fi-ai.com
+      servername: jp35g.wi-fi-ai.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
+    - cipher: aes-128-gcm
+      name: "\U0001F1F0\U0001F1F7KR²_7|KeepSucced"
+      password: I1qrYxOXxPYCOkhT
+      port: 50339
+      server: kr2.web3sp.com
+      type: ss
       udp: true
-      username: c3a66484-bde4-11ef-9410-f23c93141fad
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1F7\U0001F1FARU²_3|0%|GPT|TK|NF|X|KeepHistory"
+      password: I1qrYxOXxPYCOkhT
+      port: 51039
+      server: ca1.web3sp.com
+      type: ss
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_13|GPT⁺|X"
-      network: tcp
-      port: "44393"
-      reality-opts:
-        public-key: QRguoAi4mjGas5PjOd-JCgcAlgZTmr8tqM8VC0ZvZSM
-        short-id: "05"
-      server: tuskar.fonixapp.org
-      servername: lowes.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 0eaab689-82c5-4678-8ac6-d58ef4357dbe
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1E6\U0001F1F9AT²_14|0%|GPT|X"
-      network: tcp
-      port: "28392"
-      reality-opts:
-        public-key: Pq_a-rDvNROjMaNtA7v2tSSsfPR8KspHwKfu2tEv_F8
-        short-id: cf34f84f37
-      server: silverzebra.fonixapp.org
-      servername: yelp.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 247f264b-54dc-4e18-b55f-4769a4a80980
-      xudp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1EB\U0001F1F7FR²_2|KeepHistory"
+      name: "\U0001F1EB\U0001F1F7FR²_2|KeepSucced"
       network: tcp
       port: "9954"
       reality-opts:
@@ -2105,218 +2146,190 @@ proxies:
       udp: true
       uuid: c2ec47f4-873f-573f-7d8d-d79d7ad452e6
       xudp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1FA\U0001F1E6 UA"
-      name: "\U0001F1EF\U0001F1F5JP²_9|0%|GPT⁺|GM|YT|TK|X|KeepHistory"
-      password: I1qrYxOXxPYCOkhT
-      port: 50159
-      server: jp6.web3sp.com
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E9\U0001F1F0DK²_1|X|KeepHistory"
-      password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo
-      port: 443
-      server: 95.164.10.228
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1EF\U0001F1F5JP²_10|33%|GPT⁺|YT-CN|TK|NF|X|KeepHistory"
-      password: I1qrYxOXxPYCOkhT
-      port: 50179
-      server: jp8.web3sp.com
-      type: ss
-    - alterId: "0"
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - 103.243.26.209
-        path:
-            - /
-      name: "\U0001F1ED\U0001F1F0HK²_21|X|KeepHistory"
-      network: http
-      port: "8080"
-      server: 103.243.26.209
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: bc7e6840-ab83-4570-eaae-d9aff1e2da09
-      xudp: true
-    - congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1EF\U0001F1F5JP²_11|0%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
-      password: 4e084535-bd62-458b-84a2-a0dc57c957aa
-      port: 14081
-      reduce-rtt: false
-      request-timeout: 0
-      server: jptuic01.yydzx.xyz
-      sni: jptuic01.yydzx.xyz
-      type: tuic
-      uuid: 4e084535-bd62-458b-84a2-a0dc57c957aa
     - alterId: 0
       cipher: auto
-      country: "\U0001F3C1ZZ"
+      country: "\U0001F1FA\U0001F1F8 US"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1F0\U0001F1F7KR²_5|4%|GM|TK"
-      network: ws
-      port: 80
-      server: anycast.cf.030419.xyz
-      servername: kr.anycast.dpdns.org
-      skip-cert-verify: true
-      type: vmess
-      uuid: 60824dd4-77f6-413e-89da-8325e259219f
-      ws-opts:
-        headers:
-            HOST: kr.anycast.dpdns.org
-        path: /rongseven?ed=2048
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_74|TK|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.166
-      type: ss
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      disable-sni: false
-      name: "\U0001F1E8\U0001F1E6CA²_1|4%|GPT⁺|YT|NF|X|KeepHistory"
-      password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-      port: 52434
-      reduce-rtt: false
-      request-timeout: "0"
-      server: 40.233.77.57
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: tuic
-      uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-      version: "5"
-    - name: "\U0001F1FA\U0001F1F8US²_8|31%|X|KeepHistory"
-      password: kHGhcI9rmL
-      port: 19846
-      server: 38.180.192.61
-      type: http
-      username: PAdt6DFTfi
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EA\U0001F1F8ES"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1FA\U0001F1F8US²_9|X"
+      name: "\U0001F1FA\U0001F1F8US²_6|X"
       network: ws
       port: 23188
       server: 212.192.13.86
       skip-cert-verify: true
       type: vmess
-      uuid: 8a84a98f-88f0-4044-8edd-c0adce830ff4
-      ws-opts:
-        path: /
-    - cipher: aes-256-cfb
-      country: "\U0001F1F0\U0001F1F7 KR"
-      name: "\U0001F1F0\U0001F1F7KR²_6|1%|GPT⁺|TK|NF|X|KeepHistory"
-      password: qwerREWQ@@
-      port: 4652
-      server: 218.237.185.230
-      type: ss
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL²_8|0%|NF|KeepHistory"
-      password: DaiJfYM6WoCXmBbF69QFR0
-      port: "11746"
-      server: 195.66.27.81
-      type: ss
-      udp: true
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1E9\U0001F1EADE²_25|19%|GPT⁺|X|KeepHistory"
-      password: I1qrYxOXxPYCOkhT
-      port: 51029
-      server: de1.web3sp.com
-      type: ss
-    - name: 韩国_2|KeepHistory
-      network: ws
-      port: 12247
-      server: 61.85.1.77
-      servername: gaosir.unfeeling.sbs
-      skip-cert-verify: true
-      tls: true
-      type: vless
-      udp: true
-      uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-      ws-opts:
-        headers:
-            host: gaosir.unfeeling.sbs
-        path: /Telegram@节点狂魔/
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - www.varzesh3.com
-        path:
-            - /
-      name: "\U0001F1E7\U0001F1ECBG²_1|KeepHistory"
-      network: http
-      port: "17564"
-      server: 5.160.197.78
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: aa7dd96b0a7d81db2e71553abe192620
-      xudp: true
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1F0\U0001F1F7 KR"
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1F0\U0001F1F7KR²_7|4%|GPT⁺|GM|YT|NF|X|KeepHistory"
-      network: http
-      port: 80
-      server: 152.70.92.69
-      type: vmess
-      udp: true
-      uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
-    - cipher: aes-128-gcm
-      country: "\U0001F1E8\U0001F1F3CN"
-      name: "\U0001F1ED\U0001F1F0HK²_24|X|KeepHistory"
-      password: I1qrYxOXxPYCOkhT
-      port: 50069
-      server: hk2.web3sp.com
-      type: ss
-    - encryption: none
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1E9\U0001F1EADE²_26|NF"
-      network: tcp
-      port: "42671"
-      server: 159.69.220.135
-      type: vless
-      udp: true
-      uuid: 2d2269f8-b704-4a73-b994-2f46a8521779
-      xudp: true
+      uuid: b896e631-cd15-488b-9a68-a89496ed8bc7
+      ws-path: /
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F9\U0001F1F7TR²_2|GPT|NF|X"
+      name: "\U0001F1E6\U0001F1F9AT²_14|6%|GPT⁺|TK|X"
       network: tcp
-      port: "11594"
+      port: "28019"
       reality-opts:
-        public-key: 3HEjTRfm4CREo6uPExMNwscXcT00q-zlMocwlhmg2DM
-        short-id: 4f
-      server: istanbul.fonixapp.org
+        public-key: oYGsTi71xY9SdzgDmONd5q0rP7-x8QgTokHo9RxcrFU
+        short-id: dde3
+      server: greenwolf.fonixapp.org
       servername: yelp.com
       tls: true
       type: vless
       udp: true
-      uuid: caaea994-1af3-47af-8352-f51c49d4c5c2
+      uuid: 42ece9d7-6318-4210-a7de-54b7cb8667ad
       xudp: true
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1FA\U0001F1F8US²_7|X|KeepHistory"
+      password: I1qrYxOXxPYCOkhT
+      port: 50529
+      server: us1.web3sp.com
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1FA\U0001F1F8US_462"
+      password: f8f7aCzcPKbsF8p3
+      port: 989
+      server: 38.54.57.90
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1EADE²_20|0%|GPT|NF|X|KeepHistory"
+      network: ws
+      port: 80
+      server: 141.101.121.250
+      servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+      skip-cert-verify: true
+      type: vmess
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1E9\U0001F1EADE²_14|KeepHistory"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+        short-id: ""
+      server: deu406.unboundaccess.org
+      servername: www.screwfix.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 46615c49-e794-470d-9e65-2deaca461378
+      xudp: true
+    - country: "\U0001F1F9\U0001F1FCTW"
+      name: "\U0001F1ED\U0001F1F0HK²_22|0%|NF|X"
+      password: 589ee672-936a-4841-9d44-9b9592473cbb
+      port: 21103
+      server: cdnfire.xiaomispeed.com
+      skip-cert-verify: true
+      sni: cdnfire.xiaomispeed.com
+      type: trojan
+      udp: true
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1E9\U0001F1EADE²_21|2%|GPT⁺|TK|NF|X"
+      password: telegram-id-privatevpns
+      port: 22222
+      server: 63.177.22.67
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1F7FR²_4|0%|GPT⁺|YT-US|TK|NF|X|KeepHistory"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+        short-id: ee6f3e8f44b1f0b6
+      server: 62.60.148.21
+      servername: st.ozone.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      name: "\U0001F1FA\U0001F1F8US²_8|33%|YT"
+      network: ws
+      port: 26125
+      server: 212.192.13.86
+      tls: false
+      type: vmess
+      udp: true
+      uuid: 0966ac5b-899b-4580-ad1d-97316683e5c3
+      ws-opts:
+        path: /
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F8\U0001F1EASE"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1EADE²_22|0%|YT-US|KeepHistory"
+      network: ws
+      port: 80
+      server: 185.146.173.117
+      servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+      skip-cert-verify: true
+      type: vmess
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1E9\U0001F1EADE²_23|16%|GPT⁺|TK|NF|X"
+      network: tcp
+      port: "40745"
+      reality-opts:
+        public-key: KIJ-Gb61R1Ng1kMvD01v51SwtrrYh3npN5cSkxb-MH0
+        short-id: 3b
+      server: tidehunter.fonixapp.org
+      servername: deepl.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 140ae345-e7b8-49f5-8920-85f82085344e
+      xudp: true
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F3C1ZZ"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1E9\U0001F1EADE²_24|0%|KeepHistory"
+      network: ws
+      port: 80
+      server: 141.101.121.3
+      servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+      skip-cert-verify: true
+      type: vmess
+      uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+      ws-opts:
+        headers:
+            HOST: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+        path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+    - cipher: aes-128-gcm
+      country: "\U0001F1E8\U0001F1F3CN"
+      name: "\U0001F1F8\U0001F1ECSG²_7|KeepHistory"
+      password: I1qrYxOXxPYCOkhT
+      port: 50229
+      server: sg1.web3sp.com
+      type: ss
