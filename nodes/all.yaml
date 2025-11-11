@@ -1,18 +1,22 @@
 proxies:
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_1|3.5MB/s|10%|GPT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "55555"
-      server: mci.yektanet.info
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: a4b41dc8-b684-49e4-b3db-ade382c113d3
-      xudp: true
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F9\U0001F1FCTW²_1|1.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 15820
+      reduce-rtt: false
+      request-timeout: 0
+      server: twtuic01.yydzx.xyz
+      sni: twtuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_1|2.3MB/s|GPT|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.68
+      type: ss
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
@@ -20,7 +24,7 @@ proxies:
         headers: {}
         path:
             - /
-      name: "\U0001F1EB\U0001F1EEFI²_1|3.2MB/s|GPT|X|KeepHistory"
+      name: "\U0001F1EB\U0001F1EEFI²_1|3.1MB/s|YT-RU|TK|X|KeepSucced"
       network: tcp
       port: "443"
       reality-opts:
@@ -33,30 +37,31 @@ proxies:
       udp: true
       uuid: fc363de7-5d11-42e0-b9c0-79d59274882a
       xudp: true
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR²_1|2.2MB/s|0%|GPT⁺|YT|TK|NF|X"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 52.47.54.160
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F9\U0001F1FCTW²_1|4.4MB/s|GPT⁺|GM|X|KeepHistory"
-      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-      port: 15820
-      reduce-rtt: false
-      request-timeout: 0
-      server: twtuic01.yydzx.xyz
-      sni: twtuic01.yydzx.xyz
-      type: tuic
-      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
     - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_1|1.3MB/s|X"
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_2|1.2MB/s|GPT|GM|YT-US|X|KeepHistory"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.68
+      server: 103.186.155.64
+      type: ss
+    - cipher: aes-256-cfb
+      name: "\U0001F1FB\U0001F1F3VN²_3|1.4MB/s|GPT|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: "38388"
+      server: 103.186.155.17
+      type: ss
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FA RU"
+      name: "\U0001F1F3\U0001F1F1NL²_1|2.6MB/s|35%|GPT|YT-GB|NF|X"
+      password: piv97XS1Cval86vfwHPD5j
+      port: 443
+      server: 194.87.216.121
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_4|1.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.203
       type: ss
