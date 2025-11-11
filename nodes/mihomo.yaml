@@ -1,52 +1,5 @@
 proxies:
-  - congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1F9\U0001F1FCTW²_1|1.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
-    password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    port: 15820
-    reduce-rtt: false
-    request-timeout: 0
-    server: twtuic01.yydzx.xyz
-    sni: twtuic01.yydzx.xyz
-    type: tuic
-    uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    version: 5
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F7\U0001F1FA RU"
-    name: "\U0001F1F3\U0001F1F1NL²_1|2.9MB/s|35%|GPT⁺|X|KeepSucced"
-    password: piv97XS1Cval86vfwHPD5j
-    port: 443
-    server: 194.87.216.121
-    type: ss
-  - alpn:
-      - h3
-    client-fingerprint: random
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US⁻¹_1|2.8MB/s|GM|TK"
-    network: ws
-    port: 2083
-    server: 8.35.211.250
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
-    ws-opts:
-      headers:
-        Host: stall3.sni2026.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-          (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-      path: '/proxyip=tw.soso.edu.kg:43'
-    xudp: true
-    servername: stall3.sni2026.netlib.re
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.1MB/s|GPT⁺|GM|YT-US|TK|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.122
-    type: ss
-  - name: "\U0001F1F0\U0001F1F7KR²_1|6.1MB/s|12%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+  - name: "\U0001F1F0\U0001F1F7KR²_1|3.4MB/s|GM|TK|NF|X|KeepSucced"
     password: test.+
     port: 30446
     server: testkr3.ssv.vc
@@ -56,7 +9,14 @@ proxies:
     udp: true
     username: test
     sni: testkr3.ssv.vc
-  - name: "\U0001F1F8\U0001F1ECSG²_1|2.8MB/s|YT|TK|NF|KeepHistory"
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F7\U0001F1FA RU"
+    name: "\U0001F1F3\U0001F1F1NL²_1|4.1MB/s|35%|X|KeepSucced"
+    password: piv97XS1Cval86vfwHPD5j
+    port: 443
+    server: 194.87.216.121
+    type: ss
+  - name: "\U0001F1F8\U0001F1ECSG²_1|1.2MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
     password: BxceQaOe
     port: 4666
     server: 36.150.215.147
@@ -65,9 +25,9 @@ proxies:
     type: trojan
   - congestion-controller: bbr
     disable-sni: false
-    name: "\U0001F1ED\U0001F1F0 香港|6.4MB/s|X|KeepHistory"
+    name: "\U0001F1ED\U0001F1F0HK²_1|6.5MB/s|2%|YT|NF|X|KeepHistory"
     password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    port: 12578
+    port: 12955
     reduce-rtt: false
     request-timeout: 0
     server: hktuic01.yydzx.xyz
@@ -75,49 +35,117 @@ proxies:
     type: tuic
     uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
     version: 5
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|2.3MB/s|GPT|GM|YT-US|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.205
+    type: ss
   - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1E9\U0001F1EADE²_1|3.4MB/s|10%|GPT⁺|X|KeepHistory"
-    network: tcp
-    port: 55555
-    server: mci.yektanet.info
+    name: "\U0001F1EF\U0001F1F5JP²_1|2.7MB/s|GM|X|KeepHistory"
+    network: ws
+    port: 52512
+    server: aflzzul.meiquankongjian.com
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: a4b41dc8-b684-49e4-b3db-ade382c113d3
-    xudp: true
-  - alpn:
-      - h3
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EF\U0001F1F5JP⁻¹_1|1.4MB/s"
-    network: ws
-    port: 443
-    server: 13.115.249.234
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
     ws-opts:
       headers:
-        Host: stall3.sni2026.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-      path: '/proxyip=tw.soso.edu.kg:43'
+        Host: aflzzul.meiquankongjian.com
+      path: /564dfa20/
     xudp: true
-    servername: stall3.sni2026.netlib.re
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US²_1|5.1MB/s|47%|GPT⁺|YT-CN|TK|NF|X"
+    network: ws
+    port: 443
+    server: yg1.ygkkk.dpdns.org
+    tls: true
+    type: vmess
+    udp: true
+    uuid: c934d81c-bacb-4ff2-8780-da9668cd0fba
+    ws-opts:
+      headers:
+        Host: rn1.alwaysme.ggff.net
+      path: /c934d81c-bacb-4ff2-8780-da9668cd0fba-vm
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    servername: rn1.alwaysme.ggff.net
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP²_2|10.3MB/s|X|KeepHistory"
+    network: ws
+    port: 52512
+    server: aflzzul.meiquankongjian.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+    ws-opts:
+      headers:
+        Host: aflzzul.meiquankongjian.com
+      path: /564dfa20/
+    servername: aflzzul.meiquankongjian.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|1.3MB/s|YT|NF|X|KeepHistory"
+    network: ws
+    port: 443
+    server: 219.76.13.166
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: ffde381b-4a30-41d4-90eb-151f228b06ea
+    ws-opts:
+      headers:
+        HOST: aa.nbee.pp.ua
+      path: /qq
+    servername: aa.nbee.pp.ua
+  - alterId: '2'
+    cipher: auto
+    name: "\U0001F1F3\U0001F1F1NL²_2|2.5MB/s|28%|X|KeepHistory"
+    network: tcp
+    port: 30805
+    server: v5.heduian.link
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_1|2.6MB/s|NF|X"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 18.192.168.117
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT⁺|YT-US|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.133
+    type: ss
   - alpn:
       - h3
     client-fingerprint: random
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US⁻¹_2|2.7MB/s|GM|YT|TK"
+    name: "\U0001F1ED\U0001F1F0HK⁻¹_1|7.9MB/s|YT|NF"
     network: ws
-    port: 8602
-    server: 23.185.168.144
+    port: 443
+    server: 1760516058.tencentapp.cn
     tls: true
     type: vless
     udp: true
@@ -126,11 +154,27 @@ proxies:
       headers:
         Host: stall3.sni2026.netlib.re
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/46.0.2490.71 Safari/537.36
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
       path: '/proxyip=tw.soso.edu.kg:43'
     xudp: true
     servername: stall3.sni2026.netlib.re
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US²_2|3.5MB/s|68%|GPT⁺|YT|TK|NF|X"
+    network: ws
+    port: 80
+    server: fe2c503d-dd09-e120-e551-46ad3356cf9d.999182.xyz
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
+    ws-opts:
+      headers:
+        Host: fe2c503d-dd09-e120-e551-46ad3356cf9d.999182.xyz
+      path: /e7JS5ETJeA85VyjPCYXwETL
+    servername: fe2c503d-dd09-e120-e551-46ad3356cf9d.999182.xyz
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
