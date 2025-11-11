@@ -1,7 +1,7 @@
 proxies:
     - congestion-controller: bbr
       disable-sni: false
-      name: "\U0001F1F9\U0001F1FCTW²_1|1.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
+      name: "\U0001F1F9\U0001F1FCTW²_1|1.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucced"
       password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
       port: 15820
       reduce-rtt: false
@@ -10,58 +10,115 @@ proxies:
       sni: twtuic01.yydzx.xyz
       type: tuic
       uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_1|2.3MB/s|GPT|YT-US|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.68
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1EB\U0001F1EEFI²_1|3.1MB/s|YT-RU|TK|X|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: L-7MZ5IB5uSmLn34BQsBOF8XaDN3B2as4ye-nWkJEzI
-        short-id: 056d3a8e5b410ee9
-      server: fi.podpiska.vip
-      servername: uspehudacha.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: fc363de7-5d11-42e0-b9c0-79d59274882a
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_2|1.2MB/s|GPT|GM|YT-US|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.64
-      type: ss
-    - cipher: aes-256-cfb
-      name: "\U0001F1FB\U0001F1F3VN²_3|1.4MB/s|GPT|X"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: "38388"
-      server: 103.186.155.17
-      type: ss
-      udp: true
     - cipher: chacha20-ietf-poly1305
       country: "\U0001F1F7\U0001F1FA RU"
-      name: "\U0001F1F3\U0001F1F1NL²_1|2.6MB/s|35%|GPT|YT-GB|NF|X"
+      name: "\U0001F1F3\U0001F1F1NL²_1|2.9MB/s|35%|GPT⁺|X|KeepSucced"
       password: piv97XS1Cval86vfwHPD5j
       port: 443
       server: 194.87.216.121
       type: ss
+    - alpn:
+        - h3
+      client-fingerprint: random
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US⁻¹_1|2.8MB/s|GM|TK"
+      network: ws
+      port: "2083"
+      server: 8.35.211.250
+      servername: stall3.sni2026.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+      ws-opts:
+        headers:
+            Host: stall3.sni2026.netlib.re
+            User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3 (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+        path: /proxyip=tw.soso.edu.kg:43
+      xudp: true
     - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_4|1.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_1|1.1MB/s|GPT⁺|GM|YT-US|TK|X"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.203
+      server: 103.186.155.122
       type: ss
+    - name: "\U0001F1F0\U0001F1F7KR²_1|6.1MB/s|12%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - name: "\U0001F1F8\U0001F1ECSG²_1|2.8MB/s|YT|TK|NF|KeepHistory"
+      password: BxceQaOe
+      port: 4666
+      server: 36.150.215.147
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1ED\U0001F1F0 香港|6.4MB/s|X|KeepHistory"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 12578
+      reduce-rtt: false
+      request-timeout: 0
+      server: hktuic01.yydzx.xyz
+      sni: hktuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - alpn:
+        - ""
+      alterId: "0"
+      cipher: auto
+      name: "\U0001F1E9\U0001F1EADE²_1|3.4MB/s|10%|GPT⁺|X|KeepHistory"
+      network: tcp
+      port: "55555"
+      server: mci.yektanet.info
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: a4b41dc8-b684-49e4-b3db-ade382c113d3
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1EF\U0001F1F5JP⁻¹_1|1.4MB/s"
+      network: ws
+      port: "443"
+      server: 13.115.249.234
+      servername: stall3.sni2026.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+      ws-opts:
+        headers:
+            Host: stall3.sni2026.netlib.re
+            User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+        path: /proxyip=tw.soso.edu.kg:43
+      xudp: true
+    - alpn:
+        - h3
+      client-fingerprint: random
+      encryption: none
+      name: "\U0001F1FA\U0001F1F8US⁻¹_2|2.7MB/s|GM|YT|TK"
+      network: ws
+      port: "8602"
+      server: 23.185.168.144
+      servername: stall3.sni2026.netlib.re
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6911bb2c-a220-45a6-94fb-1ea8d9a1e94e
+      ws-opts:
+        headers:
+            Host: stall3.sni2026.netlib.re
+            User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36
+        path: /proxyip=tw.soso.edu.kg:43
+      xudp: true
