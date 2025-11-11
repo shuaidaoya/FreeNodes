@@ -1,78 +1,9 @@
 proxies:
-    - country: "\U0001F1E8\U0001F1E6CA"
-      name: "\U0001F1FA\U0001F1F8US²_1|3.9MB/s|51%|GPT⁺|X|KeepSucced"
-      password: d30ab83dbde4480082048fb315bedebd
-      port: 443
-      server: 104.234.0.139
-      skip-cert-verify: true
-      sni: 104.234.0.139
-      type: trojan
-      udp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_1|1.2MB/s|GPT|GM|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.179
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_2|2.7MB/s|GPT|GM|YT|X|KeepSucced"
-      password: d30ab83dbde4480082048fb315bedebd
-      port: 443
-      server: 15.204.56.75
-      skip-cert-verify: true
-      sni: 15.204.56.75
-      type: trojan
-      udp: true
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1FA\U0001F1F8US²_3|2.8MB/s|GM|NF|X|KeepSucced"
-      password: d30ab83dbde4480082048fb315bedebd
-      port: 443
-      server: 38.180.141.48
-      skip-cert-verify: true
-      sni: 38.180.141.48
-      type: trojan
-      udp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1EE\U0001F1F9IT²_1|2.2MB/s|0%|TK|NF"
-      password: KGmSBLUuG/0NMUv5BrfmKsRZG7Igx5deB4HdldmIgCE=
-      port: "14628"
-      server: sio.wiseno.xyz
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US¹-PL⁰_1|3.3MB/s|4%|GPT|YT-PL|TK-PL|X|KeepHistory"
-      network: ws
-      password: 49d416e1-4cec-41e1-bff6-3748c466f275
-      port: "8443"
-      server: 45.144.48.158
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT⁺|GM|YT-US|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.32
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_3|1.1MB/s|GPT⁺|GM|YT-US|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.83
-      type: ss
     - alpn:
         - ""
       alterId: "0"
       cipher: auto
-      name: "\U0001F1E9\U0001F1EADE²_1|3.1MB/s|10%|GPT⁺|YT-US|TK|NF|X"
+      name: "\U0001F1E9\U0001F1EADE²_1|3.5MB/s|10%|GPT|TK|NF|X|KeepSucced"
       network: tcp
       port: "55555"
       server: mci.yektanet.info
@@ -82,12 +13,50 @@ proxies:
       udp: true
       uuid: a4b41dc8-b684-49e4-b3db-ade382c113d3
       xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR²_1|1.3MB/s|X|KeepHistory"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1EEFI²_1|3.2MB/s|GPT|X|KeepHistory"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: L-7MZ5IB5uSmLn34BQsBOF8XaDN3B2as4ye-nWkJEzI
+        short-id: 056d3a8e5b410ee9
+      server: fi.podpiska.vip
+      servername: uspehudacha.com
       tls: true
-      type: http
+      type: vless
       udp: true
-      username: test
+      uuid: fc363de7-5d11-42e0-b9c0-79d59274882a
+      xudp: true
+    - country: "\U0001F1EB\U0001F1F7FR"
+      name: "\U0001F1EB\U0001F1F7FR²_1|2.2MB/s|0%|GPT⁺|YT|TK|NF|X"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 52.47.54.160
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F9\U0001F1FCTW²_1|4.4MB/s|GPT⁺|GM|X|KeepHistory"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 15820
+      reduce-rtt: false
+      request-timeout: 0
+      server: twtuic01.yydzx.xyz
+      sni: twtuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_1|1.3MB/s|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.68
+      type: ss
