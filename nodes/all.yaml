@@ -1,26 +1,21 @@
 proxies:
-    - name: "\U0001F1F8\U0001F1ECSG²_1|7.4MB/s|GPT⁺|GM|YT|X|KeepSucced"
-      password: BxceQaOe
-      port: 4666
-      server: 36.150.215.147
-      skip-cert-verify: true
-      sni: t.me%2Fripaojiedian
-      type: trojan
-    - name: "\U0001F1F0\U0001F1F7KR²_1|4.4MB/s|NF|X|KeepSucced"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1ED\U0001F1F0HK²_1|5.6MB/s|2%|YT|NF|X|KeepSucced"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 12955
+      reduce-rtt: false
+      request-timeout: 0
+      server: hktuic01.yydzx.xyz
+      sni: hktuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
     - alterId: 0
       cipher: auto
       country: "\U0001F1ED\U0001F1F0HK"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK¹⁺_1|2.2MB/s|YT|X|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK¹⁺_1|5.1MB/s|YT|NF|X|KeepSucced"
       network: ws
       port: 443
       server: 219.76.13.166
@@ -33,55 +28,33 @@ proxies:
         headers:
             HOST: aa.nbee.pp.ua
         path: /qq
-    - congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1ED\U0001F1F0HK²_1|3.8MB/s|2%|YT|NF|X|KeepHistory"
-      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-      port: 12955
-      reduce-rtt: false
-      request-timeout: 0
-      server: hktuic01.yydzx.xyz
-      sni: hktuic01.yydzx.xyz
-      type: tuic
-      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
-    - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|3.7MB/s|YT"
-      network: ws
-      port: "443"
-      server: 77.221.157.32
-      servername: kuangbao.xiejiang.site
+    - name: "\U0001F1F0\U0001F1F7KR²_1|4.4MB/s|GPT|GM|X|KeepSucced"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
       tls: true
-      type: vless
+      type: http
       udp: true
-      uuid: 470df3e9-ff22-485b-94b3-7ad10ef5372a
-      ws-opts:
-        headers:
-            Host: kuangbao.xiejiang.site
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
-        path: /?ed=2560
-      xudp: true
+      username: test
     - client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F7\U0001F1FARU⁻¹_1|2.4MB/s|4%|GPT|X"
+      name: "\U0001F1EB\U0001F1F7FR⁻¹_1|1.9MB/s|GPT⁺|TK|X|KeepHistory"
       network: ws
+      password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
       port: "2053"
-      server: 80.90.187.190
-      servername: kuangbao.xiejiang.site
-      tls: true
-      type: vless
+      server: 51.38.226.4
+      skip-cert-verify: false
+      sni: joss.dus.biz.id
+      type: trojan
       udp: true
-      uuid: 470df3e9-ff22-485b-94b3-7ad10ef5372a
       ws-opts:
         headers:
-            Host: kuangbao.xiejiang.site
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36
-        path: /?ed=2560
-      xudp: true
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F0\U0001F1FFKZ²_1|1.4MB/s|5%|GPT|X"
+      name: "\U0001F1FA\U0001F1F8US²_1|3.2MB/s|X|KeepSucced"
       network: tcp
       port: "10012"
       reality-opts:
@@ -96,10 +69,10 @@ proxies:
       xudp: true
     - client-fingerprint: chrome
       encryption: none
-      name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.3MB/s|GPT|X"
+      name: "\U0001F1E9\U0001F1EADE⁻¹_1|1.4MB/s|NF"
       network: ws
-      port: "443"
-      server: 38.180.111.0
+      port: "8443"
+      server: 51.195.102.180
       servername: kuangbao.xiejiang.site
       tls: true
       type: vless
@@ -108,6 +81,90 @@ proxies:
       ws-opts:
         headers:
             Host: kuangbao.xiejiang.site
-            User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko) Chrome/v1.0.0 Safari/538.1
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
         path: /?ed=2560
       xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|1.5MB/s|X"
+      network: ws
+      port: "443"
+      server: 142.132.140.130
+      servername: kuangbao.xiejiang.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 470df3e9-ff22-485b-94b3-7ad10ef5372a
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.site
+            User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F8\U0001F1EC SG"
+      name: "\U0001F1F8\U0001F1ECSG²_1|1.8MB/s|X|KeepHistory"
+      password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+      plugin: obfs
+      plugin-opts:
+        host: (TG @WangCai2)32cf132:178330
+        mode: tls
+      port: 2377
+      server: 18.141.181.229
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1E9\U0001F1EADE⁻¹_2|1.3MB/s|GPT|NF|X"
+      network: ws
+      port: "8443"
+      server: 51.195.43.174
+      servername: kuangbao.xiejiang.site
+      tls: true
+      type: vless
+      udp: true
+      uuid: 470df3e9-ff22-485b-94b3-7ad10ef5372a
+      ws-opts:
+        headers:
+            Host: kuangbao.xiejiang.site
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+        path: /?ed=2560
+      xudp: true
+    - cipher: chacha20-ietf
+      name: "\U0001F1EF\U0001F1F5JP²_1|2.3MB/s|3%|GPT⁺|GM|YT|TK|X"
+      password: passwd
+      plugin: obfs
+      plugin-opts:
+        host: 31832-qOf3ahM8.download.microsoft.com
+        mode: http
+      port: 2000
+      server: osjp04.mynode.me
+      type: ss
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F9\U0001F1FCTW²_1|4.5MB/s|GPT⁺|GM|YT|NF|X|KeepHistory"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 15820
+      reduce-rtt: false
+      request-timeout: 0
+      server: twtuic01.yydzx.xyz
+      sni: twtuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1ED\U0001F1F0HK²_2|4.5MB/s|2%|X|KeepHistory"
+      password: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+      port: 12578
+      reduce-rtt: false
+      request-timeout: 0
+      server: hktuic01.yydzx.xyz
+      sni: hktuic01.yydzx.xyz
+      type: tuic
+      uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1ED\U0001F1F7HR²_1|2.5MB/s|28%|GPT⁺|X|KeepHistory"
+      password: gXOXk2FJwsz9P6nXIICuDNOqF9gWX1dn
+      port: 443
+      server: 185.156.110.92
+      type: ss
