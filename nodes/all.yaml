@@ -1,17 +1,10 @@
 proxies:
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1E9\U0001F1EADE²_1|1.4MB/s|53%|GPT⁺|YT-US|TK|X|KeepSucced"
-      password: wkEpN0Aah790OAX940P4qm
-      port: "7048"
-      server: 62.133.60.60
-      type: ss
-      udp: true
     - alterId: 0
       cipher: auto
       country: "\U0001F1ED\U0001F1F0HK"
       h2-opts: {}
       http-opts: {}
-      name: "\U0001F1ED\U0001F1F0HK¹⁺_1|1.4MB/s|4%|YT|X|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK¹⁺_1|7.1MB/s|4%|YT|NF|X|KeepSucced"
       network: ws
       port: 443
       server: 219.76.13.166
@@ -24,49 +17,47 @@ proxies:
         headers:
             HOST: aa.nbee.pp.ua
         path: /qq
+    - name: "\U0001F1FA\U0001F1F8US²_1|0.7MB/s|0%|NF|X|KeepSucced"
+      password: gs4BXwT6SW
+      port: 10988
+      server: 154.26.192.123
+      type: http
+      username: fQ67Dpe5dU
+    - alpn:
+        - h3
+      client-fingerprint: chrome
+      disable-sni: false
+      name: "\U0001F1E8\U0001F1E6CA²_1|0.7MB/s|4%|GPT⁺|YT-US|NF|X|KeepSucced"
+      password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+      port: 52434
+      reduce-rtt: false
+      request-timeout: "0"
+      server: 40.233.77.57
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: tuic
+      uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+      version: "5"
     - cipher: chacha20-ietf
-      name: "\U0001F1ED\U0001F1F0HK²_1|1.1MB/s|1%|GPT⁺|NF|X|KeepSucced"
+      name: "\U0001F1FA\U0001F1F8US²_2|2.7MB/s|0%|GPT⁺|GM|YT|NF|X|KeepSucced"
       password: passwd
       plugin: obfs
       plugin-opts:
         host: 31832-qOf3ahM8.download.microsoft.com
         mode: http
       port: 2000
-      server: oshk01.mynode.me
+      server: osus03.mynode.me
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_1|2.3MB/s|GPT⁺|GM|NF|X"
+      name: "\U0001F1FB\U0001F1F3VN²_1|0.6MB/s|GPT⁺|GM|TK|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.231
+      server: 103.186.155.103
       type: ss
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_2|3.3MB/s|10%|GPT⁺|NF|X|KeepSucced"
-      network: ws
-      port: "17627"
-      server: 91.107.152.112
-      type: vless
-      udp: true
-      uuid: 2383929d-77ac-445f-a7cc-1c32edd982a5
-      ws-opts:
-        headers:
-            Host: ""
-            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-        path: /@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----
-      xudp: true
-    - country: "\U0001F1EB\U0001F1F7FR"
-      name: "\U0001F1EB\U0001F1F7FR²_1|1.6MB/s|2%|GPT⁺|TK|NF|X|KeepSucced"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 35.181.106.165
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
     - cipher: chacha20-ietf
       delay: 688
-      name: "\U0001F1EF\U0001F1F5JP²_1|2.0MB/s|3%|GPT⁺|GM|X|KeepSucced"
+      name: "\U0001F1EF\U0001F1F5JP²_1|2.7MB/s|3%|GPT⁺|GM|YT|X|KeepSucced"
       password: passwd
       plugin: obfs
       plugin-opts:
@@ -75,8 +66,31 @@ proxies:
       port: 2000
       server: osjp05.mynode.me
       type: ss
+    - name: "\U0001F1F0\U0001F1F7KR²_1|0.7MB/s|12%|GPT⁺|GM|NF|X|KeepSucced"
+      password: test.+
+      port: 30446
+      server: testkr3.ssv.vc
+      skip-cert-verify: true
+      tls: true
+      type: http
+      udp: true
+      username: test
+    - encryption: none
+      name: "\U0001F1EB\U0001F1F7FR²_1|2.9MB/s|47%|GPT⁺|NF|X|KeepSucced"
+      network: ws
+      port: "80"
+      server: 51.195.92.49
+      type: vless
+      udp: true
+      uuid: 2a2d95c5-56f0-455b-a80a-4b920842d886
+      ws-opts:
+        headers:
+            Host: lunavow5d444ef.global.ssl.fastly.net
+            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+        path: /
+      xudp: true
     - cipher: chacha20-ietf
-      name: "\U0001F1EF\U0001F1F5JP²_2|2.2MB/s|3%|GPT⁺|X|KeepSucced"
+      name: "\U0001F1EF\U0001F1F5JP²_2|2.8MB/s|3%|GPT⁺|GM|TK|X|KeepSucced"
       password: passwd
       plugin: obfs
       plugin-opts:
@@ -86,7 +100,7 @@ proxies:
       server: osjp04.mynode.me
       type: ss
     - encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_3|5.1MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucced"
+      name: "\U0001F1E9\U0001F1EADE²_1|5.1MB/s|10%|GPT|TK|NF|X|KeepSucced"
       network: ws
       port: "2082"
       server: www.speedtest.net
@@ -101,27 +115,20 @@ proxies:
       xudp: true
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_2|2.0MB/s|GPT|NF|X|KeepSucced"
+      name: "\U0001F1FB\U0001F1F3VN²_2|1.0MB/s|GPT|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.178
+      server: 103.186.155.148
       type: ss
-    - encryption: none
-      name: "\U0001F1EB\U0001F1F7FR²_2|3.0MB/s|GPT⁺|YT-DE|TK|NF|X|KeepSucced"
-      network: ws
-      port: "80"
-      server: 51.195.92.49
-      type: vless
-      udp: true
-      uuid: 2a2d95c5-56f0-455b-a80a-4b920842d886
-      ws-opts:
-        headers:
-            Host: lunavow5d444ef.global.ssl.fastly.net
-            User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-        path: /
-      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_3|0.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.124
+      type: ss
     - country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK²_2|3.7MB/s|2%|YT|NF|X|KeepSucced"
+      name: "\U0001F1ED\U0001F1F0HK²_1|0.6MB/s|YT|NF|X|KeepSucced"
       password: 2274c52572e721086f8bd8f88984643c
       port: 443
       server: 58.152.110.9
@@ -130,28 +137,9 @@ proxies:
       type: trojan
       udp: true
     - client-fingerprint: chrome
-      flow: xtls-rprx-vision
-      http-opts:
-        headers: {}
-        path:
-            - /
-      name: "\U0001F1F9\U0001F1F7TR²_1|1.3MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "8087"
-      reality-opts:
-        public-key: Ro8OYB3Jq6hTWw95trCnKzQPvWaN2ShcbeLg7dTv8UU
-        short-id: 828348fc6d8e49cf
-      server: turkiye.marzxo.biz
-      servername: refersion.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 707a0019-a197-7ae1-e3db-767b5ec220cb
-      xudp: true
-    - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1F8\U0001F1E8SC²_1|1.4MB/s|5%|GPT⁺|YT-CY|TK|NF|X|KeepSucced"
+      name: "\U0001F1F8\U0001F1E8SC²_1|0.6MB/s|5%|GPT⁺|YT-CY|TK|NF|X|KeepSucced"
       network: tcp
       port: "10007"
       reality-opts:
@@ -164,251 +152,206 @@ proxies:
       udp: true
       uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7
       xudp: true
-    - client-fingerprint: randomized
-      name: "\U0001F1F3\U0001F1F1NL¹⁺_1|3.4MB/s|TK|NF|KeepSucced"
-      network: ws
-      password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
-      port: "443"
-      server: 86.107.197.239
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
-        path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+    - cipher: aes-256-cfb
+      country: "\U0001F1E9\U0001F1EADE"
+      name: "\U0001F1E9\U0001F1EADE²_2|3.2MB/s|2%|X|KeepSucced"
+      password: amazonskr05
+      port: 443
+      server: 3.79.57.79
+      type: ss
     - country: "\U0001F1F7\U0001F1FARU"
-      name: "\U0001F1F7\U0001F1FARU²_1|2.6MB/s|GPT|X|KeepSucced"
+      name: "\U0001F1F7\U0001F1FARU²_1|1.0MB/s|GPT⁺|TK|X|KeepSucced"
       password: 3ef03de40a234d209bb2d3807ca0d643
       port: 443
       server: 46.29.161.237
       skip-cert-verify: true
       type: trojan
       udp: true
-    - client-fingerprint: randomized
-      name: "\U0001F1FA\U0001F1F8US⁻¹_1|2.4MB/s|TK-FI|NF|KeepSucced"
-      network: ws
-      password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
-      port: "2053"
-      server: 65.109.227.138
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
-    - cipher: chacha20-ietf
-      delay: 428
-      name: "\U0001F1ED\U0001F1F0HK²_3|0.6MB/s|X|KeepSucced"
-      password: passwd
-      plugin: obfs
-      plugin-opts:
-        host: 31832-qOf3ahM8.download.microsoft.com
-        mode: http
-      port: 2000
-      server: oshk02.mynode.me
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E9\U0001F1EADE"
-      name: "\U0001F1E9\U0001F1EADE²_4|3.3MB/s|TK|NF|X|KeepHistory"
-      password: amazonskr05
-      port: 443
-      server: 3.79.57.79
-      type: ss
-    - alpn:
-        - ""
-      alterId: "0"
-      cipher: auto
-      http-opts:
-        headers:
-            Host:
-                - www.varzesh3.com
-        path:
-            - /
-      name: "\U0001F1E7\U0001F1ECBG²_1|0.5MB/s|6%|GPT⁺|X|KeepHistory"
-      network: http
-      port: "17564"
-      server: 5.160.197.78
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: aa7dd96b0a7d81db2e71553abe192620
-      xudp: true
-    - client-fingerprint: chrome
-      name: "\U0001F1FA\U0001F1F8US⁻¹_2|2.9MB/s|YT-PL|TK-PL|X|KeepHistory"
-      network: ws
-      password: 49d416e1-4cec-41e1-bff6-3748c466f275
-      port: "8443"
-      server: 45.144.48.158
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-        path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
-    - alterId: 0
-      cipher: auto
-      country: "\U0001F1EF\U0001F1F5JP"
-      h2-opts: {}
-      http-opts:
-        method: GET
-        path:
-            - /
-      name: "\U0001F1EF\U0001F1F5JP²_3|5.0MB/s|X"
-      network: http
-      port: 80
-      server: jp1g.wi-fi-ai.com
-      servername: a.189.cn
-      skip-cert-verify: true
-      type: vmess
-      uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
-    - name: "\U0001F1F3\U0001F1F1NL¹⁺_2|3.4MB/s|4%|NF|KeepHistory"
-      network: ws
-      password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
-      port: 443
-      server: 194.147.115.149
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
-      udp: true
-      ws-opts:
-        headers:
-            Host: joss.dus.biz.id
-        path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
-    - name: "\U0001F1FA\U0001F1F8US²_1|0.5MB/s|0%|NF|X|KeepHistory"
-      password: gs4BXwT6SW
-      port: 10988
-      server: 154.26.192.123
-      type: http
-      username: fQ67Dpe5dU
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_3|0.8MB/s|X"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.103
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_4|2.0MB/s|TK|NF|X"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.148
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_5|2.3MB/s|GPT|X|KeepHistory"
+      name: "\U0001F1FB\U0001F1F3VN²_4|1.1MB/s|GPT⁺|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.218
       type: ss
-    - cipher: chacha20-ietf
-      name: "\U0001F1FA\U0001F1F8US²_2|3.0MB/s|0%|GPT⁺|X|KeepHistory"
-      password: passwd
-      plugin: obfs
-      plugin-opts:
-        host: 31832-qOf3ahM8.download.microsoft.com
-        mode: http
-      port: 2000
-      server: osus03.mynode.me
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_5|2.8MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.178
       type: ss
-    - name: "\U0001F1F7\U0001F1FARU¹⁺_1|2.1MB/s|YT|TK-FI|X|KeepHistory"
+    - encryption: none
+      name: "\U0001F1E9\U0001F1EADE²_3|0.9MB/s|GPT⁺|YT|TK|NF|X|KeepSucced"
       network: ws
-      password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
-      port: 2053
-      server: 213.159.208.88
-      skip-cert-verify: false
-      sni: joss.dus.biz.id
-      type: trojan
+      port: "17627"
+      server: 91.107.152.112
+      type: vless
       udp: true
+      uuid: 2383929d-77ac-445f-a7cc-1c32edd982a5
+      ws-opts:
+        headers:
+            Host: ""
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+        path: /@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----@armanstore2--Telegram----
+      xudp: true
+    - encryption: none
+      name: "\U0001F1FA\U0001F1F8US¹⁺_1|18.3MB/s|GPT|TK|X"
+      network: ws
+      port: "80"
+      server: 104.16.86.2
+      type: vless
+      udp: true
+      uuid: 9f0eae34-97c1-4c07-8a55-438379981334
+      ws-opts:
+        headers:
+            Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
+            User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31
+        path: /?ed
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_6|2.2MB/s|GPT⁺|YT-US|TK|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.74
+      type: ss
+    - alterId: 0
+      cipher: auto
+      country: "\U0001F1F8\U0001F1EASE"
+      h2-opts: {}
+      http-opts: {}
+      name: "\U0001F1F8\U0001F1EASE²_1|3.2MB/s|1%|GPT|YT|TK|NF|X"
+      network: tcp
+      port: 5228
+      server: dir.lightnright.com
+      skip-cert-verify: true
+      type: vmess
+      uuid: 6202ab997f570a6a180ae980b41f5789
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_7|1.8MB/s|GM|YT|TK"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.223
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_8|1.3MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.228
+      type: ss
+    - name: "\U0001F1EE\U0001F1F1IL¹⁺_1|3.1MB/s|4%|GPT|YT|X"
+      network: ws
+      password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
+      port: 81
+      server: 94.131.114.50
+      sni: joss.dus.biz.id
+      tls: true
+      type: trojan
       ws-opts:
         headers:
             Host: joss.dus.biz.id
-        path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
-    - alpn:
-        - h3
-      client-fingerprint: chrome
-      disable-sni: false
-      name: "\U0001F1E8\U0001F1E6CA²_1|1.7MB/s|4%|GPT⁺|YT|NF|X|KeepHistory"
-      password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-      port: 52434
-      reduce-rtt: false
-      request-timeout: "0"
-      server: 40.233.77.57
-      skip-cert-verify: true
-      sni: www.bing.com
-      type: tuic
-      uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-      version: "5"
-    - alterId: "2"
-      cipher: auto
-      name: "\U0001F1ED\U0001F1F0HK²_4|0.5MB/s|KeepHistory"
+        path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
+    - client-fingerprint: chrome
+      name: "\U0001F1EB\U0001F1F7FR⁻¹_1|0.5MB/s|YT|TK|NF|KeepHistory"
       network: ws
-      port: "30809"
-      server: v9.heduian.link
-      skip-cert-verify: false
-      tls: false
-      type: vmess
-      udp: true
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            Host: baidu.com
-        path: /oooo
-      xudp: true
-    - alpn:
-        - h2
-        - http/1.1
-      client-fingerprint: chrome
-      encryption: none
-      name: "\U0001F1F3\U0001F1F1NL²_1|1.2MB/s|GPT|TK|NF|X|KeepHistory"
-      network: ws
-      port: "2083"
-      server: www.speedtest.net
-      servername: golestan.hajalwi.ir.
-      tls: true
-      type: vless
-      udp: true
-      uuid: golestan-vpn
-      ws-opts:
-        headers:
-            Host: golestan.hajalwi.ir.
-            User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-        path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
-      xudp: true
-    - name: "\U0001F1F0\U0001F1F7KR²_1|0.7MB/s|12%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
-      password: test.+
-      port: 30446
-      server: testkr3.ssv.vc
-      skip-cert-verify: true
-      tls: true
-      type: http
-      udp: true
-      username: test
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_6|1.3MB/s|GPT⁺|GM|X"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.124
-      type: ss
-    - client-fingerprint: randomized
-      name: "\U0001F1E8\U0001F1EDCH⁻¹_1|3.4MB/s|GPT|YT|TK|NF|X|KeepHistory"
-      network: ws
-      password: 2b1487cd-e56b-4c62-b1e9-8beb686e002c
+      password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
       port: "2053"
-      server: 45.95.232.18
+      server: 51.38.226.4
       skip-cert-verify: false
       sni: joss.dus.biz.id
       type: trojan
       udp: true
       ws-opts:
         headers:
-            User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-        path: /Free-VPN-CF-Geo-Project/45.95.232.18=2053
+            User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+        path: /Free-VPN-CF-Geo-Project/51.38.226.4=2053
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_9|1.1MB/s|GM|YT-US|TK|X|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.32
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_10|1.3MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.34
+      type: ss
+    - country: "\U0001F1FA\U0001F1F8US"
+      name: "\U0001F1E9\U0001F1EADE²_4|4.0MB/s|2%|GPT⁺|TK|NF|X|KeepHistory"
+      password: telegram-id-directvpn
+      port: 22223
+      server: 63.179.217.23
+      skip-cert-verify: true
+      sni: trojan.burgerip.co.uk
+      type: trojan
+      udp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_11|1.9MB/s|GPT|YT-US|TK|NF|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.185
+      type: ss
+    - country: "\U0001F1ED\U0001F1F0HK"
+      name: "\U0001F1F8\U0001F1ECSG²_1|2.4MB/s|GPT⁺|X|KeepHistory"
+      password: BxceQaOe
+      port: 518
+      server: 116.49.237.130
+      skip-cert-verify: true
+      sni: t.me%2Fripaojiedian
+      type: trojan
+      udp: true
+    - cipher: chacha20-ietf-poly1305
+      country: "\U0001F1F7\U0001F1FARU"
+      name: "\U0001F1E7\U0001F1F7BR²_1|2.1MB/s|28%|GPT⁺|NF|X|KeepHistory"
+      password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+      port: 443
+      server: 213.159.66.206
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_12|1.4MB/s|GPT⁺|GM|YT-US|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.25
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_13|0.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.235
+      type: ss
+    - name: "\U0001F1ED\U0001F1F0HK²_2|0.9MB/s|50%|NF|X|KeepHistory"
+      password: 76nlxJLO35
+      port: 36855
+      server: 172.93.165.193
+      type: http
+      username: xZedCGy2A5
+    - alpn:
+        - http/1.1
+      client-fingerprint: chrome
+      encryption: none
+      name: "\U0001F1F8\U0001F1EASE²_2|1.8MB/s|1%|GPT|X|KeepHistory"
+      network: tcp
+      port: "8883"
+      server: dir.lightnright.com
+      servername: jnir-x.pichondan.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 6202ab99-7f57-0a6a-180a-e980b41f5789
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_14|1.3MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.121
+      type: ss
