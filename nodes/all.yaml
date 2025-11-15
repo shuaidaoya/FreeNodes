@@ -1,82 +1,55 @@
 proxies:
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F7\U0001F1FARU²_1|0.8MB/s|X|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-        short-id: 4c02bbbfa833b3b6
-      server: youtube.jykvpn.com
-      servername: cdnjs.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-      xudp: true
-    - cipher: chacha20-ietf-poly1305
-      name: "\U0001F1F3\U0001F1F1NL²_1|2.8MB/s|GPT⁺|X|KeepSucced"
-      password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG
-      port: "443"
-      server: 51.158.204.165
-      type: ss
-      udp: true
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US²_1|1.4MB/s|0%|GPT|NF|X|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-        short-id: 4c02bbbfa833b3b6
-      server: autos.jykvpn.com
-      servername: cdnjs.com
-      tls: true
-      type: vless
-      udp: true
-      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-      xudp: true
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1F8\U0001F1ECSG²_1|0.6MB/s|X|KeepSucced"
+      password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+      port: 13347
+      reduce-rtt: false
+      request-timeout: 0
+      server: sgtuic01.yydzx.xyz
+      sni: sgtuic01.yydzx.xyz
+      type: tuic
+      uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1E9\U0001F1EADE²_2|3.8MB/s|X|KeepSucced"
+      password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+      port: 15863
+      reduce-rtt: false
+      request-timeout: 0
+      server: detuic.yydzx.xyz
+      sni: detuic.yydzx.xyz
+      type: tuic
+      uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_1|0.6MB/s|GPT|NF|X|KeepSucced"
+      name: "\U0001F1FB\U0001F1F3VN²_1|1.7MB/s|GPT⁺|GM|TK|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.237
+      server: 103.186.155.43
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_2|0.9MB/s|GPT|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.198
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_2|0.5MB/s|GPT|YT-US|TK|NF|X|KeepSucced"
+      name: "\U0001F1FB\U0001F1F3VN²_3|0.6MB/s|GPT⁺|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.154.243
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_3|0.8MB/s|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.250
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_4|0.5MB/s|GPT|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.196
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_5|0.8MB/s|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.184
+      server: 103.186.155.139
       type: ss
     - client-fingerprint: chrome
       encryption: none
       flow: xtls-rprx-vision
-      name: "\U0001F1FA\U0001F1F8US²_2|2.2MB/s|0%|GPT|YT-FI|TK|NF|X|KeepSucced"
+      name: "\U0001F1FA\U0001F1F8US²_1|2.5MB/s|YT-FI|TK|NF|X|KeepSucced"
       network: tcp
       port: "443"
       reality-opts:
@@ -90,185 +63,173 @@ proxies:
       uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
       xudp: true
     - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_6|0.9MB/s|GPT|YT-US|TK|NF|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.78
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_7|0.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.139
-      type: ss
-    - client-fingerprint: chrome
-      encryption: none
-      flow: xtls-rprx-vision
-      name: "\U0001F1F3\U0001F1F1NL²_2|1.9MB/s|14%|GPT⁺|YT|TK|NF|X|KeepSucced"
-      network: tcp
-      port: "443"
-      reality-opts:
-        public-key: Tk7r4Scoti1f1Zc81x0VWJD9VB9FcTbTHUR3oyiGQV4
-        short-id: 210f698ddd200c86
-      server: 91.84.107.88
-      servername: www.m.vk.ru
-      tls: true
-      type: vless
-      udp: true
-      uuid: 62744573-ca28-4bae-bf8e-b5915048b7af
-      xudp: true
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_8|0.5MB/s|YT-US|TK|X|KeepSucced"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.198
-      type: ss
-    - alterId: 2
-      cipher: auto
-      country: "\U0001F1E8\U0001F1F3CN"
-      h2-opts: {}
-      http-opts: {}
-      name: "\U0001F1E9\U0001F1EADE²_1|0.9MB/s|TK|X|KeepHistory"
-      network: ws
-      port: 30833
-      server: v33.heduian.link
-      servername: baidu.com
-      skip-cert-verify: true
-      type: vmess
-      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-      ws-opts:
-        headers:
-            HOST: baidu.com
-        path: /oooo
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1E9\U0001F1EADE²_2|4.0MB/s|14%|GPT⁺|YT|TK|NF|X|KeepHistory"
-      password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
-      port: 15863
-      reduce-rtt: false
-      request-timeout: 0
-      server: detuic.yydzx.xyz
-      sni: detuic.yydzx.xyz
-      type: tuic
-      uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
-    - cipher: aes-256-cfb
-      country: "\U0001F1EC\U0001F1E7GB"
-      name: "\U0001F1EC\U0001F1E7GB²_1|1.3MB/s|12%|GPT⁺|NF|X|KeepHistory"
-      password: amazonskr05
-      port: 443
-      server: 18.130.251.29
-      type: ss
-    - country: "\U0001F1FA\U0001F1F8US"
-      name: "\U0001F1E9\U0001F1EADE²_3|0.9MB/s|0%|GPT|TK|X"
-      password: telegram-id-directvpn
-      port: 22223
-      server: 63.180.120.57
-      skip-cert-verify: true
-      sni: trojan.burgerip.co.uk
-      type: trojan
-      udp: true
-    - name: "\U0001F1F9\U0001F1FCTW²_1|0.5MB/s|YT|TK|NF|X|KeepHistory"
-      password: exaxgqkKkd0TAMrCxeonWg==
-      port: 1443
-      server: twmoon1-cdn-route.couldflare-cdn.com
-      skip-cert-verify: false
-      tls: true
-      type: http
-      username: mrwdfNTD8M79LCukCieldrqZWqs=
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_9|0.5MB/s|GPT|NF|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.148
-      type: ss
-    - cipher: aes-256-cfb
       country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_10|0.9MB/s|GPT⁺|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.22
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1 ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_11|0.8MB/s|GPT⁺|YT-US|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.43
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_12|1.2MB/s|GPT⁺|GM|NF|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.29
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_13|0.7MB/s|GPT|TK|NF|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.155.43
-      type: ss
-    - cipher: aes-256-cfb
-      country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_14|0.6MB/s|GPT|X|KeepHistory"
-      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-      port: 38388
-      server: 103.186.154.249
-      type: ss
-    - cipher: aes-256-gcm
-      country: "\U0001F1ED\U0001F1F0HK"
-      name: "\U0001F1ED\U0001F1F0HK²_1|9.2MB/s|0%|YT|X|KeepHistory"
-      password: 176c983f-6a7f-4a96-9865-891a6c48ec86
-      port: 50000
-      server: a001.standard-nodes-chickenfarms.com
-      type: ss
-    - encryption: none
-      name: "\U0001F1E9\U0001F1EADE²_4|1.4MB/s|10%|GPT⁺|YT-US|NF|X"
-      network: tcp
-      port: "443"
-      server: vp5.myphotomoments.ir
-      type: vless
-      udp: true
-      uuid: Warpi-Free-Vpn-In-GooglePlay
-      xudp: true
-    - alpn:
-        - h3
-      congestion-controller: bbr
-      disable-sni: false
-      name: "\U0001F1F8\U0001F1ECSG²_1|4.6MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-      password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
-      port: 13347
-      reduce-rtt: false
-      request-timeout: 0
-      server: sgtuic01.yydzx.xyz
-      sni: sgtuic01.yydzx.xyz
-      type: tuic
-      uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
-    - cipher: aes-256-cfb
-      country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_15|1.3MB/s|GPT⁺|TK|NF|X|KeepHistory"
+      name: "\U0001F1FB\U0001F1F3VN²_4|0.7MB/s|GPT|YT-US|TK|NF|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.154.193
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F3C1ZZ"
-      name: "\U0001F1FB\U0001F1F3VN²_16|0.8MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
+      name: "\U0001F1FB\U0001F1F3VN²_5|0.9MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
       server: 103.186.155.237
       type: ss
     - cipher: aes-256-cfb
       country: "\U0001F1E8\U0001F1F3 CN"
-      name: "\U0001F1FB\U0001F1F3VN²_17|1.6MB/s|GPT|GM|NF|X|KeepHistory"
+      name: "\U0001F1FB\U0001F1F3VN²_6|1.2MB/s|GPT⁺|YT-US|TK|X|KeepSucced"
       password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
       port: 38388
-      server: 103.186.155.22
+      server: 103.186.155.29
       type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_7|0.7MB/s|GPT|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.237
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_8|0.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.184
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_9|1.4MB/s|GPT⁺|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.78
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_10|0.9MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.243
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_11|0.5MB/s|TK|NF|X|KeepSucced"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.249
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F1E8\U0001F1F3 CN"
+      name: "\U0001F1FB\U0001F1F3VN²_12|0.7MB/s|GPT|GM|TK|X|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.155.10
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_13|0.9MB/s|GPT⁺|YT-US|TK|NF|X|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.194
+      type: ss
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_14|0.9MB/s|GPT|GM|YT-US|TK|NF|X|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.49
+      type: ss
+    - client-fingerprint: firefox
+      name: "\U0001F1EE\U0001F1F7IR²_1|1.9MB/s|0%|GPT|YT-US|X"
+      port: 9107
+      reality-opts:
+        public-key: Go_wk-NFoenM3xuCSQ84_0Lzh3Y6XrHzTz8XTbQl8lI
+        short-id: e8ef8df79e4a6343
+      server: 195.254.165.152
+      servername: refersion.com
+      skip-cert-verify: false
+      tls: true
+      type: vless
+      udp: true
+      uuid: 774727ed-1e56-41bd-b55f-28549e21bcc8
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1E9\U0001F1EA 德国|1.2MB/s|X"
+      password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+      port: 15081
+      reduce-rtt: false
+      request-timeout: 0
+      server: detuic.yydzx.xyz
+      sni: detuic.yydzx.xyz
+      type: tuic
+      uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+    - alpn:
+        - h3
+      congestion-controller: bbr
+      disable-sni: false
+      name: "\U0001F1EF\U0001F1F5JP²_1|6.2MB/s|0%|GPT⁺|YT-CN|TK|NF|X|KeepHistory"
+      password: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+      port: 14754
+      reduce-rtt: false
+      request-timeout: 0
+      server: jptuic01.yydzx.xyz
+      sni: jptuic01.yydzx.xyz
+      type: tuic
+      uuid: 5b7124d0-7092-466c-b9fa-c13be64f0cb0
+    - alterId: "2"
+      cipher: auto
+      name: "\U0001F1F3\U0001F1F1NL²_1|0.7MB/s|28%|GPT|X|KeepHistory"
+      network: tcp
+      port: "30805"
+      server: v5.heduian.link
+      skip-cert-verify: false
+      tls: false
+      type: vmess
+      udp: true
+      uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+      xudp: true
+    - cipher: aes-256-cfb
+      country: "\U0001F3C1 ZZ"
+      name: "\U0001F1FB\U0001F1F3VN²_15|0.8MB/s|GM|YT-US|NF|KeepHistory"
+      password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+      port: 38388
+      server: 103.186.154.36
+      type: ss
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      name: "\U0001F1FA\U0001F1F8US²_2|2.3MB/s|GPT|YT-PL|TK-PL|NF|X"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+        short-id: 4c02bbbfa833b3b6
+      server: pl.jykvpn.com
+      servername: cdnjs.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+      xudp: true
+    - client-fingerprint: chrome
+      encryption: none
+      flow: xtls-rprx-vision
+      http-opts:
+        headers: {}
+        path:
+            - /
+      name: "\U0001F1EB\U0001F1F7FR²_1|0.6MB/s|X|KeepHistory"
+      network: tcp
+      port: "443"
+      reality-opts:
+        public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+        short-id: ee6f3e8f44b1f0b6
+      server: 62.60.148.21
+      servername: st.ozone.ru
+      tls: true
+      type: vless
+      udp: true
+      uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+      xudp: true
