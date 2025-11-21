@@ -1,8 +1,15 @@
 proxies:
+  - cipher: aes-256-cfb
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_1|3.4MB/s|25%|YT-CN|NF|X|KeepSucced"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 216.250.97.82
+    type: ss
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_1|4.3MB/s|18%|GPT⁺|YT-RU|TK|NF|X|KeepSucced"
+    name: "\U0001F1F3\U0001F1F1NL²_1|3.4MB/s|18%|GPT⁺|YT|TK|X|KeepSucced"
     network: tcp
     port: 443
     reality-opts:
@@ -15,212 +22,8 @@ proxies:
     uuid: 40d7798a-6c76-4298-a9d4-9e6181cd2dd7
     xudp: true
     servername: www.cybo.com
-  - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_1|0.7MB/s|GPT⁺|YT|TK|NF|X|KeepSucced"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.37
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|1.2MB/s|GPT⁺|GM|NF|X|KeepSucced"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.57
-    type: ss
-  - name: "\U0001F1F0\U0001F1F7KR²_1|1.7MB/s|11%|GPT⁺|GM|TK|X|KeepSucced"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|1.0MB/s|GPT⁺|X|KeepSucced"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.207
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|0.8MB/s|GPT⁺|YT|X|KeepSucced"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.64
-    type: ss
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE²_1|3.8MB/s|GPT⁺|YT-GB|TK|NF|X|KeepSucced"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: i3AAHIiAZOk2-3BFfQlPN5eRBfBpLt53M3p0JKuE0Cw
-      short-id: 0d680ba281cb229b
-    server: 85.192.24.131
-    tls: true
-    type: vless
-    udp: true
-    uuid: 07e0d9f5-6ed1-4bfb-8c19-311a312cba7d
-    xudp: true
-    servername: web.max.ru
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F3C1 ZZ"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_1|0.6MB/s|GPT|YT|NF|X"
-    network: ws
-    port: 80
-    server: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-    ws-opts:
-      path: /
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 6bbacbda-t1ekg0-t2uo6p-yjq0.hk3.p5pv.com
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL⁻¹_1|3.4MB/s|GPT|NF|X|KeepSucced"
-    network: ws
-    password: ee339912-0c35-4fac-8d85-180b65bcd49c
-    port: 443
-    server: 81.22.132.183
-    skip-cert-verify: false
-    sni: joss.gpj1.web.id
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/81.22.132.183=443
-  - client-fingerprint: randomized
-    name: "\U0001F1EC\U0001F1E7GB¹⁺_1|4.3MB/s|2%|YT|TK|KeepHistory"
-    network: ws
-    password: 8b7d4642-dff2-4c16-81a4-88ca738d6718
-    port: 2053
-    server: 91.199.32.191
-    skip-cert-verify: false
-    sni: joss.gpj1.web.id
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/91.199.32.191=2053
   - encryption: none
-    name: "\U0001F1F8\U0001F1EASE¹-SG⁰_1|1.5MB/s|2%|KeepHistory"
-    network: ws
-    port: 2053
-    server: 77.221.136.213
-    tls: true
-    type: vless
-    uuid: 54fdfb91-1d27-4c5a-8fb3-61e1b08b2a58
-    ws-opts:
-      headers:
-        Host: bp.hexo.cloudns.ch
-      path: /proxyip=proxyip.sg.cmliussss.net
-    servername: bp.hexo.cloudns.ch
-  - alterId: 2
-    cipher: auto
-    client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE²_2|0.6MB/s|X|KeepHistory"
-    network: ws
-    port: 30833
-    server: v33.heduian.link
-    skip-cert-verify: false
-    tfo: false
-    tls: false
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      headers:
-        Host: baidu.com
-      path: /oooo
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_2|0.8MB/s|14%|GPT⁺|YT|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: 4c02bbbfa833b3b6
-    server: nl2.srv.happvpn.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: d2de6d6d-4735-4fe3-b4b6-00a81ced69f5
-    xudp: true
-    servername: cdnjs.com
-  - client-fingerprint: randomized
-    name: "\U0001F1E9\U0001F1EADE¹⁺_1|0.6MB/s|GPT⁺|TK|NF|X|KeepHistory"
-    network: ws
-    password: 38af00d3-7c80-49fe-b91a-34d0d8044ee2
-    port: 2053
-    server: 57.129.16.72
-    skip-cert-verify: false
-    sni: joss.gpj1.web.id
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
-  - alpn:
-      - h3
-      - h2
-      - http/1.1
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1EB\U0001F1EEFI²_1|3.3MB/s|7%|GPT⁺|YT-DE|TK|NF|X"
-    network: ws
-    port: 2053
-    server: free.best-antiaging-reviews.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 095ee315-a14c-4bf7-8bcb-568392415e26
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
-    servername: free.best-antiaging-reviews.com
-  - client-fingerprint: randomized
-    name: "\U0001F1E8\U0001F1FFCZ¹⁺_1|1.7MB/s|YT|NF|KeepHistory"
-    network: ws
-    password: f583143c-2cbe-47f5-804d-27efa55442a1
-    port: 443
-    server: 81.91.214.162
-    skip-cert-verify: false
-    sni: joss.gpj1.web.id
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/66.0.3359.117 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_3|5.3MB/s|10%|GPT⁺|YT-US|TK|X"
+    name: "\U0001F1E9\U0001F1EADE²_1|2.2MB/s|10%|GPT⁺|TK|X|KeepSucced"
     network: ws
     port: 2082
     server: www.speedtest.net
@@ -238,8 +41,79 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2082
     xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.8MB/s|GPT⁺|GM|X|KeepSucced"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.207
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|0.8MB/s|GPT⁺|NF|X|KeepSucced"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.64
+    type: ss
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1EF\U0001F1F5JP²_1|1.8MB/s|GPT|YT|NF|X|KeepSucced"
+    password: Fn9TZuYXiFYhsyp65T
+    port: 443
+    server: os-2.rise-fuji.com
+    skip-cert-verify: true
+    sni: os-2.rise-fuji.com
+    type: trojan
+    udp: true
   - client-fingerprint: randomized
-    name: "\U0001F1FA\U0001F1F8US¹-ES⁰_1|3.6MB/s|TK-ES|KeepHistory"
+    name: "\U0001F1E8\U0001F1FFCZ¹⁺_1|2.9MB/s|YT|TK|NF|KeepSucced"
+    network: ws
+    password: f583143c-2cbe-47f5-804d-27efa55442a1
+    port: 443
+    server: 81.91.214.162
+    skip-cert-verify: false
+    sni: joss.gpj1.web.id
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.117 Safari/537.36
+      path: /Free-VPN-CF-Geo-Project/81.91.214.162=443
+  - client-fingerprint: randomized
+    name: "\U0001F1EC\U0001F1E7GB⁻¹_1|0.6MB/s|TK|NF|X|KeepSucced"
+    network: ws
+    password: 8b7d4642-dff2-4c16-81a4-88ca738d6718
+    port: 2053
+    server: 91.199.32.191
+    skip-cert-verify: false
+    sni: joss.gpj1.web.id
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /Free-VPN-CF-Geo-Project/91.199.32.191=2053
+  - client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EADE¹⁺_1|3.8MB/s|TK|KeepSucced"
+    network: ws
+    password: 38af00d3-7c80-49fe-b91a-34d0d8044ee2
+    port: 2053
+    server: 57.129.16.72
+    skip-cert-verify: false
+    sni: joss.gpj1.web.id
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: /Free-VPN-CF-Geo-Project/57.129.16.72=2053
+  - client-fingerprint: randomized
+    name: "\U0001F1EA\U0001F1F8ES¹⁺_1|3.3MB/s|YT|TK|KeepSucced"
     network: ws
     password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
     port: 8443
@@ -254,26 +128,12 @@ proxies:
           Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/59.0.3071.115 Safari/537.36
       path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
-  - cipher: aes-256-cfb
-    country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_2|7.5MB/s|25%|YT-CN|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 216.250.97.82
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_3|2.7MB/s|2%|YT|NF|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.18.95
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR¹-BE⁰_1|2.7MB/s|GPT|TK|NF|X|KeepHistory"
+  - client-fingerprint: randomized
+    name: "\U0001F1E9\U0001F1EADE¹⁺_2|3.1MB/s|GPT|TK|X"
     network: ws
-    password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
-    port: 443
-    server: 34.22.190.30
+    password: 83794b09-d50a-4e6e-9559-1372b6299e89
+    port: 2053
+    server: 162.19.246.187
     skip-cert-verify: false
     sni: joss.gpj1.web.id
     type: trojan
@@ -281,31 +141,87 @@ proxies:
     ws-opts:
       headers:
         User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1EF\U0001F1F5JP²_1|2.1MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    password: Fn9TZuYXiFYhsyp65T
-    port: 443
-    server: os-2.rise-fuji.com
+          Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/49.0.2623.112 Safari/537.36
+      path: /Free-VPN-CF-Geo-Project/162.19.246.187=2053
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1F8\U0001F1ECSG"
+    h2-opts: {}
+    http-opts:
+      method: GET
+      path:
+        - /
+    name: "\U0001F1F8\U0001F1ECSG²_1|7.8MB/s|1%|GPT⁺|GM|YT|X|KeepHistory"
+    network: http
+    port: 53784
+    server: 18.143.248.157
     skip-cert-verify: true
-    sni: os-2.rise-fuji.com
+    type: vmess
+    uuid: 3a480a7d-a4b3-46e1-d4c4-04256b77f045
+  - country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1E9\U0001F1EADE²_2|3.9MB/s|0%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 63.180.84.118
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
     type: trojan
     udp: true
-  - name: "\U0001F1FA\U0001F1F8US⁻¹_1|0.9MB/s|GM|YT|TK|NF|X|KeepHistory"
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|1.3MB/s|GPT⁺|GM|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.2
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_2|0.5MB/s|2%|X|KeepHistory"
+    password: dd2f25b4c70689de8bc0f7fa9d6591cb
+    port: 443
+    server: 58.152.18.124
+    sni: www.nintendogames.net
+    type: trojan
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|1.8MB/s|GPT⁺|GM|YT|TK|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.223
+    type: ss
+  - name: "\U0001F1E9\U0001F1EADE²_3|1.7MB/s|10%|GPT⁺|NF|X"
     network: ws
-    port: 8080
-    server: xn--b6gac.eu.org
+    port: 2082
+    server: www.speedtest.net
+    skip-cert-verify: false
+    tls: false
     type: vless
-    uuid: 046da250-d5ef-4867-9095-302477d54d20
+    udp: true
+    uuid: d52ecc10-1c89-4d95-d12a-61bc48c4024c
     ws-opts:
       headers:
-        Host: feng.ipy29c99.workers.dev
-      path: /
+        Host: >-
+          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
       early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    servername: feng.ipy29c99.workers.dev
+      max-early-data: 2082
+    servername: >-
+      novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_1|2.7MB/s|2%|GPT⁺|X|KeepHistory"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 15.188.107.82
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_5|0.5MB/s|GPT|GM|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.113
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
