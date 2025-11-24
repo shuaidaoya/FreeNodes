@@ -8,7 +8,7 @@
 ---
 
 - ~~时间是GitHub Actions服务器时间，和国内时间不同（后期会考虑转换为国内时间）~~ 
-- 测速是福建泉州测速所以受到福建这边墙的影响
+- 本项目用的是泉州广电的卡跑出来的节点-其他运营商有部分节点无法使用还请见谅
 
 > ⚠️ **注意**: 本项目仅提供节点分享，不提供技术支持服务。
 <!-- AUTO_STATS_START -->
@@ -16,10 +16,10 @@
 节点速度最低1m/s,以GitHub为测试地址,建议先测一遍速，剔除不可用节点，再进行使用
 | 项目 | 状态 |
 |------|------|
-| 🕐 **最后更新时间** | 2025-10-25 13:08:57 北京时间 |
-| 📄 **YAML 节点** | 55 个 |
-| 📝 **Base64 节点数** | 55 个 |
-| 🔄 **同步状态** | 🔄 备用同步 |
+| 🕐 **最后更新时间** | 2025-11-25 00:26:39 北京时间 |
+| 📄 **YAML 节点** | 87 个 |
+| 📝 **Base64 节点数** | 87 个 |
+| 🔄 **同步状态** | 🚨 紧急恢复 |
 
 ## 🔧 触发器状态监控
 | 触发器类型 | 状态 | 执行间隔 | 说明 |
@@ -34,6 +34,7 @@
 FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开源项目。所有节点都经过 **[SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI)** 严格测试验证，确保连接稳定性和可用性。
 
 > 🙏 **特别感谢**: 感谢 [sinspired/SubsCheck-Win-GUI](https://github.com/sinspired/SubsCheck-Win-GUI) 项目提供的优秀节点测试工具，为本项目的节点质量保证提供了强有力的技术支持。
+> - 🙏各位大佬和其对应的开源项目开源项目在下方统一表示感谢
 
 我们致力于为用户提供：
 - 🔍 **经过验证的节点** - 每个节点都通过专业工具测试
@@ -74,12 +75,12 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ### 🔗 Gist 订阅地址
 
-| 格式类型 | 描述 | 订阅链接 | 适用客户端 |
+| 格式类型 | 适用客户端 | 订阅链接 | 适用客户端 |
 |---------|------|----------|-----------|
-| 📄 **all.yaml** | 完整 YAML 配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
-| 📝 **base64.txt** | Base64 编码列表 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/base64.txt` | 通用客户端 |
-| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/history.yaml` | 备用节点 |
-| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/45a4616a347cf5998fd9ef83d41d8a91ff314bc6/mihomo.yaml` | Mihomo |
+| 📄 **all.yaml** | Clash Party、V2Ray、Clash、Shadowrocket | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
+| 📝 **base64.txt** | 通用订阅，不知道选什么协议 优先选这个 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt` | 通用客户端 |
+| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | 备用节点 |
+| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | Mihomo |
 
 > 🎯 **一键复制**: 点击上方链接可直接复制到剪贴板，然后粘贴到您的代理客户端中
 
@@ -87,18 +88,16 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 | 时间 -仅保留最新10条 | 节点数量 | 节点详情 |
 |------|------|----------|
-| 2025-10-25 13:08:57 | YAML:55个, Base64:55个 | 🔄 备用触发器更新 - YAML:55个, Base64:55个 |
-| 2025-10-25 13:06:28 | YAML:55个, Base64:55个 | 📊 自动更新 - YAML:55个, Base64:55个 |
-| 2025-10-25 12:42:09 | YAML:70个, Base64:70个 | 🚨 紧急恢复更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 12:39:56 | YAML:70个, Base64:70个 | 📊 自动更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 12:38:41 | YAML:70个, Base64:70个 | 🔄 备用触发器更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 12:24:49 | YAML:70个, Base64:70个 | 🚨 紧急恢复更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 12:15:25 | YAML:70个, Base64:70个 | 📊 自动更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 12:10:45 | YAML:70个, Base64:70个 | 🔄 备用触发器更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 11:49:33 | YAML:70个, Base64:70个 | 🚨 紧急恢复更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 11:46:07 | YAML:70个, Base64:70个 | 🔄 备用触发器更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 11:31:34 | YAML:70个, Base64:70个 | 📊 自动更新 - YAML:70个, Base64:70个 |
-| 2025-10-25 11:14:06 | YAML:70个, Base64:70个 | 🔄 备用触发器更新 - YAML:70个, Base64:70个 |
+| 2025-11-25 00:26:39 | YAML:87个, Base64:87个 | 🚨 紧急恢复更新 - YAML:87个, Base64:87个 |
+| 2025-11-25 00:15:47 | YAML:87个, Base64:87个 | 📊 自动更新 - YAML:87个, Base64:87个 |
+| 2025-11-25 00:10:29 | YAML:87个, Base64:87个 | 🔄 备用触发器更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 23:46:35 | YAML:87个, Base64:87个 | 🚨 紧急恢复更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 23:42:38 | YAML:87个, Base64:87个 | 📊 自动更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 23:41:23 | YAML:87个, Base64:87个 | 🔄 备用触发器更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 23:27:10 | YAML:87个, Base64:87个 | 🚨 紧急恢复更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 23:16:40 | YAML:87个, Base64:87个 | 📊 自动更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 23:11:14 | YAML:87个, Base64:87个 | 🔄 备用触发器更新 - YAML:87个, Base64:87个 |
+| 2025-11-24 22:47:07 | YAML:85个, Base64:85个 | 🚨 紧急恢复更新 - YAML:85个, Base64:85个 |
  
 
 ### 📋 使用方法
@@ -170,14 +169,14 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ---
 
-### 📞 联系方式
+### 感谢以下大佬和其对应的开源项目
 
-- 📧 **项目地址**: [GitHub Repository](https://github.com/shuaidaoya/FreeNodes)
-- 🐛 **问题反馈**: [Issues](https://github.com/shuaidaoya/FreeNodes/issues)
-- 💡 **功能建议**: [Discussions](https://github.com/shuaidaoya/FreeNodes/discussions)
+-  [sinspired](https://github.com/sinspired/SubsCheck-Win-GUI)
+-  [cmliu-CM大佬](https://github.com/cmliu/SubsCheck-Win-GUI)
+-  [beck-8](https://github.com/beck-8/subs-check)
+-  [bestruirui](https://github.com/bestruirui/BestSub)
 
-> ⚠️ **重要提醒**: 本项目仅提供节点分享，不提供技术支持。使用前请确保了解相关风险。
-
+> **感谢以上大佬的开源项目**: 正是有以上大佬的开源项目才有本项目。
 ---
 
 <div align="center">
