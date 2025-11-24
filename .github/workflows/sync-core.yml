@@ -1,0 +1,139 @@
+name: ⚙️ Sync Core Workflow
+
+on:
+  workflow_call:
+    inputs:
+      label:
+        description: 执行标签（主同步/备用/紧急）
+        required: false
+        default: 主同步
+        type: string
+      dry_run:
+        description: 演练模式（不提交不推送）
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: Asia/Shanghai
+    steps:
+      - name: 📦 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🗂️ 准备目录
+        run: |
+          mkdir -p nodes
+
+      - name: 📥 下载 Gist 文件（稳健）
+        id: download
+        run: |
+          set -e
+          GIST_BASE_URL="https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw"
+
+          download() {
+            url="$1"; out="$2"
+            echo "➡️ 下载 $url -> $out"
+            if ! curl -fS --connect-timeout 10 --max-time 60 --retry 5 --retry-delay 5 "$url" -o "$out"; then
+              echo "❌ 下载失败: $url" >&2
+              echo "failed=true" >> $GITHUB_OUTPUT
+              return 1
+            fi
+            if [ ! -s "$out" ]; then
+              echo "❌ 文件为空: $out" >&2
+              echo "failed=true" >> $GITHUB_OUTPUT
+              return 1
+            fi
+          }
+
+          download "$GIST_BASE_URL/all.yaml" nodes/all.yaml || true
+          download "$GIST_BASE_URL/base64.txt" nodes/base64.txt || true
+          download "$GIST_BASE_URL/history.yaml" nodes/history.yaml || true
+          download "$GIST_BASE_URL/mihomo.yaml" nodes/mihomo.yaml || true
+
+          echo "label=${{ inputs.label }}" >> $GITHUB_OUTPUT
+
+      - name: 🧮 统计节点
+        id: count
+        run: |
+          yaml_nodes=0
+          base64_lines=0
+
+          if [ -s nodes/all.yaml ]; then
+            yaml_nodes=$(grep -c "server:" nodes/all.yaml 2>/dev/null || echo 0)
+          fi
+
+          if [ -s nodes/base64.txt ]; then
+            decoded_content=$(base64 -d nodes/base64.txt 2>/dev/null || echo "")
+            if [ -n "$decoded_content" ]; then
+              base64_lines=$(echo "$decoded_content" | grep -c "^[a-zA-Z0-9]*://" 2>/dev/null || echo 0)
+            fi
+          fi
+
+          echo "yaml_nodes=$yaml_nodes" >> $GITHUB_OUTPUT
+          echo "base64_lines=$base64_lines" >> $GITHUB_OUTPUT
+
+      - name: 📝 生成 nodes/README.md
+        run: |
+          echo "# 📊 节点文件信息" > nodes/README.md
+          echo "" >> nodes/README.md
+          echo "**更新时间**: $(date '+%Y-%m-%d %H:%M:%S 北京时间')" >> nodes/README.md
+          echo "**更新方式**: ${{ inputs.label }}" >> nodes/README.md
+          echo "" >> nodes/README.md
+          echo "| 文件名 | 大小 | 最后修改 |" >> nodes/README.md
+          echo "|--------|------|----------|" >> nodes/README.md
+          for file in nodes/*.yaml nodes/*.txt; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file")
+              filesize=$(ls -lh "$file" | awk '{print $5}')
+              modified=$(date -r "$file" '+%Y-%m-%d %H:%M')
+              echo "| $filename | $filesize | $modified |" >> nodes/README.md
+            fi
+          done
+
+      - name: ⚙️ 更新 README 统计（脚本）
+        shell: pwsh
+        run: |
+          $yamlNodes = '${{ steps.count.outputs.yaml_nodes }}'
+          $base64Lines = '${{ steps.count.outputs.base64_lines }}'
+          $label = '${{ inputs.label }}'
+          ./.github/scripts/update_readme.ps1 -YamlNodes $yamlNodes -Base64Lines $base64Lines -Label $label -ReadmePath 'README.md'
+
+      - name: 🔐 配置 Git 用户
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: 🚀 提交与推送（仅有变更）
+        if: inputs.dry_run != true
+        run: |
+          set -e
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+            exit 0
+          fi
+          git add .
+          git commit -m "🔄 自动同步（${{ inputs.label }}） - $(date '+%Y-%m-%d %H:%M:%S')"
+          git pull --rebase || true
+          git push
+
+      - name: 🧪 演练模式输出
+        if: inputs.dry_run == true
+        run: |
+          echo "DRY_RUN 模式：不提交不推送，仅验证流程"
+
+      - name: 📋 步骤总结
+        run: |
+          echo "## 同步摘要" >> $GITHUB_STEP_SUMMARY
+          echo "- 标签: ${{ inputs.label }}" >> $GITHUB_STEP_SUMMARY
+          echo "- YAML 节点: ${{ steps.count.outputs.yaml_nodes }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Base64 节点: ${{ steps.count.outputs.base64_lines }}" >> $GITHUB_STEP_SUMMARY
+          echo "- DRY_RUN: ${{ inputs.dry_run }}" >> $GITHUB_STEP_SUMMARY
