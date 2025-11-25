@@ -158,6 +158,24 @@ jobs:
           git pull --rebase || true
           git push
 
+      - name: ❌ 失败通知（下载或提交失败时）
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { context, rest } = github;
+            const title = `Sync Failure - Run ${context.runId}`;
+            const body = `Workflow: ${context.workflow}\nRun ID: ${context.runId}\nJob: ${context.job}\nCheck summary for details.`;
+            // 查找当天是否已有 issue
+            const list = await rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, labels: 'sync-failure', state: 'open' });
+            const existing = list.data.find(i => i.title.includes('Sync Failure'));
+            if (existing) {
+              await rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: existing.number, body });
+            } else {
+              const created = await rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body, labels: ['sync-failure'] });
+              core.info(`Created issue #${created.data.number}`);
+            }
+
       - name: 🧪 演练模式输出
         if: inputs.dry_run == true
         run: |

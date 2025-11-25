@@ -16,8 +16,8 @@ on:
         default: false
 
 concurrency:
-  group: sync-core
-  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 # 设置权限
 permissions:
