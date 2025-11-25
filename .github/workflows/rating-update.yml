@@ -18,11 +18,15 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
       - uses: actions/github-script@v7
         id: calc
         with:
           script: |
-            const { rest, context } = github
+            const rest = github.rest
             async function listAll() {
               const res = await rest.issues.listForRepo({ owner: context.repo.owner, repo: context.repo.repo, state: 'all', labels: 'rating', per_page: 100 })
               return res.data
@@ -67,7 +71,7 @@ jobs:
         run: |
           avg='${{ steps.calc.outputs.avg }}'
           if [ -f README.md ]; then
-            awk -v a="$avg" 'BEGIN{s=0} {if($0 ~ /<!-- RATING_AVG_START -->/){s=1;print $0;print a;next} if($0 ~ /<!-- RATING_AVG_END -->/){s=0} if(s==1) next; print $0}' README.md > README.md.tmp && mv README.md.tmp README.md
+            sed -i -E "s|(<!-- RATING_AVG_START -->)(.*?)(<!-- RATING_AVG_END -->)|\1${avg}\3|g" README.md
           fi
       - name: Commit changes
         run: |
