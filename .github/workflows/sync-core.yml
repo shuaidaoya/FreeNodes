@@ -28,6 +28,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ github.token }}
+          persist-credentials: true
 
       - name: 🗂️ 准备目录
         run: |
@@ -60,6 +62,20 @@ jobs:
           download "$GIST_BASE_URL/mihomo.yaml" nodes/mihomo.yaml || true
 
           echo "label=${{ inputs.label }}" >> $GITHUB_OUTPUT
+
+      - name: 📁 列出 nodes 文件与校验哈希
+        run: |
+          echo "### nodes 文件列表" >> $GITHUB_STEP_SUMMARY
+          if ls -lh nodes/* 1>/dev/null 2>&1; then
+            ls -lh nodes/* | sed 's/^/- /' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### nodes 文件 SHA256" >> $GITHUB_STEP_SUMMARY
+            for f in nodes/*; do
+              [ -f "$f" ] && echo "- $(sha256sum "$f")" >> $GITHUB_STEP_SUMMARY || true
+            done
+          else
+            echo "- 无文件" >> $GITHUB_STEP_SUMMARY
+          fi
 
       - name: 🧮 统计节点
         id: count
@@ -99,6 +115,12 @@ jobs:
             fi
           done
 
+      - name: 📦 上传 nodes 目录为 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodes-files
+          path: nodes
+
       - name: ⚙️ 更新 README 统计（脚本）
         shell: pwsh
         run: |
@@ -112,11 +134,22 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
+      - name: 🔍 提交前状态检查
+        run: |
+          echo "### Git 状态" >> $GITHUB_STEP_SUMMARY
+          git status --porcelain || true
+          git status --porcelain | sed 's/^/- /' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 变更文件列表" >> $GITHUB_STEP_SUMMARY
+          git diff --name-only || true
+          git diff --name-only | sed 's/^/- /' >> $GITHUB_STEP_SUMMARY
+
       - name: 🚀 提交与推送（仅有变更）
         if: inputs.dry_run != true
         run: |
           set -e
-          if git diff --quiet && git diff --cached --quiet; then
+          printf '\n' >> README.md
+          if [ -z "$(git status --porcelain)" ]; then
             echo "无变更，跳过提交"
             exit 0
           fi

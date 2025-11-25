@@ -9,6 +9,10 @@ on:
         description: 演练模式（不提交不推送）
         type: boolean
         default: false
+      force:
+        description: 强制执行（忽略健康检查）
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -79,7 +83,7 @@ jobs:
 
   run-core:
     needs: health
-    if: needs.health.outputs.SKIP_EXECUTION != 'true'
+    if: inputs.force == true || needs.health.outputs.SKIP_EXECUTION != 'true'
     uses: ./.github/workflows/sync-core.yml
     with:
       label: 备用同步
