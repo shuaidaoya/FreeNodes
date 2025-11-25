@@ -6,9 +6,12 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-if (!(Test-Path $ReadmePath)) { Write-Host "README 不存在，跳过"; exit 0 }
 $now = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss 北京时间')
-$readme = Get-Content $ReadmePath -Raw
+if (Test-Path $ReadmePath) {
+  $readme = Get-Content $ReadmePath -Raw
+} else {
+  $readme = ""
+}
 $start = '<!-- AUTO_STATS_START -->'
 $end = '<!-- AUTO_STATS_END -->'
 

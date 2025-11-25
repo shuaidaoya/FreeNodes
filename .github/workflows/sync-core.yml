@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   sync:
@@ -148,7 +149,9 @@ jobs:
         if: inputs.dry_run != true
         run: |
           set -e
-          printf '\n' >> README.md
+          if [ -f README.md ]; then
+            printf '\n' >> README.md
+          fi
           if [ -z "$(git status --porcelain)" ]; then
             echo "无变更，跳过提交"
             exit 0
