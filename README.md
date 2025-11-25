@@ -1,4 +1,4 @@
-﻿# 🚀 FreeNodes
+# 🚀 FreeNodes
 
 [![GitHub stars](https://img.shields.io/github/stars/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/network)
@@ -16,18 +16,10 @@
 节点速度最低1m/s,以GitHub为测试地址,建议先测一遍速，剔除不可用节点，再进行使用
 | 项目 | 状态 |
 |------|------|
-| 🕐 **最后更新时间** | 2025-11-25 00:26:39 北京时间 |
-| 📄 **YAML 节点** | 87 个 |
-| 📝 **Base64 节点数** | 87 个 |
-| 🔄 **同步状态** | 🚨 紧急恢复 |
-
-## 🔧 触发器状态监控
-| 触发器类型 | 状态 | 执行间隔 | 说明 |
-|-----------|------|----------|------|
-| 🎯 **主触发器** | 🟢 正常 | 每30分钟 | 主要同步触发器 |
-| 🔄 **备用触发器** | 🟢 正常 | 每30分钟 | 备用同步触发器 |
-| 🚨 **紧急恢复** | 🟢 正常 | 每30分钟 | 紧急恢复检查 |
-<!-- AUTO_STATS_END -->
+| 🕐 **最后更新时间** | 2025-11-25 12:15:27 北京时间 |
+| 📄 **YAML 节点** | 117 个 |
+| 📝 **Base64 节点数** | 117 个 |
+| 🔄 **同步状态** | 主同步 |<!-- AUTO_STATS_END -->
 
 ## 📖 项目简介
 
@@ -88,6 +80,7 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 | 时间 -仅保留最新10条 | 节点数量 | 节点详情 |
 |------|------|----------|
+| 2025-11-25 12:15:27 | YAML:117 个, Base64:117 个 | 📊 自动更新 |
 | 2025-11-25 00:26:39 | YAML:87个, Base64:87个 | 🚨 紧急恢复更新 - YAML:87个, Base64:87个 |
 | 2025-11-25 00:15:47 | YAML:87个, Base64:87个 | 📊 自动更新 - YAML:87个, Base64:87个 |
 | 2025-11-25 00:10:29 | YAML:87个, Base64:87个 | 🔄 备用触发器更新 - YAML:87个, Base64:87个 |
@@ -183,3 +176,4 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
   <p>如果这个项目对您有帮助，请给它一个 ⭐️</p>
   <p>Made with ❤️ by FreeNodes Team</p>
 </div>
+
