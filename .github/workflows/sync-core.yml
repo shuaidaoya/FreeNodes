@@ -163,7 +163,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const { context, rest } = github;
+            const { rest } = github;
             const title = `Sync Failure - Run ${context.runId}`;
             const body = `Workflow: ${context.workflow}\nRun ID: ${context.runId}\nJob: ${context.job}\nCheck summary for details.`;
             // 查找当天是否已有 issue

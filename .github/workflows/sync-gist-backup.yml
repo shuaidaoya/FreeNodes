@@ -27,12 +27,14 @@ jobs:
     timeout-minutes: 10
     env:
       TZ: Asia/Shanghai
-    outputs:
-      SKIP_EXECUTION: ${{ steps.check.outputs.SKIP_EXECUTION }}
-      FORCE_UPDATE: ${{ steps.check.outputs.FORCE_UPDATE }}
-      TRIGGER_TYPE: ${{ steps.check.outputs.TRIGGER_TYPE }}
-      EXECUTION_REASON: ${{ steps.check.outputs.EXECUTION_REASON }}
     steps:
+      - name: 📦 检出代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ github.token }}
+          persist-credentials: true
+
       - name: 🔍 备用健康检查 - 避免重复执行
         id: check
         run: |
@@ -80,6 +82,11 @@ jobs:
           else
             echo "🚨 备用触发器接管执行（主触发器可能失效）" >> $GITHUB_STEP_SUMMARY
           fi
+    outputs:
+      SKIP_EXECUTION: ${{ steps.check.outputs.SKIP_EXECUTION }}
+      FORCE_UPDATE: ${{ steps.check.outputs.FORCE_UPDATE }}
+      TRIGGER_TYPE: ${{ steps.check.outputs.TRIGGER_TYPE }}
+      EXECUTION_REASON: ${{ steps.check.outputs.EXECUTION_REASON }}
 
   run-core:
     needs: health
@@ -87,4 +94,4 @@ jobs:
     uses: ./.github/workflows/sync-core.yml
     with:
       label: 备用同步
-      dry_run: ${{ inputs.dry_run }}
+      dry_run: ${{ inputs.dry_run || false }}

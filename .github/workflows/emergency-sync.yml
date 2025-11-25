@@ -27,7 +27,7 @@ jobs:
       uses: actions/github-script@v7
       with:
         script: |
-          const { rest, context } = github;
+          const { rest } = github;
           async function lastSuccess(workflowFile) {
             const runs = await rest.actions.listWorkflowRuns({
               owner: context.repo.owner,
@@ -89,7 +89,7 @@ jobs:
       uses: actions/github-script@v7
       with:
         script: |
-          const { rest, context } = github;
+          const { rest } = github;
           try {
             await rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
