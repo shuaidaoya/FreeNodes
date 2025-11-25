@@ -1,4 +1,4 @@
-# 🚀 FreeNodes
+﻿# 🚀 FreeNodes
 
 [![GitHub stars](https://img.shields.io/github/stars/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/network)
@@ -177,3 +177,14 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
   <p>Made with ❤️ by FreeNodes Team</p>
 </div>
 
+## ⭐ 项目评分
+
+![项目评分](assets/rating.svg)
+
+当前平均评分：<!-- RATING_AVG_START -->0.0<!-- RATING_AVG_END --> / 5.0
+
+选择评分：
+
+[0.5](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%200.5&body=rating:%200.5) · [1.0](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%201.0&body=rating:%201.0) · [1.5](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%201.5&body=rating:%201.5) · [2.0](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%202.0&body=rating:%202.0) · [2.5](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%202.5&body=rating:%202.5) · [3.0](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%203.0&body=rating:%203.0) · [3.5](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%203.5&body=rating:%203.5) · [4.0](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%204.0&body=rating:%204.0) · [4.5](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%204.5&body=rating:%204.5) · [5.0](https://github.com/shuaidaoya/FreeNodes/issues/new?labels=rating&title=Rating%205.0&body=rating:%205.0)
+
+交互版评分页：`docs/rating/index.html`

@@ -1,0 +1,6 @@
+const repo='shuaidaoya/FreeNodes'
+const svgStar=(frac)=>{const s=40,g=0,x=0,y=0;const path=(x,y,s)=>{const p=[[.5,0],[.618,.382],[1,.382],[.691,.618],[.809,1],[.5,.764],[.191,1],[.309,.618],[0,.382],[.382,.382]].map(([xx,yy])=>[(x+xx*s),(y+yy*s)]);return 'M'+p.map(([a,b])=>a+','+b).join('L')+'Z'};const id='c'+Math.random().toString(36).slice(2);return `<svg class='star' viewBox='0 0 ${s} ${s}' xmlns='http://www.w3.org/2000/svg'><defs><clipPath id='${id}'><path d='${path(x,y,s)}'/></clipPath></defs><rect x='${x}' y='${y}' width='${s}' height='${s}' fill='#ddd'/><rect x='${x}' y='${y}' width='${s*frac}' height='${s}' fill='#FFC107' clip-path='url(#${id})'/><path d='${path(x,y,s)}' fill='none' stroke='#888' stroke-width='1'/></svg>`}
+const stars=document.getElementById('stars')
+const values=[.5,1,1.5,2,2.5,3,3.5,4,4.5,5]
+values.forEach(v=>{const d=document.createElement('a');d.innerHTML=svgStar(1);d.href=`https://github.com/${repo}/issues/new?labels=rating&title=Rating%20${v}&body=rating:%20${v}`;d.title=`评分 ${v}`;stars.appendChild(d)})
+fetch(`https://raw.githubusercontent.com/${repo}/main/README.md`).then(r=>r.text()).then(t=>{const m=t.match(/<!-- RATING_AVG_START -->(.*?)<!-- RATING_AVG_END -->/s);document.getElementById('avg').textContent=m?m[1].trim():'--'})
