@@ -1,4 +1,4 @@
-# 🚀 FreeNodes
+﻿# 🚀 FreeNodes
 
 [![GitHub stars](https://img.shields.io/github/stars/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/shuaidaoya/FreeNodes?style=flat-square)](https://github.com/shuaidaoya/FreeNodes/network)
@@ -65,16 +65,33 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ## 📡 订阅链接
 
-### 🔗 Gist 订阅地址
+### 订阅链接分享
 
-| 格式类型 | 适用客户端 | 订阅链接 | 适用客户端 |
-|---------|------|----------|-----------|
-| 📄 **all.yaml** | Clash Party、V2Ray、Clash、Shadowrocket | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml` | Clash Party、V2Ray、Clash、Shadowrocket |
-| 📝 **base64.txt** | 通用订阅，不知道选什么协议 优先选这个 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt` | 通用客户端 |
-| 📚 **history.yaml** | 历史节点记录 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | 备用节点 |
-| ⚡ **mihomo.yaml** | Mihomo 专用配置 | `https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml` | Mihomo |
+Clash Meta 客户端订阅（支持 Clash Meta、Clash、Clash for Windows、Shadowrocket）
 
-> 🎯 **一键复制**: 点击上方链接可直接复制到剪贴板，然后粘贴到您的代理客户端中
+```
+https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/all.yaml
+```
+
+通用 base64 订阅（不知道选什么协议优先选这个）
+
+```
+https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/base64.txt
+```
+
+Mihomo 订阅（适用于 Mihomo 客户端）
+
+```
+https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/mihomo.yaml
+```
+
+历史节点记录（备用节点）
+
+```
+https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/raw/history.yaml
+```
+
+> 🎯 复制以上链接到你的代理客户端即可订阅最新节点
 
 ## 📋 更新日志
 
@@ -634,7 +651,6 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
   <p>如果这个项目对您有帮助，请给它一个 ⭐️</p>
   <p>Made with ❤️ by FreeNodes Team</p>
 </div>
-
 
 
 
