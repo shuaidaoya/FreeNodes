@@ -2,7 +2,8 @@ param(
   [int]$YamlNodes = 0,
   [int]$Base64Lines = 0,
   [string]$Label = '主同步',
-  [string]$ReadmePath = 'README.md'
+  [string]$ReadmePath = 'README.md',
+  [int]$MaxLogRows = 10
 )
 
 $ErrorActionPreference = 'Stop'
@@ -37,7 +38,6 @@ if ($readme.Contains($start) -and $readme.Contains($end)) {
   Set-Content -Path $ReadmePath -Value $new -NoNewline
 }
 
-# 在更新日志表格中插入记录（若存在表头）
 $date = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
 $summary = "YAML:$YamlNodes 个, Base64:$Base64Lines 个"
 $content = Get-Content $ReadmePath -Raw
@@ -49,5 +49,29 @@ if ([System.Text.RegularExpressions.Regex]::IsMatch($content, $headerPattern)) {
     "|------|------|----------|`n| $date | $summary | 📊 自动更新 |",
     1
   )
+} else {
+  $newContent = $readme + "`n## 📋 更新日志`n| 时间 -仅保留最新10条 | 节点数量 | 更新方式 |`n|------|------|----------|`n| $date | $summary | 📊 自动更新 |"
+}
+
+$lines = $newContent -split "`r?`n"
+$headerIndex = -1
+for ($i = 0; $i -lt $lines.Length; $i++) { if ($lines[$i] -eq "|------|------|----------|") { $headerIndex = $i; break } }
+if ($headerIndex -ge 0) {
+  $rows = @()
+  for ($j = $headerIndex + 1; $j -lt $lines.Length; $j++) {
+    $line = $lines[$j]
+    if ($line -match '^\|') { $rows += $line } else { break }
+  }
+  $keep = [Math]::Min($rows.Count, $MaxLogRows)
+  $rowsToKeep = @()
+  if ($keep -gt 0) { $rowsToKeep = $rows[0..($keep-1)] }
+  $before = @()
+  if ($headerIndex -ge 0) { $before = $lines[0..$headerIndex] }
+  $afterStart = $headerIndex + 1 + $rows.Count
+  $after = @()
+  if ($afterStart -lt $lines.Length) { $after = $lines[$afterStart..($lines.Length-1)] }
+  $final = ($before + $rowsToKeep + $after) -join "`n"
+  Set-Content -Path $ReadmePath -Value $final -NoNewline
+} else {
   Set-Content -Path $ReadmePath -Value $newContent -NoNewline
 }
