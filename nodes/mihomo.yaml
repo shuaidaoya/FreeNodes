@@ -1,90 +1,519 @@
 proxies:
   - cipher: aes-256-cfb
     country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    name: "\U0001F1FB\U0001F1F3VN²_1|0.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.221
+    server: 103.186.155.142
     type: ss
-  - name: "\U0001F1E9\U0001F1EADE²_1|0.6MB/s|GPT⁺|X|KeepHistory"
+  - name: "\U0001F1ED\U0001F1F0HK²_1|1.0MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - congestion-controller: cubic
+    disable-sni: false
+    name: "\U0001F1E9\U0001F1EADE²_1|1.4MB/s|10%|GPT⁺|TK|NF|X|KeepHistory"
+    password: 67148f6c-1c15-42d5-981b-67f5f572d039
+    port: 21474
+    reduce-rtt: false
+    request-timeout: 0
+    server: de1.bot-hosting.net
+    skip-cert-verify: true
+    sni: example.com
+    type: tuic
+    uuid: 67148f6c-1c15-42d5-981b-67f5f572d039
+    version: 5
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_1|0.7MB/s|13%|GPT⁺|YT|NF|X|KeepHistory"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_2|0.8MB/s|13%|GPT⁺|YT|TK|NF|X|KeepHistory"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: e3cb685e-7840-45cb-9d64-b2028d9b635e
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT⁺|GM|YT|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.229
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|2.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.199
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|1.3MB/s|GPT⁺|YT-US|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.33
+    type: ss
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_1|5.6MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    network: grpc
+    port: 33919
+    server: 141.227.162.151
+    type: vless
+    udp: true
+    uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK²_2|0.7MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.18.95
+    skip-cert-verify: true
+    sni: ������
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_5|1.4MB/s|GPT⁺|GM|YT|TK|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.209
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_3|0.5MB/s|13%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+    ws-opts:
+      path: /speedtest
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_6|1.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.103
+    type: ss
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_2|5.3MB/s|34%|GPT⁺|YT-BE|TK|NF|X|KeepSucceed"
+    network: grpc
+    port: 25687
+    server: 141.227.136.51
+    type: vless
+    udp: true
+    uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK²_3|3.8MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.30.120
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EE\U0001F1F9IT²_1|5.3MB/s|4%|GPT⁺|YT|TK|NF|D+|X|KeepSucceed"
+    network: grpc
+    port: 23990
+    server: 141.227.140.217
+    type: vless
+    udp: true
+    uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_7|0.6MB/s|GPT⁺|YT-US|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.25
+    type: ss
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_4|1.2MB/s|13%|GPT⁺|YT|NF|X|KeepHistory"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    tls: true
+    type: vmess
+    uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+    ws-opts:
+      headers:
+        Host: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1F3\U0001F1F1NL²_1|5.5MB/s|GPT⁺|TK|NF|X|KeepHistory"
+    port: 49003
+    protocol: udp
+    server: 51.159.226.1
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_4|0.6MB/s|2%|YT-CN|NF|D+|X"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.30.120
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F3\U0001F1F4NO²_1|6.0MB/s|42%|GPT⁺|YT|TK|NF|D+|X"
+    password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
+    port: 443
+    server: 107.174.114.71
+    type: ss
+    udp: true
+  - auth: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+    name: "\U0001F1ED\U0001F1F0HK²_5|3.6MB/s|2%|YT|NF|X|KeepHistory"
+    password: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+    port: 443
+    ports: 30000-60000
+    server: a1670d91-t6pb40-t7m3jq-1rnrp.hk1.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: a1670d91-t6pb40-t7m3jq-1rnrp.hk1.hyhuawei.com
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_8|1.9MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.133
+    type: ss
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_3|0.5MB/s|41%|GPT⁺|YT|TK|NF|X"
+    network: grpc
+    port: 21425
+    server: 141.227.132.7
+    tls: false
+    type: vless
+    udp: true
+    uuid: 4c3e4950-5c09-4a19-a25f-ce6294115275
+  - country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_6|0.9MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 112.118.116.66
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_4|3.2MB/s|41%|GPT⁺|YT|TK|NF|X|KeepSucceed"
+    network: grpc
+    port: 21425
+    server: 141.227.132.7
+    type: vless
+    udp: true
+    uuid: 4c3e4950-5c09-4a19-a25f-ce6294115275
+    xudp: true
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_7|2.9MB/s|GPT|YT|NF|D+|X"
+    network: ws
+    port: 80
+    server: d9864c5f-sv6hs0-sv75lj-1swf9.hk3.p5pv.com
+    type: vmess
+    udp: true
+    uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_9|0.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.75
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_8|13.8MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.186.107
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1F0\U0001F1F7KR²_1|2.0MB/s|0%|GPT⁺|GM|X|KeepHistory"
     password: ''
-    port: 1080
-    server: 161.35.31.237
+    port: 1090
+    server: 121.169.46.116
     skip-cert-verify: true
     type: socks5
     username: ''
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_9|0.7MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
   - alterId: 2
     cipher: auto
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_1|1.3MB/s|0%|GPT|YT|NF|D+|X|KeepHistory"
+    name: "\U0001F1ED\U0001F1F0HK²_10|2.8MB/s|2%|YT|D+|X|KeepHistory"
     network: ws
     port: 80
-    server: hkt.gotochinatown.net
+    server: 4bfcbe52-t6r5s0-tbnk1n-ueq.hk3.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 4bfcbe52-t6r5s0-tbnk1n-ueq.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_11|4.0MB/s|2%|GPT|YT|NF|D+|X"
+    network: ws
+    port: 80
+    server: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
+    type: vmess
+    uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
+      path: /
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_10|0.7MB/s|GPT⁺|YT|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.71
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_5|0.9MB/s|13%|GPT⁺|NF|X"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 9631096d-3032-4942-9446-bdf12665682b
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_11|2.7MB/s|GPT⁺|YT|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.67
+    type: ss
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_5|5.9MB/s|2%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 35.181.161.94
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_12|2.2MB/s|2%|YT|NF|X"
+    network: ws
+    port: 80
+    server: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
+    type: vmess
+    uuid: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: fe3a9432-sv0xs0-sywkhi-1o4kv.hk3.p5pv.com
+      path: /
+  - name: "\U0001F1E9\U0001F1EADE²_2|1.3MB/s|10%|GPT⁺|TK|X"
+    network: ws
+    port: 2096
+    server: 25.25.25.253
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: 38021ff2-6778-4363-92b1-d70ac11acf51
+    ws-opts:
+      headers:
+        Host: alanconf.info
+      path: /
+    servername: alanconf.info
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_6|0.8MB/s|13%|GPT⁺|YT|X|KeepHistory"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
+    ws-opts:
+      headers:
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_13|0.6MB/s|2%|GPT|YT|X|KeepHistory"
+    network: ws
+    port: 80
+    server: 4c2c02b9-sv2sg0-sv75lj-1swf9.hk3.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: 4c2c02b9-sv2sg0-sv75lj-1swf9.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_14|3.1MB/s|2%|YT|D+|X"
+    network: ws
+    port: 80
+    server: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
     skip-cert-verify: true
     type: vmess
     uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
     ws-opts:
       headers:
-        Host: hkt.gotochinatown.net
+        HOST: broadcastlv.chat.bilibili.com
+        Host: c12c42a5-t6ngg0-t6vxb7-zn8y.hk3.p5pv.com
       path: /
+    servername: broadcastlv.chat.bilibili.com
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_12|1.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.65
+    server: 103.186.155.68
     type: ss
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_2|5.0MB/s|8%|GPT⁺|YT-US|TK|NF|X"
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_7|1.0MB/s|13%|GPT⁺|NF|X"
     network: ws
-    port: 2095
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: TEL--JKVPN--JKVPN-32
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 27104fae-f047-4993-902a-9368d8a3e9bc
     ws-opts:
-      headers:
-        Host: joKer.mEmBerGolaBi.IR
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: >-
-        /TELEGRAM-BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_2|0.7MB/s|2%|YT-CN|D+|X|KeepHistory"
+      path: /speedtest
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR²_6|2.2MB/s|GPT⁺|TK|NF|X|KeepHistory"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_13|1.0MB/s|GPT⁺|YT-US|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.19
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK²_15|3.5MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
     password: BxceQaOe
     port: 443
-    server: 58.152.53.8
+    server: 58.152.30.120
     skip-cert-verify: true
-    sni: t.me/ripaojiedian
     type: trojan
     udp: true
-  - auth: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-    name: "\U0001F1ED\U0001F1F0HK²_3|9.7MB/s|2%|NF|X"
-    password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-    port: 443
-    ports: 30000-60000
-    server: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
-    skip-cert-verify: false
-    sni: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-  - auth: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
-    name: "\U0001F1ED\U0001F1F0HK²_4|6.4MB/s|2%|YT|X|KeepSucceed"
-    password: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
-    port: 443
-    ports: 30000-60000
-    server: 25f4c555-t6r5s0-t6py8y-44k4.hk2.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 25f4c555-t6r5s0-t6py8y-44k4.hk2.hyhuawei.com
   - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_3|6.8MB/s|8%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    name: "\U0001F1E9\U0001F1EADE²_3|3.1MB/s|8%|NF|X|KeepSucceed"
     network: ws
     port: 2095
     server: joKer.mEmBerGolaBi.IR
@@ -102,137 +531,8 @@ proxies:
       early-data-header-name: Sec-WebSocket-Protocol
       max-early-data: 2048
     xudp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_5|5.8MB/s|0%|GPT|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: hkt.gotochinatown.net
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: hkt.gotochinatown.net
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_6|1.4MB/s|2%|D+|X"
-    network: ws
-    port: 80
-    server: bcf9a4cc-t6t0g0-tifnix-1ro8s.hk3.p5pv.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: bcf9a4cc-t6t0g0-tifnix-1ro8s.hk3.p5pv.com
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_7|0.7MB/s|2%|YT-CN|NF|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.20
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EE\U0001F1F9IT²_1|6.0MB/s|4%|GPT⁺|YT|TK|NF|D+|X|KeepSucceed"
-    network: grpc
-    port: 23990
-    server: 141.227.140.217
-    type: vless
-    udp: true
-    uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
-    xudp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.103
-    type: ss
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_8|4.7MB/s|0%|GPT⁺|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|0.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.132
-    type: ss
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK²_9|3.0MB/s|2%|X"
-    network: ws
-    port: 80
-    server: 5a0f544b-t6uv40-tgl02u-1jr1u.hk3.p5pv.com
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|1.9MB/s|GPT⁺|GM|YT|TK|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.205
-    type: ss
-  - auth: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-    name: "\U0001F1ED\U0001F1F0HK²_10|5.8MB/s|2%|YT|NF|X|KeepHistory"
-    password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-    port: 443
-    ports: 30000-60000
-    server: 93040ae8-t6t0g0-t781gb-1fqef.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 93040ae8-t6t0g0-t781gb-1fqef.hk1.hyhuawei.com
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK²_11|3.8MB/s|YT|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com
-    type: vmess
-    uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com
-      path: /
-    servername: 73256a3a-t53wg0-teivih-1rz31.hk3.p5pv.com
   - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_12|2.0MB/s|YT|NF|D+|X"
+    name: "\U0001F1ED\U0001F1F0HK²_16|1.8MB/s|2%|YT|NF|D+|X|KeepSucceed"
     password: 79314e99f0a473fe86efc7827942ad00
     port: 443
     server: 58.152.18.78
@@ -240,393 +540,26 @@ proxies:
     sni: www.nintendogames.net
     type: trojan
     udp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_13|6.3MB/s|0%|GPT|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 21747146-3507-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      headers:
-        HOST: hkt.gotochinatown.net
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: hkt.gotochinatown.net
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_14|5.3MB/s|0%|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-    ws-opts:
-      headers:
-        HOST: hkt.gotochinatown.net
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: hkt.gotochinatown.net
-  - congestion-controller: cubic
-    disable-sni: false
-    name: "\U0001F1EB\U0001F1EEFI²_1|2.3MB/s|4%|GPT⁺|YT-DE|TK|NF|X|KeepHistory"
-    password: 9cff1be8-fe5a-48fb-ac87-6d2f5deba4de
-    port: 5097
-    reduce-rtt: false
-    request-timeout: 0
-    server: fi1.bot-hosting.net
-    skip-cert-verify: true
-    sni: example.com
-    type: tuic
-    uuid: 9cff1be8-fe5a-48fb-ac87-6d2f5deba4de
-    version: 5
-  - name: "\U0001F1ED\U0001F1F0HK²_15|19.0MB/s|2%|YT|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 219.79.186.107
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_16|6.1MB/s|0%|GPT|YT|NF|D+|X"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - cipher: chacha20-ietf
-    country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_17|0.5MB/s|X|KeepSucceed"
-    password: asd123456
-    port: 8388
-    server: 103.149.182.79
-    type: ss
-  - auth: 21747146-3507-11ed-bb74-f23c9164ca5d
-    name: "\U0001F1ED\U0001F1F0HK²_18|6.2MB/s|YT|X"
-    password: 21747146-3507-11ed-bb74-f23c9164ca5d
-    port: 443
-    ports: 30000-60000
-    server: 9cc4bea7-t6pb40-tfj0we-u6bc.hk2.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 9cc4bea7-t6pb40-tfj0we-u6bc.hk2.hyhuawei.com
-  - client-fingerprint: firefox
-    encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        -@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--
-    name: "\U0001F1F8\U0001F1EASE²_1|5.1MB/s|0%|GPT⁺|YT-RU|TK|NF|D+|X"
-    network: grpc
-    port: 443
-    reality-opts:
-      public-key: vo3IPWJCrDQ3fnrQ8zzh40xRM2vy-9w30UuiHLjZbn4
-      short-id: ''
-    server: legendary.zooboming.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: '----v2rayNGcloud----'
-    xudp: true
-    servername: docker.com
-  - name: "\U0001F1F3\U0001F1F1NL²_1|4.7MB/s|14%|GPT⁺|X"
-    password: ''
-    port: 10149
-    server: 89.110.80.195
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - auth: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    name: "\U0001F1ED\U0001F1F0HK²_19|7.2MB/s|2%|D+|X|KeepHistory"
-    password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    port: 443
-    ports: 30000-60000
-    server: a687fa3c-t6pb40-tlpfci-1jdha.hk2.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: a687fa3c-t6pb40-tlpfci-1jdha.hk2.hyhuawei.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_6|2.1MB/s|GPT⁺|YT|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.77
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|1.0MB/s|GPT⁺|YT|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.243
-    type: ss
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F3C1 ZZ"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_20|5.7MB/s|0%|GPT|YT|NF|D+|X"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1F8\U0001F1ECSG²_1|10.8MB/s|4%|GPT⁺|GM|X|KeepHistory"
-    password: ''
-    port: 10808
-    server: 213.35.126.34
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1FA\U0001F1F8US²_1|3.6MB/s|GPT⁺|GM|NF|X"
+  - name: "\U0001F1F7\U0001F1FARU²_1|5.0MB/s|X|KeepHistory"
     password: ''
     port: 1080
-    server: 192.241.156.17
+    server: 185.149.240.155
     skip-cert-verify: true
     type: socks5
     username: ''
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_4|6.7MB/s|16%|GPT⁺|YT|TK|NF|X"
-    network: ws
-    port: 37743
-    server: 138.201.147.114
-    type: vless
-    udp: true
-    uuid: 7e038096-7dcb-461c-81b6-5bcc80aa45e6
-    ws-opts:
-      headers:
-        Host: bmi.ir
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile
-          Safari/537.36
-      path: >-
-        /telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----telegram---@armanstore2-----
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_21|0.6MB/s|2%|YT-CN|NF|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.20
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_5|5.9MB/s|2%|GPT⁺|YT|TK|NF|X|KeepSucceed"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 35.156.80.43
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    type: trojan
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_22|15.8MB/s|2%|YT|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.242
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN²_8|0.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.204
-    type: ss
-  - auth: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-    name: "\U0001F1ED\U0001F1F0HK²_23|6.5MB/s|2%|NF|X"
-    password: 87b31a02-172e-11ee-a11f-f23c913c8d2b
-    port: 443
-    ports: 30000-60000
-    server: 9c24e940-t6uv40-thvc3p-1o4kv.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 9c24e940-t6uv40-thvc3p-1o4kv.hk1.hyhuawei.com
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK²_24|0.8MB/s|2%|D+|X"
-    network: ws
-    port: 80
-    server: 1eedb75e-t6uv40-tifnix-1ro8s.hk3.p5pv.com
-    tls: false
-    type: vmess
-    udp: true
-    uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
   - cipher: aes-256-cfb
     country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_9|1.4MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory"
+    name: "\U0001F1FB\U0001F1F3VN²_14|0.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.141
+    server: 103.186.154.175
     type: ss
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_25|18.3MB/s|2%|YT|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.242
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - auth: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    name: "\U0001F1ED\U0001F1F0HK²_26|6.0MB/s|2%|YT|D+|X|KeepHistory"
-    password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    port: 443
-    ports: 30000-60000
-    server: a687fa3c-t6pb40-tlpfci-1jdha.hk2.hyhuawei.com
-    sni: a687fa3c-t6pb40-tlpfci-1jdha.hk2.hyhuawei.com
-    type: hysteria2
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_10|0.5MB/s|GPT⁺|YT-US|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.25
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_27|2.9MB/s|2%|YT-CN|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.30.120
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_1|5.5MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    network: grpc
-    port: 56089
-    server: 141.227.172.96
-    type: vless
-    udp: true
-    uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
-    xudp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_28|14.4MB/s|2%|YT|NF|D+|X"
-    password: 79314e99f0a473fe86efc7827942ad00
-    port: 443
-    server: 58.152.18.78
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_29|3.0MB/s|2%|YT|NF|D+|X"
-    network: ws
-    port: 80
-    server: f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com
-        Host: f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com
-      path: /
-    servername: f5a39ef1-sz8sg0-szi8d6-1ro8s.hk3.p5pv.com
-  - name: "\U0001F1ED\U0001F1F0HK²_30|12.9MB/s|2%|YT|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.242
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - auth: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-    name: "\U0001F1ED\U0001F1F0HK²_31|3.7MB/s|2%|NF|X|KeepSucceed"
-    password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-    port: 443
-    ports: 30000-60000
-    server: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 12f7c432-t6t0g0-t87m8y-1pr35.hk1.hyhuawei.com
-  - cipher: aes-128-gcm
-    country: "\U0001F1E8\U0001F1F3CN"
-    name: "\U0001F1EF\U0001F1F5JP²_1|13.5MB/s|0%|GPT⁺|GM|YT|NF|X"
-    password: 45957f47-4f68-4059-9c54-d1242b939ba5
-    port: 60250
-    server: sh9929.alibabaapi6.com
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_11|1.5MB/s|GPT⁺|GM|YT-US|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.75
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_12|1.9MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.24
-    type: ss
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK²_32|1.9MB/s|2%|NF|D+|X"
-    network: ws
-    port: 80
-    server: 881a296d-t6uv40-tfj0we-u6bc.hk3.p5pv.com
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 21747146-3507-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1E6\U0001F1F9AT²_1|1.5MB/s|GPT|TK-DE|D+|X"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: gKP71Sngd6wzxOmzLdjsU-VW8BGKAS6AZSCrvUCASyk
-      short-id: c5ae63ea7da57035
-    server: 51-ya-wl.connect-opengate.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7039f4f0-4733-49ce-8925-2852a42d9a37
-    xudp: true
-    servername: api-maps.yandex.ru
   - alterId: 0
     cipher: auto
     country: "\U0001F1FA\U0001F1F8US"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|3.7MB/s|12%|YT|NF|D+|X|KeepSucceed"
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|2.5MB/s|12%|YT|NF|D+|X|KeepSucceed"
     network: ws
     port: 11655
     server: 131.186.63.89
@@ -639,297 +572,99 @@ proxies:
         HOST: hk.nbee.pp.ua
       path: /aa
     servername: hk.nbee.pp.ua
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_6|5.9MB/s|2%|GPT⁺|YT|TK|NF|X|KeepSucceed"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 35.156.80.43
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    type: trojan
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F9\U0001F1EDTH²_1|8.9MB/s|14%|GPT⁺|GM|YT|TK|NF|X"
+    password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+    port: 27007
+    server: thanytls01.yytls.top
+    skip-cert-verify: false
+    type: anytls
     udp: true
-  - name: "\U0001F1F0\U0001F1EDKH²_1|1.3MB/s|20%|GPT⁺|GM|NF|X"
-    password: ''
-    port: 2025
-    server: 38.54.4.77
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - auth: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    name: "\U0001F1ED\U0001F1F0HK²_33|2.7MB/s|2%|YT-CN|NF|X"
-    password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    port: 443
-    ports: 30000-60000
-    server: 2b61bb5a-t6t0g0-t83wx3-19xg1.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 2b61bb5a-t6t0g0-t83wx3-19xg1.hk1.hyhuawei.com
-  - name: "\U0001F1E6\U0001F1EAAE²_1|0.8MB/s|GPT⁺|X|KeepHistory"
-    password: ''
-    port: 20687
-    server: 152.53.36.101
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_2|6.1MB/s|41%|GPT⁺|YT|TK|NF|X|KeepHistory"
-    network: grpc
-    port: 21425
-    server: 141.227.132.7
-    type: vless
-    udp: true
-    uuid: 4c3e4950-5c09-4a19-a25f-ce6294115275
-    xudp: true
+    sni: thanytls01.yytls.top
   - alterId: 2
     cipher: auto
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_34|6.0MB/s|0%|GPT⁺|YT|NF|D+|X|KeepHistory"
+    name: "\U0001F1ED\U0001F1F0HK²_17|0.8MB/s|2%|GPT|D+|X"
     network: ws
     port: 80
-    server: hkt.gotochinatown.net
+    server: 6706475c-t6ngg0-tbnk1n-ueq.hk3.p5pv.com
     skip-cert-verify: true
     type: vmess
-    uuid: 21747146-3507-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - name: "\U0001F1ED\U0001F1F0HK²_35|0.6MB/s|2%|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 112.118.116.66
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_13|0.6MB/s|GPT⁺|GM|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.54
-    type: ss
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_36|7.5MB/s|0%|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    type: vmess
-    udp: true
-    uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_37|0.6MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.53.8
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_14|2.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.42
-    type: ss
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL²_2|5.0MB/s|14%|GPT⁺|YT|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: M3NkFmK1l8k2UwnfrhVtt_rljl3RtuCHGf7_9H2xCzw
-      short-id: ffffffffff
-    server: v547154.hosted-by-vdsina.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: TrueVPN_91780028
-    xudp: true
-    servername: ozon.ru
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL²_3|0.8MB/s|6%|GPT⁺|YT-US|TK|NF|D+|X|KeepHistory"
-    network: tcp
-    port: 41763
-    reality-opts:
-      public-key: UhHrvN4lnQCpAXXyyEXuYErEegcSpwY-rLTh9dW0rwI
-      short-id: 06bbb1eda3f81c5e
-    server: 46.8.229.110
-    tls: true
-    type: vless
-    udp: true
-    uuid: 476cfee9-8f71-4be5-8abd-895940387612
-    xudp: true
-    servername: anten.ir
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E8\U0001F1FECY²_1|0.8MB/s|31%|GPT⁺|YT-RU|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: i1XUXx_YHZJ8LiZG7yGYG-jXr1JHASvat25lf9SmnzM
-      short-id: 5626dfc4162fd4f2
-    server: plr.strelkavpn.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0e0df131-29f5-4725-b9a3-7b1a6cac4c95
-    xudp: true
-    servername: plr.strelkavpn.ru
-  - name: "\U0001F1F8\U0001F1EASE²_2|5.0MB/s|1%|GPT|YT-GB|TK|NF|D+|X|KeepHistory"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-    password: 77238c49bd20e407f05e0c073ad08fdb
-    port: 989
-    server: dd.openaccessnode.com
-    sni: dd.ircybersec.org
-    type: hysteria2
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_38|13.0MB/s|0%|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
     ws-opts:
       headers:
         HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
+        Host: 6706475c-t6ngg0-tbnk1n-ueq.hk3.p5pv.com
       path: /
     servername: broadcastlv.chat.bilibili.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_15|0.5MB/s|GPT⁺|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.159
-    type: ss
   - client-fingerprint: chrome
     encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU²_1|5.1MB/s|YT|TK|X|KeepHistory"
+    name: "\U0001F1F0\U0001F1FFKZ²_1|1.0MB/s|GPT|YT-US|NF|X|KeepHistory"
     network: tcp
-    port: 8443
+    port: 35728
     reality-opts:
-      public-key: QjcIcRxF6rLpMImGD9wUYmeftFwpkuwLKm9nChbD50A
-      short-id: 60a0c1f0f4c9ca63
-    server: yt.connect-iskra.ru
+      public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+      short-id: 69a2
+    server: 178.236.16.98
     tls: true
     type: vless
     udp: true
-    uuid: fdc3a9ca-1b77-4b06-869c-43982db07c9f
+    uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
     xudp: true
-    servername: shiftline.xyz
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_39|0.5MB/s|GPT|YT|NF|X|KeepHistory"
-    network: ws
-    port: 80
-    server: 7626f841-t6uv40-tg010c-1r7od.hk3.p5pv.com
-    type: vmess
-    udp: true
-    uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_16|0.8MB/s|GPT⁺|GM|YT-US|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.102
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_17|0.6MB/s|GPT⁺|YT|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.76
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_18|0.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.229
-    type: ss
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_40|7.7MB/s|0%|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
+    servername: yahoo.com
+  - name: "\U0001F1F8\U0001F1ECSG²_1|1.3MB/s|0%|GPT⁺|GM|YT|NF|X|KeepHistory"
+    password: ''
+    port: 8080
+    server: 36.110.143.55
     skip-cert-verify: true
+    tls: false
+    type: http
+    username: ''
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_8|1.1MB/s|13%|GPT⁺|YT|X|KeepHistory"
+    network: ws
+    port: 37934
+    server: 74.117.196.232
+    skip-cert-verify: true
+    tls: true
     type: vmess
-    uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
+    uuid: c09f13ce-2cca-49b6-ad1e-597566cc89c6
     ws-opts:
       headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU²_2|3.4MB/s|YT|TK|X"
-    network: tcp
-    port: 42275
-    reality-opts:
-      public-key: 5Z8mktBAXgz88xCibv79NncelOS-3WAunfZNKnJRdUM
-      short-id: 08
-    server: 62.113.42.65
-    tls: true
+        HOST: imafake.locker
+      path: /speedtest
+    servername: imafake.locker
+  - name: "\U0001F1ED\U0001F1F0HK²_18|11.9MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_7|2.9MB/s|0%|GPT⁺|YT-US|TK|NF|X"
+    network: grpc
+    port: 33919
+    server: 141.227.162.151
+    skip-cert-verify: false
+    tls: false
     type: vless
-    udp: true
-    uuid: ded39de0-6d5e-426b-90e8-b7dfeced29b2
-    xudp: true
-    servername: eh.vk.com
+    uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
   - grpc-opts:
       grpc-service-name: db
-    name: "\U0001F1FA\U0001F1F8US²_2|4.3MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
+    name: "\U0001F1FA\U0001F1F8US²_9|1.3MB/s|0%|GPT⁺|GM|TK|NF|D+|X|KeepSucceed"
     network: grpc
     password: 3c4e10af98c30972
     port: 443
@@ -937,197 +672,210 @@ proxies:
     skip-cert-verify: false
     sni: n2.gladns.com
     type: trojan
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_19|3.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.142
-    type: ss
   - alterId: 2
     cipher: auto
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_41|4.5MB/s|0%|GPT⁺|YT|D+|X|KeepSucceed"
+    name: "\U0001F1ED\U0001F1F0HK²_19|1.7MB/s|2%|NF|X|KeepHistory"
     network: ws
     port: 80
-    server: hkt.gotochinatown.net
+    server: 5be7d4ef-t6r5s0-t6o143-1nyy5.hk3.p5pv.com
     skip-cert-verify: true
     type: vmess
-    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_3|2.2MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepHistory"
-    network: grpc
-    port: 33919
-    server: 141.227.162.151
-    type: vless
-    udp: true
-    uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-    xudp: true
-  - auth: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-    name: "\U0001F1ED\U0001F1F0HK²_42|9.2MB/s|2%|YT-CN|NF|X"
-    password: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
-    port: 443
-    ports: 30000-60000
-    server: dd6bd2f3-t6uv40-tfjz9x-1t5n1.hk1.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: dd6bd2f3-t6uv40-tfjz9x-1t5n1.hk1.hyhuawei.com
-  - auth: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-    name: "\U0001F1ED\U0001F1F0HK²_43|7.0MB/s|2%|YT|NF|D+|X|KeepHistory"
-    password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-    port: 443
-    ports: 30000-60000
-    server: 19e72789-t6pb40-t781gb-1fqef.hk2.hyhuawei.com
-    type: hysteria2
-    udp: true
-    sni: 19e72789-t6pb40-t781gb-1fqef.hk2.hyhuawei.com
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_4|5.9MB/s|34%|GPT⁺|YT-BE|TK|NF|X|KeepSucceed"
-    network: grpc
-    port: 25687
-    server: 141.227.136.51
-    type: vless
-    udp: true
-    uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US²_3|4.9MB/s|36%|GPT⁺|GM|X"
-    password: ''
-    port: 44499
-    server: 45.61.188.134
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_44|10.2MB/s|0%|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
+    uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
     ws-opts:
       headers:
         HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
+        Host: 5be7d4ef-t6r5s0-t6o143-1nyy5.hk3.p5pv.com
       path: /
     servername: broadcastlv.chat.bilibili.com
-  - auth: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-    name: "\U0001F1ED\U0001F1F0HK²_45|6.9MB/s|2%|YT-CN|NF|X"
-    password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-    port: 443
-    ports: 30000-60000
-    server: 56c87f51-t6uv40-tgl02u-1jr1u.hk1.hyhuawei.com
-    type: hysteria2
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_8|5.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    network: grpc
+    port: 56089
+    server: 141.227.172.96
+    type: vless
     udp: true
-    sni: 56c87f51-t6uv40-tgl02u-1jr1u.hk1.hyhuawei.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_46|7.2MB/s|0%|GPT|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_47|7.7MB/s|0%|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 80
-    server: 7e18e4e8-t6r5s0-tfj0we-u6bc.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 21747146-3507-11ed-bb74-f23c9164ca5d
-    ws-opts:
-      headers:
-        Host: 7e18e4e8-t6r5s0-tfj0we-u6bc.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_7|3.5MB/s|2%|GPT⁺|YT|TK|NF|X|KeepSucceed"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 35.156.80.43
-    skip-cert-verify: true
-    type: trojan
-    udp: true
+    uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+    xudp: true
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_20|1.2MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+    name: "\U0001F1FB\U0001F1F3VN²_15|1.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.174
+    server: 103.186.155.102
     type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_48|1.5MB/s|2%|D+|X|KeepHistory"
+  - name: "\U0001F1ED\U0001F1F0HK²_20|16.0MB/s|2%|YT|NF|D+|X"
     password: BxceQaOe
     port: 443
-    server: 58.152.18.95
+    server: 219.79.186.107
     skip-cert-verify: true
-    sni: 58.152.18.95
+    sni: t.me%2Fripaojiedian
     type: trojan
-    udp: true
+  - name: "\U0001F1F7\U0001F1FARU²_2|1.4MB/s|X"
+    password: ''
+    port: 1080
+    server: 5.183.70.46
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_9|4.3MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepHistory"
+    network: grpc
+    port: 56089
+    server: 141.227.172.96
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
   - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_21|2.5MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_16|1.3MB/s|GPT⁺|GM|YT-US|TK|X"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.199
+    server: 103.186.155.123
     type: ss
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_4|7.8MB/s|0%|GPT⁺|YT|X"
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
+  - auth: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+    name: "\U0001F1ED\U0001F1F0HK²_21|5.1MB/s|2%|YT-CN|NF|X"
+    password: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+    port: 443
+    ports: 30000-60000
+    server: 41162c60-t6uv40-t6vxb7-zn8y.hk1.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 41162c60-t6uv40-t6vxb7-zn8y.hk1.hyhuawei.com
+  - name: "\U0001F1EB\U0001F1F7FR²_10|2.7MB/s|0%|GPT⁺|X|KeepHistory"
+    password: ''
+    port: 14700
+    server: 152.53.36.101
     skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    servername: v8.hdacd.com
+    type: socks5
+    username: ''
+  - auth: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+    name: "\U0001F1ED\U0001F1F0HK²_22|6.8MB/s|2%|YT|NF|X"
+    password: 6e3ee1de-381f-11ee-87f9-f23c91cfbbc9
+    port: 443
+    ports: 30000-60000
+    server: 80f91961-t6uv40-tnqudu-1mim2.hk1.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 80f91961-t6uv40-tnqudu-1mim2.hk1.hyhuawei.com
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_17|1.1MB/s|GPT⁺|GM|YT-US|TK|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.145
+    type: ss
+  - auth: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+    name: "\U0001F1ED\U0001F1F0HK²_23|4.0MB/s|2%|YT-CN|NF|X|KeepSucceed"
+    password: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+    port: 443
+    ports: 30000-60000
+    server: 9c24e940-t6uv40-thvc3p-1o4kv.hk1.hyhuawei.com
+    type: hysteria2
+    udp: true
+    sni: 9c24e940-t6uv40-thvc3p-1o4kv.hk1.hyhuawei.com
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1E8\U0001F1F1CL²_1|1.1MB/s|31%|GPT|X|KeepHistory"
+    password: TnzCxHuKTTfEbdPgs3HknAgULVZAZGRR
+    port: 443
+    server: 45.82.249.122
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_18|1.0MB/s|GPT⁺|YT-US|TK|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.48
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_24|1.2MB/s|2%|YT-CN|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.30.120
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_19|2.5MB/s|GPT⁺|GM|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.61
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_20|0.5MB/s|GPT⁺|GM|YT|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.203
+    type: ss
+  - name: "\U0001F1F8\U0001F1ECSG²_2|4.2MB/s|4%|GPT⁺|GM|YT|X|KeepSucceed"
+    password: ''
+    port: 10808
+    server: 213.35.126.34
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_25|19.6MB/s|2%|YT|NF|D+|X"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.186.107
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
   - alterId: 2
     cipher: auto
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_49|3.9MB/s|2%|YT|X"
+    name: "\U0001F1ED\U0001F1F0HK²_26|3.5MB/s|2%|YT|NF|D+|X"
     network: ws
     port: 80
-    server: 0117446f-t6t0g0-t87m8y-1pr35.hk3.p5pv.com
+    server: 4c525362-t6uv40-tpn98f-1rcxl.hk3.p5pv.com
     type: vmess
     udp: true
-    uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+    uuid: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
     ws-opts:
       headers:
-        Host: 0117446f-t6t0g0-t87m8y-1pr35.hk3.p5pv.com
+        Host: 4c525362-t6uv40-tpn98f-1rcxl.hk3.p5pv.com
       path: /
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN²_21|1.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.204
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_22|1.5MB/s|GPT⁺|YT|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.70
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_23|2.4MB/s|GPT⁺|YT-US|TK|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.143
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_24|0.9MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.36
+    type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
