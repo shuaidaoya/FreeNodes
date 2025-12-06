@@ -1,6 +1,56 @@
 proxies:
+  - name: "\U0001F1F0\U0001F1F7KR²_1|2.4MB/s|0%|GPT⁺|GM|X|KeepHistory"
+    password: ''
+    port: 1090
+    server: 121.169.46.116
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.2MB/s|GPT⁺|GM|YT-US|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.122
+    type: ss
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_1|0.6MB/s|X|KeepSucceed"
+    password: asd123456
+    port: 8388
+    server: 103.141.221.124
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_2|1.7MB/s|GPT⁺|GM|YT|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.252
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|0.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.36
+    type: ss
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_1|6.0MB/s|2%|GPT⁺|YT|TK|NF|X|KeepSucceed"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 18.193.90.253
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - cipher: chacha20-ietf
+    name: "\U0001F1ED\U0001F1F0HK²_2|1.0MB/s|X|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.105
+    type: ss
   - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_1|4.5MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+    name: "\U0001F1ED\U0001F1F0HK²_3|0.6MB/s|2%|YT-CN|NF|X|KeepSucceed"
     password: BxceQaOe
     port: 443
     server: 58.152.53.8
@@ -8,34 +58,320 @@ proxies:
     sni: t.me/ripaojiedian
     type: trojan
     udp: true
-  - name: "\U0001F1F8\U0001F1ECSG²_1|4.5MB/s|4%|GPT⁺|GM|X|KeepHistory"
+  - alpn:
+      - h3
+    congestion-controller: cubic
+    disable-sni: false
+    name: "\U0001F1E8\U0001F1E6CA²_1|0.5MB/s|4%|GPT⁺|YT|NF|X"
+    password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    port: 52434
+    reduce-rtt: false
+    request-timeout: 15000
+    server: 40.233.77.57
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: tuic
+    udp-relay-mode: native
+    uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    version: 5
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_2|6.1MB/s|2%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 3.65.244.233
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7FR²_1|7.3MB/s|4%|GPT⁺|YT|TK|D+|X|KeepSucceed"
+    network: ws
+    port: 443
+    server: 69.84.182.13
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+    ws-opts:
+      headers:
+        Host: fr-1-fr-1.aiopen.sbs
+      path: /kbjc/fr1
+    servername: fr-1-fr-1.aiopen.sbs
+  - name: "\U0001F1FA\U0001F1F8US²_1|3.7MB/s|12%|GPT⁺|GM|X|KeepHistory"
+    password: ''
+    port: 10107
+    server: 152.53.36.101
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|1.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.47
+    type: ss
+  - cipher: aes-128-gcm
+    name: "\U0001F1F9\U0001F1FCTW²_1|9.3MB/s|0%|GPT⁺|YT-CN|TK|NF|D+|X|KeepSucceed"
+    password: 84d85af8-2807-4306-a701-f784676b77c3
+    plugin: obfs
+    plugin-opts:
+      host: de5bdbffa87896a4b126f8b62150bb4e.baidu.com
+      mode: http
+    port: 36603
+    server: gd.bjnet2.com
+    type: ss
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_5|1.3MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.33
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_6|2.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.220
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_4|5.8MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.20
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_5|11.8MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.30.120
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_2|5.5MB/s|1%|GPT⁺|YT|TK|NF|X|KeepSucceed"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 52.47.206.247
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_7|0.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.209
+    type: ss
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR²_3|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
+    port: 50011
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - name: "\U0001F1F8\U0001F1ECSG²_1|12.7MB/s|4%|GPT⁺|GM|X|KeepSucceed"
     password: ''
     port: 10808
     server: 213.35.126.34
     skip-cert-verify: true
     type: socks5
     username: ''
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_1|3.8MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    network: ws
-    port: 51002
-    server: vmess3.vn9987.top
+  - name: "\U0001F1ED\U0001F1F0HK²_6|8.8MB/s|2%|YT-CN|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.53.8
     skip-cert-verify: true
-    tls: true
+    sni: '������ [By EbraSha] b2n.ir/v2ray-configs | 987 '
+    type: trojan
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_7|3.2MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.30.120
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_8|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.9
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_9|0.6MB/s|GPT|YT-US|TK|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.19
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_10|0.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.70
+    type: ss
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_4|6.0MB/s|1%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 52.47.206.247
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - grpc-opts:
+      grpc-service-name: db
+    name: "\U0001F1FA\U0001F1F8US²_2|3.2MB/s|0%|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    network: grpc
+    password: 3c4e10af98c30972
+    port: 443
+    server: 23.247.137.64
+    skip-cert-verify: false
+    sni: n2.gladns.com
+    type: trojan
+  - name: "\U0001F1ED\U0001F1F0HK²_8|12.6MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - alterId: 2
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK²_9|6.8MB/s|2%|GPT|YT|NF|D+|X|KeepSucceed"
+    network: ws
+    port: 80
+    server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
+    skip-cert-verify: false
+    tls: false
     type: vmess
-    uuid: 952c9e3b-e338-45d6-aa6c-9e43b904bfee
+    udp: true
+    uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
     ws-opts:
       headers:
-        HOST: vmess3.vn9987.top
-      path: /bbbb
-    servername: vmess3.vn9987.top
+        Host: broadcastlv.chat.bilibili.com
+      path: /
+    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_11|0.6MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.138
+    type: ss
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_10|18.5MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.186.107
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - name: "\U0001F1E9\U0001F1EADE²_3|5.8MB/s|10%|GPT⁺|X|KeepSucceed"
+    password: ''
+    port: 1080
+    server: 193.233.254.10
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1F8\U0001F1ECSG²_2|5.8MB/s|13%|GPT|GM|NF|X"
+    password: ''
+    port: 3901
+    server: 138.199.25.13
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - encryption: none
+    grpc-opts:
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_5|5.8MB/s|34%|GPT⁺|YT-BE|TK|NF|X|KeepHistory"
+    network: grpc
+    port: 25687
+    server: 141.227.136.51
+    type: vless
+    udp: true
+    uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
+    xudp: true
+  - name: "\U0001F1F7\U0001F1FARU²_1|3.6MB/s|YT|TK|X|KeepSucceed"
+    password: SNItest
+    port: 443
+    server: 46.243.232.105
+    skip-cert-verify: true
+    sni: raiffeisen.ru
+    type: hysteria2
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F7\U0001F1FARU"
+    name: "\U0001F1FA\U0001F1F8US²_3|2.8MB/s|0%|GPT⁺|YT-RU|TK|NF|X|KeepSucceed"
+    password: '907560230'
+    port: 17847
+    server: clr.ducks.tel
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1F0\U0001F1F7 KR"
+    name: "\U0001F1F0\U0001F1F7KR²_2|1.2MB/s|TK|D+|X"
+    password: qwerREWQ@@
+    port: 4652
+    server: p141.panda001.net
+    type: ss
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_11|0.6MB/s|2%|GPT|YT|NF|D+|X"
+    network: ws
+    port: 80
+    server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_12|1.7MB/s|2%|YT|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG²_3|0.7MB/s|GPT⁺|TK|NF|X|KeepHistory"
+    port: 30812
+    server: v12.hdacd.com
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_12|1.6MB/s|GPT⁺|GM|YT|TK|NF|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.210
+    type: ss
   - congestion-controller: cubic
     disable-sni: false
-    name: "\U0001F1E9\U0001F1EADE²_1|0.5MB/s|10%|GPT⁺|YT|TK|NF|X|KeepSucceed"
+    name: "\U0001F1E9\U0001F1EADE²_4|1.0MB/s|10%|GPT⁺|TK|NF|X|KeepSucceed"
     password: 67148f6c-1c15-42d5-981b-67f5f572d039
     port: 21474
     reduce-rtt: false
@@ -46,62 +382,426 @@ proxies:
     type: tuic
     uuid: 67148f6c-1c15-42d5-981b-67f5f572d039
     version: 5
-  - name: "\U0001F1F7\U0001F1FARU²_1|0.5MB/s|YT|TK|X"
-    password: SNItest
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F9\U0001F1EDTH²_1|5.3MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+    network: ws
     port: 443
-    server: 46.243.232.105
-    skip-cert-verify: true
-    sni: raiffeisen.ru
-    type: hysteria2
-  - name: "\U0001F3F4‍☠_13.29.21.109:171|1.0MB/s|X"
-    password: ''
-    port: 171
-    server: 3.29.21.109
+    server: n1749032917.kzxds.cn
     skip-cert-verify: true
     tls: true
-    type: http
-    username: ''
-  - name: "\U0001F1ED\U0001F1F0HK²_2|5.2MB/s|X"
+    type: vmess
+    uuid: cd66eeea-643f-4826-a4f3-0d2f57a5ad06
+    ws-opts:
+      headers:
+        HOST: n1749032917.kzxds.cn
+      path: /
+    servername: n1749032917.kzxds.cn
+  - name: "\U0001F1E9\U0001F1EADE²_5|3.2MB/s|0%|GPT⁺|X|KeepHistory"
     password: ''
-    port: 1011
-    server: 47.238.37.111
+    port: 12077
+    server: 152.53.36.101
     skip-cert-verify: true
     type: socks5
     username: ''
-  - name: "\U0001F1ED\U0001F1F0HK²_3|0.5MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.53.8
+  - country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_6|5.9MB/s|1%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 13.37.111.9
     skip-cert-verify: true
-    sni: '       [By EbraSha] b2n.ir/v2ray-configs | 75 '
+    sni: trojan.burgerip.co.uk
     type: trojan
     udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EE\U0001F1F1IL²_1|0.9MB/s|0%|GPT⁺|YT|TK|NF|X|KeepHistory"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE
+      short-id: 55e6af1a35e64a98
+    server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+    xudp: true
+    servername: i2pd.website
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_7|5.9MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    network: grpc
+    port: 33919
+    server: 141.227.162.151
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
+  - name: "\U0001F1ED\U0001F1F0HK²_13|15.0MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.30.120
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - cipher: aes-128-gcm
+    name: "\U0001F1EF\U0001F1F5JP²_1|15.9MB/s|0%|GPT|GM|YT|TK|NF|D+|X|KeepSucceed"
+    password: 84d85af8-2807-4306-a701-f784676b77c3
+    plugin: obfs
+    plugin-opts:
+      host: de5bdbffa87896a4b126f8b62150bb4e.baidu.com
+      mode: http
+    port: 36609
+    server: gd.bjnet2.com
+    type: ss
+    udp: true
+  - country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_14|7.9MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|8.7MB/s|12%|GPT⁺|YT|NF|D+|X|KeepHistory"
+    network: ws
+    port: 7000
+    server: 202.85.53.160
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_6|4.4MB/s|2%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 18.193.90.253
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK²_15|13.7MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.186.107
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_16|1.1MB/s|0%|X|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.79
+    type: ss
   - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.6MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed"
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_13|0.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.142
+    server: 103.186.155.223
     type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI²_1|4.9MB/s|32%|GPT⁺|YT-RU|TK|NF|D+|X"
+    network: tcp
+    port: 47726
+    reality-opts:
+      public-key: tC0WnU-Ft3uvA4K55un9DtN5C_kYsAoxNZqSM5850xE
+      short-id: 8ad866effedb2362
+    server: 212.87.222.158
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9659546a-a74b-44c6-af35-ec3fdaf9bcef
+    xudp: true
+    servername: yandex.ru
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EB\U0001F1F7FR²_8|6.1MB/s|34%|GPT⁺|YT-BE|TK|NF|X|KeepSucceed"
+    network: grpc
+    port: 25687
+    server: 141.227.136.51
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_7|4.8MB/s|2%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 3.65.244.233
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7FR²_9|0.7MB/s|1%|GPT⁺|X|KeepHistory"
+    password: ''
+    port: 19333
+    server: 152.53.36.101
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1EASE¹-US⁰_1|5.2MB/s|12%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
+    network: ws
+    port: 8443
+    server: 83.147.255.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/37.0.2062.120 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: kuangbao.xiejiang.dpdns.org
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: yourServiceName
+    name: "\U0001F1EB\U0001F1F7FR²_10|6.2MB/s|50%|GPT⁺|YT-US|TK|NF|D+|X"
+    network: grpc
+    port: 2024
+    reality-opts:
+      public-key: hMvv9d1PfBXI7ow9PqaUJYqo9_uHTKQYWt0go0enwzQ
+      short-id: 650bbd4b5cae0713
+    server: 45.13.119.77
+    tls: true
+    type: vless
+    udp: true
+    uuid: cbe67b2f-e766-403e-851a-6ac3e8c4aece
+    xudp: true
+    servername: cloudflare.com
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F1\U0001F1F9LT²_1|5.8MB/s|100%|GPT⁺|YT-RU|TK|NF|X"
+    network: tcp
+    port: 41545
+    reality-opts:
+      public-key: u1LI2HYIt_6QVVhlRXDvD-tqYHDXB1RfcpqbTTfxTUQ
+      short-id: 37e32b2df528fba1
+    server: 2.59.162.190
+    tls: true
+    type: vless
+    udp: true
+    uuid: 4e66694c-24a5-4176-9bb3-42f1f2de5040
+    xudp: true
+    servername: yandex.ru
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_14|0.6MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.101
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_17|1.4MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 219.79.186.107
+    skip-cert-verify: true
+    sni: t.me%25252Fripaojiedian
+    tfo: false
+    type: trojan
+    udp: true
+  - name: "\U0001F1FA\U0001F1F8US¹⁺_1|8.6MB/s|12%|GPT⁺|YT-HK|NF|D+|X|KeepHistory"
+    network: ws
+    port: 2096
+    server: 108.162.198.11
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1F7\U0001F1FARU²_2|3.3MB/s|YT|TK|X|KeepSucceed"
+    password: '907560230'
+    port: 17846
+    server: clr.ducks.tel
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_18|4.3MB/s|2%|YT|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.242
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - name: "\U0001F1FA\U0001F1F8US²_4|2.9MB/s|4%|GPT⁺|GM|X|KeepHistory"
+    password: ''
+    port: 13572
+    server: 152.53.36.101
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: >-
+        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+    name: "\U0001F1EE\U0001F1F9IT²_1|5.6MB/s|4%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
+    network: grpc
+    port: 23990
+    server: 141.227.140.217
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG²_4|2.3MB/s|GPT⁺|NF|X|KeepHistory"
+    network: tcp
+    port: 30812
+    server: v12.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EADE²_8|2.6MB/s|2%|GPT⁺|X|KeepHistory"
+    password: ''
+    port: 14783
+    server: 152.53.36.101
+    skip-cert-verify: true
+    type: socks5
+    username: ''
   - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_4|10.4MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    name: "\U0001F1ED\U0001F1F0HK²_19|15.5MB/s|2%|YT|D+|X|KeepSucceed"
     password: BxceQaOe
     port: 443
     server: 219.79.186.107
     skip-cert-verify: true
     type: trojan
     udp: true
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_5|4.3MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.20
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_15|1.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.203
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_16|1.4MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.46
+    type: ss
+  - name: "\U0001F1E9\U0001F1EADE¹-US⁰_1|6.7MB/s|12%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
+    network: ws
+    port: 8443
+    server: 51.195.43.174
+    tls: true
+    type: vless
+    uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+    ws-opts:
+      headers:
+        Host: kuangbao.xiejiang.dpdns.org
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: kuangbao.xiejiang.dpdns.org
+  - name: "\U0001F1E8\U0001F1E6CA²_2|4.3MB/s|GPT⁺|GM|X|KeepHistory"
+    password: ''
+    port: 1080
+    server: 143.110.217.153
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
+    type: socks5
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US²_5|3.8MB/s|GPT⁺|GM|X|KeepHistory"
+    password: ''
+    port: 1080
+    server: 192.241.156.17
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_17|0.9MB/s|GPT⁺|YT-US|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.16
+    type: ss
+  - name: "\U0001F1F8\U0001F1ECSG²_5|1.7MB/s|0%|GPT⁺|GM|YT|NF|D+|X"
+    password: ''
+    port: 7891
+    server: 166.111.53.160
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1E9\U0001F1EADE²_9|3.2MB/s|0%|GPT⁺|YT-PL|TK-PL|NF|D+|X|KeepSucceed"
+    password: '907560230'
+    port: 17844
+    server: clr.ducks.tel
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL²_1|5.9MB/s|0%|GPT⁺|TK|NF|D+|X|KeepHistory"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+      short-id: 21181028b56c8702
+    server: 84.32.64.39
+    tls: true
+    type: vless
     udp: true
+    uuid: 793099c5-0712-4ea0-bbe1-455da88fc671
+    xudp: true
+    servername: www.apple.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7FR²_11|0.7MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
+      short-id: ee6f3e8f44b1f0b6
+    server: 62.60.148.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
+    xudp: true
+    servername: st.ozone.ru
   - encryption: none
-    name: "\U0001F1FA\U0001F1F8US²_2|0.6MB/s|0%|GPT⁺|YT|NF|X|KeepSucceed"
+    name: "\U0001F1FA\U0001F1F8US²_6|6.2MB/s|0%|GPT⁺|YT|NF|X|KeepSucceed"
     network: ws
     port: 80
     server: www.speedtest.net
@@ -118,186 +818,25 @@ proxies:
       path: >-
         /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
     xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_6|7.3MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.20
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|2.4MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.222
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_7|0.6MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 219.79.186.107
-    skip-cert-verify: true
-    sni: t.me%25252Fripaojiedian
-    tfo: false
-    type: trojan
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE²_2|1.4MB/s|10%|GPT⁺|X|KeepHistory"
-    password: ''
-    port: 1080
-    server: 193.233.254.10
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_8|4.6MB/s|2%|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.18.95
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_3|2.2MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    network: ws
-    port: 51002
-    server: vmess2.vn9987.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 245f2c1d-a317-45a8-b230-e420566a7f62
-    ws-opts:
-      headers:
-        HOST: vmess2.vn9987.top
-      path: /bbbb
-    servername: vmess2.vn9987.top
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_4|5.6MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    network: ws
-    port: 51002
-    server: vmess3.vn9987.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: 245f2c1d-a317-45a8-b230-e420566a7f62
-    ws-opts:
-      headers:
-        HOST: vmess3.vn9987.top
-      path: /bbbb
-    servername: vmess3.vn9987.top
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_9|16.6MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.30.120
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_10|0.7MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 219.79.186.107
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|0.5MB/s|GPT⁺|YT-US|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.154
-    type: ss
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F3\U0001F1F1NL²_1|3.7MB/s|32%|YT-RU|TK|NF|D+|X|KeepHistory"
-    network: tcp
-    port: 49943
-    reality-opts:
-      public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-      short-id: ffffffffff
-    server: 89.23.113.137
-    tls: true
-    type: vless
-    udp: true
-    uuid: _911331
-    xudp: true
-    servername: ietf.org
-  - name: "\U0001F1ED\U0001F1F0HK²_11|8.4MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+  - name: "\U0001F1ED\U0001F1F0HK²_20|0.7MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
     password: BxceQaOe
     port: 443
     server: 58.152.30.120
     skip-cert-verify: true
     sni: t.me%2Fripaojiedian
     type: trojan
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|1.1MB/s|GPT⁺|GM|YT-US|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.55
-    type: ss
-  - cipher: aes-128-gcm
-    name: "\U0001F1EF\U0001F1F5JP²_1|12.9MB/s|0%|GPT|GM|YT|TK|NF|D+|X"
-    password: 84d85af8-2807-4306-a701-f784676b77c3
-    plugin: obfs
-    plugin-opts:
-      host: de5bdbffa87896a4b126f8b62150bb4e.baidu.com
-      mode: http
-    port: 36609
-    server: gd.bjnet2.com
-    type: ss
-    udp: true
-  - country: "\U0001F1E9\U0001F1EADE"
-    name: "\U0001F1E9\U0001F1EADE²_3|6.2MB/s|2%|GPT⁺|YT|TK|NF|X"
-    password: telegram-id-privatevpns
-    port: 22222
-    server: 18.193.90.253
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL²_2|4.9MB/s|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: M3NkFmK1l8k2UwnfrhVtt_rljl3RtuCHGf7_9H2xCzw
-      short-id: ffffffffff
-    server: v547154.hosted-by-vdsina.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: TrueVPN_91780028
-    xudp: true
-    servername: ozon.ru
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_5|5.6MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    password: 952c9e3b-e338-45d6-aa6c-9e43b904bfee
-    port: 51004
-    server: huojian3.vn9987.top
+  - cipher: aes-256-gcm
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_21|13.9MB/s|2%|YT|NF|X"
+    password: 176c983f-6a7f-4a96-9865-891a6c48ec86
+    port: 50000
+    server: a001.standard-nodes-chickenfarms.com
     type: ss
   - encryption: none
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_1|5.4MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    name: "\U0001F1EB\U0001F1F7FR²_12|2.6MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
     network: grpc
     port: 33919
     server: 141.227.162.151
@@ -305,482 +844,29 @@ proxies:
     udp: true
     uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
     xudp: true
-  - name: "\U0001F1EB\U0001F1F7FR²_2|7.4MB/s|4%|GPT⁺|YT|TK|D+|X|KeepSucceed"
-    network: ws
-    port: 443
-    server: 69.84.182.13
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
-    ws-opts:
-      headers:
-        Host: fr-1-fr-1.aiopen.sbs
-      path: /kbjc/fr1
-    servername: fr-1-fr-1.aiopen.sbs
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|0.5MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.203
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_6|5.2MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    network: ws
-    port: 51002
-    server: vmess3.vn9987.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: f850c2b8-6f71-4c9a-a0bd-c57c8f9f8d7f
-    ws-opts:
-      headers:
-        HOST: vmess3.vn9987.top
-      path: /bbbb
-    servername: vmess3.vn9987.top
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_6|0.7MB/s|GPT⁺|GM|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.66
-    type: ss
-  - cipher: aes-128-gcm
-    name: "\U0001F1F9\U0001F1FCTW²_1|11.9MB/s|0%|GPT⁺|YT-CN|TK|NF|D+|X"
-    password: 84d85af8-2807-4306-a701-f784676b77c3
-    plugin: obfs
-    plugin-opts:
-      host: de5bdbffa87896a4b126f8b62150bb4e.baidu.com
-      mode: http
-    port: 36603
-    server: gd.bjnet2.com
-    type: ss
-    udp: true
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_12|11.2MB/s|2%|YT-CN|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.20
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_7|1.7MB/s|0%|GPT⁺|GM|YT|TK|X|KeepHistory"
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    servername: v8.hdacd.com
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1E9\U0001F1EADE²_4|0.9MB/s|0%|GPT⁺|YT|TK-PL|X"
-    password: '907560230'
-    port: 17844
-    server: clr.ducks.tel
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8 US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_8|7.6MB/s|30%|GPT⁺|GM|YT|TK|NF|X"
-    network: ws
-    port: 52513
-    server: aflzzul.meiquankongjian.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
-    ws-opts:
-      headers:
-        HOST: aflzzul.meiquankongjian.com
-        Host: aflzzul.meiquankongjian.com
-      path: /564dfa20/
-    servername: aflzzul.meiquankongjian.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|1.8MB/s|GPT|GM|YT-US|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.223
-    type: ss
-  - name: "\U0001F1F8\U0001F1ECSG²_2|3.6MB/s|GPT⁺|GM|X|KeepHistory"
-    password: ''
-    port: 1080
-    server: 43.133.37.149
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_8|0.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.220
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_9|0.8MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.211
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_10|1.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.244
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_13|2.6MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.242
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_11|2.1MB/s|GPT|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.219
-    type: ss
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_14|7.5MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 219.79.186.107
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_12|1.6MB/s|GPT⁺|GM|YT|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.251
-    type: ss
-  - cipher: aes-256-gcm
-    name: "\U0001F1ED\U0001F1F0HK²_15|5.4MB/s|16%|GPT⁺|YT|TK-SG|NF|D+|X"
-    password: 05f48f63-a5e9-4258-ba41-e2bd246b258e
-    port: 11503
-    server: cdn-p1-hk.x.douyinstatic.art
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_13|1.3MB/s|GPT⁺|GM|YT-US|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.9
-    type: ss
   - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_3|5.5MB/s|1%|GPT⁺|YT|TK|NF|X"
-    password: telegram-id-privatevpns
-    port: 22222
+    name: "\U0001F1EB\U0001F1F7FR²_13|5.6MB/s|1%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-directvpn
+    port: 22223
     server: 52.47.206.247
     skip-cert-verify: true
     sni: trojan.burgerip.co.uk
     type: trojan
     udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_14|2.0MB/s|GPT⁺|GM|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.47
-    type: ss
-  - alterId: 2
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK²_16|7.4MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 80
-    server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-    xudp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_15|1.1MB/s|GPT⁺|GM|YT-US|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.209
-    type: ss
-  - grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_4|6.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    network: grpc
-    port: 33919
-    server: 141.227.162.151
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_17|0.9MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.18.95
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK²_18|0.8MB/s|2%|YT-CN|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.18.95
-    skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    tfo: false
-    type: trojan
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E9\U0001F1EADE²_5|5.9MB/s|0%|GPT⁺|YT-RU|TK|NF|D+|X|KeepSucceed"
-    password: L2fN5ZhwKrkgY02gyZUyTt
-    port: 443
-    server: 92.62.251.201
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_16|0.6MB/s|GPT⁺|YT-US|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.168
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1E8\U0001F1F3CN"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F8\U0001F1ECSG²_3|3.6MB/s|GPT⁺|TK|X|KeepHistory"
-    network: tcp
-    port: 30812
-    server: v12.hdacd.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    servername: v12.hdacd.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_17|2.4MB/s|GPT|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.138
-    type: ss
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR²_5|2.2MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: BkAG_uWeUj7BCHqYjrz1JyH0TMvO_KywubV7WJN17ho
-      short-id: ee6f3e8f44b1f0b6
-    server: 62.60.148.21
-    tls: true
-    type: vless
-    udp: true
-    uuid: 39e5cc2f-1294-4a42-bb58-306a8be785e1
-    xudp: true
-    servername: st.ozone.ru
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_18|2.1MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.19
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_9|5.4MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    password: f850c2b8-6f71-4c9a-a0bd-c57c8f9f8d7f
-    port: 51004
-    server: huojian3.vn9987.top
-    type: ss
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_6|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
-    port: 50011
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_19|0.5MB/s|GPT⁺|GM|YT|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.67
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_20|2.5MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.208
-    type: ss
-  - cipher: aes-256-gcm
-    name: "\U0001F1F9\U0001F1FCTW²_2|15.3MB/s|GPT⁺|GM|YT|TK|D+|X"
-    password: 05f48f63-a5e9-4258-ba41-e2bd246b258e
-    port: 11541
-    server: cdn-p1-tw.x.douyinstatic.art
-    type: ss
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_19|6.1MB/s|2%|YT|NF|D+|X"
-    network: ws
-    port: 80
-    server: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 06e6b075-sum4g0-sx1cxx-1tfjk.hk3.p5pv.com
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_21|1.4MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.41
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_20|11.3MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+    name: "\U0001F1ED\U0001F1F0HK²_22|1.5MB/s|2%|YT-CN|NF|D+|X|KeepSucceed"
     password: BxceQaOe
     port: 443
     server: 58.152.30.120
     skip-cert-verify: true
     type: trojan
     udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_22|1.5MB/s|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.33
-    type: ss
-  - grpc-opts:
-      grpc-service-name: db
-    name: "\U0001F1FA\U0001F1F8US²_10|2.0MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: grpc
-    password: 3c4e10af98c30972
-    port: 443
-    server: 23.247.137.64
-    skip-cert-verify: false
-    sni: n2.gladns.com
-    type: trojan
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_23|1.3MB/s|GPT⁺|GM|YT-US|TK|NF|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.20
-    type: ss
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_21|0.6MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.242
-    skip-cert-verify: true
-    type: trojan
-    udp: true
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_11|2.2MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    network: ws
-    port: 51002
-    server: vmess2.vn9987.top
-    skip-cert-verify: true
-    tls: true
-    type: vmess
-    uuid: f850c2b8-6f71-4c9a-a0bd-c57c8f9f8d7f
-    ws-opts:
-      headers:
-        HOST: vmess2.vn9987.top
-      path: /bbbb
-    servername: vmess2.vn9987.top
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_24|2.1MB/s|GPT⁺|GM|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.143
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_22|1.0MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.18.95
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F7\U0001F1FARU"
-    name: "\U0001F1FA\U0001F1F8US²_12|3.2MB/s|0%|GPT⁺|YT-RU|TK|NF|X"
-    password: '907560230'
-    port: 17847
-    server: clr.ducks.tel
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_25|1.8MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.70
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_13|2.2MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    password: f850c2b8-6f71-4c9a-a0bd-c57c8f9f8d7f
-    port: 51004
-    server: huojian2.vn9987.top
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1F7\U0001F1FARU²_2|3.0MB/s|YT|TK|X"
-    password: '907560230'
-    port: 17846
-    server: clr.ducks.tel
-    type: ss
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55
-    name: "\U0001F1F3\U0001F1F1NL²_3|5.7MB/s|GPT⁺|TK|NF|X|KeepSucceed"
+    name: "\U0001F1F3\U0001F1F1NL²_2|5.7MB/s|GPT⁺|TK|NF|X|KeepSucceed"
     port: 49003
     protocol: udp
     server: 51.159.226.1
@@ -791,51 +877,23 @@ proxies:
     up: 11
   - cipher: aes-256-cfb
     country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_26|1.6MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory"
+    name: "\U0001F1FB\U0001F1F3VN²_18|2.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.101
-    type: ss
-  - cipher: chacha20-ietf
-    country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_23|0.6MB/s|0%|YT|NF|D+|X|KeepHistory"
-    password: asd123456
-    port: 8388
-    server: 103.141.221.124
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_27|2.1MB/s|GPT⁺|GM|YT-US|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.134
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_28|2.4MB/s|GPT⁺|GM|YT|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.182
+    server: 103.186.154.211
     type: ss
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_29|1.4MB/s|GPT⁺|YT-US|NF|X"
+    name: "\U0001F1FB\U0001F1F3VN²_19|2.6MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.16
+    server: 103.186.154.251
     type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_24|5.2MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.30.120
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
   - encryption: none
     grpc-opts:
       grpc-service-name: >-
         ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EE\U0001F1F9IT²_1|6.2MB/s|4%|GPT⁺|YT|NF|D+|X|KeepSucceed"
+    name: "\U0001F1EE\U0001F1F9IT²_2|5.1MB/s|4%|GPT⁺|YT|TK|NF|D+|X|KeepSucceed"
     network: grpc
     port: 23990
     server: 141.227.140.217
@@ -843,96 +901,22 @@ proxies:
     udp: true
     uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
     xudp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU²_3|3.8MB/s|0%|GPT|YT-NL|TK|NF|X"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: GjFTD96cethyxcRuToHUwv741QoDB9-V7LRsxEh6jTU
-      short-id: ab1cd2
-    server: 147.45.234.51
-    tls: true
-    type: vless
-    udp: true
-    uuid: f021325f-867c-476b-b7bc-9d78d594c57a
-    xudp: true
-    servername: www.vk.com
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_14|0.8MB/s|0%|GPT⁺|GM|TK|NF|X"
-    password: 245f2c1d-a317-45a8-b230-e420566a7f62
-    port: 51004
-    server: huojian2.vn9987.top
-    type: ss
-  - cipher: aes-256-gcm
-    name: "\U0001F1EC\U0001F1E7GB²_1|8.0MB/s|44%|YT|TK|NF|D+|X"
-    password: 05f48f63-a5e9-4258-ba41-e2bd246b258e
-    port: 11516
-    server: cdn-p1-lm.x.douyinstatic.art
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_15|1.0MB/s|70%|GPT⁺|YT|TK|NF|X|KeepSucceed"
-    password: f8f7aCzcPKbsF8p3
-    port: 989
-    server: 104.192.226.106
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_30|0.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.36
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1FA\U0001F1F8US²_16|5.0MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    password: 245f2c1d-a317-45a8-b230-e420566a7f62
-    port: 51004
-    server: huojian3.vn9987.top
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_31|1.1MB/s|GPT|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.133
-    type: ss
-  - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_25|8.9MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+  - name: "\U0001F1ED\U0001F1F0HK²_23|15.2MB/s|2%|YT|NF|D+|X|KeepHistory"
     password: BxceQaOe
     port: 443
-    server: 58.152.53.8
+    server: 219.79.186.107
     skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
     type: trojan
-    udp: true
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_26|2.0MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
+  - name: "\U0001F1ED\U0001F1F0HK²_24|3.0MB/s|2%|YT-CN|NF|D+|X|KeepHistory"
     password: BxceQaOe
     port: 443
-    server: 58.152.30.120
+    server: 58.152.25.20
     skip-cert-verify: true
-    sni: t.me/ripaojiedian
+    sni: t.me%252Fripaojiedian
+    tfo: false
     type: trojan
     udp: true
-  - grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EB\U0001F1F7FR²_7|4.6MB/s|34%|GPT⁺|YT-BE|TK|NF|X|KeepSucceed"
-    network: grpc
-    port: 25687
-    server: 141.227.136.51
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
