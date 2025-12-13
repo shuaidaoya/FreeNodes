@@ -1,6 +1,83 @@
 proxies:
-- name: 🇭🇰HK²_1|0.9MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_1|1.5MB/s|2%|GPT⁺|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_2|10.7MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_1|4.7MB/s|X|KeepSucceed
   network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  servername: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇩🇪DE²_1|6.1MB/s|7%|GPT⁺|TK|NF|X
+  network: ws
+  port: 10200
+  server: 91.98.46.169
+  type: vless
+  udp: true
+  uuid: b786d9bd-b9f7-4587-a580-eb8a219f19f3
+  ws-opts:
+    headers:
+      Host: ""
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: ""
+  xudp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_2|5.8MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepSucceed
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_3|11.1MB/s|2%|YT-CN|NF|D+|X|KeepSucceed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_4|6.4MB/s|2%|YT-CN|NF|D+|X|KeepHistory
   password: BxceQaOe
   port: 443
   server: 58.152.30.120
@@ -10,21 +87,611 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇬🇧GB¹-NL⁰_1|5.3MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepHistory
-  network: ws
-  password: POORIARED
+  name: 🇭🇰HK²_5|0.7MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+  network: tcp
+  password: BxceQaOe
   port: 443
-  server: 172.67.134.185
-  skip-cert-verify: false
-  sni: reDfRee8.REDFree8.ir
+  server: 58.152.30.120
+  skip-cert-verify: true
+  sni: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 306 "
   tls: true
   type: trojan
   udp: true
+- alterId: 0.0
+  cipher: auto
+  name: 🇷🇺RU²_1|3.7MB/s|YT-CN|TK|X
+  network: ws
+  port: 44749
+  server: 95.81.114.252
+  servername: imafake.locker
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e1cc26b3-df0b-477b-afb0-53659a25e978
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
-- name: 🇭🇰HK²_2|4.0MB/s|2%|YT-CN|NF|X|KeepHistory
+      Host: imafake.locker
+    path: /speedtest
+  xudp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 🇭🇰HK²_6|6.8MB/s|YT|NF|X|KeepHistory
+  network: http
+  port: 40374
+  server: 8.210.184.105
+  type: vmess
+  uuid: 36b76373-7a4f-4669-9113-7d247bcf2704
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_7|9.4MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.30.120
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰HK²_8|0.9MB/s|X|KeepHistory
+  password: asd123456
+  port: 8388
+  server: 103.149.182.79
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🏴‍☠_1🇸🇬SG²_2|0.9MB/s-CN|0.7MB/s|X|KeepHistory
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  servername: green2.cdntencentmusic.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_9|13.1MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US²_3|5.4MB/s|0%|GPT|GM|YT-RU|TK|NF|D+|X
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 48720c
+  server: us01-vlr01-gmn03.vpnvezdehod.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_10|11.1MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰HK²_11|2.1MB/s|0%|X
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- name: 🇭🇰HK²_12|0.7MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_4|7.9MB/s|51%|GPT⁺|GM|YT|TK|X|KeepSucceed
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇭🇰HK²_13|0.9MB/s|2%|NF|D+|X|KeepSucceed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%25252Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_2|5.0MB/s|YT|TK|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ
+    short-id: 5540e44a53c3d01c
+  server: 217.16.24.170
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_2|5.4MB/s|0%|GPT⁺|TK|NF|D+|X
+  port: 4249
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.24.245
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_14|8.4MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_15|5.4MB/s|2%|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_1|0.6MB/s|0%|GPT⁺|GM|YT-RU|TK|NF|X|KeepSucceed
+  port: 443
+  reality-opts:
+    public-key: lJscl0GgEiVZtTVrMVI6O0-zSJTgmug9Cs-KJqpxWw0
+    short-id: f6fb0261a102c0c8
+  server: 89.23.101.203
+  servername: www.vk.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d5f7970e-121f-4e6f-9acf-250effc0715b
+- name: 🇭🇰HK²_16|19.4MB/s|2%|YT|NF|D+|X|KeepSucceed
+  password: BxceQaOe
+  port: 443
+  server: 219.78.209.224
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_17|0.8MB/s|2%|YT-CN|NF|D+|X|KeepSucceed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰HK²_18|0.6MB/s|0%|YT|NF|D+|X
+  password: asd123456
+  port: 8388
+  server: 103.149.183.12
+  type: ss
+- name: 🇭🇰HK²_19|7.4MB/s|2%|YT|NF|D+|X|KeepHistory
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.78.209.224
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇿KZ²_1|0.6MB/s|0%|GPT⁺|YT-US|NF|X|KeepHistory
+  network: tcp
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_5|18.4MB/s|15%|GPT⁺|GM|YT-CN|TK|NF|D+|X|KeepHistory
+  network: ws
+  port: 16618
+  server: m.cnmjin.net
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰HK²_20|0.9MB/s|2%|YT-CN|NF|D+|X|KeepSucceed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_21|1.7MB/s|2%|GPT|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- client-fingerprint: chrome
+  name: 🇰🇿KZ²_2|0.7MB/s|0%|GPT⁺|YT-US|NF|X|KeepHistory
+  port: 35728
+  reality-opts:
+    public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng
+    short-id: 69a2
+  server: 178.236.16.98
+  servername: yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_22|3.0MB/s|2%|GPT|YT|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_23|1.6MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  ws-opts:
+    path: /
+- name: 🇳🇱NL¹-US⁰_1|4.8MB/s|3%|GPT⁺|TK|NF|D+|X|KeepHistory
+  network: ws
+  port: 2053
+  server: 194.35.119.135
+  servername: kuangbao.xiejiang.dpdns.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_24|0.8MB/s|2%|GPT|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: ebf93ea5-t70f40-t7d1t3-81nv.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵JP²_1|16.3MB/s|0%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- name: 🇰🇷KR²_1|10.5MB/s|13%|GPT⁺|YT|TK|NF|D+|X|KeepSucceed
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_25|8.8MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_26|13.1MB/s|2%|GPT|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- name: 🇭🇰HK²_27|1.0MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tfo: false
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_28|18.7MB/s|15%|GPT⁺|GM|YT-CN|NF|D+|X|KeepHistory
+  network: ws
+  port: 16632
+  server: planb.mojcn.com
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_29|0.8MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_30|18.7MB/s|2%|NF|D+|X|KeepSucceed
+  password: BxceQaOe
+  port: 443
+  server: 219.78.209.224
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇵🇱PL²_1|1.5MB/s|0%|GPT⁺|TK|X|KeepHistory
+  network: tcp
+  port: 1488
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.109.47
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+  xudp: true
+- alterId: 2
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_31|5.7MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  type: vmess
+  udp: true
+  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇮🇷IR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪DE²_3|6.5MB/s|9%|GPT⁺|YT|TK|NF|X
+  network: tcp
+  port: 100
+  server: cpanel.navar1.ir
+  skip-cert-verify: true
+  type: vmess
+  uuid: 95c6f6f0-84f7-4443-8a50-a59f8e66f5ee
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 7034vless
+  name: 🇷🇺RU²_3|1.5MB/s|YT-US|TK|X
+  network: grpc
+  port: 7033
+  reality-opts:
+    public-key: iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE
+    short-id: 16b6cda7ab793526
+  server: rusdokyav.vtuix.ir
+  servername: telewebion.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2652fbc5-e1b1-691f-c9c7-11ad83e828a6
+  xudp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_32|7.6MB/s|2%|GPT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_33|2.5MB/s|2%|GPT|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇫🇷FR²_1|0.8MB/s|70%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+  network: ws
+  port: 16645
+  server: planb.mojcn.com
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰HK²_34|0.5MB/s|2%|YT-CN|NF|D+|X|KeepSucceed
   password: BxceQaOe
   port: 443
   server: 58.152.30.120
@@ -32,42 +699,98 @@ proxies:
   sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
-- encryption: none
-  name: 🇩🇪DE²_1|7.3MB/s|9%|GPT⁺|YT-US|TK|NF|X
-  network: ws
-  port: 2082
-  server: www.speedtest.net
-  type: vless
-  udp: true
-  uuid: e6483f6c-b397-4851-e1ce-aa4c5497103a
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-  xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: -----@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray
-  name: 🇩🇪DE²_2|4.1MB/s|8%|GPT⁺|YT|TK|NF|X
-  network: grpc
-  port: 2050
-  reality-opts:
-    public-key: WJTQY_Yo_AYMgT3nzuSLfDclRPTsb03TkfZayEPsyUc
-    short-id: acd96c5fc628f1
-  server: 91.98.92.70
-  servername: miro.com
+  name: 🇳🇱NL²_2|2.3MB/s|7%|GPT⁺|YT-US|TK|NF|X|KeepHistory
+  network: ws
+  port: 2083
+  server: www.speedtest.net
+  servername: golestan.hajalwi.ir.
   tls: true
   type: vless
   udp: true
-  uuid: Telegram-G0dv2ray-
+  uuid: a47338c5-c793-4da3-acd8-c583fb6f344d
+  ws-opts:
+    headers:
+      Host: golestan.hajalwi.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
   xudp: true
+- encryption: none
+  name: 🇩🇪DE²_4|4.7MB/s|7%|GPT⁺|YT-US|TK|NF|X
+  network: ws
+  port: 2086
+  server: www.speedtest.net
+  type: vless
+  udp: true
+  uuid: 5-RK_VPS--RK_VPS
+  ws-opts:
+    headers:
+      Host: joKer.mEmBerGolaBi.IR
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-US⁰_1|19.4MB/s|3%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 2096
+  server: freeyx.cloudflare88.eu.org
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_35|8.5MB/s|2%|GPT⁺|YT|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: f8d6a0ad-t6r5s0-t8hh31-amya.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE²_5|6.2MB/s|7%|GPT⁺|TK|NF|X
+  network: tcp
+  port: 10100
+  server: 91.98.46.169
+  type: vless
+  udp: true
+  uuid: 0c6fc388-2d1b-450b-a232-9df7dd56cd6b
+  xudp: true
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_36|1.0MB/s|2%|YT|NF|D+|X|KeepSucceed
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+  port: 443
+  server: 112.118.116.127
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   country: 🏁 ZZ
   http-opts: {}
-  name: 🇺🇸US²_1|6.7MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+  name: 🇺🇸US²_6|5.6MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepSucceed
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -77,160 +800,32 @@ proxies:
   ws-opts:
     path: /
 - client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: -@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN
-  name: 🇩🇪DE²_3|4.2MB/s|8%|GPT⁺|YT|TK|NF|X|KeepSucceed
-  network: grpc
-  port: 3060
-  reality-opts:
-    public-key: LnDnwg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0
-    short-id: acd96c5fc628f1
-  server: 91.98.92.70
-  servername: miro.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: Telegram--SRCVPN--
-  xudp: true
-- cipher: chacha20-ietf
-  name: 🇭🇰HK²_3|0.6MB/s|0%|X|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.182.105
-  type: ss
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_4|0.7MB/s|2%|YT-CN|NF|D+|X|KeepHistory
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪DE²_4|0.9MB/s|GPT⁺|X|KeepHistory
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_2|7.7MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_5|1.8MB/s|2%|YT-CN|NF|D+|X|KeepHistory
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_6|19.1MB/s|2%|YT|NF|D+|X|KeepSucceed
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 112.118.116.127
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US²_3|7.8MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_7|4.9MB/s|2%|YT|NF|D+|X|KeepHistory
+  name: 🇭🇰HK²_37|18.8MB/s|2%|YT|NF|D+|X|KeepHistory
   password: BxceQaOe
   port: 443
   server: 219.78.209.224
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: "🔒 [By EbraSha] trojan-HK "
   tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🏴‍☠_1🇭🇰HK²_55|4.6MB/s-CN|5.1MB/s|X|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.182.158
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇭🇰HK²_8|3.9MB/s|0%|X|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.182.38
-  type: ss
-- country: 🇭🇰 HK
-  name: 🇭🇰HK²_9|0.8MB/s|2%|YT-CN|NF|D+|X|KeepHistory
-  password: BxceQaOe
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_4|5.6MB/s|28%|GPT|YT-US|TK|NF|X|KeepHistory
+  network: tcp
   port: 443
-  server: 58.152.25.20
-  skip-cert-verify: true
+  server: jrghxqxyoy-518237151-direct.bahame.co
+  servername: jrghxqxyoy-518237151-direct.bahame.co
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_4|5.7MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK²_10|18.7MB/s|2%|YT|NF|D+|X|KeepSucceed
-  network: tcp
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 112.118.116.127
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_5|6.3MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK²_11|6.6MB/s|2%|YT|NF|D+|X|KeepSucceed
+  uuid: jrghxqxyoy
+  xudp: true
+- name: 🇭🇰HK²_38|10.2MB/s|2%|YT|NF|D+|X|KeepSucceed
   network: tcp
   password: BxceQaOe
   port: 443
@@ -239,72 +834,28 @@ proxies:
   sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
-- name: 🇸🇬SG²_1|6.6MB/s|0%|GPT⁺|GM|X|KeepSucceed
-  password: ""
-  port: 10808
-  server: 213.35.126.34
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇭🇰HK²_12|9.0MB/s|YT|NF|D+|X|KeepSucceed
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.174
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tfo: false
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_13|3.9MB/s|X|KeepHistory
-  password: ""
-  port: 1011
-  server: 47.238.37.111
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇰🇷KR²_1|1.4MB/s|1%|GPT⁺|X|KeepHistory
-  password: ""
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇭🇰HK²_14|0.6MB/s|X|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.183.191
-  type: ss
-- alterId: 2
+- alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇫🇷FR
   h2-opts: {}
   http-opts: {}
-  name: 🇬🇧GB²_1|1.3MB/s|GPT⁺|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30836
-  server: v36.hdacd.com
-  servername: v36.hdacd.com
+  name: 🇹🇼TW²_1|2.3MB/s|0%|GPT⁺|GM|TK|NF|D+|X|KeepHistory
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_15|3.5MB/s|2%|YT|NF|D+|X|KeepSucceed
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.174
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn---Join---Arshiavpn
-  name: 🇩🇪DE²_5|5.2MB/s|8%|GPT⁺|YT|TK|NF|X
+  name: 🇩🇪DE²_6|5.4MB/s|8%|GPT⁺|YT|TK|NF|X|KeepSucceed
   network: grpc
   port: 2025
   reality-opts:
@@ -317,12 +868,173 @@ proxies:
   udp: true
   uuid: 40e5abcd-0770-4dee-9d76-a4827c776c12
   xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵JP²_2|1.0MB/s|0%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_7|5.6MB/s|0%|TK|NF|D+|X
+  port: 4249
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 51.250.24.245
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL¹-US⁰_2|3.9MB/s|3%|GPT⁺|TK|NF|D+|X|KeepHistory
+  network: ws
+  port: 8443
+  server: 85.193.95.220
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- country: 🇭🇰 HK
+  name: 🇭🇰HK²_39|0.7MB/s|2%|YT-CN|NF|D+|X|KeepHistory
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_40|7.5MB/s|2%|GPT⁺|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_41|1.5MB/s|2%|GPT|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alpn:
+  - ""
+  alterId: "0"
+  cipher: auto
+  name: 🇩🇪DE²_8|4.9MB/s|9%|GPT⁺|YT|TK|NF|X|KeepHistory
+  network: tcp
+  port: 100
+  server: cpanel.navar1.ir
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 95c6f6f0-84f7-4443-8a50-a59f8e66f5ee
+  xudp: true
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇳🇱NL²_1|0.5MB/s|7%|GPT⁺|YT-US|TK|NF|X|KeepHistory
+  name: 🏴‍☠_2🔥Join+Telegram:@Farah_VPN🟣-10576|1.9MB/s|GPT|X
+  network: ws
+  port: 8443
+  server: partner.zoom.us
+  servername: darknet-free.alexid.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+  ws-opts:
+    headers:
+      Host: darknet-free.alexid.org
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US²_7|7.1MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_9|5.3MB/s|0%|GPT⁺|TK|NF|D+|X
+  port: 1488
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.25.11
+  servername: ads.x5.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- client-fingerprint: chrome
+  name: 🇮🇱IL²_1|6.1MB/s|0%|GPT⁺|YT-NL|TK|NF|D+|X|KeepHistory
+  port: 24170
+  reality-opts:
+    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+    short-id: 2fb2106a629b
+  server: 185.136.132.171
+  servername: speedtest.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL²_3|1.3MB/s|7%|GPT⁺|YT-US|TK|NF|X|KeepSucceed
   network: ws
   port: 2083
   server: www.speedtest.net
@@ -337,107 +1049,227 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
     path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
   xudp: true
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 🇺🇸US²_6|7.7MB/s|51%|GPT⁺|GM|YT|NF|X|KeepHistory
-  port: 30808
-  server: v8.hdacd.com
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦CA²_1|3.4MB/s|0%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+  network: ws
+  port: 16641
+  server: planb.mojcn.com
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
   skip-cert-verify: true
-  tls: false
   type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- name: 🇭🇰HK²_42|18.4MB/s|2%|YT|NF|D+|X|KeepSucceed
+  network: tcp
+  password: 76d630f2af6619c4a5de0ef953df3c6a
+  port: 443
+  server: 112.118.116.127
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇫🇷FR
+  h2-opts: {}
+  http-opts: {}
+  name: 🇫🇷FR²_2|6.7MB/s|70%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+  network: ws
+  port: 16645
+  server: m.cnmjin.net
+  servername: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: a560e498-e1f6-4a93-822e-a4ea2cf57f21
+  ws-opts:
+    headers:
+      HOST: aca6ef5441ab4a988f3f16ed8073e512.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: -@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN---@SRCVPN
+  name: 🇩🇪DE²_10|5.9MB/s|8%|GPT⁺|YT|TK|NF|X|KeepSucceed
+  network: grpc
+  port: 3060
+  reality-opts:
+    public-key: LnDnwg2lFWruzisAY8t6ouWZ3JoQ_47XAl-jUx8tJx0
+    short-id: acd96c5fc628f1
+  server: 91.98.92.70
+  servername: miro.com
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: Telegram--SRCVPN--
+  xudp: true
+- http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE²_11|6.4MB/s|7%|GPT⁺|YT|NF|X
+  network: tcp
+  port: 123
+  server: 128.140.14.218
+  type: vless
+  udp: true
+  uuid: 0267c264-2d80-4eec-fc61-6a77e3e2fa93
+  xudp: true
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰HK²_43|4.3MB/s|0%|YT-CN|NF|D+|X|KeepSucceed
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇳🇱NL²_2|1.3MB/s|GPT⁺|GM|NF|X|KeepSucceed
+  name: 🇩🇪DE²_12|5.3MB/s|0%|GPT⁺|TK|NF|D+|X
+  network: tcp
+  port: 4249
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.24.245
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_4|5.6MB/s|0%|GPT⁺|GM|YT-RU|TK|NF|X|KeepHistory
+  network: tcp
   port: 443
   reality-opts:
     public-key: lJscl0GgEiVZtTVrMVI6O0-zSJTgmug9Cs-KJqpxWw0
     short-id: f6fb0261a102c0c8
   server: 89.23.101.203
   servername: www.vk.com
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: d5f7970e-121f-4e6f-9acf-250effc0715b
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇭🇰HK²_16|9.0MB/s|2%|YT-CN|D+|X|KeepHistory
+  flow: xtls-rprx-vision
+  name: 🇫🇮FI²_1|4.7MB/s|0%|GPT⁺|YT-RU|TK|NF|D+|X
   network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 8OsJx6xuHcpL_5e1w0U4bMBa-icevDgvvzNwPwZbORQ
+    short-id: 5540e44a53c3d01c
+  server: 217.16.24.170
+  servername: api-maps.yandex.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_44|1.0MB/s|2%|GPT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: 918259a8-t4jj40-tnbkh1-1ejce.hkt.gotochinatown.net
+  servername: 918259a8-t4jj40-tnbkh1-1ejce.hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: 918259a8-t4jj40-tnbkh1-1ejce.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_45|5.6MB/s|2%|GPT⁺|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- name: 🇸🇬SG²_1|6.1MB/s|0%|GPT⁺|GM|X|KeepSucceed
+  password: ""
+  port: 10808
+  server: 213.35.126.34
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_46|5.1MB/s|2%|GPT|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: -----@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray------@G0dv2ray
+  name: 🇩🇪DE²_13|6.2MB/s|8%|GPT⁺|YT|TK|NF|X|KeepSucceed
+  network: grpc
+  port: 2050
+  reality-opts:
+    public-key: WJTQY_Yo_AYMgT3nzuSLfDclRPTsb03TkfZayEPsyUc
+    short-id: acd96c5fc628f1
+  server: 91.98.92.70
+  servername: miro.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: Telegram-G0dv2ray-
+  xudp: true
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_47|0.9MB/s|2%|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
+- name: 🇭🇰HK²_48|0.7MB/s|2%|YT-CN|NF|D+|X|KeepHistory
   password: BxceQaOe
   port: 443
   server: 58.152.25.20
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_17|0.8MB/s|2%|YT-CN|NF|D+|X|KeepHistory
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_18|1.1MB/s|2%|NF|D+|X|KeepHistory
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: 58.152.30.120
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_19|1.6MB/s|2%|YT|NF|D+|X|KeepHistory
-  password: BxceQaOe
-  port: 443
-  server: 219.78.209.224
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tfo: false
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_20|0.6MB/s|2%|YT-CN|NF|D+|X|KeepSucceed
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.242
   skip-cert-verify: true
   sni: t.me%25252Fripaojiedian
   tfo: false
   tls: true
   type: trojan
   udp: true
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_21|2.5MB/s|2%|YT-CN|NF|D+|X|KeepSucceed
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_7|6.6MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇰🇷KR²_2|10.3MB/s|13%|GPT⁺|YT|TK|NF|D+|X|KeepHistory
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
