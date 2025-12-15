@@ -1,82 +1,25 @@
 proxies:
-- name: 🇸🇬SG²_1|5.3MB/s|0%|GPT⁺|X|KeepSucceed
-  password: ""
-  port: 10808
-  server: 213.35.126.34
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US²_1|7.2MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_2|7.2MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_1|5.7MB/s|YT|TK|X|KeepSucceed
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-128-gcm
-  country: 🇫🇮FI
-  name: 🇫🇮FI²_1|0.9MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepSucceed
-  password: y3o3ra6edy5nfc6hyb2n
-  port: 18283
-  server: 185.103.110.68
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺RU²_1|6.1MB/s|YT|TK|X|KeepSucceed
-  network: ws
-  port: 2052
-  server: yx1.xn--11x.org
-  servername: 2112136940.online.video.downloader.0123456789ru.xn--11x.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 705a4b47-c2d7-4c0e-8963-e52a18a4070b
-  ws-opts:
-    headers:
-      Host: 2112136940.online.video.downloader.0123456789ru.xn--11x.org
-    path: /
-- cipher: aes-128-gcm
-  country: 🇮🇱IL
-  name: 🇫🇮FI²_2|2.5MB/s|0%|GPT⁺|TK|NF|X|KeepHistory
-  password: tijsjk3iwzc6b10azb0y
-  port: 18284
-  server: 77.83.247.206
-  type: ss
-- name: 🇭🇰HK²_1|11.9MB/s|2%|YT|NF|D+|X|KeepSucceed
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.155
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  tfo: false
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 193.160.209.95
+  servername: github.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- name: 🇰🇷KR²_1|1.0MB/s|1%|GPT⁺|X|KeepSucceed
-  password: ""
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇰🇷KR²_2|10.8MB/s|13%|GPT⁺|YT|NF|D+|X|KeepSucceed
+  uuid: 1859f2db-e6e8-4dc4-b21e-99da517e2e62
+  xudp: true
+- name: 🇰🇷KR²_1|9.7MB/s|13%|GPT⁺|YT|TK|NF|D+|X|KeepSucceed
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -85,33 +28,125 @@ proxies:
   type: http
   udp: true
   username: test
-- name: 🇭🇰HK²_2|2.5MB/s|2%|YT|NF|D+|X|KeepSucceed
+- cipher: chacha20-ietf-poly1305
+  country: 🇳🇱NL
+  name: 🇳🇱NL²_1|5.3MB/s|0%|GPT⁺|YT-US|TK|NF|X
+  password: _bypfvq6ra7g4n5yCCR9DoVeGya2XUUS
+  port: 8444
+  server: 185.82.73.212
+  type: ss
+- name: 🇭🇰HK²_1|3.3MB/s|YT-CN|NF|D+|X|KeepHistory
   password: BxceQaOe
   port: 443
-  server: 58.152.18.155
+  server: 58.152.25.242
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%25252Fripaojiedian
+  tfo: false
   tls: true
   type: trojan
-- name: 🇫🇷FR²_1|7.1MB/s|17%|GPT⁺|YT|TK|NF|X
-  network: ws
-  port: 80
-  server: hajimamadvpnjoinsho.fast199.hosting-ip.com
+  udp: true
+- client-fingerprint: chrome
+  name: 🇮🇱IL²_1|6.2MB/s|0%|GPT⁺|YT-NL|TK|NF|D+|X|KeepSucceed
+  port: 24170
+  reality-opts:
+    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+    short-id: 2fb2106a629b
+  server: 185.136.132.171
+  servername: speedtest.net
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: b727aa5e-27bd-4fe5-bd95-7db682992637
-  ws-opts:
-    headers:
-      Host: downloadha.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
-  xudp: true
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE²_1|1.8MB/s|7%|GPT⁺|NF|D+|X
+  name: 🇩🇪DE²_1|3.5MB/s|7%|GPT⁺|YT|TK|NF|D+|X
+  network: ws
+  port: 2087
+  server: www.speedtest.net
+  servername: dl4.hajalwi.ir.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9d6c0f0e-9409-48b3-9e10-bdc7f2a57d25
+  ws-opts:
+    headers:
+      Host: dl4.hajalwi.ir.
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
+    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇯🇵JP²_1|1.7MB/s|4%|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+  network: ws
+  port: 443
+  server: yg1.ygkkk.dpdns.org
+  servername: jporacleyg.336697.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
+  ws-opts:
+    headers:
+      Host: jporacleyg.336697.xyz
+    path: /7a88d322-eb4a-4a59-8c62-8c60d76abf4b-vm?ed=2048
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰HK²_2|0.5MB/s|X|KeepHistory
+  password: asd123456
+  port: 8388
+  server: 103.141.221.124
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇫🇮FI²_1|5.8MB/s|7%|GPT⁺|YT-RU|TK|NF|X|KeepHistory
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
+    short-id: a20d3ed244c76426
+  server: 51.250.21.113
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f0e01f3-8c74-458e-a474-b4aa4ac879aa
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸US²_1|5.0MB/s|D+|X|KeepHistory
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 48720c
+  server: us01-vlr01-gmn03.vpnvezdehod.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
+- cipher: chacha20-ietf
+  country: 🇭🇰HK
+  name: 🇭🇰HK²_3|1.9MB/s|X|KeepHistory
+  password: asd123456
+  port: 8388
+  server: 103.149.183.191
+  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_2|6.6MB/s|7%|GPT⁺|TK|NF|X|KeepSucceed
   network: ws
   port: 2087
   server: www.speedtest.net
@@ -126,100 +161,20 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
     path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
   xudp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: 🇭🇰HK²_3|0.5MB/s|X|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇺🇸US²_3|5.6MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
+- name: 🇺🇦UA²_1|3.8MB/s|TK|X|KeepHistory
+  password: ""
+  port: 56981
+  server: 185.210.85.26
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_4|8.8MB/s|2%|YT|NF|D+|X|KeepHistory
-  password: BxceQaOe
-  port: 443
-  server: 58.152.18.155
+  type: socks5
+  username: ""
+- name: 🇰🇷KR²_2|2.4MB/s|1%|GPT⁺|GM|YT|TK|NF|X|KeepSucceed
+  password: ""
+  port: 1090
+  server: 121.169.46.116
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP²_1|4.7MB/s|4%|GPT⁺|YT|TK|NF|X|KeepSucceed
-  network: ws
-  port: 443
-  server: yg1.ygkkk.dpdns.org
-  servername: jporacleyg.336697.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7a88d322-eb4a-4a59-8c62-8c60d76abf4b
-  ws-opts:
-    headers:
-      Host: jporacleyg.336697.xyz
-    path: /7a88d322-eb4a-4a59-8c62-8c60d76abf4b-vm?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺RU²_2|9.4MB/s|YT|TK|X
-  network: ws
-  port: 2052
-  server: yx1.xn--11x.org
-  servername: 2112176225.online.video.downloader.0123456789ru.xn--11x.org
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7451edf9-bb10-470f-ab64-846d5a0814a7
-  ws-opts:
-    headers:
-      Host: 2112176225.online.video.downloader.0123456789ru.xn--11x.org
-    path: /
-- client-fingerprint: chrome
-  name: 🇮🇱IL²_1|6.5MB/s|0%|GPT⁺|YT-NL|TK|NF|D+|X|KeepSucceed
-  port: 24170
-  reality-opts:
-    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
-    short-id: 2fb2106a629b
-  server: 185.136.132.171
-  servername: speedtest.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇭🇰HK²_5|7.5MB/s|0%|X|KeepHistory
-  password: asd123456
-  port: 8388
-  server: 103.149.182.38
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_4|6.8MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: socks5
+  username: ""
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -227,62 +182,51 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇷🇺RU²_3|5.2MB/s|YT|X
+  name: 🇩🇪DE²_3|5.5MB/s|0%|GPT⁺|TK|NF|D+|X|KeepHistory
   network: tcp
-  port: 4443
+  port: 443
   reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 193.160.209.95
-  servername: github.com
+    public-key: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
+    short-id: ""
+  server: 83.166.255.72
+  servername: 01.img.avito.st
   tls: true
   type: vless
   udp: true
-  uuid: 1859f2db-e6e8-4dc4-b21e-99da517e2e62
+  uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
   xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇺🇸US²_5|6.5MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_4|8.0MB/s|GPT|NF|X|KeepHistory
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 73856b73-19d2-47e6-b991-5eaa421161ea
   ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US²_6|6.6MB/s|51%|GPT⁺|TK|NF|X|KeepHistory
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_7|6.5MB/s|51%|GPT⁺|YT-CN|TK|NF|X|KeepHistory
+    headers:
+      Host: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /admin?ed=1024
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_2|5.4MB/s|28%|GPT|YT-US|TK|NF|X|KeepHistory
   network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US²_8|7.8MB/s|51%|GPT⁺|YT|TK|NF|X|KeepHistory
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+  port: 443
+  server: jrghxqxyoy-518237151-direct.bahame.co
+  servername: jrghxqxyoy-518237151-direct.bahame.co
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: jrghxqxyoy
+  xudp: true
