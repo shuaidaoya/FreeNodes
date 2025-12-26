@@ -1,941 +1,236 @@
 proxies:
   - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|1.6MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2053
-    server: www.aapanel.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - name: "\U0001F1EE\U0001F1F3IN²_1|5.6MB/s|GPT⁺|GM|X|KeepHistory"
-    password: ''
-    port: 1080
-    server: 64.227.131.240
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1EE\U0001F1F3IN²_2|5.5MB/s|GPT⁺|YT|NF|X|KeepHistory"
-    password: ''
-    port: 1080
-    server: 139.59.24.173
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1EC\U0001F1E7GB¹-DE⁰_1|6.9MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2053
-    server: 208.103.161.32
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1F9AT²_1|4.4MB/s|0%|GPT⁺|YT-RU|TK|NF|D+|X"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
+      short-id: 3f8ad1
+    server: lb1.aliusvpn.ru
     tls: true
     type: vless
     udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
+    uuid: d36ffc6c-6a4d-4298-8c79-431f6fc4ada6
     xudp: true
-    servername: sni.111000.dynv6.net
-  - name: "\U0001F1FA\U0001F1F8US²_1|2.3MB/s|GPT⁺|GM|YT|X|KeepHistory"
-    password: ''
-    port: 1080
-    server: 192.241.156.17
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1ED\U0001F1F0HK²_1|9.4MB/s|2%|NF|D+|X|KeepSucceed"
-    password: 44e660b0ee21cf3ac66aee2c08af85d2
-    port: 443
-    server: 112.118.116.8
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.5MB/s|GPT|GM|YT-US|TK|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.60
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_2|2.1MB/s|GPT⁺|YT|TK|D+|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: 162.159.254.137
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR²_1|2.3MB/s|GPT⁺|TK|NF|X|KeepHistory"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.246
-    type: ss
-  - delay: 1082
-    name: "\U0001F1EC\U0001F1E7GB²_1|3.2MB/s|GPT⁺|TK|NF|X|KeepSucceed"
-    network: ws
-    port: 443
-    server: delilah.ns.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 39a192ed-7e78-42f4-b956-2f0ea17f677f
-    ws-opts:
-      headers:
-        Host: 639018301854287215.camry-amsjk.info
-      path: /rbjisuws
-    servername: 639018301854287215.camry-amsjk.info
+    servername: aliusfilms.ru
   - encryption: none
-    grpc-opts:
-      grpc-service-name: >-
-        ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-    name: "\U0001F1EC\U0001F1E7GB²_2|5.7MB/s|67%|GPT⁺|YT|TK|NF|X|KeepSucceed"
-    network: grpc
-    port: 25373
-    server: 198.244.141.25
-    type: vless
-    udp: true
-    uuid: a6bbaf8f-fa05-4dca-add6-d90959a44586
-    xudp: true
-  - encryption: none
-    name: "\U0001F1E9\U0001F1EADE²_1|7.1MB/s|10%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    network: ws
-    port: 2082
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 42414856-a364-4e37-f187-b48f0cddfb2f
-    ws-opts:
-      headers:
-        Host: >-
-          novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
-      path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2082
-    xudp: true
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|21.3MB/s|GPT|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 104.17.162.3
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|2.3MB/s|GPT⁺|GM|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.27
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US²_2|1.6MB/s|51%|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: port.api-music-fa.com
-    tls: true
-    type: vless
-    uuid: d9ec6fd2-4de0-4109-acfa-1f54278988ce
-    ws-opts:
-      path: /J5aLQOY1R9ONWYCM
-    servername: port.api-music-fa.com
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_2|10.1MB/s|GPT|GM|YT-US|TK-US|NF|D+|X|KeepHistory"
+    name: "\U0001F1FA\U0001F1F8US¹-TW⁰_1|1.2MB/s|GM|YT|TK|NF|D+|X|KeepHistory"
     network: ws
     port: 443
-    server: 104.19.212.207
+    server: 162.159.235.26
     tls: true
     type: vless
-    udp: true
     uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
       path: /
     servername: snippets.kkii.eu.org
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1ED\U0001F1F0HK¹-SG⁰_1|3.7MB/s|3%|GPT⁺|YT|TK-US|NF|D+|X|KeepHistory"
-    network: ws
-    port: 443
-    server: yd.3.hhhhh.eu.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a0d2a22-7304-462c-9bab-bf2ad1cd24c2
-    ws-opts:
-      headers:
-        Host: sp1.hhhhh.eu.org
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.181 Safari/537.36
-      path: /?proxyip=proxyip.sg.cmliussss.net
-    xudp: true
-    servername: sp1.hhhhh.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB¹⁺_1|6.5MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 443
-    server: visa.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-    ws-opts:
-      headers:
-        Host: ziyong.boringdad.netlib.re
-      path: /
-    servername: ziyong.boringdad.netlib.re
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_1|4.2MB/s|0%|GPT⁺|TK|NF|X|KeepHistory"
-    port: 443
-    reality-opts:
-      public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-      short-id: d1579a8745398e34
-    server: 89.169.137.193
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
-    network: tcp
-    servername: eh.vk.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL²_2|4.8MB/s|0%|GPT⁺|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
-      short-id: d1579a8745398e34
-    server: 89.169.137.193
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
-    xudp: true
-    servername: eh.vk.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|1.1MB/s|GPT⁺|GM|YT|TK|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.186
-    type: ss
-  - name: "\U0001F3F4‍☠_1\U0001F1E9\U0001F1EADE²_1|1.1MB/s|3.5MB/s|X|KeepHistory"
-    password: ''
-    port: 9025
-    server: 51.84.65.10
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US²_3|1.0MB/s|21%|GPT⁺|YT|NF|X|KeepHistory"
-    network: ws
-    port: 443
-    server: 108.162.193.217
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee122f13-9b54-49b6-abc5-aa47b464fdb3
-    ws-opts:
-      headers:
-        Host: azizoarjmand.info
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /yhowcws
-    xudp: true
-    servername: azizoarjmand.info
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|1.7MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.213
-    type: ss
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹⁺_3|1.3MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2095
-    server: cdnjs.com
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.pusytroller.cf
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.0MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X"
-    network: ws
-    port: 2053
-    server: singapore.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹⁺_5|5.9MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2095
-    server: www.udemy.com
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.pusytroller.cf
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.110 Safari/537.36
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_6|2.5MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X"
-    network: ws
-    port: 2053
-    server: china.embassy.gov.au
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - name: "\U0001F1ED\U0001F1F0HK¹-KR⁰_1|21.6MB/s|3%|GPT⁺|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
-    port: 443
-    server: cdns.doon.eu.org
-    skip-cert-verify: false
-    sni: _acme-challenge.2go.cloudns.be
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: _acme-challenge.2go.cloudns.be
-      path: /
-  - name: "\U0001F1FA\U0001F1F8US¹⁺_7|6.8MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2095
-    server: 104.16.142.237
-    skip-cert-verify: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.pusytroller.cf
-      path: /
-    servername: fangbinxingnmsl.pusytroller.cf
-  - cipher: aes-256-cfb
-    country: "\U0001F1EA\U0001F1F8 ES"
-    name: "\U0001F1EA\U0001F1F8ES²_1|2.0MB/s|25%|GPT⁺|YT|TK|NF|X"
-    password: XPtzA9sCug3SPR4c
-    port: 9025
-    server: 5.188.181.201
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_2|14.2MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US²_4|1.8MB/s|21%|GPT⁺|YT|TK-PL|X|KeepHistory"
-    network: ws
-    port: 443
-    server: 173.245.59.217
-    tls: true
-    type: vless
-    udp: true
-    uuid: ee122f13-9b54-49b6-abc5-aa47b464fdb3
-    ws-opts:
-      headers:
-        Host: azizoarjmand.info
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /yhowcws
-    xudp: true
-    servername: azizoarjmand.info
-  - name: "\U0001F1F8\U0001F1ECSG²_1|5.9MB/s|38%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
-    password: 7f7fea1d-16cf-3f0b-95c8-2dbb2fc5a97c
-    port: 443
-    server: 45.32.110.38
-    skip-cert-verify: true
-    sni: sg1.sstank.top
-    type: trojan
-    udp: true
-  - delay: 929
-    name: "\U0001F1FA\U0001F1F8US¹⁺_8|7.3MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2095
-    server: www.udemy.com
-    tls: false
-    type: vless
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.pusytroller.cf
-      path: /
-    servername: fangbinxingnmsl.pusytroller.cf
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB¹⁺_2|3.1MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 443
-    server: 162.159.152.2
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c0dad-3268-4470-ac57-887c5089db0d
-    ws-opts:
-      headers:
-        Host: asuka.boringdad.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-    servername: asuka.boringdad.netlib.re
-  - name: "\U0001F1FA\U0001F1F8US¹-TW⁰_1|11.4MB/s|GM|YT-HK|NF|D+|X|KeepSucceed"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 104.19.220.22
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - name: "\U0001F1F0\U0001F1F7KR²_1|11.2MB/s|2%|GPT⁺|GM|X|KeepHistory"
-    password: ''
-    port: 1090
-    server: 121.169.46.116
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB¹-DE⁰_2|7.1MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2053
-    server: convera.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - name: "\U0001F1FA\U0001F1F8US¹⁺_9|3.0MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2095
-    server: www.udemy.com
-    tls: false
-    type: vless
-    udp: true
-    uuid: 00000000-0000-0000-0000-000000000000
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.pusytroller.cf
-      path: /
-    servername: fangbinxingnmsl.pusytroller.cf
-  - auth: 351b8fa7-3ad4-4a81-8373-f4bc1ebb9310
-    name: "\U0001F1FA\U0001F1F8US²_5|4.6MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    password: 351b8fa7-3ad4-4a81-8373-f4bc1ebb9310
-    port: 25200
-    ports: 25200-26200
-    server: us1.kaixincloud.top
-    skip-cert-verify: false
-    sni: us1.kaixincloud.top
-    type: hysteria2
-    udp: true
-  - auth: 76296b6e-09c2-4509-aa19-87d59d34dc2f
-    name: "\U0001F1FA\U0001F1F8US²_6|3.4MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X"
-    password: 76296b6e-09c2-4509-aa19-87d59d34dc2f
-    port: 25200
-    ports: 25200-26200
-    server: us1.kaixincloud.top
-    skip-cert-verify: false
-    sni: us1.kaixincloud.top
-    type: hysteria2
-    udp: true
-  - auth: b429df1d-134e-47fc-9613-06c6762bb9e1
-    name: "\U0001F1E8\U0001F1E6CA²_1|4.4MB/s|17%|GPT⁺|YT-CN|TK|NF|D+|X"
-    password: b429df1d-134e-47fc-9613-06c6762bb9e1
-    port: 25200
-    ports: 25200-26200
-    server: xjp.kaixincloud.top
-    skip-cert-verify: false
-    sni: xjp.kaixincloud.top
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F5\U0001F1F1PL²_1|3.3MB/s|23%|GPT⁺|YT-RU|TK|NF|X|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-      short-id: 887c0d72e771a934
-    server: 158.160.201.80
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
-    xudp: true
-    servername: m.vk.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB¹-DE⁰_3|6.9MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: 208.103.161.33
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/62.0.3202.89 Safari/537.36
-      path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 512
-    xudp: true
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹⁺_10|8.4MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2053
-    server: pages.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/43.0.2357.65 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: sni.111000.dynv6.net
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU²_1|4.9MB/s|GPT⁺|YT|X|KeepSucceed"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-      short-id: 4d4421a0bac569
-    server: 51.250.4.181
-    tls: true
-    type: vless
-    udp: true
-    uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-    xudp: true
-    servername: eh.vk.com
-  - name: "\U0001F1ED\U0001F1F0HK⁻¹_1|4.2MB/s|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: cf.130519.xyz
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹-GB⁰_1|0.9MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 443
-    server: purplelily.qzz.io
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9ac02124-e3f2-4a80-8ac8-d06612ebaceb
-    ws-opts:
-      headers:
-        Host: ''
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/45.0.2454.101 Safari/537.36
-      path: '/57.128.183.35:443'
-    xudp: true
-    servername: purplelily.qzz.io
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|15.4MB/s|3%|GPT⁺|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2053
-    server: 104.17.53.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - name: "\U0001F1FA\U0001F1F8US²_7|5.3MB/s|GPT⁺|GM|X|KeepSucceed"
+  - name: "\U0001F1E9\U0001F1EADE²_1|5.6MB/s|GPT⁺|X|KeepHistory"
     password: ''
     port: 1080
-    server: 174.138.61.184
+    server: 161.35.31.237
     skip-cert-verify: true
     type: socks5
     username: ''
-  - delay: 962
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_3|19.8MB/s|GPT⁺|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 104.19.55.205
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_11|3.9MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X"
-    network: ws
-    port: 2053
-    server: delivr.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F5\U0001F1F1PL²_2|3.7MB/s|23%|GPT⁺|YT-RU|TK|NF|X|KeepSucceed"
-    port: 8443
-    reality-opts:
-      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
-      short-id: 8f222b3475800821
-    server: 158.160.201.80
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
-    network: tcp
-    servername: m.vk.com
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1F3\U0001F1F1NL²_3|4.9MB/s|0%|GPT⁺|YT-RU|TK|NF|X|KeepHistory"
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 8453e5fd9af927
-    server: ru-nl01-vlr01.tcp-reset-club.net
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e
-    network: tcp
-    servername: hls-svod.itunes.apple.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EF\U0001F1F5 JP"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F2\U0001F1FEMY²_1|6.0MB/s|0%|GPT⁺|GM|YT|TK|NF|X"
-    network: none
-    port: 80
-    server: 23.27.28.15
-    type: vmess
-    uuid: MoJia-@iranpwner-telegram
   - cipher: aes-256-cfb
     country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_6|1.4MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.3MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.53
+    server: 103.186.155.126
     type: ss
-  - name: "\U0001F1FA\U0001F1F8US¹-TW⁰_2|3.0MB/s|GM|YT|TK|NF|D+|X|KeepHistory"
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_2|4.9MB/s|7%|GPT⁺|NF|X"
     network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 162.159.24.131
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|2.0MB/s|GPT⁺|YT|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.12
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_3|7.0MB/s|2%|YT|D+|X|KeepSucceed"
-    password: 44e660b0ee21cf3ac66aee2c08af85d2
-    port: 443
-    server: 112.118.116.8
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI²_1|7.0MB/s|8%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
-    network: ws
-    port: 443
-    server: ns.cloudnsmkh.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 08b6328c-4fdc-4262-b908-f0ad389e9911
-    ws-opts:
-      headers:
-        Host: ns1.ezcloudnet.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /news
-    xudp: true
-    servername: a3947276170e793e157956e4df953f01.ezcloudnet.ir
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹⁺_12|2.9MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2095
-    server: 104.16.142.237
-    type: vless
-    udp: true
-    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-    ws-opts:
-      headers:
-        Host: fangbinxingnmsl.pusytroller.cf
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/65.0.3325.162 Safari/537.36
-      path: /
-    xudp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_8|1.6MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.56
-    type: ss
-  - cipher: auto
-    client-fingerprint: chrome
-    delay: 615
-    name: "\U0001F1FA\U0001F1F8US²_8|0.7MB/s|14%|GPT⁺|GM|YT|TK|NF|D+|X|KeepHistory"
-    network: none
-    port: 54661
-    server: 99.88.80.195
-    tls: false
-    type: vless
-    uuid: aa3e6633-40ff-4d90-fb85-a3a73c0ee4c3
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_2|2.5MB/s|GPT⁺|YT|TK|NF|X|KeepSucceed"
-    port: 26691
-    protocol: udp
-    server: 62.210.196.68
+    port: 8443
+    server: info.andishehnegar404.ir
     skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    up: 11 Mbps
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F1\U0001F1FALU²_1|7.7MB/s|57%|GPT|NF|X|KeepHistory"
-    network: ws
-    port: 443
-    server: us7.candyfans.win
     tls: true
-    type: vless
-    udp: true
-    uuid: 0062f09d-9579-4722-9bd3-d5438970d54a
+    type: vmess
+    uuid: 0d11812e-c5c0-459d-b214-7cef44158e53
     ws-opts:
       headers:
-        Host: us7.candyfans.win
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /jqliws
-    xudp: true
-    servername: us7.candyfans.win
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_9|1.2MB/s|GPT⁺|GM|YT-US|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.62
-    type: ss
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
   - alterId: 0
     cipher: auto
     country: "\U0001F3C1ZZ"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|5.9MB/s|3%|YT|NF|D+|X|KeepSucceed"
+    name: "\U0001F1E9\U0001F1EADE²_3|3.8MB/s|7%|GPT⁺|TK|X"
     network: ws
-    port: 443
-    server: 104.19.61.72
+    port: 8443
+    server: info.andishehnegar404.ir
     skip-cert-verify: true
     tls: true
     type: vmess
-    uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+    uuid: 8aaada6f-de1b-40e2-aeba-1602e443362d
     ws-opts:
       headers:
-        HOST: hk.nbee.pp.ua
-      path: /aa
-    servername: hk.nbee.pp.ua
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US²_1|0.9MB/s|33%|GPT⁺|YT-CN|TK|X|KeepHistory"
+    network: tcp
+    port: 180
+    server: 82.198.246.97
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    servername: trojan.burgerip.co.uk
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_10|1.4MB/s|GPT|GM|TK|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.194
+    name: "\U0001F1EA\U0001F1F8ES²_1|1.1MB/s|GPT|X|KeepHistory"
+    password: M3t2ZEQcMGRWBjRa
+    port: 9011
+    server: 5.188.181.201
     type: ss
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB¹-DE⁰_4|6.6MB/s|3%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2053
-    server: 208.103.161.33
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: sni.111000.dynv6.net
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_11|1.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.206
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_4|20.8MB/s|GPT|YT|NF|D+|X|KeepHistory"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.5
-    skip-cert-verify: false
-    sni: snippets.kkii.eu.org
+  - name: "\U0001F1F8\U0001F1ECSG²_1|1.2MB/s|48%|GPT⁺|GM|YT|NF|D+|X"
+    password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+    port: 27045
+    server: lt-sin.ltdns.top
+    skip-cert-verify: true
+    sni: www.ithome.com
     type: trojan
     udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|0.9MB/s|GPT⁺|GM|YT|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.246
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|2.3MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.27
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_4|4.6MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: e01706af-c2be-4f67-8639-010e98121426
     ws-opts:
       headers:
-        Host: snippets.kkii.eu.org
-      path: /
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_5|2.8MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: da8d532d-9d12-45dc-94a1-495a1b9ac15b
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F8\U0001F1ECSG²_2|5.9MB/s|GPT⁺|GM|YT-LK|TK|NF|X|KeepSucceed"
+    name: "\U0001F1F2\U0001F1E9MD²_1|8.9MB/s|21%|GPT⁺|YT-NL|TK-NL|NF|X|KeepHistory"
+    network: ws
+    port: 443
+    server: 104.17.147.22
+    tls: true
+    type: vless
+    udp: true
+    uuid: telegram-id-Arfilter
+    ws-opts:
+      headers:
+        Host: u.arfilter2.blog
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: >-
+        /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: u.arfilter2.blog
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_6|6.3MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: bbd3460c-691c-486b-b5a0-98b1216e9719
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_1|0.8MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 203.198.84.221
+    skip-cert-verify: true
+    sni: t.me/ripaojiedian
+    type: trojan
+    udp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_7|5.3MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: c311f13a-df3d-42ea-856f-9950929466d5
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG²_2|6.7MB/s|GPT⁺|GM|YT-LK|TK|NF|X|KeepSucceed"
     network: ws
     port: 8443
     server: ev.zoom.us
@@ -952,257 +247,50 @@ proxies:
       path: /
     xudp: true
     servername: darknet-free.alexid.org
-  - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB¹-DE⁰_5|6.5MB/s|GPT⁺|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: 208.103.161.33
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-    servername: sni.111000.dynv6.net
-  - name: "\U0001F1F8\U0001F1EASE²_1|4.6MB/s|1%|GPT⁺|YT-US|TK|D+|X|KeepHistory"
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
-    password: e20cc63dc06088fba56bf786860aadaf
-    port: 989
-    server: dd.openaccessnode.com
-    skip-cert-verify: true
-    sni: dd.ircybersec.org
-    type: hysteria2
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EB\U0001F1EEFI¹⁺_1|4.7MB/s|3%|GPT⁺|TK|D+|X"
-    network: ws
-    port: 443
-    server: axe.soyet2j.ir
-    tls: true
-    type: vless
-    udp: true
-    uuid: 53682cf5-f91c-4267-b7ae-0d9b18463c59
-    ws-opts:
-      headers:
-        Host: menu.gejeh683bm.ir
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-      path: /77d76f3d-5da8-4198-b5d2-9634d3059ad0
-    xudp: true
-    servername: menu.gejeh683bm.ir
   - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_12|0.9MB/s|GPT⁺|GM|YT-US|TK|X|KeepHistory"
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|1.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.126
+    server: 103.186.155.36
     type: ss
-  - alpn:
-      - http%2F1.1
-    client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹-DE⁰_1|11.0MB/s|3%|GPT|YT|NF|D+|X|KeepHistory"
-    network: ws
-    port: 2096
-    server: www.speedtest.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 2fb8808b-b94c-42ea-9dd2-cd77d2efcc8d
-    ws-opts:
-      headers:
-        Host: DiGIkALaA.dpdns.ORG
-      path: >-
-        /eyJqdW5rIjoidDZLaDRBMWhpIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: DiGIkALaA.dpdns.ORG
-  - name: "\U0001F1F8\U0001F1ECSG²_3|3.8MB/s|0%|GPT⁺|GM|YT-LK|X|KeepHistory"
-    network: ws
-    port: 443
-    server: zoom.seaseus.pp.ua
-    tls: true
-    type: vless
-    uuid: fba4e0e0-118c-431f-9f6a-4cfc99f39de8
-    ws-opts:
-      path: /seaseus
-    servername: zoom.seaseus.pp.ua
-  - client-fingerprint: chrome
-    encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL²_4|3.3MB/s|34%|GPT⁺|YT-RU|TK|D+|X|KeepSucceed"
-    network: tcp
-    port: 47944
-    reality-opts:
-      public-key: _7L2lOpu_wMQLTxy0VT0WIHe8yYfBFKKq8wWWLr-4Tw
-      short-id: ffffffffff
-    server: 89.23.113.137
-    tls: true
-    type: vless
-    udp: true
-    uuid: 9f721f50-e015-5ea3-8bb0-22428307e9c0
-    xudp: true
-    servername: www.ietf.org
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_13|7.9MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: www.aapanel.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
-    ws-opts:
-      headers:
-        Host: sni.111000.dynv6.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: sni.111000.dynv6.net
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1F2\U0001F1E9MD²_1|3.6MB/s|21%|GPT⁺|TK-NL|NF|X|KeepSucceed"
-    network: ws
-    port: 443
-    server: 205.233.181.73
-    tls: true
-    type: vless
-    udp: true
-    uuid: telegram-id-Arfilter
-    ws-opts:
-      headers:
-        Host: u.arfilter2.blog
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: >-
-        /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: u.arfilter2.blog
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1F1\U0001F1FBLV²_1|3.7MB/s|0%|GPT⁺|TK|NF|X|KeepSucceed"
-    obfs: salamander
-    obfs-password: '&O#28YB5qK!5t#U'
-    password: yhqy5AHofQq
-    port: 46914
-    server: channel4.saghetalaie.homes
-    skip-cert-verify: true
-    sni: www.google.com
-    type: hysteria2
-    up: ''
-  - name: "\U0001F1F0\U0001F1F7KR²_2|10.3MB/s|11%|GPT⁺|YT|TK|NF|D+|X|KeepHistory"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
   - alterId: 0
     cipher: auto
     country: "\U0001F3C1ZZ"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_9|8.1MB/s|GPT⁺|YT|NF|X|KeepHistory"
+    name: "\U0001F1E9\U0001F1EADE²_8|5.6MB/s|7%|GPT⁺|TK|NF|X"
     network: ws
-    port: 2083
-    server: hgtrojan.zabc.net
+    port: 8443
+    server: info.andishehnegar404.ir
     skip-cert-verify: true
     tls: true
     type: vmess
-    uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+    uuid: 2168bb3a-b049-470e-8ab5-cb3122d72a24
     ws-opts:
       headers:
-        HOST: hgtrojan.zabc.net
-      path: /e6395c20
-    servername: hgtrojan.zabc.net
-  - name: "\U0001F1FA\U0001F1F8US²_10|0.9MB/s|23%|GPT⁺|X|KeepSucceed"
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1FA\U0001F1F8US²_2|5.4MB/s|GPT⁺|GM|YT|X|KeepSucceed"
     password: ''
-    port: 5566
-    server: 37.18.73.60
+    port: 1080
+    server: 174.138.61.184
     skip-cert-verify: true
     type: socks5
     username: ''
-  - name: "\U0001F1ED\U0001F1F0HK²_4|20.5MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 203.198.84.221
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_14|5.7MB/s|3%|GPT⁺|YT|TK|NF|D+|X"
-    network: ws
-    port: 2053
-    server: go2.lenovo.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL²_5|4.3MB/s|0%|GPT⁺|YT-RU|NF|X|KeepHistory"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 8453e5fd9af927
-    server: ru-nl01-vlr01.tcp-reset-club.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 8e2cc81d-7ac4-4352-a7b5-bbfcfa81e49e
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - encryption: none
-    name: "\U0001F1FA\U0001F1F8US²_11|6.2MB/s|GPT⁺|GM|X|KeepHistory"
-    network: ws
-    port: 80
-    server: www.speedtest.net
-    type: vless
-    udp: true
-    uuid: 805b3b13-4ff5-4be0-9de5-037d428c0cd0
-    ws-opts:
-      headers:
-        Host: >-
-          websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: >-
-        /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_5|2.5MB/s|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.194
+    type: ss
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1EE\U0001F1F3IN²_3|3.4MB/s|GPT⁺|YT|X|KeepSucceed"
+    name: "\U0001F1EE\U0001F1F3IN²_1|3.2MB/s|GPT⁺|GM|NF|X|KeepSucceed"
     password: c1854182-5014-4cd5-b024-022302480ba1
     port: 50013
     server: zz.9966663.xyz
@@ -1210,19 +298,36 @@ proxies:
     type: anytls
     udp: true
     sni: zz.9966663.xyz
-  - name: "\U0001F1ED\U0001F1F0HK²_5|18.0MB/s|2%|YT|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_6|1.0MB/s|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.34
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_9|4.8MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
     skip-cert-verify: true
-    sni: t.me%252Fripaojiedian
-    tfo: false
-    type: trojan
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_5|5.1MB/s|GPT⁺|YT|NF|D+|X|KeepHistory"
+    tls: true
+    type: vmess
+    uuid: 8355a2c6-37e8-432c-9be2-4b3df7f5fb84
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1FA\U0001F1F8US⁻¹_1|12.8MB/s|GPT|GM|YT-HK|NF|D+|X|KeepHistory"
     network: ws
     port: 443
-    server: 198.41.208.234
+    server: 104.19.220.22
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
@@ -1232,70 +337,188 @@ proxies:
         Host: snippets.kkii.eu.org
       path: /
     servername: snippets.kkii.eu.org
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_2|16.6MB/s|3%|GPT⁺|YT|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: 104.16.241.241
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - name: "\U0001F1ED\U0001F1F0HK²_6|17.8MB/s|2%|YT|NF|D+|X"
-    password: BxceQaOe
-    port: 443
-    server: 203.198.84.221
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_7|19.2MB/s|2%|YT|NF|D+|X|KeepSucceed"
-    password: BxceQaOe
-    port: 443
-    server: 203.198.84.221
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹⁺_15|1.7MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|KeepSucceed"
-    network: ws
-    port: 2053
-    server: 104.26.12.27
-    tls: true
-    type: vless
-    udp: true
-    uuid: 694c8d77-1584-ea3e-8860-bab565285b33
-    ws-opts:
-      headers:
-        Host: stall.saass.ccwu.cc
-      path: /proxyip=sjc.o00o.ooo
-    servername: stall.saass.ccwu.cc
-  - name: "\U0001F1FA\U0001F1F8US²_12|0.7MB/s|14%|GPT|YT|D+|X|KeepSucceed"
-    password: hSA6YXe15O
-    port: 443
-    server: 104.11.86.252
-    skip-cert-verify: true
-    sni: Telegram������������ @WangCai2
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
+  - alterId: 0
+    cipher: auto
     country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_13|1.1MB/s|GPT⁺|GM|YT-US|TK|NF|X|KeepSucceed"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.147
-    type: ss
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_10|3.7MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: e5a4bbd9-26dd-4dac-94a6-aa1d5f539500
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_11|3.9MB/s|7%|GPT⁺|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: bd58cd84-c9e7-41de-9631-cef9bc97a6b4
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US¹-TW⁰_2|9.9MB/s|GPT|YT|TK|NF|D+|X|KeepHistory"
+    network: ws
+    port: 443
+    server: 104.17.202.10
+    tls: true
+    type: vless
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+    servername: snippets.kkii.eu.org
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_12|6.5MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 8da554a0-8767-410b-a53f-9c75e61a7fd4
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_13|10.2MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 9ae70e47-4c97-4f07-9e7f-b9ad945d3dcf
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_14|6.6MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 0a2d93a9-4606-47c2-8c0b-cba952e7f399
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_15|6.6MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 5ba87dd5-1008-4b17-b261-ceea1a31e68c
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_16|7.2MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 1009bf78-e2a6-45fe-a646-95f9a43da338
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_17|8.7MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 912d73d5-ac14-455f-ac81-c202df3ec864
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_3|6.2MB/s|48%|GPT|GM|YT|X|KeepHistory"
+    network: tcp
+    port: 30808
+    server: v8.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - name: "\U0001F1ED\U0001F1F0HK²_2|1.0MB/s|0%|YT|NF|D+|X"
+    password: 35c8478d-4536-4e3a-9398-575ed46ce3ae
+    port: 31103
+    server: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    sni: green2.cdntencentmusic.com
+    type: trojan
+    udp: true
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_3|2.4MB/s|GPT⁺|TK|NF|X|KeepHistory"
+    name: "\U0001F1EB\U0001F1F7FR²_1|2.3MB/s|GPT⁺|X|KeepSucceed"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -1303,6 +526,933 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_18|9.4MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 1726c954-be37-4231-8f06-f42ea86a880f
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_19|8.0MB/s|7%|GPT⁺|TK|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 1db9ba0e-968a-4411-99c0-37e55fd3fe23
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1F0\U0001F1F7KR²_1|11.8MB/s|2%|GPT⁺|GM|YT|TK|NF|X|KeepSucceed"
+    password: ''
+    port: 1090
+    server: 121.169.46.116
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_20|5.4MB/s|2%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-privatevpns
+    port: 22222
+    server: 3.127.180.68
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK²_3|0.8MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 203.198.84.221
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_21|5.8MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 589cc255-8301-41e1-b850-134b7a2a5e5a
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_22|7.5MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: fc6a4ccb-0c92-4695-8201-b804592a1cbc
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_23|7.0MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 18fec0c7-0b81-4a26-abcb-2174f1922e52
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F7\U0001F1FARU"
+    name: "\U0001F1F3\U0001F1F1NL²_1|5.3MB/s|13%|GPT⁺|YT|TK|NF|X"
+    password: Y4tYfvgt+5yNC2S+s23icsoVKJIzgtGEnmGhcKqaMqg=
+    port: 8443
+    server: verassams1.uspn.io
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_24|7.5MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: eaca6a79-d3b5-4e40-be90-2b16252cc102
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_25|7.4MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 4dc7580c-7a67-46c1-bd84-bca45ac7a4c1
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_7|1.1MB/s|GPT⁺|GM|YT-US|TK|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.62
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_26|8.9MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: de55c70e-c0a3-4d67-95c7-b9f52da4033e
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_8|2.6MB/s|GPT⁺|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.39
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_27|6.0MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 278dab22-848b-4a4d-b33c-b3ed2f54bc64
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_28|6.7MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 843e8168-5c30-46b3-a591-6891457eb505
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_29|7.3MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: c987988e-468e-4585-b76b-0560349a960c
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG²_3|5.1MB/s|49%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+    network: tcp
+    port: 30812
+    server: v12.hdacd.com
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    servername: n1744454498.lie5d.cyou
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_30|6.9MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: ef386a61-189e-4332-97fc-553abc8febf4
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG²_4|5.5MB/s|49%|GPT⁺|GM|YT|TK|NF|X"
+    port: 30812
+    server: v12.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    servername: green2.cdntencentmusic.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR²_2|4.0MB/s|GPT⁺|YT|TK|NF|X|KeepSucceed"
+    port: 26691
+    protocol: udp
+    server: 62.210.196.68
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK²_4|3.6MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: 44e660b0ee21cf3ac66aee2c08af85d2
+    port: 443
+    server: 112.118.116.8
+    skip-cert-verify: false
+    sni: www.nintendogames.net
+    type: trojan
+    udp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_31|5.1MB/s|7%|GPT⁺|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 06cd4d46-e143-4b12-8c5d-7f60fc77b2ad
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_32|5.6MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 6c75aa59-8f0b-4f4e-b75d-8114cdccce33
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1ED\U0001F1F0HK²_5|14.5MB/s|2%|YT|NF|D+|X|KeepSucceed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_33|4.6MB/s|7%|GPT⁺|TK|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 42f73903-5f93-4214-a539-a6e12afca691
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1FA\U0001F1F8US¹-TW⁰_3|0.8MB/s|GPT|GM|YT|TK|NF|D+|X|KeepHistory"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: one.cf.cdn.hyli.xyz
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2F
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_9|2.0MB/s|GPT⁺|GM|YT|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.202
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_34|5.3MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 8b41bc35-e240-4e11-9091-85022d2d4576
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_35|4.8MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 78acbd01-93b5-4675-9496-4bc31b4e24a3
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_36|1.7MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 00f890e9-6277-4063-bf3b-542229a4f8d3
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_10|2.3MB/s|GPT⁺|GM|YT|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.239
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE²_37|5.5MB/s|0%|GPT⁺|YT-RU|TK|NF|X"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: GacPaW0DxNTA8vpoEv7CpGBAu_atzYMBaryAuwcw70M
+      short-id: '6698'
+    server: ll2.takovpn.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 493d5565-9c06-4d2f-a252-cbd9d2be3516
+    xudp: true
+    servername: sun6-20.userapi.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_38|3.2MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 18606d43-e108-4ef9-a638-006db5ea446c
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_39|4.2MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 9cc9a98a-f4b1-4246-8bc1-456e6a1a70e9
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_40|4.4MB/s|7%|GPT⁺|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 1dcc0887-5481-47c5-818e-210a8c0b2f46
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1E9\U0001F1EADE²_41|5.2MB/s|0%|GPT⁺|TK-US|NF|D+|X"
+    network: ws
+    port: 443
+    server: de-1.fooms.cc
+    tls: true
+    type: vless
+    uuid: 3005c397-1c4c-4bbe-b209-ea3fe93bb992
+    ws-opts:
+      path: /Path2WS
+    servername: de-1.fooms.cc
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_42|3.3MB/s|7%|GPT⁺|TK|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 3990101e-1a71-48b4-b011-dddf09dce887
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1EEFI²_1|6.8MB/s|8%|GPT⁺|YT-US|TK|NF|X|KeepSucceed"
+    network: ws
+    port: 443
+    server: ns.cloudnsmkh.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 08b6328c-4fdc-4262-b908-f0ad389e9911
+    ws-opts:
+      headers:
+        Host: ns1.ezcloudnet.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      path: /news
+    xudp: true
+    servername: a3947276170e793e157956e4df953f01.ezcloudnet.ir
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F8\U0001F1ECSG²_5|7.6MB/s|GPT⁺|GM|YT-LK|TK|NF|X|KeepHistory"
+    network: ws
+    port: 8443
+    server: partner.zoom.us
+    tls: true
+    type: vless
+    udp: true
+    uuid: 39eb8c33-ee7f-4980-b3e5-684aaf390f56
+    ws-opts:
+      headers:
+        Host: darknet-free.alexid.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /
+    xudp: true
+    servername: darknet-free.alexid.org
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_4|6.3MB/s|48%|GPT⁺|GM|YT|TK|NF|X|KeepHistory"
+    network: tcp
+    port: 30808
+    server: v8.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    servername: v8.hdacd.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_43|2.7MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: fb902700-36bc-4b76-b3c3-2977a0769b4a
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: 55
+    name: "\U0001F1EB\U0001F1F7FR²_3|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
+    port: 35511
+    protocol: udp
+    server: 62.210.10.186
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 11
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_44|4.3MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: f5cbe5c2-d011-46a6-8300-4cc2299d6b86
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_45|4.4MB/s|7%|GPT⁺|TK|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: a0095641-4d3a-4e1a-aa89-974e7e20a56b
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1F8\U0001F1ECSG²_6|1.3MB/s|X|KeepHistory"
+    password: ''
+    port: 1080
+    server: 94.230.127.180
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1FA\U0001F1F8US⁻¹_2|1.4MB/s|GM|YT|TK|NF|D+|X"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 162.159.24.131
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%25252F
+  - cipher: aes-256-cfb
+    country: "\U0001F1EB\U0001F1F7FR"
+    name: "\U0001F1EB\U0001F1F7FR²_4|0.6MB/s|GPT⁺|YT|TK|NF|X|KeepHistory"
+    password: f8f7aCzcPKbsF8p3
+    port: 989
+    server: 195.154.119.77
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_46|3.4MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 28b4f63c-5c89-40c4-b73e-607d2d0770f8
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_47|3.0MB/s|7%|GPT|TK|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: b2a10068-2702-4ace-b878-7f64ab680404
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_48|2.0MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: de93acb1-dae2-48ee-ae32-3824bf25afae
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL²_1|0.7MB/s|23%|GPT⁺|YT-RU|TK|NF|X|KeepSucceed"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 887c0d72e771a934
+    server: 158.160.201.80
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3d4525a8-3345-4743-a1dd-0e6cca32b6e7
+    xudp: true
+    servername: m.vk.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL²_2|0.9MB/s|0%|GPT⁺|TK|NF|X|KeepSucceed"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+      short-id: d1579a8745398e34
+    server: 89.169.137.193
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
+    xudp: true
+    servername: eh.vk.com
+  - country: "\U0001F1E9\U0001F1EADE"
+    name: "\U0001F1E9\U0001F1EADE²_49|2.6MB/s|2%|GPT⁺|YT|TK|NF|X"
+    password: telegram-id-directvpn
+    port: 22223
+    server: 3.127.180.68
+    skip-cert-verify: true
+    sni: trojan.burgerip.co.uk
+    type: trojan
+    udp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_50|2.5MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 3efa5f2e-8812-4815-97e2-1dd273e665af
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_51|3.4MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: fef0d924-a84c-4536-95d1-5165066f0b0c
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_52|4.5MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 629e476f-ffca-4c46-b18d-a6a4b2cad2a0
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - name: "\U0001F1F9\U0001F1F7TR²_1|0.5MB/s|GPT⁺|X"
+    password: ''
+    port: 1111
+    server: 62.133.63.236
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_53|4.1MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 91704450-4848-4b04-80fd-90a47d8f2556
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_54|2.5MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: a21b1e4e-88c4-4eb7-ab88-7d7b9e3d8291
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_55|4.2MB/s|7%|GPT⁺|TK|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: b160417c-2db2-4232-b799-87426dcdc9c1
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F3C1ZZ"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_56|4.1MB/s|7%|GPT⁺|NF|X"
+    network: ws
+    port: 8443
+    server: info.andishehnegar404.ir
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    uuid: 06d14ec3-f3de-42b8-bb17-2825027340ca
+    ws-opts:
+      headers:
+        HOST: info.andishehnegar404.ir
+      path: "/\U0001F194@M3HDIO1"
+    servername: info.andishehnegar404.ir
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
