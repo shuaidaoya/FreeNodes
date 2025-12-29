@@ -1,23 +1,58 @@
 proxies:
+  - alterId: 0
+    cipher: auto
+    client-fingerprint: chrome
+    delay: 1643
+    name: "\U0001F1F7\U0001F1FARU²_1|4.7MB/s|TK|X|KeepHistory"
+    network: none
+    port: 34895
+    server: 2.56.242.210
+    tls: false
+    type: vmess
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+  - name: "\U0001F1E9\U0001F1EADE²_1|1.3MB/s|X"
+    password: ''
+    port: 8041
+    server: 78.12.230.52
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG²_1|2.3MB/s|48%|YT|X|KeepHistory"
+    port: 30812
+    server: v12.hdacd.com
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   - client-fingerprint: chrome
-    name: "\U0001F1EC\U0001F1E7GB¹-US⁰_1|3.4MB/s|0%|GPT⁺|YT|TK|NF|D+|X"
-    network: ws
-    port: 2053
-    server: notion.site
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU²_2|0.6MB/s|X"
+    network: tcp
+    port: 4241
+    reality-opts:
+      public-key: OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA
+      short-id: '111111'
+    server: 51.250.100.89
     tls: true
     type: vless
     udp: true
-    uuid: 6951d30f-d81d-fd67-5068-67df77f2a899
-    ws-opts:
-      headers:
-        Host: stallorg.saas.ddnsgeek.com
-      path: /proxyip=sjc.o00o.ooo
-    servername: stallorg.saas.ddnsgeek.com
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|13.1MB/s|YT|NF|D+|X|KeepHistory"
+    uuid: 588d810f-69d3-4bf2-95de-4fdbcf30f30d
+    xudp: true
+    servername: ads.x5.ru
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|21.0MB/s|X|KeepHistory"
     network: ws
     password: 5a2c16f9
     port: 443
-    server: 172.64.229.64
+    server: 172.64.229.169
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
@@ -26,160 +61,349 @@ proxies:
       headers:
         Host: snippets.kkii.eu.org
       path: /
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1F7\U0001F1FA RU"
-    http-opts: {}
-    name: "\U0001F1F7\U0001F1FARU²_1|1.2MB/s|TK|X|KeepHistory"
-    network: none
-    port: 34895
-    server: 2.56.242.210
+  - name: "\U0001F1ED\U0001F1F0HK²_1|1.8MB/s|NF|D+|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
     skip-cert-verify: true
-    type: vmess
-    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
+    sni: |-
+      ������
+      [By DukeMehdi] trojan-HK 
+    type: trojan
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_2|18.8MB/s|X|KeepHistory"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.82
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
     ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
       path: /
-  - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.6MB/s|GPT⁺|YT-US|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.25
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US²_1|9.0MB/s|GM|TK|X"
+    password: 53db9c44-94a1-4976-8682-5d1c3642058d
+    port: 10026
+    server: hd.yuyan.vin
     type: ss
-  - name: "\U0001F1FA\U0001F1F8US²_1|2.5MB/s|GPT|X|KeepHistory"
+    udp: true
+  - auth: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    down: 1000
+    name: "\U0001F1EF\U0001F1F5JP²_1|5.9MB/s|0%|GPT⁺|GM|YT-CN|TK|NF|X"
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+    password: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    port: 14030
+    server: 1.6rguyesfdhvbz.uk
+    skip-cert-verify: false
+    sni: 6rguyesfdhvbz.uk
+    type: hysteria2
+    udp: true
+    up: 1000
+  - name: "\U0001F1F0\U0001F1F7KR²_1|2.8MB/s|X|KeepHistory"
     password: ''
-    port: 1080
-    server: 192.241.156.17
+    port: 1090
+    server: 121.169.46.116
     skip-cert-verify: true
     type: socks5
     username: ''
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US²_2|0.8MB/s|GPT|GM|X"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: WvNaAxI0W__qfUKbtysH4IwF155YENlv3PG6crCmPkA
-      short-id: ''
-    server: 38.107.233.59
-    tls: true
-    type: vless
-    udp: true
-    uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
-    xudp: true
-    servername: vk.ookcdn.ru
-  - name: "\U0001F3F4‍☠_13.21.106.186:11|0.7MB/s|X"
-    password: ''
-    port: 11
-    server: 3.21.106.186
+  - alterId: 0
+    name: "\U0001F1EF\U0001F1F5JP²_2|2.5MB/s|0%|GPT⁺|YT-CN|TK|NF|D+|X|KeepHistory"
+    password: 09e71e3b-1f9f-44ab-9a10-02e0e10e2f05
+    port: 25010
+    server: 37.202.200.19
     skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - country: "\U0001F1EB\U0001F1F7FR"
-    name: "\U0001F1EB\U0001F1F7FR²_1|0.9MB/s|1%|GPT⁺|YT|TK|X"
-    password: telegram-id-directvpn
-    port: 22223
-    server: 15.237.39.122
-    skip-cert-verify: true
-    sni: trojan.burgerip.co.uk
+    sni: 37.202.200.19
     type: trojan
     udp: true
   - alterId: 2
     cipher: auto
-    name: "\U0001F1FA\U0001F1F8US²_3|4.8MB/s|X|KeepHistory"
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_2|1.2MB/s|47%|GPT⁺|GM|YT|TK|X|KeepHistory"
+    network: tcp
     port: 30808
     server: v8.hdacd.com
     skip-cert-verify: true
-    tls: false
     type: vmess
-    udp: true
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    servername: green2.cdntencentmusic.com
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_3|1.2MB/s|47%|X|KeepHistory"
+    port: 30808
+    server: v8.hdacd.com
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US⁻¹_1|0.7MB/s|X|KeepHistory"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 104.19.220.22
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/67.0.3396.99 Safari/537.36
+      path: //
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_2|0.6MB/s|NF|X|KeepHistory"
+    network: tcp
+    port: 30833
+    server: v33.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    servername: v33.hdacd.com
+  - name: "\U0001F1ED\U0001F1F0HK²_2|2.3MB/s|1%|YT|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - auth: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    down: 1000
+    name: "\U0001F1F8\U0001F1ECSG²_2|1.8MB/s|12%|GPT⁺|GM|YT|TK|NF|D+|X"
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+    password: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    port: 15040
+    server: 2.6rguyesfdhvbz.uk
+    skip-cert-verify: false
+    type: hysteria2
+    udp: true
+    up: 1000
+    sni: 2.6rguyesfdhvbz.uk
+  - auth: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    down: 1000
+    name: "\U0001F1FA\U0001F1F8US²_4|13.6MB/s|47%|GPT⁺|YT-CN|TK|NF|X"
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+    password: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    port: 11000
+    server: usa5.6rguyesfdhvbz.uk
+    skip-cert-verify: false
+    sni: 6rguyesfdhvbz.uk
+    type: hysteria2
+    udp: true
+    up: 1000
+  - name: "\U0001F1ED\U0001F1F0HK⁻¹_1|16.6MB/s|YT|X|KeepHistory"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: freeyx.cloudflare88.eu.org
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|3.6MB/s|YT|NF|D+|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20132
+    server: hkv4.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: hkv4.9966663.xyz
+  - auth: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    down: 1000
+    name: "\U0001F1FA\U0001F1F8US²_5|13.0MB/s|47%|GPT⁺|YT-CN|TK|NF|X"
+    obfs: salamander
+    obfs-password: Y2YwNTVmYjExYzYwMDQwYw==
+    password: dd7519c3-b4c6-4f24-80d9-434ae26675ed
+    port: 11000
+    server: usa1.6rguyesfdhvbz.uk
+    skip-cert-verify: false
+    sni: 6rguyesfdhvbz.uk
+    type: hysteria2
+    udp: true
+    up: 1000
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL²_1|3.7MB/s|GPT⁺|YT|TK|NF|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20135
+    server: nlor2.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: nlor2.9966663.xyz
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_3|8.4MB/s|NF|X|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.183.154
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1FA\U0001F1F8US²_6|6.7MB/s|17%|GM|TK|X"
+    password: 53db9c44-94a1-4976-8682-5d1c3642058d
+    port: 10014
+    server: hd.yuyan.vin
+    type: ss
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU²_3|5.1MB/s|YT|TK|X"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: dFORJuMEa7izUStNjvhLFvJ2Hudr4v07VQhQS-Wbyh8
+      short-id: fd
+    server: 89.169.182.230
+    tls: true
+    type: vless
+    udp: true
+    uuid: ac2c8871-d4eb-40a6-8487-fd1b31c3bc22
+    xudp: true
+    servername: vk.com
   - alpn:
       - h2
       - http/1.1
     client-fingerprint: chrome
     encryption: none
-    name: "\U0001F1F2\U0001F1E9MD²_1|0.7MB/s|0%|GPT⁺|X|KeepHistory"
-    network: ws
-    port: 443
-    server: 205.233.181.73
+    grpc-opts:
+      grpc-service-name: www.bing.com
+    name: "\U0001F1EE\U0001F1EAIE²_1|5.4MB/s|1%|GPT⁺|YT|TK|NF|X"
+    network: grpc
+    port: 48056
+    server: 34.254.224.37
     tls: true
     type: vless
     udp: true
-    uuid: telegram-id-Arfilter
-    ws-opts:
-      headers:
-        Host: u.arfilter2.blog
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: >-
-        /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
+    uuid: d811ecf9-4029-4794-a43e-3611c3575b9e
     xudp: true
-    servername: u.arfilter2.blog
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: firefox
-    encryption: none
-    name: "\U0001F1F2\U0001F1E9MD²_2|8.3MB/s|0%|X|KeepHistory"
-    network: ws
+    servername: 34.254.224.37
+  - name: "\U0001F1ED\U0001F1F0HK²_4|2.5MB/s|1%|YT|NF|D+|X|KeepHistory"
+    password: BxceQaOe
     port: 443
-    server: www.speedtest.net
-    tls: true
-    type: vless
+    server: 203.198.84.221
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_5|6.6MB/s|X|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.203
+    type: ss
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1F8\U0001F1ECSG²_3|6.8MB/s|GPT|YT|X|KeepHistory"
+    port: 30812
+    server: v12.hdacd.com
+    type: vmess
     udp: true
-    uuid: telegram-id-Arfilter
-    ws-opts:
-      headers:
-        Host: u.arfilter2.blog
-        User-Agent: >-
-          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-      path: >-
-        /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2048
-    xudp: true
-    servername: u.arfilter2.blog
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK²_1|6.8MB/s|1%|X|KeepHistory"
-    port: 10122
-    reality-opts:
-      public-key: TU2OTQBiMyK-mKCI3G6fENadfG-fdNlWJF7Qv9ywkFY
-      short-id: 8a6394aa28d6
-    server: 1.36.189.217
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7f60f6e7-8419-4cff-9e1b-14179f677a5e
-    network: tcp
-    servername: music.apple.com
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    servername: v12.hdacd.com
   - alterId: 2
     cipher: auto
-    country: "\U0001F3C1 ZZ"
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
     http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_4|2.3MB/s|47%|GPT|X|KeepHistory"
+    name: "\U0001F1FA\U0001F1F8US²_7|0.7MB/s|31%|GPT⁺|YT-CN|NF|X|KeepHistory"
     network: tcp
-    port: 30808
-    server: v8.hdacd.com
+    port: 30829
+    server: v29.hdacd.com
     skip-cert-verify: true
     type: vmess
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_2|7.1MB/s|D+|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20134
+    server: hkv4.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: hkv4.9966663.xyz
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|2.2MB/s|GPT⁺|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.229
+    type: ss
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG²_4|16.2MB/s|GPT⁺|GM|YT|TK|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20134
+    server: sgzz.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: sgzz.9966663.xyz
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F2\U0001F1E9MD²_1|4.4MB/s|GPT⁺|TK-NL|X|KeepHistory"
+    network: ws
+    port: 443
+    server: 104.17.148.22
+    tls: true
+    type: vless
+    udp: true
+    uuid: telegram-id-Arfilter
     ws-opts:
-      path: /
+      headers:
+        Host: u.arfilter2.blog
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: >-
+        /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+    servername: u.arfilter2.blog
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     auth_str: dongtaiwang.com
     down: 55
-    name: "\U0001F1EB\U0001F1F7FR²_2|2.3MB/s|GPT⁺|TK|NF|X|KeepHistory"
+    name: "\U0001F1EB\U0001F1F7FR²_1|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
     port: 35511
     protocol: udp
     server: 62.210.10.186
@@ -188,11 +412,107 @@ proxies:
     type: hysteria
     udp: true
     up: 11
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US²_8|6.2MB/s|1%|X"
+    network: ws
+    port: 8443
+    server: skk.moe
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3d294dca-21ba-407e-9815-d5812053f3a4
+    ws-opts:
+      headers:
+        Host: temp-gcp4.608618.xyz
+      path: /clbuws
+    servername: temp-gcp4.608618.xyz
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|1.3MB/s|GPT|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.13
+    type: ss
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US²_9|4.7MB/s|GPT|YT|TK|NF|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20133
+    server: usp.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: usp.9966663.xyz
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1ED\U0001F1F0HK²_6|10.2MB/s|0%|YT|NF|D+|X"
+    password: 53db9c44-94a1-4976-8682-5d1c3642058d
+    port: 11003
+    server: hn.yuyan.vin
+    type: ss
+    udp: true
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    disable-sni: false
+    name: "\U0001F1FA\U0001F1F8US²_10|0.9MB/s|29%|GPT⁺|YT-CN|TK|NF|D+|X"
+    password: 5936c09e-b309-4946-966e-4245afd04a6a
+    port: 60000
+    reduce-rtt: false
+    request-timeout: 0
+    server: 136.0.41.79
+    skip-cert-verify: true
+    sni: www.python.org
+    type: tuic
+    udp-relay-mode: native
+    uuid: 5936c09e-b309-4946-966e-4245afd04a6a
+    version: 5
+  - name: "\U0001F1ED\U0001F1F0HK²_7|1.9MB/s|1%|X|KeepHistory"
+    password: BxceQaOe
+    port: 443
+    server: 203.198.84.221
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+  - encryption: none
+    name: "\U0001F1FA\U0001F1F8US²_11|1.0MB/s|9%|GPT⁺|GM|YT|X"
+    network: tcp
+    port: 12241
+    server: 95.38.210.6
+    type: vless
+    udp: true
+    uuid: a4a941bd-fe1f-4e2e-81ad-2244e73da639
+    xudp: true
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1E8\U0001F1EDCH²_1|4.0MB/s|GPT⁺|TK|NF|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20135
+    server: chor.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: chor.9966663.xyz
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1F2\U0001F1FDMX²_1|7.1MB/s|GPT|GM|YT|NF|X"
+    password: c8962740-02d1-4d3f-ba03-cad8e801c600
+    port: 20134
+    server: co-7be4b6-20.9966663.xyz
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+    sni: co-7be4b6-20.9966663.xyz
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_3|1.8MB/s|GPT⁺|TK|NF|X|KeepHistory"
+    name: "\U0001F1EB\U0001F1F7FR²_2|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -200,11 +520,35 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
+  - alterId: '2'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US²_12|2.7MB/s|47%|GPT|GM|X|KeepHistory"
+    network: tcp
+    port: 30808
+    server: v8.hdacd.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1FA\U0001F1F8US"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_13|0.5MB/s|0%|GPT|D+|X"
+    network: none
+    port: 34128
+    server: 216.167.26.220
+    skip-cert-verify: true
+    type: vmess
+    uuid: 4145ec2a-bc61-4d72-bfd5-f9ffbdf66c28
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_4|3.6MB/s|GPT⁺|YT|TK|NF|X|KeepHistory"
+    name: "\U0001F1EB\U0001F1F7FR²_3|5.9MB/s|GPT⁺|YT|TK|NF|X|KeepSucceed"
     port: 26691
     protocol: udp
     server: 62.210.196.68
@@ -212,51 +556,6 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - cipher: aes-256-cfb
-    country: "\U0001F1EA\U0001F1F8 ES"
-    name: "\U0001F1EA\U0001F1F8ES²_1|1.1MB/s|22%|GPT|TK|NF|X|KeepHistory"
-    password: dU3DSNS8wYPXzEKw
-    port: 9029
-    server: 5.188.181.201
-    type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US⁻¹_1|6.1MB/s|X|KeepHistory"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 104.26.1.110
-    skip-cert-verify: false
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/57.0.2987.133 Safari/537.36
-      path: //
-  - name: "\U0001F1ED\U0001F1F0HK⁻¹_1|14.8MB/s|YT|X|KeepHistory"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.10
-    skip-cert-verify: false
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_2|1.5MB/s|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
