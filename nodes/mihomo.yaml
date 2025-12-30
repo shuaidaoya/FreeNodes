@@ -1,53 +1,118 @@
 proxies:
+  - name: "\U0001F1F8\U0001F1ECSG²_1|5.3MB/s|GPT|YT-CN|X"
+    password: ''
+    port: 7890
+    server: 202.96.165.47
+    skip-cert-verify: true
+    tls: false
+    type: http
+    username: ''
   - cipher: aes-256-cfb
-    country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.5MB/s|GPT⁺|GM|NF|X|KeepHistory"
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|3.1MB/s|GPT|X|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.109
+    server: 103.186.154.58
     type: ss
-  - cipher: chacha20-ietf
-    country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_1|7.4MB/s|0%|YT|X|KeepHistory"
-    password: asd123456
-    port: 8388
-    server: 103.149.183.154
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|1.9MB/s|GPT⁺|YT-US|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.209
     type: ss
-  - name: "\U0001F1F2\U0001F1E9MD²_1|4.0MB/s|19%|GPT⁺|X|KeepHistory"
-    network: ws
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US²_1|1.2MB/s|GPT⁺|GM|NF|X"
     port: 443
-    server: 185.218.3.31
-    skip-cert-verify: true
+    reality-opts:
+      public-key: 9mkPUmY5M-N81bSDf3lP9X3JnH25l4SfeUTnlwV04Eo
+      short-id: d77c4204
+    server: us1.miyazono-kaori.com
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    ws-opts:
-      path: /hormoz
-  - name: "\U0001F1FA\U0001F1F8US⁻¹_1|1.8MB/s|X|KeepHistory"
+    uuid: 582f44d4-4511-402c-a0b7-b5771a2a5c9d
+    network: tcp
+    servername: download-porter.hoyoverse.com
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    down: 55 Mbps
+    name: "\U0001F1EB\U0001F1F7FR²_1|5.6MB/s|GPT⁺|YT|TK|NF|X|KeepHistory"
+    port: 26691
+    protocol: udp
+    server: 62.210.196.68
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    up: 11 Mbps
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|0.8MB/s|GPT⁺|GM|X|KeepSucceed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.66
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|4.9MB/s|NF|X|KeepHistory"
     network: ws
     password: 5a2c16f9
     port: 443
-    server: 162.159.24.131
+    server: one.cf.cdn.hyli.xyz
     sni: snippets.kkii.eu.org
     type: trojan
-    udp: true
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
-      path: /
+      path: /%2F
   - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|2.0MB/s|GPT⁺|GM|X|KeepHistory"
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|2.2MB/s|GPT⁺|YT-US|NF|X|KeepHistory"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.231
+    server: 103.186.154.36
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F1E8\U0001F1F3 CN"
+    name: "\U0001F1FB\U0001F1F3VN²_5|1.0MB/s|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.22
+    type: ss
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0HK"
+    name: "\U0001F1ED\U0001F1F0HK²_1|8.0MB/s|YT-CN|X|KeepHistory"
+    password: asd123456
+    port: 8388
+    server: 103.149.182.38
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_6|1.4MB/s|GPT⁺|GM|YT|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.51
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_7|0.6MB/s|GPT|YT|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.78
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_8|1.1MB/s|GM|YT|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.240
     type: ss
   - alpn:
       - h3
     auth-str: dongtaiwang.com
     down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_1|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
+    name: "\U0001F1EB\U0001F1F7FR²_2|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
     port: 50011
     protocol: udp
     server: 62.210.10.186
@@ -55,156 +120,30 @@ proxies:
     sni: apple.com
     type: hysteria
     up: 11 Mbps
-  - name: "\U0001F1ED\U0001F1F0HK²_2|1.4MB/s|1%|X|KeepHistory"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: t.me/ripaojiedian
-    type: trojan
-    udp: true
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|2.6MB/s|GPT⁺|GM|YT|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.243
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|0.7MB/s|GPT⁺|GM|YT-US|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.116
-    type: ss
-  - name: "\U0001F1E9\U0001F1EADE²_1|3.3MB/s|10%|X"
-    password: ''
-    port: 1080
-    server: 193.233.254.7
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EF\U0001F1F5JP²_1|0.7MB/s|X"
-    password: 53db9c44-94a1-4976-8682-5d1c3642058d
-    port: 10007
-    server: 14.17.71.67
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|1.0MB/s|GPT⁺|GM|YT|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.220
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F1EA\U0001F1F8ES"
-    name: "\U0001F1EA\U0001F1F8ES²_1|1.5MB/s|22%|X|KeepHistory"
-    password: ZET59LF6DvCC8KVt
-    port: 9005
-    server: 5.188.181.201
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_6|2.7MB/s|GPT⁺|YT|NF|X|KeepHistory"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.16
-    type: ss
-  - auth: 32c77cb0-5193-4051-b003-64cee213c4e0
-    name: "\U0001F1E8\U0001F1E6CA²_1|3.1MB/s|33%|GPT⁺|YT-CN|NF|D+|X|KeepHistory"
-    password: 32c77cb0-5193-4051-b003-64cee213c4e0
-    port: 20000
-    ports: 20000-20500
-    server: jnd.dabache.top
-    skip-cert-verify: false
-    sni: jnd.dabache.top
-    type: hysteria2
-    udp: true
-  - name: "\U0001F1F2\U0001F1E9MD²_2|2.7MB/s|X|KeepHistory"
-    network: ws
-    port: 443
-    server: 185.235.241.155
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: e615a5ba-fce3-4ffa-9c86-b0327a8a107a
-    ws-opts:
-      path: /hormoz
-  - name: "\U0001F1ED\U0001F1F0HK⁻¹_1|1.1MB/s|X|KeepHistory"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.32
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55
-    name: "\U0001F1EB\U0001F1F7FR²_2|2.3MB/s|GPT⁺|TK|NF|X|KeepSucceed"
-    port: 35511
-    protocol: udp
-    server: 62.210.10.186
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11
   - alterId: 0
     cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F0\U0001F1F7KR²_1|1.3MB/s|4%|GPT|GM|X|KeepSucceed"
-    network: ws
-    port: 2087
-    server: lv4.789900.xyz
-    tls: true
-    type: vmess
-    udp: true
-    uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
-    ws-opts:
-      headers:
-        Host: lv4.789900.xyz
-      path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
-    servername: lv4.789900.xyz
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|1.6MB/s|GPT|YT|NF|D+|X|KeepHistory"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.108
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      path: /
-  - alpn:
-      - h2
-      - http/1.1
     client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|5.4MB/s|YT|D+|X|KeepHistory"
-    password: c8962740-02d1-4d3f-ba03-cad8e801c600
-    port: 20132
-    server: hkv4.9966663.xyz
-    skip-cert-verify: true
-    type: anytls
-    udp: true
-    sni: hkv4.9966663.xyz
+    delay: 1643
+    name: "\U0001F1F7\U0001F1FARU²_1|2.5MB/s|TK|X|KeepHistory"
+    network: none
+    port: 34895
+    server: 2.56.242.210
+    tls: false
+    type: vmess
+    uuid: 6fe6b62a-dfbe-4753-d795-e02f2561edea
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|1.4MB/s|GPT⁺|NF|X|KeepHistory"
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_9|2.3MB/s|GPT⁺|YT|NF|X"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.66
+    server: 103.186.154.80
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_10|2.4MB/s|GPT⁺|NF|X|KeepHistory"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.59
     type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
