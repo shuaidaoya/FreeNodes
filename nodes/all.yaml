@@ -1,24 +1,154 @@
 proxies:
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇬🇧GB²_1|4.4MB/s|11%|GPT⁺|YT|TK|NF|X
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 55024
-  reduce-rtt: false
-  request-timeout: 0
-  server: 132.145.68.142
-  sni: lundun2.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇭🇰HK²_1|3.2MB/s|1%|YT|NF|D+|X
-  password: f36f4495b4b26cc2fe346cfa23e05b1b
+- down: ""
+  fingerprint: ""
+  name: 🇱🇻LV²_1|2.7MB/s|0%|GPT⁺|YT-US|TK|NF|X|KeepHistory
+  obfs: salamander
+  obfs-password: "&O#28YB5qK!5t#U"
+  password: yhqy5AHofQq
+  port: 46914
+  server: channel4.saghetalaie.homes
+  skip-cert-verify: true
+  sni: www.google.com
+  type: hysteria2
+  up: ""
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_1|2.0MB/s|0%|GPT⁺|YT|NF|X
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 202.71.14.202
+  servername: ign.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: faa693f6-41eb-4c90-842c-876c989adc9c
+  xudp: true
+- name: 🇭🇰HK²_1|0.6MB/s|1%|YT|D+|X|KeepHistory
+  password: BxceQaOe
   port: 443
-  server: 58.152.18.48
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tfo: false
   tls: true
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_1|3.9MB/s|0%|GPT⁺|TK|NF|D+|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: 2e40144ddc07e8e1
+  server: de3.tunnely.ru
+  servername: de3.tunnely.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4685d838-99e1-4dc7-bc26-d8589d41f2a1
+  xudp: true
+- country: 🇩🇪DE
+  name: 🇩🇪DE²_2|0.9MB/s|2%|GPT⁺|YT|TK|NF|X
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.193.4.190
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_1|0.5MB/s|GPT⁺|YT-US|NF|X|KeepHistory
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.58
+  type: ss
+- client-fingerprint: edge
+  name: 🇺🇸US²_1|6.8MB/s|4%|GPT⁺|GM|YT|TK|NF|X
+  network: ws
+  port: 443
+  server: tencentapp.880517.xyz
+  servername: us2.goodusevip.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: c960939b-c008-4596-9979-0f843f56a4e0
+  ws-opts:
+    headers:
+      Host: us2.goodusevip.top
+    path: /
+- cipher: aes-256-gcm
+  country: 🇯🇵JP
+  name: 🇯🇵JP²_1|10.2MB/s|3%|GPT⁺|X
+  password: 8f3a835c-8a45-480d-ae35-1deb2c52dcae
+  port: 51205
+  server: cgroup.node1.s2.nodelist-airport.com
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_1|4.7MB/s|YT|TK|X
+  network: tcp
+  port: 4248
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: ""
+  server: 51.250.28.151
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
+  xudp: true
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55
+  name: 🇫🇷FR²_1|2.3MB/s|GPT⁺|TK|X|KeepHistory
+  port: 35511
+  protocol: udp
+  server: 62.210.10.186
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_2|3.7MB/s|0%|GPT⁺|X|KeepHistory
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: s9.vless-balancer.ru
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 96605f21-f706-45ae-8eeb-ec71efbca6a2
+  xudp: true
+- name: 🇳🇱NL²_3|2.3MB/s|GPT⁺|X|KeepHistory
+  password: ""
+  port: 1080
+  server: 104.248.203.234
+  skip-cert-verify: true
+  type: socks5
+  username: ""
