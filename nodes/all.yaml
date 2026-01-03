@@ -1,261 +1,31 @@
 proxies:
+- name: 🇨🇭CH²_1|5.1MB/s|11%|GPT⁺|YT-CN|TK|D+|X|History|[广播|机房]
+  password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  port: 443
+  server: 152.67.95.183
+  skip-cert-verify: true
+  sni: www.apple.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸US²_1|5.0MB/s|11%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 54455
-  reduce-rtt: false
-  request-timeout: 0
-  server: phoenix-4.nezhasu.com
-  skip-cert-verify: false
-  sni: phoenix-4.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇩🇪DE²_1|2.0MB/s|10%|GPT⁺|X
-  password: ""
-  port: 1080
-  server: 193.233.254.8
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇭🇰HK²_1|3.4MB/s|1%|NF|D+|X
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20"
-  tls: true
-  type: trojan
-- name: 🇭🇰HK²_2|2.5MB/s|1%|NF|D+|X
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
-  tls: true
-  type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_3|2.8MB/s|1%|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_4|2.4MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_5|2.6MB/s|1%|YT|NF|X|Succeed|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_6|0.9MB/s|1%|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU²_1|5.5MB/s|GPT⁺|YT|TK-DE|X|Succeed|[原生|机房]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-    short-id: 4d4421a0bac569
-  server: vkll.takovpn.ru
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_7|0.6MB/s|1%|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_8|2.8MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  ws-opts:
-    path: /
-- alpn:
-  - h3
-  auth-str: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  auth_str: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  down: 70
-  name: 🇰🇷KR²_1|3.9MB/s|30%|GPT⁺|YT-RU|NF|D+|X|[广播|商宽]
-  port: 18301
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇫🇷FR²_1|3.4MB/s|GPT⁺|YT|TK|NF|X|History|[原生|住宅拨号]
+  port: 26691
   protocol: udp
-  server: sg1.shiyuandian.shop
+  server: 62.210.196.68
   skip-cert-verify: true
+  sni: apple.com
   type: hysteria
   udp: true
-  up: 30
-- encryption: none
-  name: 🇺🇸US²_2|2.5MB/s|0%|GPT⁺|GM|YT|NF|X|[广播|机房]
-  network: ws
-  port: 80
-  server: 172.66.156.81
-  type: vless
-  udp: true
-  uuid: d286c83a-ba7f-482b-a358-8bb694426bde
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_1|0.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.38
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_9|2.0MB/s|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
-  ws-opts:
-    path: /
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: violet
-  name: 🇯🇵JP²_1|0.8MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[广播|商宽]
-  network: grpc
-  port: 443
-  server: jplie.osaip.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: d58af36b-33ef-4e3c-b121-e996892181c5
-- encryption: none
-  name: 🇲🇩MD²_1|9.8MB/s|0%|GPT⁺|YT-NL|TK-NL|NF|X|Succeed|[原生|机房]
-  network: ws
-  port: 80
-  server: speedtest.net
-  type: vless
-  udp: true
-  uuid: telegram-id-Arfilter
-  ws-opts:
-    headers:
-      Host: Sudo.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /-Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter?ed=80
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_10|1.1MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 989aa406-ea9b-11ef-97da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_11|2.1MB/s|1%|GPT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  type: vmess
-  udp: true
-  uuid: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  up: 11 Mbps
 - alpn:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 🇫🇷FR²_1|4.7MB/s|4%|GPT⁺|TK|NF|X|History|[广播|机房]
+  name: 🇫🇷FR²_2|4.6MB/s|4%|GPT⁺|YT|TK|NF|X|Succeed|[广播|机房]
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 61386
   reduce-rtt: false
@@ -266,734 +36,44 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇭🇰HK¹-TW⁰_1|1.9MB/s|YT|NF|D+|X|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.6
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_12|1.1MB/s|YT|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_2|1.2MB/s|GPT⁺|GM|YT-US|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.227
-  type: ss
-- name: 🇭🇰HK²_13|0.8MB/s|0%|YT|NF|D+|X|[广播|机房]
-  password: 7d22382e-1358-4669-9334-d1f8d54a9be6
-  port: 31103
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇬🇧GB²_1|2.8MB/s|0%|GPT⁺|YT|TK|NF|X|[广播|机房]
-  password: R8ufkVqwRZAgtwjyrA
-  port: 443
-  server: uk-1.fishchipsexpress.com
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_14|1.9MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: 3d0c52fb-t70f40-t7v83h-1kcpe.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU²_2|4.4MB/s|TK|X|History|[原生|机房]
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
-    short-id: fd88bd27db4cc661
-  server: 45.139.26.152
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
-  xudp: true
-- name: 🇭🇰HK²_15|3.6MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_3|2.9MB/s|GPT⁺|GM|YT|TK|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.227
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇳🇱NL²_1|6.4MB/s|0%|GPT⁺|YT|TK|NF|X|[广播|机房]
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 5.129.236.170
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecc65f46-4bb6-47b5-860c-837b3ae4f3ab
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_16|0.8MB/s|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_4|0.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.114
-  type: ss
-- name: 🇭🇰HK²_17|0.6MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
-  tls: true
-  type: trojan
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_18|0.8MB/s|GPT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_19|1.9MB/s|GPT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_2|8.8MB/s|1%|GPT|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 36925
-  server: 222.112.15.141
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_20|0.6MB/s|1%|GPT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 20482402-7f76-11ed-a8bf-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_21|0.7MB/s|1%|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  type: vmess
-  udp: true
-  uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_3|9.7MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 19957
-  server: 222.112.15.144
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_22|2.1MB/s|1%|GPT|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_23|1.4MB/s|1%|GPT|YT|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
 - encryption: none
   grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 🇫🇷FR²_2|4.2MB/s|0%|GPT⁺|YT-US|TK|NF|X|[广播|商宽]
+  name: 🇫🇷FR²_3|6.0MB/s|0%|GPT⁺|YT-US|TK|NF|X|[广播|商宽]
   network: grpc
-  port: 48499
-  server: 141.227.160.195
+  port: 52748
+  server: 141.227.168.175
   type: vless
   udp: true
-  uuid: 34e01c8f-673f-43a3-b4dc-45f7f3121c16
+  uuid: 19654b16-88b5-4423-84c2-534855930925
   xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  http-opts: {}
-  name: 🇭🇰HK²_24|3.3MB/s|1%|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_25|0.6MB/s|1%|GPT|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: 4387672b-t7xr40-0-1t0fu.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG²_1|13.5MB/s|20%|GPT⁺|GM|YT|TK|NF|X|History|[广播|机房]
-  port: 29877
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: yg2g.jiedian242.com
-  servername: www.nvidia.com
-  skip-cert-verify: false
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: violet
+  name: 🇯🇵JP²_1|0.8MB/s|0%|GPT⁺|GM|YT|NF|D+|X|History|[广播|商宽]
+  network: grpc
+  port: 443
+  server: jplie.osaip.net
   tls: true
   type: vless
   udp: true
-  uuid: 1a598715-d629-4d8c-910b-dbe5ebdc0b53
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_26|2.1MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: a9da8b8e-t70f40-t781gb-1fqef.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_27|1.0MB/s|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  type: vmess
-  udp: true
-  uuid: 7699767c-44ae-11ef-80c7-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_28|1.8MB/s|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_29|1.1MB/s|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: f5514da0-t70f40-tc9wl2-py5w.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: ae5338ae-9a70-58c9-3d47-7d54a5675715
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_30|0.6MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: 4876a9f0-t7s740-0-1t0fu.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸US²_3|3.1MB/s|11%|GPT⁺|YT|TK|NF|X|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 59484
-  reduce-rtt: false
-  request-timeout: 0
-  server: phoenix-3.nezhasu.com
-  skip-cert-verify: false
-  sni: phoenix-3.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇩🇪DE²_2|3.1MB/s|10%|GPT⁺|X|History
-  password: ""
-  port: 1080
-  server: 193.233.254.7
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_31|2.6MB/s|1%|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: 70898894-t70f40-t7do2j-1swry.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8a5d58a0-c50e-11ef-a46e-f23c913c8d2b
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_32|1.5MB/s|1%|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: 545c50c6-t70f40-thiwul-1gcq2.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 759bf004-6137-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_33|1.6MB/s|1%|YT|NF|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_34|0.9MB/s|1%|GPT|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: c7e6deaa-t6r5s0-tm23vf-1jk6u.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-- country: 🇯🇵JP
-  name: 🇸🇬SG²_2|8.3MB/s|GPT⁺|GM|YT|TK|NF|X|[广播|商宽]
-  password: BxceQaOe
-  port: 3127
-  server: 54.249.149.192
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_35|1.1MB/s|1%|GPT|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
+  uuid: 72a3d7e2-3c57-481d-87f1-348cc83ecd44
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU²_3|0.5MB/s|YT|TK|X|[原生|机房]
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 212.60.21.104
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecc65f46-4bb6-47b5-860c-837b3ae4f3ab
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_36|3.6MB/s|1%|GPT|YT|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-- alpn:
-  - h3
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇷FR²_3|1.5MB/s|4%|GPT⁺|YT-US|NF|D+|X|[广播|机房]
-  network: ws
-  port: 443
-  server: 188.114.96.2
-  servername: Ggjd.digikala.lat
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
-  ws-opts:
-    headers:
-      Host: private.digikala.lat
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.100 Safari/534.30
-    path: /
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_37|1.2MB/s|1%|YT|NF|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: 927d9757-t6r5s0-t7hsj2-1gevg.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI²_1|3.5MB/s|0%|GPT⁺|TK-US|NF|X|[广播|商宽]
-  network: tcp
-  port: 3443
-  reality-opts:
-    public-key: dfT5z5agib56VILhtjzfgksA4M5Ez0yNA_19Ck2z5ho
-    short-id: d16801fe66c1c538
-  server: 78.159.247.136
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1e9fe9f0-0954-4d17-80c3-fe824b49f689
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_38|1.4MB/s|1%|YT|NF|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
-  ws-opts:
-    path: /
-- name: 🇺🇸US¹-KR⁰_1|1.5MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 443
-  server: antiquewhite.qzz.io
-  servername: antiquewhite.qzz.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: 100a1064-241d-43b3-a4ab-20362b7b19e6
-  ws-opts:
-    headers:
-      Host: antiquewhite.qzz.io
-    path: /112.184.246.22:50001
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_39|1.0MB/s|1%|GPT|YT|X|Succeed|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 20482402-7f76-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_4|9.9MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
-  password: qwerREWQ@@
-  port: 50087
-  server: 125.141.31.76
-  type: ss
-  udp: true
-- encryption: none
-  name: 🇳🇱NL²_2|2.2MB/s|0%|GPT⁺|YT-US|TK|NF|X|[广播|商宽]
-  network: ws
-  port: 80
-  server: 172.66.40.99
-  type: vless
-  udp: true
-  uuid: 4c86d55c-29b0-4ee5-b2fe-755fc2980c1e
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.Shahin.vegaskala.com.fdf.vegaskala.com.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.115 Safari/537.36
-    path: /@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN----@V2rayArgoN
-  xudp: true
-- name: 🇭🇰HK²_40|5.3MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20"
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_5|10.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
-  password: qwerREWQ@@
-  port: 56359
-  server: 203.234.238.140
-  type: ss
-  udp: true
-- country: 🇯🇵JP
-  name: 🇺🇸US²_4|10.3MB/s|49%|GPT⁺|GM|YT|TK|NF|X|[原生|商宽]
-  password: BxceQaOe
-  port: 1112
-  server: 18.181.195.198
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇸🇬SG²_3|8.3MB/s|GM|YT|TK|D+|X
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- name: 🇺🇸US²_5|9.7MB/s|49%|GPT⁺|GM|YT|TK|NF|X|[原生|商宽]
-  password: BxceQaOe
-  port: 1112
-  server: 18.181.195.198
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇯🇵JP²_2|5.3MB/s|8%|GPT⁺|YT|TK|NF|D+|X|[广播|机房]
-  password: acb91ac5-54c4-45e0-b9a4-e72639ba8922
-  port: 443
-  server: jpakd.osaip.net
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_5|2.3MB/s|GPT⁺|GM|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.76
-  type: ss
-- name: 🇮🇳IN²_1|6.9MB/s|GPT⁺|X|History
-  password: ""
-  port: 1080
-  server: 64.227.131.240
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: aes-256-cfb
-  country: 🇰🇷KR
-  name: 🇰🇷KR²_6|9.0MB/s|1%|GPT⁺|YT-CN|NF|D+|X|Succeed|[原生|住宅]
-  password: qwerREWQ@@
-  port: 1952
-  server: 210.217.18.68
-  type: ss
-- name: 🇭🇰HK¹-TW⁰_2|5.6MB/s|YT|NF|D+|X|[广播|机房]
+  name: 🇭🇰HK¹-TW⁰_1|6.4MB/s|YT|NF|D+|X|[广播|机房]
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 172.64.229.5
-  skip-cert-verify: true
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /
-- cipher: aes-256-cfb
-  country: 🇳🇱NL
-  name: 🇸🇪SE²_1|2.8MB/s|33%|GPT⁺|YT-RU|TK|NF|X|History|[原生|机房]
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 51.15.23.63
-  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1001,65 +81,32 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇭🇰HK²_41|5.4MB/s|0%|GPT|YT|TK-FI|NF|D+|X|[原生|商宽]
+  name: 🇫🇮FI²_1|5.4MB/s|0%|GPT⁺|YT-RU|TK|NF|D+|X|[广播|商宽]
   network: tcp
-  port: 4443
+  port: 8443
   reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 138.249.117.30
-  servername: github.com
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+  server: 78.153.139.68
+  servername: images.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 526552b2-f67f-489c-9d0d-3e00e7d890d1
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
   xudp: true
-- name: 🇭🇰HK²_42|1.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_6|0.9MB/s|GPT⁺|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.34
-  type: ss
 - client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU²_4|5.2MB/s|GPT⁺|YT|TK-DE|X|[原生|机房]
-  network: tcp
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: violet
+  name: 🇯🇵JP²_2|1.1MB/s|0%|GPT⁺|GM|YT|X|History|[广播|机房]
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
-    short-id: 4d4421a0bac569
-  server: 51.250.4.181
-  servername: eh.vk.com
+  server: jpjua.osaip.net
   tls: true
   type: vless
   udp: true
-  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
-  xudp: true
-- country: 🇬🇧GB
-  name: 🇬🇧GB²_2|4.2MB/s|0%|GPT⁺|YT|TK|NF|X|Succeed|[广播|机房]
-  password: R8ufkVqwRZAgtwjyrA
-  port: 443
-  server: uk-1.fishchipsexpress.com
-  skip-cert-verify: true
-  sni: uk-1.fishchipsexpress.com
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_43|0.6MB/s|1%|NF|D+|X|[原生|住宅]
+  uuid: 6e57b797-921b-43cb-b874-7c7233fe65ac
+- name: 🇭🇰HK²_1|0.6MB/s|1%|NF|D+|X|Succeed|[原生|住宅]
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
@@ -1067,62 +114,31 @@ proxies:
   sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%20DukeMehdi%5D%20trojan-HK%20"
   tls: true
   type: trojan
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇵🇱PL²_1|4.0MB/s|GPT⁺|TK|NF|X|[广播|住宅拨号]
-  network: tcp
-  port: 7242
-  reality-opts:
-    public-key: jGmjU0vrRXCnIwn0rVatYKf5ihWZhMvqidp2ceY1QAM
-    short-id: 8c01e365
-  server: 151.115.96.243
-  servername: modily.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 859b7d71-a9fc-4234-8e03-42eb876a170a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇱🇻LV²_1|0.9MB/s|7%|GPT⁺|YT-US|TK|NF|D+|X|[广播|机房]
-  network: tcp
-  port: 8090
-  reality-opts:
-    public-key: IEqCSMyHiRccikTg9nb92kBqVHsrVQHrrX5kF0ALXQY
-    short-id: "50"
-  server: 31.57.29.155
-  servername: neshan.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: dfc61ae0-53cb-4629-82c0-a19bd1fcbc8c
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  country: 🇱🇹 LT
-  name: 🇳🇱NL²_3|5.7MB/s|60%|GPT⁺|YT-US|TK|NF|X|[原生|机房]
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.190
-  type: ss
-- name: 🇭🇰HK²_44|0.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+- name: 🇭🇰HK²_2|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
   password: BxceQaOe
   port: 443
-  server: 58.152.46.60
+  server: 58.152.25.86
   skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20"
   tls: true
   type: trojan
-- name: 🇭🇰HK²_45|0.7MB/s|1%|NF|D+|X|History
+- name: 🇸🇬SG²_1|1.4MB/s|1%|GPT⁺|GM|YT|X|History
+  password: ""
+  port: 1081
+  server: 94.74.91.27
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇭🇰HK²_3|1.2MB/s|NF|D+|X|History|[原生|住宅]
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
   skip-cert-verify: true
-  sni: t.me%2525252Fripaojiedian
+  sni: "%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
   tls: true
   type: trojan
 - encryption: none
-  name: 🇩🇪DE²_3|6.7MB/s|7%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
+  name: 🇩🇪DE²_1|3.6MB/s|7%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
   network: ws
   port: 80
   server: Evay_vpn.fast.hosting-ip.com
@@ -1135,7 +151,233 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /?ed=2052?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
   xudp: true
-- name: 🇯🇵JP²_3|8.8MB/s|38%|GPT|GM|YT|NF|X
+- name: 🇭🇰HK²_4|6.0MB/s|1%|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🏴‍☠_1🇺🇸US²_6|4.7MB/s|3.3MB/s|X|History
+  password: ""
+  port: 7070
+  server: 20.83.154.79
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇭🇰HK²_5|3.9MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20"
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_1|0.7MB/s|GPT⁺|YT|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 61417
+  server: 121.170.203.147
+  type: ss
+  udp: true
+- name: 🇷🇺RU²_1|3.7MB/s|X
+  password: ""
+  port: 1080
+  server: 31.129.147.102
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- alpn:
+  - h3
+  client-fingerprint: edge
+  name: 🇯🇵JP²_3|3.7MB/s|GPT|GM|YT|NF|X|History
+  network: ws
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+  port: 2096
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: ts888.yumige.dpdns.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /http://45.32.19.198:30005/
+- name: 🇭🇰HK²_6|2.9MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20"
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_2|4.3MB/s|TK|X|Succeed|[原生|机房]
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+    short-id: fd88bd27db4cc661
+  server: 45.139.26.152
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_2|8.0MB/s|1%|GPT⁺|YT-CN|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 50411
+  server: 210.217.18.69
+  type: ss
+  udp: true
+- name: 🇺🇸US¹-TW⁰_1|5.1MB/s|YT|TK|NF|D+|X|[原生|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 94.140.0.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: violet
+  name: 🇯🇵JP²_4|1.1MB/s|0%|GPT⁺|GM|YT|NF|D+|X|[广播|商宽]
+  network: grpc
+  port: 443
+  server: jplie.osaip.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d7bccce-6cde-4baf-b2dd-b7473b208e16
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇫🇷FR²_4|5.2MB/s|0%|GPT⁺|YT-US|TK|NF|X|Succeed|[广播|商宽]
+  network: grpc
+  port: 48499
+  server: 141.227.160.195
+  type: vless
+  udp: true
+  uuid: 34e01c8f-673f-43a3-b4dc-45f7f3121c16
+  xudp: true
+- country: 🇭🇰 HK
+  name: 🇭🇰HK²_7|0.6MB/s|1%|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰HK²_8|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_9|0.6MB/s|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "������\n[By DukeMehdi] trojan-HK "
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰HK²_10|6.4MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- encryption: none
+  name: 🇺🇸US²_1|1.9MB/s|GPT⁺|X
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  type: vless
+  udp: true
+  uuid: d286c83a-ba7f-482b-a358-8bb694426bde
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.skylinkserver.site.vegaskala.com.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+  xudp: true
+- encryption: none
+  name: 🇲🇩MD²_1|9.7MB/s|0%|GPT⁺|YT-NL|TK-NL|NF|X|Succeed|[原生|机房]
+  network: ws
+  port: 80
+  server: speedtest.net
+  type: vless
+  udp: true
+  uuid: telegram-id-Arfilter
+  ws-opts:
+    headers:
+      Host: Sudo.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /-Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter?ed=80
+  xudp: true
+- encryption: none
+  name: 🇨🇭CH²_2|6.1MB/s|0%|GPT⁺|YT|TK|NF|X|History|[原生|商宽]
+  network: ws
+  port: 80
+  server: server.ultra-irancell.com
+  type: vless
+  udp: true
+  uuid: turboo-server
+  ws-opts:
+    headers:
+      Host: turboo-server.io
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17 (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /ed=2560
+  xudp: true
+- name: 🇦🇺AU²_1|6.7MB/s|GPT⁺|X
+  password: ""
+  port: 1080
+  server: 134.199.159.23
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇭🇰HK²_11|6.9MB/s|1%|NF|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_3|9.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+  password: qwerREWQ@@
+  port: 36925
+  server: 222.112.15.141
+  type: ss
+  udp: true
+- name: 🇯🇵JP²_5|7.1MB/s|38%|GPT|GM|YT|NF|X|Succeed
   network: ws
   password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
   port: 2096
@@ -1149,55 +391,233 @@ proxies:
     headers:
       Host: ts888.yumige.dpdns.org
     path: /http://45.32.19.198:30005/
-- name: 🇭🇰HK²_46|2.6MB/s|1%|YT|NF|D+|X|[原生|住宅]
+- name: 🇭🇰HK²_12|0.6MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
   password: BxceQaOe
   port: 443
-  server: 58.152.25.236
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_13|0.6MB/s|1%|YT|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_4|9.3MB/s|1%|GPT⁺|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+  password: qwerREWQ@@
+  port: 56359
+  server: 203.234.238.140
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_14|0.5MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_15|0.9MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
-- name: 🇸🇬SG²_4|4.4MB/s|GPT⁺|GM|YT|TK|NF|X|[广播|商宽]
+- name: 🇭🇰HK²_16|0.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
   password: BxceQaOe
-  port: 3127
-  server: 54.249.149.192
+  port: 443
+  server: 58.152.25.86
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
+  udp: true
+- name: 🇺🇸US²_2|1.5MB/s|40%|GPT⁺|GM|YT|X
+  password: ""
+  port: 1080
+  server: 205.185.113.92
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇭🇰HK²_17|0.5MB/s|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK¹-TW⁰_2|1.7MB/s|YT|NF|D+|X|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.103
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- auth: b91ce46f-6a02-4cd3-916a-9a6b6a0fcddc
+  name: 🇩🇪DE²_2|2.2MB/s|0%|GPT⁺|YT-NL|TK|NF|X|[广播|商宽]
+  password: b91ce46f-6a02-4cd3-916a-9a6b6a0fcddc
+  port: 25200
+  ports: 25200-26200
+  server: dg.kaixincloud.top
+  skip-cert-verify: false
+  sni: dg.kaixincloud.top
+  type: hysteria2
+  udp: true
+- name: 🇰🇷KR²_5|2.4MB/s|2%|GPT⁺|GM|X|History
+  password: ""
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_6|9.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 22376
+  server: 125.141.31.75
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_18|0.5MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_19|3.0MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20"
+  tls: true
+  type: trojan
+- name: 🇰🇭KH²_1|0.7MB/s|X
+  password: ""
+  port: 1080
+  server: 110.235.240.166
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: 🇰🇷KR²_7|9.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History
+  password: qwerREWQ@@
+  port: 8901
+  server: 125.141.26.15
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US²_6|1.4MB/s|0%|GPT⁺|YT-RU|NF|D+|X|Succeed|[广播|机房]
+  name: 🇳🇱NL²_1|5.4MB/s|0%|GPT⁺|TK|NF|X|History|[原生|机房]
   network: tcp
   port: 443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 86e999a2cdc2
-  server: us01-vlr01-gmn03.vpnvezdehod.net
-  servername: hls-svod.itunes.apple.com
+    public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+    short-id: d1579a8745398e34
+  server: 89.169.137.193
+  servername: eh.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: e9dbc178-3656-40f8-8833-5023f306ef1d
+  uuid: 2c8adcaa-e428-4cea-9c88-e88166651ab3
   xudp: true
-- name: 🇭🇰HK²_47|0.7MB/s|1%|NF|D+|X|Succeed|[原生|住宅]
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇫🇷FR²_5|4.4MB/s|4%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 50736
+  reduce-rtt: false
+  request-timeout: 0
+  server: marseille-1.nezhasu.com
+  skip-cert-verify: false
+  sni: marseille-1.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 🇷🇺RU²_3|1.9MB/s|X
+  password: ""
+  port: 1080
+  server: 176.115.139.141
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_2|5.8MB/s|0%|GPT⁺|YT|TK|NF|X|Succeed|[广播|机房]
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 5.129.236.170
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecc65f46-4bb6-47b5-860c-837b3ae4f3ab
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_20|0.6MB/s|1%|NF|D+|X|[原生|住宅]
   password: BxceQaOe
   port: 443
-  server: 58.152.46.60
+  server: 58.152.25.86
   skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20"
+  sni: "������ [By EbraSha] trojan-HK "
   tls: true
   type: trojan
-- name: 🇭🇰HK²_48|0.7MB/s|1%|YT|NF|D+|X|History
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.60
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- name: 🇭🇰HK²_49|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_8|8.0MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 45029
+  server: 222.112.15.140
+  type: ss
+  udp: true
+- name: 🇩🇪DE²_3|7.2MB/s|7%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
+  network: ws
+  port: 80
+  server: evay_vpn.fast.hosting-ip.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c2b667-4fc8-4a56-af4a-38b9e9e84610
+  ws-opts:
+    headers:
+      Host: norbert-team-free1.global.ssl.fastly.net
+    path: /?ed=2052?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_9|8.7MB/s|1%|X|History
+  password: qwerREWQ@@
+  port: 35452
+  server: 221.150.109.22
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_21|0.6MB/s|1%|YT|NF|X|Succeed|[原生|住宅]
   password: BxceQaOe
   port: 443
   server: 58.152.46.60
@@ -1206,12 +626,92 @@ proxies:
   tls: true
   type: trojan
 - cipher: aes-256-cfb
-  name: 🇰🇷KR²_7|9.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
+  name: 🇰🇷KR²_10|10.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
   password: qwerREWQ@@
-  port: 47095
-  server: 203.234.238.147
+  port: 19957
+  server: 222.112.15.144
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_22|0.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇰🇷KR
+  name: 🇰🇷KR²_11|3.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+  password: qwerREWQ@@
+  port: 1952
+  server: 210.217.18.68
+  type: ss
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_23|2.0MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.236
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_24|3.1MB/s|1%|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- encryption: none
+  name: 🇩🇪DE²_4|5.2MB/s|7%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  network: ws
+  port: 80
+  server: Evay_vpn.fast.hosting-ip.com
+  type: vless
+  udp: true
+  uuid: 86c2b667-4fc8-4a56-af4a-38b9e9e84610
+  ws-opts:
+    headers:
+      Host: norbert-team-free1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /?ed
+  xudp: true
+- encryption: none
+  name: 🇫🇮FI²_2|7.8MB/s|7%|GPT⁺|YT-US|TK|NF|X|[广播|机房]
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: 8c9f9dd9-da52-4a56-a6e4-16478f6ad95b
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-TW⁰_3|2.6MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -1219,16 +719,303 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇩🇪DE²_4|3.4MB/s|10%|GPT⁺|TK|NF|D+|X|Succeed|[广播|机房]
+  name: 🇷🇺RU²_4|5.2MB/s|GPT⁺|YT-AE|TK-SE|X|[原生|机房]
   network: tcp
-  port: 46942
+  port: 443
   reality-opts:
-    public-key: omg0dIfTHQbMADo5g6COKn73nEFoSYC1X5lV-goPBEg
-    short-id: 1709fe47a82c202e
-  server: ooooooof.ir.fizikade.ir
-  servername: refersion.com
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: 2476f063981ffd92
+  server: 51.250.87.167
+  servername: api-maps.yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5c403d3e-81fb-29af-a76e-5a5ab279824b
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_5|5.1MB/s|GPT⁺|YT|TK-DE|X|Succeed|[原生|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: t0Gj0moa6d8jMp9LazLtWPenE3wl_M9tMHveifor8GU
+    short-id: 4d4421a0bac569
+  server: 51.250.4.181
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 846c5d45-936c-42f6-9120-2d13830d5fa0
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇪🇪EE²_1|5.6MB/s|10%|GPT⁺|TK|NF|X|History|[广播|机房]
+  network: tcp
+  port: 1488
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: 6ba85179e30d4fc2
+  server: 51.250.104.85
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2d79fd8-a3d4-4792-9766-e472e1fe8a5f
+  xudp: true
+- name: 🇭🇰HK²_25|4.0MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_26|1.7MB/s|YT|NF|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2525252Fripaojiedian
+  tls: true
+  type: trojan
+- name: 🇩🇪DE²_5|2.6MB/s|10%|GPT⁺|X|Succeed
+  password: ""
+  port: 1080
+  server: 193.233.254.7
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_6|5.9MB/s|YT|TK|X|Succeed
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 212.60.21.104
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecc65f46-4bb6-47b5-860c-837b3ae4f3ab
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇫🇷FR²_6|6.1MB/s|42%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  network: grpc
+  port: 10126
+  server: 51.68.93.212
+  type: vless
+  udp: true
+  uuid: 4f55ad4a-286f-46ab-8971-0a35aea2c537
+  xudp: true
+- down: ""
+  fingerprint: ""
+  name: 🇱🇻LV²_1|2.1MB/s|0%|GPT⁺|YT-US|TK|NF|X|History|[广播|机房]
+  obfs: salamander
+  obfs-password: "&O#28YB5qK!5t#U"
+  password: yhqy5AHofQq
+  port: 46914
+  server: channel4.saghetalaie.homes
+  skip-cert-verify: true
+  sni: www.google.com
+  type: hysteria2
+  up: ""
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_12|9.8MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+  password: qwerREWQ@@
+  port: 50087
+  server: 125.141.31.76
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_13|5.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 24688
+  server: 125.141.26.14
+  type: ss
+  udp: true
+- auth: 34755bf3-5038-4ee7-9ae7-78c3369b6aaa
+  name: 🇩🇪DE²_6|0.8MB/s|0%|GPT⁺|YT-NL|TK-GB|D+|X|[广播|商宽]
+  password: 34755bf3-5038-4ee7-9ae7-78c3369b6aaa
+  port: 27200
+  ports: 27200-28000
+  server: hl.kaixincloud.top
+  skip-cert-verify: false
+  sni: hl.kaixincloud.top
+  type: hysteria2
+  udp: true
+- name: 🇭🇰HK²_27|1.3MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD"
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_14|1.3MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed|[原生|住宅]
+  password: qwerREWQ@@
+  port: 47095
+  server: 203.234.238.147
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_28|0.7MB/s|1%|YT|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_29|6.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20"
+  tls: true
+  type: trojan
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: 🇭🇰HK²_30|4.7MB/s|X
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
+- name: 🇭🇰HK¹-TW⁰_4|3.0MB/s|YT|NF|D+|X|Succeed|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.5
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 🇭🇰HK²_31|4.4MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_32|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_33|0.5MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_34|0.7MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_35|0.6MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%5BBy%20EbraSha%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_3|5.5MB/s|0%|GPT⁺|YT-RU|TK|NF|X|[原生|商宽]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: "31"
+  server: nl02-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b81c61f9-51d5-48a4-84a6-1715f41d89fb
+  xudp: true
+- name: 🇭🇰HK²_36|1.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_37|0.6MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: violet
+  name: 🇯🇵JP²_6|0.5MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[广播|商宽]
+  network: grpc
+  port: 443
+  server: jplie.osaip.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: d58af36b-33ef-4e3c-b121-e996892181c5
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK¹⁺_1|2.6MB/s|3%|YT|NF|D+|X|[广播|机房]
+  network: ws
+  port: 443
+  server: 154.21.201.83
+  servername: hk.nbee.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
+  ws-opts:
+    headers:
+      HOST: hk.nbee.pp.ua
+    path: /aa
