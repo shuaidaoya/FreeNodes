@@ -2,756 +2,19 @@ proxies:
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 🇯🇵JP²_1|9.4MB/s|4%|GPT⁺|GM|YT|TK|NF|X|[广播|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 60113
-  server: db1.nezhasu.com
-  skip-cert-verify: true
-  sni: db1.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_1|2.3MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.69
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_1|2.5MB/s|0%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 51978
-  server: 168.126.234.247
-  type: ss
-  udp: true
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_1|3.1MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3b475934-cb2a-4d96-b260-5e50cca5d430
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- country: 🇫🇷FR
-  name: 🇫🇷FR²_1|5.3MB/s|1%|GPT⁺|YT|TK|NF|X|[广播|机房]
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.38.197.7
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: "@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast"
-  name: 🇩🇪DE²_1|5.5MB/s|GPT⁺|YT|TK|NF|D+|X|[广播|机房]
-  network: grpc
-  port: 2718
-  server: v2ngfast.gatesriver.ir
-  type: vless
-  udp: true
-  uuid: 34b2c490-f7c3-4c01-8bb6-03d2939760b4
-  xudp: true
-- name: 🇭🇰HK¹-TW⁰_1|8.2MB/s|YT|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  port: 443
-  server: wangcai.24av.top
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳@WangCai2
-- name: 🇯🇵JP¹-TW⁰_1|4.7MB/s|GPT|GM|YT|TK|NF|D+|X|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 168.138.46.67
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇯🇵JP¹-TW⁰_2|8.1MB/s|YT|TK|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 43.165.183.43
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_1|13.8MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
-  password: 381f2e86233720eacda26d50e9aa26da
-  port: 443
-  server: 58.152.110.104
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇲🇩MD²_1|1.2MB/s|0%|GPT⁺|NF|X|Succeed|[原生|机房]
-  network: ws
-  port: 443
-  server: 156.243.83.167
-  servername: cdn-alman4.arfilter2.blog
-  tls: true
-  type: vless
-  udp: true
-  uuid: telegram-id-Arfilter
-  ws-opts:
-    headers:
-      Host: cdn-alman4.arfilter2.blog
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
-    path: /-Arfilter-TEL--@Arfilter-TEL--@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL--@ArFilter-JOIN-@Arfilter-TEL--@Arfilter-JOIN-@Arfilter-TEL-@Arfilter-TEl--@Arfilter?ed=2048
-  xudp: true
-- name: 🇭🇰HK¹-TW⁰_2|15.1MB/s|YT|NF|D+|X|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 172.64.145.156
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK²_2|13.1MB/s|0%|YT-CN|NF|D+|X|History|[广播|机房]
-  port: 25135
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: chengbai02.ascwt179.com
-  servername: hk.jd.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab33d265-3a47-400e-b12b-8f6bf1bb3269
-- client-fingerprint: chrome
-  name: 🇰🇷KR¹⁺_1|2.7MB/s|GPT⁺|YT|TK|NF|D+|X|History|[广播|机房]
-  network: ws
-  port: 8443
-  server: 59.3.3.161
-  servername: x.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3afad5df-e056-4301-846d-665b4ef51968
-  ws-opts:
-    headers:
-      Host: x.kkii.eu.org
-    path: /59.3.3.161:8443
-- name: 🇭🇰HK¹-TW⁰_3|12.2MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 172.64.145.229
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- cipher: aes-256-cfb
-  country: 🇰🇷KR
-  name: 🇰🇷KR²_2|10.4MB/s|4%|GPT⁺|GM|YT|TK|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 21215
-  server: 221.150.109.92
-  type: ss
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-TW⁰_1|3.5MB/s|GM|YT|TK|NF|D+|X|History|[原生|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 2053
-  server: 199.119.137.77
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36
-    path: Telegram@V2rayAlpha
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_2|2.7MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4f3cfda3-a255-40eb-8801-71f9fffb19d6
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_3|3.7MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- name: 🇭🇰HK¹-TW⁰_4|14.4MB/s|YT|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 172.64.147.211
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_4|3.5MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_2|2.3MB/s|GPT⁺|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.66
-  type: ss
-- name: 🇭🇰HK²_3|12.9MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- encryption: none
-  name: 🇨🇭CH²_1|7.9MB/s|0%|GPT⁺|YT|TK|NF|X|[原生|商宽]
-  network: ws
-  port: 80
-  server: speedtest.net
-  type: vless
-  udp: true
-  uuid: TELEGRAM-CONFiGLiNE-123
-  ws-opts:
-    headers:
-      Host: barayeazaaadi.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=1024
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-TW⁰_2|7.9MB/s|YT-HK|TK|NF|D+|X|History|[原生|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: one.cf.cdn.hyli.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile Safari/537.36
-    path: ///
-- encryption: none
-  name: 🇩🇪DE²_2|6.8MB/s|9%|GPT⁺|TK|NF|X|[原生|机房]
-  network: ws
-  port: 80
-  server: usaa.fastlynew.hosting-ip.com
-  type: vless
-  udp: true
-  uuid: 7e11f8db-4200-4bed-b352-b06516128fba
-  ws-opts:
-    headers:
-      Host: civan.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /
-  xudp: true
-- name: 🇭🇰HK¹-TW⁰_5|2.0MB/s|YT|NF|D+|X|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 10002
-  server: 223.16.138.113
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- alpn:
-  - h3
-  congestion-controller: bbr
   disable-sni: false
-  name: 🇺🇸US²_5|1.2MB/s|11%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  name: 🇺🇸US²_1|5.5MB/s|4%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 58324
+  port: 53999
   reduce-rtt: false
   request-timeout: 0
-  server: phoenix-3.nezhasu.com
-  sni: phoenix-3.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇸🇬SG¹-TW⁰_1|6.1MB/s|GM|TK|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 164.52.2.98
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_3|0.6MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|Succeed
-  password: qwerREWQ@@
-  port: 39502
-  server: 218.38.103.150
-  type: ss
-  udp: true
-- name: 🇭🇰HK²_4|9.3MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_4|4.6MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|[原生|住宅]
-  password: qwerREWQ@@
-  port: 4483
-  server: 218.234.149.9
-  type: ss
-  udp: true
-- name: 🇩🇪DE¹-TW⁰_1|4.2MB/s|GPT|YT|TK|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 556
-  server: 194.107.126.20
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_3|2.5MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.78
-  type: ss
-- client-fingerprint: chrome
-  name: 🇭🇰HK¹-TW⁰_6|17.6MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  port: 443
-  server: v2.dabache.top
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇰🇷KR²_5|5.9MB/s|11%|GPT⁺|YT|TK|NF|D+|X|History|[广播|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 53416
-  server: shouer.nezhasu.com
-  skip-cert-verify: true
-  sni: shouer.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_5|14.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: "������ [By EbraSha] "
-  tls: true
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇺🇸US²_6|4.7MB/s|4%|GPT⁺|YT|TK|NF|X|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 51774
-  server: ashburn-1.nezhasu.cn
-  skip-cert-verify: true
-  sni: ashburn-1.nezhasu.cn
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- client-fingerprint: chrome
-  name: 🇭🇰HK¹-TW⁰_7|6.3MB/s|YT|TK-US|NF|D+|X|History|[广播|机房]
-  network: ws
-  port: 443
-  server: 104.19.212.207
-  servername: snippets.kkii.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- cipher: aes-256-cfb
-  name: 🇻🇳VN²_4|2.4MB/s|GPT⁺|GM|YT|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.219
-  type: ss
-  udp: true
-- name: 🇭🇰HK²_6|11.1MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20"
-  tls: true
-  type: trojan
-- encryption: none
-  grpc-opts:
-    grpc-service-name: "@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1--@MaSTeRSeRVeR1"
-  name: 🇩🇪DE²_3|5.7MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[广播|机房]
-  network: grpc
-  port: 6423
-  server: masterserver1.gatesriver.ir
-  type: vless
-  udp: true
-  uuid: 34b2c490-f7c3-4c01-8bb6-03d2939760b4
-  xudp: true
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_7|3.2MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
+  server: phoenix-1.nezhasu.cn
   skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e1cc26b3-df0b-477b-afb0-53659a25e978
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇰🇷KR²_6|0.9MB/s|0%|GPT⁺|GM|YT|TK|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 2071
-  server: 121.170.203.136
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_8|5.8MB/s|47%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇬🇧GB²_1|4.7MB/s|11%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 60062
-  server: lundun3.nezhasu.com
-  skip-cert-verify: true
-  sni: lundun3.nezhasu.com
+  sni: phoenix-1.nezhasu.cn
   type: tuic
   udp-relay-mode: native
   uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇺🇸US²_9|3.8MB/s|GPT⁺|GM|X|History
-  password: ""
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_10|5.1MB/s|GPT|YT|TK|NF|X|[原生|机房]
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇯🇵JP²_2|16.1MB/s|38%|GPT|GM|YT|NF|X|Succeed
-  network: ws
-  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
-  port: 2096
-  server: 104.18.42.163
-  skip-cert-verify: true
-  sni: ts888.yumige.dpdns.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ts888.yumige.dpdns.org
-    path: /http://45.32.19.198:30005
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸US²_11|5.0MB/s|11%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 54455
-  reduce-rtt: false
-  request-timeout: 0
-  server: phoenix-4.nezhasu.com
-  skip-cert-verify: false
-  sni: phoenix-4.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇭🇰HK¹-TW⁰_8|8.8MB/s|YT|NF|D+|X|[广播|机房]
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: v2.dabache.top
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 🇺🇸US¹-TW⁰_3|1.8MB/s|GM|YT|TK|D+|X|[原生|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 11027
-  server: 121.175.77.73
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇫🇮FI²_1|5.0MB/s|0%|GPT⁺|YT-RU|TK|NF|D+|X|[广播|商宽]
-  port: 8443
-  reality-opts:
-    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-    short-id: 58c512b4422e2517
-  server: 78.153.139.68
-  servername: images.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-- delay: 2052
-  name: 🇭🇰HK¹-TW⁰_9|10.5MB/s|YT|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 172.64.229.64
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2F"
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_5|3.2MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.240
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_6|2.5MB/s|GPT⁺|GM|YT-US|TK|NF|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.141
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_7|2.3MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.48
-  type: ss
-- name: 🇺🇸US¹-TW⁰_4|0.8MB/s|YT-HK|NF|D+|X|History|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 101.79.165.113
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇭🇰HK¹-TW⁰_10|13.3MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 172.64.144.84
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸US²_12|1.5MB/s|11%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 59484
-  reduce-rtt: false
-  request-timeout: 0
-  server: phoenix-3.nezhasu.com
-  skip-cert-verify: false
-  sni: phoenix-3.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- cipher: aes-256-cfb
-  country: 🇰🇷KR
-  name: 🇰🇷KR²_7|9.7MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
-  password: qwerREWQ@@
-  port: 1952
-  server: 210.217.18.68
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: 🇭🇰HK²_7|1.1MB/s|0%|X|History
-  password: asd123456
-  port: 8388
-  server: 103.149.182.79
-  type: ss
-- name: 🇸🇬SG²_1|1.4MB/s|GPT⁺|GM|X|History
-  password: ""
-  port: 1011
-  server: 47.245.106.129
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇰🇷KR¹-TW⁰_1|2.5MB/s|GPT|GM|YT|TK|NF|D+|X|History|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 50000
-  server: 222.97.1.10
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇸🇬SG¹-TW⁰_2|2.7MB/s|GM|YT|NF|D+|X|History|[广播|机房]
+- name: 🇸🇬SG¹-TW⁰_1|8.6MB/s|GPT|GM|YT|TK|NF|D+|X|Succeed|[广播|机房]
   network: ws
   password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
   port: 2053
@@ -765,24 +28,79 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: 🇯🇵JP¹-TW⁰_3|2.6MB/s|YT|NF|D+|X|[广播|机房]
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_1|6.0MB/s|30%|YT-RU|X|History|[广播|商宽]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: mLApF78WJzjM4mijtlx4NPIbSA9Hizk66AVeck51wxY
+    short-id: fe2f8495c476efd4
+  server: 51.250.77.124
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: b95a44a7-c684-407b-b57e-e1681d69de90
+  xudp: true
+- name: 🇭🇰HK²_1|0.7MB/s|1%|YT|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_2|0.8MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_1|1.5MB/s|GPT⁺|GM|YT-US|TK|NF|X|Succeed|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.69
+  type: ss
+- delay: 2052
+  name: 🇭🇰HK¹-TW⁰_1|4.4MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]
   network: ws
   password: 5a2c16f9
-  port: 2053
-  server: 185.18.222.208
+  port: 443
+  server: 172.64.229.64
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇭🇰HK¹-TW⁰_11|16.1MB/s|YT|NF|D+|X|[广播|机房]
+    path: "%2F"
+- encryption: none
+  name: 🇨🇭CH²_1|7.9MB/s|0%|GPT⁺|YT|TK|NF|X|Succeed|[原生|商宽]
   network: ws
-  password: 5a2c16f9
+  port: 80
+  server: speedtest.net
+  type: vless
+  udp: true
+  uuid: TELEGRAM-CONFiGLiNE-123
+  ws-opts:
+    headers:
+      Host: barayeazaaadi.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE,telegram-CONFiGLiNE?ed=1024
+  xudp: true
+- name: 🇭🇰HK¹-TW⁰_2|2.2MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
   port: 443
-  server: 172.64.229.39
+  server: v1.dabache.top
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
@@ -792,48 +110,524 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
+- alterId: "0"
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - skyroom.online
+    path:
+    - /path
+  name: 🇮🇹IT²_1|0.9MB/s|32%|GPT⁺|TK|NF|X|[广播|商宽]
+  network: http
+  port: 6666
+  server: 85.133.224.99
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4ce359a8-1cfb-498b-be32-87a56abd67f6
+  xudp: true
+- name: 🇭🇰HK²_3|0.6MB/s|1%|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK¹-TW⁰_3|1.4MB/s|GPT|YT|NF|D+|X|[广播|机房]
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: v3.dabache.top
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 🇭🇰HK²_4|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B"
+  tls: true
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷FR²_1|1.7MB/s|GPT⁺|NF|X
+  password: ef720f5b791a60f7
+  port: 11201
+  server: 54.37.77.212
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_5|0.7MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20868%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK¹-TW⁰_4|3.1MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.177
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 🇭🇰HK²_6|10.1MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - ""
+  alterId: "0"
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - bmi.ir
+    path:
+    - /
+  name: 🇩🇪DE²_1|4.3MB/s|9%|GPT⁺|TK|NF|X|History|[原生|机房]
+  network: http
+  port: 44701
+  server: pl37.salar4040.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-TW⁰_5|1.5MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  port: 443
+  server: v1.dabache.top
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /fp=chrome
+- name: 🇭🇰HK²_7|6.1MB/s|YT|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_8|1.2MB/s|1%|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20"
+  tls: true
+  type: trojan
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇺🇸US²_2|5.5MB/s|11%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 51282
+  server: phoenix-3.nezhasu.com
+  skip-cert-verify: true
+  sni: phoenix-3.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 🇬🇧GB¹-TW⁰_1|7.1MB/s|YT|TK|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 🇬🇧GB¹-TW⁰_2|3.8MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 2096
+  server: 160.153.136.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 🇬🇧GB¹-TW⁰_3|7.3MB/s|YT|TK|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 135.84.73.238
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /TelegramU0001F1E8U0001F1F3WangCai2
+- alpn:
+  - h3
+  auth-str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  auth_str: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  down: 70
+  name: 🇺🇸US²_3|0.8MB/s|30%|GPT⁺|YT-RU|NF|D+|X|[广播|商宽]
+  port: 18301
+  protocol: udp
+  server: us1.shiyuandian.shop
+  skip-cert-verify: true
+  type: hysteria
+  udp: true
+  up: 30
+- name: 🇰🇷KR¹-TW⁰_1|7.4MB/s|GPT|GM|YT|NF|D+|X|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 50001
+  server: 221.161.207.216
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- name: 🇭🇰HK¹-TW⁰_6|2.2MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 101.79.165.113
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- name: 🇭🇰HK¹-TW⁰_7|15.2MB/s|YT|NF|D+|X|Succeed|[广播|机房]
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 443
+  server: v2.dabache.top
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 🇭🇰HK²_9|5.2MB/s|1%|YT|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20648%20"
+  tls: true
+  type: trojan
+- alterId: 0.0
+  cipher: auto
+  name: 🇺🇸US²_4|0.6MB/s|0%|GPT⁺|YT|NF|X|History|[原生|机房]
+  network: ws
+  port: 26785
+  server: 74.117.196.232
+  servername: imafake.locker
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+  xudp: true
+- name: 🇭🇰HK²_10|1.1MB/s|1%|YT|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2054%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK²_11|5.4MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20789%20"
+  tls: true
+  type: trojan
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇫🇷FR²_2|4.6MB/s|4%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 52050
+  reduce-rtt: false
+  request-timeout: 0
+  server: marseille-1.nezhasu.com
+  skip-cert-verify: false
+  sni: marseille-1.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
 - cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_8|2.6MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
+  name: 🇰🇷KR²_1|10.4MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 19957
+  server: 222.112.15.144
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_12|6.3MB/s|1%|YT|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_13|2.8MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳VN²_2|1.8MB/s|GPT⁺|GM|TK|NF|X|[原生|机房]
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.9
+  server: 103.186.155.150
   type: ss
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_13|3.6MB/s|0%|GPT⁺|YT|TK|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
   udp: true
-  uuid: 9631096d-3032-4942-9446-bdf12665682b
+- name: 🇩🇪DE¹-TW⁰_1|5.3MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 2015
+  server: 185.94.29.46
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_14|3.6MB/s|0%|GPT⁺|YT|NF|D+|X|[原生|机房]
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- cipher: rc4-md5
+  country: 🇸🇬SG
+  name: 🇸🇬SG²_1|5.7MB/s|GPT⁺|GM|YT|TK|X|[广播|机房]
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇸US¹-TW⁰_1|1.7MB/s|GM|YT-HK|TK|NF|D+|X|Succeed|[原生|机房]
   network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
+  port: 443
+  server: 104.19.212.207
+  servername: snippets.kkii.eu.org
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
   ws-opts:
     headers:
-      Host: imafake.locker
-    path: /speedtest
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇦🇹AT²_1|3.1MB/s|30%|GPT⁺|TK|NF|X|History
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
+    short-id: 8453e5fd9af927
+  server: aut-0001-xr.packet-drop-society.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 94e25e2b-ffc8-453d-a08c-1f5c3c249755
   xudp: true
-- name: 🇭🇰HK¹-TW⁰_12|15.7MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇰🇷KR²_2|2.2MB/s|11%|GPT⁺|YT|TK|NF|X|Succeed|[广播|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 53416
+  server: shouer.nezhasu.com
+  skip-cert-verify: true
+  sni: shouer.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_3|0.7MB/s|1%|GPT⁺|YT-CN|NF|D+|X|[原生|住宅]
+  password: qwerREWQ@@
+  port: 41240
+  server: 221.139.79.41
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_14|0.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2078%20"
+  tls: true
+  type: trojan
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇸🇬SG²_2|5.3MB/s|4%|GPT⁺|YT|TK|NF|X|Succeed|[广播|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 50675
+  server: singapore.nezhasu.com
+  skip-cert-verify: true
+  sni: singapore.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇺🇸US²_5|4.6MB/s|11%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 54287
+  reduce-rtt: false
+  request-timeout: 0
+  server: phoenix-4.nezhasu.com
+  skip-cert-verify: false
+  sni: phoenix-4.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 🇩🇪DE¹-TW⁰_2|5.4MB/s|GPT⁺|YT|TK|NF|D+|X|Succeed|[广播|机房]
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 556
+  server: 194.107.126.20
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 🇭🇰HK²_15|2.1MB/s|1%|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 🇫🇷FR²_3|1.9MB/s|GPT⁺|YT|TK|NF|X|History|[原生|住宅拨号]
+  port: 26691
+  protocol: udp
+  server: 62.210.196.68
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: 11 Mbps
+- name: 🇯🇵JP²_1|14.6MB/s|38%|GPT|GM|YT|NF|X|History
+  network: ws
+  password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+  port: 2096
+  server: 172.64.145.93
+  skip-cert-verify: true
+  sni: ts888.yumige.dpdns.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ts888.yumige.dpdns.org
+    path: /http://45.32.19.198:30005/
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇺🇸US²_6|2.1MB/s|11%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 62863
+  server: phoenix-4.nezhasu.com
+  skip-cert-verify: true
+  sni: phoenix-4.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇺🇸US²_7|2.8MB/s|11%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 61961
+  reduce-rtt: false
+  request-timeout: 0
+  server: phoenix-4.nezhasu.com
+  skip-cert-verify: false
+  sni: phoenix-4.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 🇭🇰HK¹-TW⁰_8|15.7MB/s|YT|NF|D+|X|Succeed|[广播|机房]
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -847,95 +641,25 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: 🇭🇰HK²_8|9.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
-  tls: true
-  type: trojan
-- name: 🇭🇰HK²_9|13.0MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.86
-  skip-cert-verify: true
-  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20"
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_9|1.7MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.117
-  type: ss
-- name: 🇩🇪DE¹-TW⁰_2|5.8MB/s|YT|TK|NF|D+|X|History|[广播|机房]
+- encryption: none
+  name: 🇩🇪DE²_2|9.3MB/s|7%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
   network: ws
-  password: 5a2c16f9
-  port: 556
-  server: 194.107.126.20
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇭🇰HK¹-TW⁰_13|14.4MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 443
-  server: vip1.kaixincloud.top
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
+  port: 80
+  server: Evay_vpn.fast.hosting-ip.com
+  type: vless
   udp: true
+  uuid: d03d8fc0-23ce-461a-97fa-2a7e0a66d8db
   ws-opts:
     headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 🇺🇸US¹-TW⁰_5|1.1MB/s|GPT|YT|TK|NF|D+|X|History
-  network: ws
-  password: 5a2c16f9
-  port: 2096
-  server: 94.140.0.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /TelegramU0001F1E8U0001F1F3WangCai2
-- name: 🇰🇷KR¹-TW⁰_2|1.7MB/s|GPT|GM|YT|TK|NF|D+|X|History|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 30012
-  server: 116.93.199.28
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇰🇷KR²_8|1.3MB/s|2%|GPT⁺|GM|X|History
-  password: ""
-  port: 1090
-  server: 121.169.46.116
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_10|14.3MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
+      Host: norbert-team-free1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /?ed=2052?@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn
+  xudp: true
+- country: 🇺🇸US
+  name: 🇸🇬SG²_3|5.6MB/s|GPT⁺|GM|YT|TK|NF|X|[广播|商宽]
   password: BxceQaOe
-  port: 443
-  server: 58.152.25.236
+  port: 1196
+  server: 43.199.187.111
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   tls: true
@@ -945,7 +669,246 @@ proxies:
   - h3
   congestion-controller: bbr
   disable-sni: false
-  name: 🇺🇸US²_15|5.9MB/s|4%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
+  name: 🇺🇸US²_8|4.8MB/s|11%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 59484
+  reduce-rtt: false
+  request-timeout: 0
+  server: phoenix-3.nezhasu.com
+  skip-cert-verify: false
+  sni: phoenix-3.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇺🇸US²_9|4.4MB/s|4%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 63480
+  server: phoenix-1.nezhasu.cn
+  skip-cert-verify: true
+  sni: phoenix-1.nezhasu.cn
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 🇭🇰HK¹-TW⁰_9|2.3MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.103
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US²_10|6.9MB/s|0%|GPT⁺|YT-CN|TK|D+|X|[原生|机房]
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us4.globals-download.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  ws-opts:
+    headers:
+      Host: pq-us4.globals-download.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /pq/us4
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_4|3.5MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 60940
+  server: 218.50.149.114
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_16|7.6MB/s|1%|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- name: 🇭🇰HK¹-TW⁰_10|2.7MB/s|YT|NF|D+|X|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.147.19
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 🇺🇸US¹-TW⁰_2|5.4MB/s|GPT|GM|YT-HK|NF|D+|X|History|[广播|机房]
+  network: ws
+  port: 443
+  server: 108.162.198.185
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 🇭🇰HK¹-TW⁰_11|2.9MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 172.64.145.89
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_5|1.3MB/s|0%|GPT⁺|YT|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 61417
+  server: 121.170.203.147
+  type: ss
+  udp: true
+- name: 🇭🇰HK²_17|4.5MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.86
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH²_2|5.5MB/s|13%|GPT⁺|YT|TK-NL|NF|X|History|[广播|机房]
+  port: 47009
+  reality-opts:
+    public-key: tr79fhd6jVvu8d-Rp9gCEO8XtMyNpusiu3rLmIiKEnU
+    short-id: e21f2248d3f24140
+  server: 185.218.204.203
+  servername: sun6-21.userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b07b61e-7c71-75fa-f97d-f4a82c66cfb5
+- name: 🇯🇵JP¹-TW⁰_1|8.1MB/s|GM|YT|TK-US|NF|D+|X|Succeed|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 43.165.183.43
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  name: 🇯🇵JP²_2|1.1MB/s|25%|GPT⁺|YT-RU|TK|NF|D+|X|History|[广播|商宽]
+  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  port: 4433
+  server: jp1.shiyuandian.shop
+  skip-cert-verify: true
+  type: hysteria2
+  udp: true
+- name: 🇭🇰HK¹-TW⁰_12|2.8MB/s|YT|TK-US|NF|D+|X|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 12457
+  server: 223.16.138.113
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇺🇸US²_11|5.6MB/s|4%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 61233
+  server: phoenix-1.nezhasu.cn
+  skip-cert-verify: true
+  sni: phoenix-1.nezhasu.cn
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- name: 🇯🇵JP¹-TW⁰_2|5.2MB/s|GPT|YT|TK|NF|D+|X|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 158.101.80.84
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_3|1.9MB/s|GPT⁺|GM|YT-US|TK|NF|X|Succeed|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.240
+  type: ss
+- name: 🇭🇰HK¹-TW⁰_13|5.3MB/s|YT|NF|D+|X|[广播|机房]
+  network: ws
+  password: 554f139b-f31f-41c4-99f9-73d60647db26
+  port: 443
+  server: v3.dabache.top
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-TW⁰_14|15.4MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: 🇺🇸US²_12|5.7MB/s|4%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
   port: 60915
   reduce-rtt: false
@@ -956,11 +919,11 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇭🇰HK¹-TW⁰_14|14.3MB/s|YT|NF|D+|X|[广播|机房]
+- name: 🇭🇰HK¹-TW⁰_15|1.4MB/s|YT|NF|D+|X|[广播|机房]
   network: ws
   password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
   port: 2096
-  server: v3.dabache.top
+  server: v2.dabache.top
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
@@ -970,91 +933,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  name: 🇺🇸US²_16|4.3MB/s|30%|GPT⁺|YT-RU|TK|NF|D+|X|[广播|商宽]
-  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-  port: 4433
-  server: uk1.shiyuandian.shop
-  skip-cert-verify: true
-  type: hysteria2
-  udp: true
-- name: 🇺🇸US¹-TW⁰_6|1.1MB/s|YT|D+|X|[原生|机房]
-  network: ws
-  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-  port: 2096
-  server: 5.10.246.238
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /Telegram🇨🇳WangCai2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇺🇸US²_17|2.1MB/s|11%|GPT⁺|YT|TK|NF|X|History|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 51282
-  server: phoenix-3.nezhasu.com
-  skip-cert-verify: true
-  sni: phoenix-3.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: 🇺🇸US²_18|5.5MB/s|4%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 63480
-  server: phoenix-1.nezhasu.cn
-  skip-cert-verify: true
-  sni: phoenix-1.nezhasu.cn
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_19|3.2MB/s|0%|GPT⁺|YT|TK|NF|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 12929592-a7bd-41eb-ab4d-d804f76c4ff9
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- alterId: 0.0
-  cipher: auto
-  name: 🇺🇸US²_20|3.2MB/s|0%|GPT⁺|YT|NF|D+|X|[原生|机房]
-  network: ws
-  port: 26785
-  server: 74.117.196.232
-  servername: imafake.locker
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b01d1e26-2f84-48da-88a1-1d06a77857f3
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-  xudp: true
-- name: 🇮🇳IN¹-TW⁰_1|7.7MB/s|GM|YT|NF|X|[广播|机房]
+- name: 🇰🇷KR¹-TW⁰_2|5.1MB/s|YT|TK|NF|D+|X|[广播|机房]
   network: ws
   password: 5a2c16f9
   port: 443
-  server: 98.70.26.236
+  server: 130.162.130.105
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
@@ -1063,42 +946,225 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_10|0.5MB/s|GPT⁺|GM|YT|TK|NF|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.206
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇭🇰HK²_11|2.1MB/s|30%|YT-GB|NF|D+|X|[广播|商宽]
-  network: tcp
+- name: 🇸🇬SG¹-TW⁰_2|4.5MB/s|GM|YT|TK|NF|D+|X|[广播|机房]
+  network: ws
+  password: 5a2c16f9
   port: 443
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: 48720c
-  server: hk01-vlr01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+  server: 103.229.96.157
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
   tls: true
-  type: vless
-  udp: true
-  uuid: e9dbc178-3656-40f8-8833-5023f306ef1d
-  xudp: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
 - alpn:
   - h3
   congestion-controller: bbr
-  name: 🇸🇬SG²_2|5.3MB/s|4%|GPT⁺|YT|TK|NF|X|Succeed|[广播|机房]
+  name: 🇫🇷FR²_4|4.7MB/s|4%|GPT⁺|YT|TK|NF|X|History|[广播|机房]
   password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 50675
-  server: singapore.nezhasu.com
+  port: 65193
+  server: marseille-1.nezhasu.com
   skip-cert-verify: true
-  sni: singapore.nezhasu.com
+  sni: marseille-1.nezhasu.com
   type: tuic
   udp-relay-mode: native
   uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇭🇰HK¹-TW⁰_15|10.0MB/s|YT|NF|D+|X|Succeed|[广播|机房]
+- name: 🇭🇰HK²_18|0.8MB/s|1%|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20783%20"
+  tls: true
+  type: trojan
+- name: 🇬🇧GB¹-TW⁰_4|5.6MB/s|YT|TK|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.128.253
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2F"
+- name: 🇮🇳IN¹-TW⁰_1|9.7MB/s|GM|YT|NF|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 20.235.105.146
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_2|4.1MB/s|0%|GPT⁺|TK|NF|X|[原生|机房]
+  network: tcp
+  port: 47009
+  reality-opts:
+    public-key: tr79fhd6jVvu8d-Rp9gCEO8XtMyNpusiu3rLmIiKEnU
+    short-id: e21f2248d3f24140
+  server: 176.222.55.211
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1b07b61e-7c71-75fa-f97d-f4a82c66cfb5
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 🇻🇳VN²_4|2.9MB/s|GPT⁺|GM|X|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.133
+  type: ss
+- encryption: none
+  name: 🇸🇬SG¹-TR⁰_1|4.6MB/s|GPT⁺|GM|YT|TK|NF|D+|X|[广播|机房]
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  type: vless
+  udp: true
+  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  ws-opts:
+    headers:
+      Host: mitivpn.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /--@V2rayAlpha--V2rayAlpha--V2rayAlpha--V2rayAlpha
+  xudp: true
+- name: 🇨🇾CY²_1|7.2MB/s|21%|GPT⁺|YT-CN|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: aff9928f-7ba3-45fb-b56d-4dec45653ca9
+  port: 443
+  server: 23.227.38.33
+  skip-cert-verify: true
+  sni: z9mifq7ujufk56im.jptimecsgo.xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    path: "%2Fimages"
+- name: 🇭🇰HK¹-TW⁰_16|17.7MB/s|YT|NF|D+|X|[广播|机房]
+  network: ws
+  port: 443
+  server: 198.41.208.234
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 🇰🇷KR¹-TW⁰_3|2.7MB/s|GM|YT|TK|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 12312
+  server: 211.48.77.114
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
+- name: 🇩🇪DE²_3|5.4MB/s|9%|GPT⁺|YT|TK|NF|X|[原生|机房]
+  network: ws
+  port: 80
+  server: speedtest.net
+  type: vless
+  udp: true
+  uuid: 056d677f-00ed-47ec-bbda-fcc8d1d1284f
+  ws-opts:
+    headers:
+      Host: ghyug.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: ""
+  xudp: true
+- name: 🇭🇰HK²_19|0.7MB/s|YT|NF|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.60
+  skip-cert-verify: true
+  sni: "%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20trojan-HK%20"
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG²_4|11.1MB/s|20%|GPT⁺|GM|YT|TK|NF|X|History|[广播|机房]
+  port: 29877
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  server: yg2g.jiedian242.com
+  servername: www.nvidia.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a598715-d629-4d8c-910b-dbe5ebdc0b53
+- name: 🇰🇷KR²_6|2.5MB/s|2%|GPT⁺|GM|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
+- alpn:
+  - h3
+  congestion-controller: bbr
+  name: 🇫🇷FR²_5|5.4MB/s|4%|GPT⁺|YT|TK|NF|X|[广播|机房]
+  password: d9812081-7f61-456d-9340-a1fb8dfd603b
+  port: 54929
+  server: marseille-1.nezhasu.com
+  skip-cert-verify: true
+  sni: marseille-1.nezhasu.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_5|2.0MB/s|GPT⁺|GM|YT-US|TK|NF|X|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.101
+  type: ss
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-TW⁰_17|1.2MB/s|YT|NF|D+|X|History|[广播|机房]
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /%2F%2F
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_7|9.6MB/s|1%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|住宅]
+  password: qwerREWQ@@
+  port: 56359
+  server: 203.234.238.140
+  type: ss
+  udp: true
+- name: 🇭🇰HK¹-TW⁰_18|4.5MB/s|YT|NF|D+|X|Succeed|[广播|机房]
   network: ws
   port: 443
   server: cdn.204910.best
@@ -1111,69 +1177,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: 🇬🇧GB²_2|15.5MB/s|GPT⁺|YT|TK|NF|X|History|[广播|机房]
-  network: ws
-  port: 443
-  server: norman.ns.cloudflare.com
-  servername: 639029763222341310.vitara-amsjn.info
-  tls: true
-  type: vless
-  udp: true
-  uuid: e9d6e03d-e7b0-4517-a553-aa019a4a77eb
-  ws-opts:
-    headers:
-      Host: 639029763222341310.vitara-amsjn.info
-    path: /gyizgyws
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: 🇺🇸US²_21|2.3MB/s|11%|GPT⁺|YT|TK|NF|X|Succeed|[原生|机房]
-  password: d9812081-7f61-456d-9340-a1fb8dfd603b
-  port: 57644
-  reduce-rtt: false
-  request-timeout: 0
-  server: phoenix-4.nezhasu.com
-  skip-cert-verify: false
-  sni: phoenix-4.nezhasu.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-- name: 🇰🇷KR¹-TW⁰_3|3.4MB/s|GPT|YT|TK|NF|D+|X|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 19413
-  server: 121.165.101.69
-  skip-cert-verify: true
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: "%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2"
-- name: 🇭🇰HK¹-TW⁰_16|13.9MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: 104.19.55.205
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: 🇺🇸US²_22|0.9MB/s|GPT|X|History
-  password: ""
-  port: 1080
-  server: 192.241.156.17
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇭🇰HK¹-TW⁰_17|10.4MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
+- name: 🇭🇰HK¹-TW⁰_19|2.5MB/s|YT|NF|D+|X|Succeed|[广播|机房]
   network: ws
   password: 5a2c16f9
   port: 2096
@@ -1187,11 +1191,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /Telegram🇨🇳WangCai2
-- name: 🇺🇸US¹-TW⁰_7|6.0MB/s|YT|TK|NF|D+|X|[原生|机房]
+- name: 🇩🇪DE¹-TW⁰_3|1.0MB/s|TK|NF|D+|X|History|[广播|机房]
   network: ws
   password: 554f139b-f31f-41c4-99f9-73d60647db26
-  port: 2096
-  server: vip2.kaixincloud.top
+  port: 443
+  server: 193.23.197.183
   skip-cert-verify: true
   sni: snippets.kkii.eu.org
   tls: true
