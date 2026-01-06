@@ -1,48 +1,22 @@
 proxies:
-  - cipher: aes-256-cfb
-    country: "\U0001F1F0\U0001F1F7KR"
-    name: "\U0001F1F0\U0001F1F7KR²_1|9.5MB/s|3%|GPT⁺|GM|YT|NF|D+|X|Succeed"
-    password: qwerREWQ@@
-    port: 43231
-    server: 221.150.109.89
-    type: ss
-  - delay: 487
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|2.3MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]"
+  - name: "\U0001F1EF\U0001F1F5JP¹-TW⁰_1|4.9MB/s|GPT|YT|TK|D+|X|Succeed"
     network: ws
     password: 5a2c16f9
     port: 443
-    server: 172.64.229.169
+    server: 168.138.46.67
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
-    udp: true
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
-      path: /
-  - name: "\U0001F1ED\U0001F1F0HK²_1|3.8MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: '%20%20%20%20%20%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-    type: trojan
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK²_2|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: >-
-      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20783%20
-    type: trojan
-    network: tcp
-  - delay: 1328
-    name: "\U0001F1EC\U0001F1E7GB¹-TW⁰_1|0.9MB/s|YT|TK|NF|D+|X|[广播|机房]"
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - delay: 433
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_1|1.2MB/s|GPT|YT|NF|D+|X|History"
     network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+    password: 5a2c16f9
     port: 2096
-    server: 141.193.213.238
+    server: 172.64.146.194
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
@@ -52,17 +26,316 @@ proxies:
         Host: snippets.kkii.eu.org
       path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
   - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_3|0.7MB/s|NF|D+|X|History|[原生|住宅]"
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL²_1|1.0MB/s|19%|GPT⁺|YT-RU|TK|NF|X|History|[广播|机房]"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+      short-id: 8f222b3475800821
+    server: 83.166.236.201
+    tls: true
+    type: vless
+    udp: true
+    uuid: 329bd550-a8f8-4157-b2df-dc4503097a27
+    xudp: true
+    servername: m.vk.com
+  - encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_1|3.4MB/s|9%|GPT|TK|NF|X|History"
+    network: ws
+    port: 80
+    server: cdn.turbooserver.com
+    type: vless
+    udp: true
+    uuid: turboo-server
+    ws-opts:
+      headers:
+        Host: jone-turboo-server.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /ed=2056
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK²_1|5.0MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
     password: BxceQaOe
     port: 443
     server: 58.152.46.60
     skip-cert-verify: true
-    sni: '      +[By+DukeMehdi]+trojan-HK+'
+    sni: '%20%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
+    type: trojan
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_2|1.7MB/s|YT|NF|D+|X"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 172.64.145.13
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - name: "\U0001F1FA\U0001F1F8US¹-TW⁰_1|5.7MB/s|GPT⁺|YT|TK|NF|D+|X|History|[原生|机房]"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 94.140.0.238
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - delay: 2052
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_3|5.7MB/s|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.65
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2F
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_4|8.1MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 172.64.147.2
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - delay: 741
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_5|3.1MB/s|GPT⁺|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.44
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1F1\U0001F1FALU"
+    name: "\U0001F1F7\U0001F1F4RO²_1|3.6MB/s|37%|GPT⁺|TK|X|Succeed|[广播|机房]"
+    password: 11e520ccbe7365eb
+    port: 11201
+    server: 45.82.102.204
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_2|4.2MB/s|1%|NF|D+|X|Succeed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: >-
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20783%20
+    type: trojan
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK²_3|6.4MB/s|YT|D+|X|Succeed|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20'
+    type: trojan
+    network: tcp
+  - delay: 1976
+    name: "\U0001F1E9\U0001F1EADE¹-TW⁰_1|0.5MB/s|GPT|YT|TK|NF|D+|X|[广播|机房]"
+    network: ws
+    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+    port: 443
+    server: 64.188.70.20
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - delay: 553
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_6|5.0MB/s|GPT|YT|NF|D+|X"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.7
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - name: "\U0001F1FA\U0001F1F8US¹-TW⁰_2|0.9MB/s|YT|TK|NF|D+|X|History|[原生|机房]"
+    network: ws
+    password: 5a2c16f9
+    port: 2053
+    server: 199.119.137.77
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /Telegram%252540V2rayAlpha
+  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_1|2.2MB/s|GPT⁺|GM|YT|TK|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 50001
+    server: 221.161.207.216
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - client-fingerprint: chrome
+    delay: 1139
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_7|4.0MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    port: 2096
+    server: v2.dabache.top
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3+@WangCai2"
+    servername: snippets.kkii.eu.org
+  - name: "\U0001F1F8\U0001F1ECSG¹-TW⁰_1|2.8MB/s|GPT|GM|TK|NF|D+|X|Succeed|[广播|机房]"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 103.229.96.157
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1F9\U0001F1EDTH²_1|9.2MB/s|0%|GPT⁺|GM|YT|TK|NF|X|[原生|住宅拨号]"
+    password: 312ee9bcc9570095
+    port: 11201
+    server: 163.171.148.71
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK²_5|5.0MB/s|1%|YT|D+|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: >-
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20
+    type: trojan
+    network: tcp
+  - country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_4|5.4MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
     type: trojan
     udp: true
     network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_8|5.7MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 172.64.147.19
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts:
+      method: GET
+      path:
+        - /
+    name: "\U0001F1F2\U0001F1FAMU²_1|11.2MB/s|3%|YT-HK|TK|NF|D+|X|[广播|机房]"
+    network: http
+    port: 80
+    server: 45.196.235.171
+    type: vmess
+    uuid: 47eefac2-9767-49e1-c8e6-524e39d8765f
+  - name: "\U0001F1EB\U0001F1F7FR¹-TW⁰_1|13.0MB/s|GPT|YT-SG|TK|NF|D+|X|History|[广播|机房]"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 164.52.2.98
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US²_1|0.9MB/s|0%|GPT|YT-CN|TK|D+|X|History|[原生|机房]"
+    network: ws
+    port: 443
+    server: 69.84.182.108
+    tls: true
+    type: vless
+    udp: true
+    uuid: e343471a-aad3-40da-9dea-72cc8c7dce5f
+    ws-opts:
+      headers:
+        Host: pq-us4.globals-download.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /pq/us4
+    xudp: true
+    servername: pq-us4.globals-download.com
+  - name: "\U0001F1E9\U0001F1EADE¹-TW⁰_2|6.6MB/s|YT|TK|NF|D+|X|History|[广播|机房]"
+    network: ws
+    password: 554f139b-f31f-41c4-99f9-73d60647db26
+    port: 2053
+    server: 195.206.242.122
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
   - encryption: none
-    name: "\U0001F1F7\U0001F1FARU²_1|6.1MB/s|8%|GPT|YT-US|TK|NF|X|[广播|机房]"
+    name: "\U0001F1F7\U0001F1FARU²_1|1.0MB/s|GPT|YT-US|TK|NF|X|Succeed|[广播|机房]"
     network: ws
     port: 80
     server: 172.66.156.81
@@ -79,320 +352,24 @@ proxies:
       path: >-
         /@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec----@MdVpnSec
     xudp: true
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_4|5.3MB/s|1%|GPT|YT|NF|X|History|[原生|住宅]"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-    ws-opts:
-      headers:
-        HOST: hkt.gotochinatown.net
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: hkt.gotochinatown.net
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1F1\U0001F1FALU"
-    name: "\U0001F1F7\U0001F1F4RO²_1|3.6MB/s|37%|GPT⁺|TK|X|[广播|机房]"
-    password: 11e520ccbe7365eb
-    port: 11201
-    server: 45.82.102.204
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_2|15.7MB/s|GPT|YT|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    port: 2083
-    server: v3.dabache.top
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_5|3.4MB/s|1%|YT|X|History"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1EC\U0001F1E7GB¹-TW⁰_2|1.5MB/s|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 162.159.128.253
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2F
-  - name: "\U0001F1E8\U0001F1FECY²_1|7.0MB/s|19%|GPT⁺|YT-CN|TK-JP|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: aff9928f-7ba3-45fb-b56d-4dec45653ca9
-    port: 443
-    server: 23.227.38.33
-    skip-cert-verify: true
-    sni: z9mifq7ujufk56im.jptimecsgo.xyz
-    type: trojan
-    ws-opts:
-      path: /%2Fimages
-  - name: "\U0001F1ED\U0001F1F0HK²_6|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
+  - name: "\U0001F1ED\U0001F1F0HK²_6|5.3MB/s|1%|NF|D+|X|History"
     password: BxceQaOe
     port: 443
     server: 58.152.46.60
     skip-cert-verify: true
-    sni: '%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
+    sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20'
     type: trojan
     network: tcp
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1E7\U0001F1EABE"
-    name: "\U0001F1EB\U0001F1F7FR²_1|7.4MB/s|100%|GPT⁺|YT|TK|NF|X|[原生|机房]"
-    password: 76de82292c035b46
-    port: 45924
-    server: 57.128.110.71
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1F5\U0001F1F0PK²_1|2.8MB/s|GPT⁺|GM|YT|TK|X|[广播|机房]"
-    password: 47509ba3679b9df9
-    port: 11201
-    server: 154.205.145.37
-    type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_7|0.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: t.me%25252Fripaojiedian
-    type: trojan
-    network: tcp
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_9|2.7MB/s|1%|YT|NF|D+|X|[原生|住宅]"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    type: vmess
-    udp: true
-    uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-    ws-opts:
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-      path: /
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_8|1.5MB/s|1%|YT|D+|X|[原生|住宅]"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1FA\U0001F1F8US¹-TW⁰_1|6.4MB/s|GPT|YT|TK|NF|D+|X|Succeed|[原生|机房]"
-    network: ws
-    password: 554f139b-f31f-41c4-99f9-73d60647db26
-    port: 2096
-    server: 94.140.0.238
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - name: "\U0001F1EF\U0001F1F5JP¹-TW⁰_1|3.3MB/s|GM|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 168.138.46.67
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - name: "\U0001F1E9\U0001F1EADE¹-TW⁰_1|5.8MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    port: 2015
-    server: 185.94.29.46
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_10|0.8MB/s|1%|YT|NF|X|[原生|住宅]"
-    network: ws
-    port: 80
-    server: 4afb53e3-t83b40-tsddmg-1t0fu.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 4afb53e3-t83b40-tsddmg-1t0fu.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_3|16.4MB/s|GPT|YT|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    port: 2096
-    server: v3.dabache.top
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_2|1.6MB/s|0%|TK|NF|D+|X|[广播|机房]"
-    network: none
-    port: 7100
-    server: 206.119.191.9
-    skip-cert-verify: true
-    type: vmess
-    uuid: 10853485-26e1-477b-d257-58a3f4873db3
-  - name: "\U0001F1FA\U0001F1F8US²_1|0.5MB/s|GPT⁺|X|History"
-    password: ''
-    port: 5566
-    server: 37.18.73.60
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: chrome
-    name: "\U0001F1FA\U0001F1F8US¹-TW⁰_2|7.6MB/s|GPT⁺|GM|YT-HK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    port: 443
-    server: 104.19.212.207
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-    servername: snippets.kkii.eu.org
-  - name: "\U0001F1EF\U0001F1F5JP²_1|15.1MB/s|39%|GPT|GM|YT|X|Succeed"
-    network: ws
-    password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
-    port: 2096
-    server: 172.64.145.93
-    skip-cert-verify: true
-    sni: ts888.yumige.dpdns.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: ts888.yumige.dpdns.org
-      path: '/http://45.32.19.198:30005/'
-  - name: "\U0001F1ED\U0001F1F0HK²_11|0.7MB/s|D+|X|History|[原生|住宅]"
+  - name: "\U0001F1ED\U0001F1F0HK²_7|2.2MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
     password: BxceQaOe
     port: 443
     server: 58.152.46.60
     skip-cert-verify: true
     sni: >-
-      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B
     type: trojan
     network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK²_12|0.8MB/s|1%|D+|X|History|[原生|住宅]"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: >-
-      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20166%20
-    type: trojan
-    network: tcp
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F7\U0001F1FARU²_2|5.7MB/s|GPT⁺|YT|TK-AL|X|History|[原生|机房]"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: 17802e8ff84f12df
-    server: 51.250.65.209
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
-    xudp: true
-    servername: ads.x5.ru
-  - name: "\U0001F1ED\U0001F1F0HK²_13|0.8MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20'
-    type: trojan
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_4|0.9MB/s|YT|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.146
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - name: "\U0001F1EC\U0001F1E7GB¹-TW⁰_3|2.4MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]"
+  - name: "\U0001F1EC\U0001F1E7GB¹-TW⁰_1|5.6MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]"
     network: ws
     password: 5a2c16f9
     port: 2096
@@ -400,118 +377,77 @@ proxies:
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
-    udp: true
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
-      path: /TelegramU0001F1E8U0001F1F3WangCai2
-  - delay: 1233
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_5|14.0MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]"
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_8|1.3MB/s|1%|YT|D+|X|[原生|住宅]"
     network: ws
-    port: 443
-    server: 104.19.49.192
-    tls: true
-    type: vless
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
     ws-opts:
       headers:
-        Host: snippets.kkii.eu.org
+        Host: hkt.gotochinatown.net
       path: /
-    servername: snippets.kkii.eu.org
+    servername: hkt.gotochinatown.net
+  - encryption: none
+    name: "\U0001F1ED\U0001F1F0HK¹-SG⁰_1|10.8MB/s|X|History"
+    network: ws
+    port: 8880
+    server: 104.19.39.87
+    type: vless
+    udp: true
+    uuid: 1a25f8ad-cad2-4e93-b5bf-34e42bcac02a
+    ws-opts:
+      headers:
+        Host: sni.x86.de5.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
+          Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+  - auth: f858368c-b014-4ce4-9b38-fd1c6bd16900
+    name: "\U0001F1E8\U0001F1E6CA²_1|1.2MB/s|33%|GPT⁺|YT-CN|TK|NF|D+|X|History|[原生|商宽]"
+    password: f858368c-b014-4ce4-9b38-fd1c6bd16900
+    port: 25200
+    ports: 25200-26200
+    server: xjp.kaixincloud.top
+    skip-cert-verify: false
+    sni: xjp.kaixincloud.top
+    type: hysteria2
+    udp: true
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1FAHU²_1|3.2MB/s|0%|GPT⁺|YT-RU|TK|NF|X|[原生|机房]"
+    name: "\U0001F1EC\U0001F1E7GB²_1|0.6MB/s|20%|GPT⁺|YT|TK|NF|X|[广播|商宽]"
     network: tcp
     port: 443
     reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: e55fd8f9c9a9a0ca
-    server: 217.13.104.134
+      public-key: j_b7jaRqL2-82XSGRL0IYkNJ2Y3hrhhgq5kIBIK76lk
+      short-id: ''
+    server: 38.60.196.27
     tls: true
     type: vless
     udp: true
-    uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+    uuid: e64c5bbb-a4b8-498e-b374-4462d961c8a2
     xudp: true
-    servername: hu.jojack.ru
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0 HK"
-    delay: 2881
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_14|2.7MB/s|1%|D+|X|History|[原生|住宅]"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK²_15|1.9MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]"
-    password: 381f2e86233720eacda26d50e9aa26da
-    port: 443
-    server: 58.152.110.104
-    skip-cert-verify: false
-    sni: www.nintendogames.net
-    type: trojan
-    udp: true
-    network: tcp
-  - delay: 2052
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_6|2.1MB/s|GPT|YT|NF|D+|X|History|[广播|机房]"
+    servername: www.cloudflare.com
+  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_2|1.7MB/s|GPT|NF|D+|X|History"
     network: ws
     password: 5a2c16f9
-    port: 443
-    server: 172.64.229.64
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2F
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US²_3|2.1MB/s|92%|GPT⁺|GM|NF|X|Succeed"
-    password: a586ae8d773f250f
-    port: 28954
-    server: 217.77.3.68
-    type: ss
-    udp: true
-  - delay: 602
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_7|12.5MB/s|YT|NF|D+|X|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.15
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_1|4.4MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 12088
-    server: 121.159.68.210
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_8|2.9MB/s|GPT|YT|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 12457
-    server: 223.16.138.113
+    port: 30012
+    server: 116.93.199.28
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
@@ -524,71 +460,13 @@ proxies:
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_16|8.2MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
+    name: "\U0001F1ED\U0001F1F0HK²_9|0.5MB/s|1%|YT|D+|X|History|[原生|住宅]"
     network: ws
     port: 80
     server: hkt.gotochinatown.net
     skip-cert-verify: true
     type: vmess
-    uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-    ws-opts:
-      path: /
-      headers:
-        Host: hkt.gotochinatown.net
-  - client-fingerprint: chrome
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_9|7.9MB/s|GPT|YT|NF|D+|X|History|[广播|机房]"
-    network: ws
-    port: 443
-    server: v3.dabache.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-    servername: snippets.kkii.eu.org
-  - delay: 633
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|5.8MB/s|3%|GPT⁺|YT|TK|NF|D+|X|Succeed|[原生|机房]"
-    network: ws
-    port: 443
-    server: 162.159.45.232
-    tls: true
-    type: vless
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: l.ayovo.netlib.re
-      max-early-data: 2560
-      path: /
-    servername: l.ayovo.netlib.re
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    name: "\U0001F1EB\U0001F1F7FR²_2|5.0MB/s|4%|GPT⁺|YT|TK|NF|X|History|[广播|机房]"
-    password: d9812081-7f61-456d-9340-a1fb8dfd603b
-    port: 65193
-    server: marseille-1.nezhasu.com
-    skip-cert-verify: true
-    sni: marseille-1.nezhasu.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    version: 5
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_17|1.7MB/s|1%|YT|D+|X|History|[原生|住宅]"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+    uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
     ws-opts:
       headers:
         HOST: hkt.gotochinatown.net
@@ -600,129 +478,66 @@ proxies:
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_18|0.7MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]"
+    name: "\U0001F1ED\U0001F1F0HK²_10|0.5MB/s|1%|GPT|YT|D+|X|[原生|住宅]"
     network: ws
     port: 80
     server: hkt.gotochinatown.net
     skip-cert-verify: true
     type: vmess
-    uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
+    uuid: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
     ws-opts:
       headers:
-        HOST: broadcastlv.chat.bilibili.com
         Host: hkt.gotochinatown.net
       path: /
-    servername: broadcastlv.chat.bilibili.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_19|2.7MB/s|1%|GPT⁺|YT|NF|D+|X|History|[原生|住宅]"
-    network: ws
-    port: 80
-    server: a4183f78-t870g0-tsddmg-1t0fu.hkt.gotochinatown.net
+    servername: hkt.gotochinatown.net
+  - name: "\U0001F1ED\U0001F1F0HK²_11|0.6MB/s|1%|NF|D+|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
     skip-cert-verify: true
-    type: vmess
-    uuid: bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: a4183f78-t870g0-tsddmg-1t0fu.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    http-opts:
-      headers:
-        Host:
-          - bmi.ir
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE²_1|3.6MB/s|9%|GPT⁺|TK|NF|X|Succeed|[原生|机房]"
-    network: http
-    port: 44701
-    server: pl37.salar4040.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: >-
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20
+    type: trojan
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK²_12|0.7MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: >-
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%0A%5BBy%20DukeMehdi%5D%20trojan-HK%20
+    type: trojan
+    network: tcp
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EC\U0001F1E7GB²_2|5.2MB/s|53%|GPT⁺|YT-DE|TK|NF|X|[广播|机房]"
+    password: 15b0573830081d01
+    port: 11201
+    server: 51.89.119.213
+    type: ss
     udp: true
-    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    h2-opts: {}
-    http-opts:
-      headers:
-        Host:
-          - bmi.ir
-      method: GET
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE²_2|2.2MB/s|9%|GPT⁺|TK|NF|X|History|[原生|机房]"
-    network: http
-    port: 44701
-    server: pl37.salar4040.com
-    type: vmess
-    udp: true
-    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_20|3.5MB/s|1%|YT|D+|X|[原生|住宅]"
-    network: ws
-    port: 80
-    server: b7810513-t6r5s0-t7j1ub-g3b3.hkt.gotochinatown.net
+  - name: "\U0001F1ED\U0001F1F0HK²_13|0.9MB/s|1%|YT|D+|X|Succeed"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
     skip-cert-verify: true
-    type: vmess
-    uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-    ws-opts:
-      headers:
-        HOST: b7810513-t6r5s0-t7j1ub-g3b3.hkt.gotochinatown.net
-        Host: b7810513-t6r5s0-t7j1ub-g3b3.hkt.gotochinatown.net
-      path: /
-    servername: b7810513-t6r5s0-t7j1ub-g3b3.hkt.gotochinatown.net
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_21|2.3MB/s|1%|X|History"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
+    sni: >-
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20945%20
+    type: trojan
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK²_14|0.8MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
     skip-cert-verify: true
-    type: vmess
-    uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    name: "\U0001F1EC\U0001F1E7GB²_1|4.5MB/s|11%|GPT⁺|YT|TK|NF|X|History|[广播|机房]"
-    password: d9812081-7f61-456d-9340-a1fb8dfd603b
-    port: 52006
-    server: lundun2.nezhasu.com
-    skip-cert-verify: true
-    sni: lundun2.nezhasu.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    version: 5
-  - delay: 2294
-    name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_2|2.6MB/s|YT|TK|NF|D+|X|[广播|机房]"
+    sni: 58.152.46.60
+    type: trojan
+    network: tcp
+  - delay: 487
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_9|16.9MB/s|GPT|YT|NF|D+|X|Succeed"
     network: ws
     password: 5a2c16f9
-    port: 19413
-    server: 121.165.101.69
+    port: 443
+    server: 172.64.229.169
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
@@ -730,29 +545,52 @@ proxies:
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
-      path: "//Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US²_4|4.8MB/s|0%|GPT⁺|YT-RU|NF|D+|X|History|[广播|机房]"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-      short-id: 86e999a2cdc2
-    server: us01-vlr01-gmn03.vpnvezdehod.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: e9dbc178-3656-40f8-8833-5023f306ef1d
-    xudp: true
-    servername: hls-svod.itunes.apple.com
-  - delay: 1126
-    name: "\U0001F1FA\U0001F1F8US¹-TW⁰_3|2.1MB/s|GPT⁺|YT|TK|NF|D+|X|[原生|机房]"
+      path: /
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_10|1.4MB/s|GPT|YT|TK-US|NF|D+|X|History"
     network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+    password: 5a2c16f9
+    port: 443
+    server: 101.79.165.113
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - client-fingerprint: chrome
+    name: "\U0001F1EE\U0001F1F3IN¹-TW⁰_1|7.8MB/s|GPT|NF|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 98.70.26.236
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /Telegram@V2rayAlpha
+  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_3|2.2MB/s|GPT|GM|YT|TK|NF|D+|X|Succeed"
+    network: ws
+    password: 5a2c16f9
+    port: 446
+    server: 43.155.186.100
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_11|5.8MB/s|GPT⁺|YT|NF|D+|X|History|[广播|机房]"
+    network: ws
+    password: 5a2c16f9
     port: 2096
-    server: 185.7.240.238
+    server: 172.64.146.217
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
@@ -761,19 +599,26 @@ proxies:
       headers:
         Host: snippets.kkii.eu.org
       path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - delay: 1271
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_10|18.6MB/s|NF|D+|X|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.2
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1EEFI²_1|2.9MB/s|0%|GPT⁺|TK|NF|D+|X|[广播|商宽]"
+    network: tcp
+    port: 47539
+    reality-opts:
+      public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+      short-id: 82a55f31981ea6be
+    server: 178.17.53.28
+    tls: true
+    type: vless
     udp: true
-    ws-opts:
-      path: /
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_11|9.7MB/s|YT|NF|D+|X|[广播|机房]"
+    uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+    xudp: true
+    servername: yandex.ru
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_12|1.6MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]"
     network: ws
     password: 5a2c16f9
     port: 2096
@@ -786,7 +631,106 @@ proxies:
       headers:
         Host: snippets.kkii.eu.org
       path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK²_22|3.0MB/s|1%|YT|D+|X|History|[原生|住宅]"
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_15|0.6MB/s|1%|YT|D+|X|History"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - delay: 754
+    name: "\U0001F1F9\U0001F1FCTW¹⁺_1|2.3MB/s|GPT|YT|TK|NF|D+|X|Succeed"
+    network: ws
+    password: 554f139b-f31f-41c4-99f9-73d60647db26
+    port: 10443
+    server: 203.69.248.40
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_13|2.3MB/s|GPT|YT|NF|D+|X"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 172.64.147.12
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_4|2.3MB/s|YT|TK|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 50001
+    server: 112.185.223.152
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - delay: 436
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_14|0.9MB/s|YT|NF|D+|X"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 172.64.144.169
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - alpn:
+      - h3
+    client-fingerprint: edge
+    name: "\U0001F1EF\U0001F1F5JP²_1|7.3MB/s|39%|GPT|GM|NF|X|History"
+    network: ws
+    password: f52d0a04-94ad-4f9e-9945-4c3d43374e36
+    port: 2096
+    server: www.shopify.com
+    skip-cert-verify: true
+    sni: ts888.yumige.dpdns.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: '/http://45.32.19.198:30005/'
+  - name: "\U0001F1E9\U0001F1EADE¹-TW⁰_3|5.6MB/s|GPT|TK|NF|D+|X|History|[广播|机房]"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 5.61.41.30
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
+  - name: "\U0001F1ED\U0001F1F0HK²_16|0.7MB/s|1%|YT|NF|D+|X|Succeed"
     password: BxceQaOe
     port: 443
     server: 58.152.46.60
@@ -794,7 +738,71 @@ proxies:
     sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20'
     type: trojan
     network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_12|12.2MB/s|GPT|YT|NF|D+|X|History|[广播|机房]"
+  - delay: 1233
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_15|11.8MB/s|GPT|YT|NF|D+|X|Succeed"
+    network: ws
+    port: 443
+    server: 104.19.49.192
+    tls: true
+    type: vless
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+    servername: snippets.kkii.eu.org
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US¹-TW⁰_3|3.7MB/s|GM|YT|TK|NF|D+|X|[原生|机房]"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 104.26.1.110
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_18|1.2MB/s|1%|GPT|YT|X|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    udp: true
+    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+    ws-opts:
+      headers:
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_17|1.5MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_16|1.1MB/s|GPT|YT|NF|D+|X|Succeed"
     network: ws
     password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
     port: 2096
@@ -812,176 +820,75 @@ proxies:
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F3F4‍☠_1\U0001F1ED\U0001F1F0HK²_19|1.9MB/s|[原生|住宅]|4.1MB/s|X|History"
+    name: "\U0001F1ED\U0001F1F0HK²_19|3.3MB/s|1%|YT|NF|D+|X|[原生|住宅]"
     network: ws
     port: 80
     server: hkt.gotochinatown.net
     skip-cert-verify: true
     type: vmess
-    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+    uuid: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
     ws-opts:
       headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - delay: 499
-    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_13|4.6MB/s|GPT|YT|NF|D+|X|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 172.64.229.82
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    disable-sni: false
-    name: "\U0001F1F0\U0001F1F7KR²_2|6.7MB/s|11%|GPT⁺|YT|TK|NF|D+|X|[广播|机房]"
-    password: d9812081-7f61-456d-9340-a1fb8dfd603b
-    port: 52706
-    reduce-rtt: false
-    request-timeout: 0
-    server: 130.162.157.157
-    sni: shouer.nezhasu.com
-    type: tuic
-    udp-relay-mode: native
-    uuid: d9812081-7f61-456d-9340-a1fb8dfd603b
-    version: 5
-  - alterId: 2
-    cipher: auto
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F3F4‍☠_2Relay_-\U0001F1ED\U0001F1F0HK_533|2.4MB/s|X"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    udp: true
-    uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-    ws-opts:
-      headers:
-        Host: hkt.gotochinatown.net
-      path: /
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1E6\U0001F1F7AR²_1|1.1MB/s|23%|GPT⁺|GM|YT|TK|NF|X|[广播|机房]"
-    password: 4f26d8bb593a5fc5
-    port: 11201
-    server: 154.205.154.200
-    type: ss
-  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_3|4.0MB/s|GPT|GM|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 50000
-    server: 222.97.1.10
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - name: "\U0001F1EF\U0001F1F5JP¹-TW⁰_2|3.0MB/s|GPT|YT|TK|NF|X|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 158.101.77.33
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F3F4‍☠_3Relay_\U0001F1ED\U0001F1F0HK-\U0001F1ED\U0001F1F0HK_1063|3.4MB/s|X"
-    network: ws
-    port: 80
-    server: hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: bd515574-3b10-11ee-ac14-f23c9164ca5d
-    ws-opts:
-      headers:
-        HOST: hkt.gotochinatown.net
         Host: hkt.gotochinatown.net
       path: /
     servername: hkt.gotochinatown.net
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_23|1.0MB/s|1%|GPT|YT|NF|D+|X|[原生|住宅]"
+  - encryption: none
+    name: "\U0001F1F8\U0001F1ECSG¹-TR⁰_1|2.9MB/s|GPT|GM|YT|TK|NF|D+|X|History"
     network: ws
     port: 80
-    server: 11874343-t70f40-t7udc0-1pqhp.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: b02327ac-a49a-11ef-a673-f23c913c8d2b
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 11874343-t70f40-t7udc0-1pqhp.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1F2\U0001F1FEMY²_1|1.6MB/s|24%|GPT⁺|TK-CY|X|[广播|机房]"
-    network: tcp
-    port: 8443
-    reality-opts:
-      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-      short-id: 7cad5040
-    server: 45.89.107.200
-    tls: true
+    server: 151.101.3.8
     type: vless
     udp: true
-    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-    xudp: true
-    servername: www.cloudflare.com
-  - name: "\U0001F1E9\U0001F1EADE²_3|2.7MB/s|9%|GPT|X|History"
-    password: ''
-    port: 1080
-    server: 193.233.254.7
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_24|2.0MB/s|1%|GPT⁺|YT|NF|D+|X|[原生|住宅]"
-    network: ws
-    port: 80
-    server: f307cee0-t70f40-tpftcp-13x18.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+    uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
     ws-opts:
       headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: f307cee0-t70f40-tpftcp-13x18.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_14|9.4MB/s|3%|GPT|YT|NF|D+|X|History|[广播|机房]"
+        Host: mitivpn.global.ssl.fastly.net
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/60.0.3112.116 Mobile Safari/537.36
+      path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+    xudp: true
+  - name: "\U0001F1ED\U0001F1F0HK²_20|0.6MB/s|1%|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.46.60
+    skip-cert-verify: true
+    sni: >-
+      %20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20
+    type: trojan
+    network: tcp
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_17|0.6MB/s|GPT|YT|NF|D+|X|History"
     network: ws
     password: 5a2c16f9
-    port: 2096
-    server: 172.64.146.64
+    port: 443
+    server: 172.64.229.5
     skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_18|0.8MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.103
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - name: "\U0001F1EE\U0001F1F3IN¹-TW⁰_2|7.9MB/s|YT|NF|X"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 98.70.26.236
     sni: snippets.kkii.eu.org
     type: trojan
     udp: true
@@ -989,11 +896,10 @@ proxies:
       headers:
         Host: snippets.kkii.eu.org
       path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - delay: 1652
-    name: "\U0001F1EC\U0001F1E7GB¹-TW⁰_4|2.9MB/s|GPT|YT|TK|NF|D+|X|[广播|机房]"
+  - name: "\U0001F1EC\U0001F1E7GB¹-TW⁰_2|3.1MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]"
     network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    port: 443
+    password: 554f139b-f31f-41c4-99f9-73d60647db26
+    port: 2096
     server: vip2.kaixincloud.top
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
@@ -1002,96 +908,291 @@ proxies:
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_22|3.9MB/s|1%|GPT|YT|NF|D+|X"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+    ws-opts:
+      headers:
+        Host: hkt.gotochinatown.net
       path: /
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1E6\U0001F1FAAU²_1|6.4MB/s|26%|GPT⁺|NF|D+|X|[广播|机房]"
-    password: 78322e4b934870b6
-    port: 47386
-    server: 154.26.156.99
+    servername: hkt.gotochinatown.net
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_21|1.6MB/s|1%|GPT|YT|NF|D+|X"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_23|1.8MB/s|1%|GPT|YT|NF|D+|X|Succeed|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts:
+      method: GET
+      path:
+        - '/使用此节点前需先沐浴焚香,然后对938399693qq群的群主磕800个响头,再在群里大喊3声群主nb,方能不跳点,嘎嘎免(„ಡωಡ„)'
+    name: "\U0001F1ED\U0001F1F0HK²_24|9.9MB/s|YT|NF|X"
+    network: http
+    port: 25470
+    server: 43.100.114.255
+    type: vmess
+    uuid: 09a2f799-5188-495f-86ce-b64613ce8728
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_25|2.4MB/s|1%|YT|NF|D+|X|History"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+  - cipher: aes-256-cfb
+    country: "\U0001F1F0\U0001F1F7KR"
+    name: "\U0001F1F0\U0001F1F7KR²_1|1.1MB/s|0%|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]"
+    password: qwerREWQ@@
+    port: 11815
+    server: 121.170.203.148
     type: ss
-  - name: "\U0001F1ED\U0001F1F0HK²_25|8.4MB/s|1%|NF|D+|X|History|[原生|住宅]"
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_26|0.6MB/s|1%|GPT|YT|D+|X|History|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_19|2.1MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 2096
+    server: 172.64.147.211
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_27|4.0MB/s|1%|YT|NF|D+|X|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - cipher: aes-256-cfb
+    country: "\U0001F1F0\U0001F1F7KR"
+    name: "\U0001F1F0\U0001F1F7KR²_2|2.7MB/s|1%|GPT⁺|YT-CN|NF|D+|X|History"
+    password: qwerREWQ@@
+    port: 19307
+    server: 211.201.169.70
+    type: ss
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_28|1.5MB/s|1%|NF|D+|X|[原生|住宅]"
+    network: ws
+    port: 80
+    server: 2a8b036d-t6r5s0-t7enwo-1f1f1.hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+    ws-opts:
+      headers:
+        Host: 2a8b036d-t6r5s0-t7enwo-1f1f1.hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - alterId: 0
+    cipher: auto
+    h2-opts: {}
+    http-opts:
+      headers:
+        Host:
+          - bmi.ir
+      method: GET
+      path:
+        - /
+    name: "\U0001F1E9\U0001F1EADE²_2|3.6MB/s|X|Succeed|[原生|机房]"
+    network: http
+    port: 44701
+    server: pl37.salar4040.com
+    type: vmess
+    udp: true
+    uuid: a1e6e4d2-965a-4f23-de8d-e3f3bc3acbe9
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1E7\U0001F1EABE"
+    name: "\U0001F1EB\U0001F1F7FR²_1|7.0MB/s|100%|GPT⁺|NF|X|Succeed|[原生|机房]"
+    password: 76de82292c035b46
+    port: 45924
+    server: 57.128.110.71
+    type: ss
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_29|5.1MB/s|1%|GPT|YT|NF|D+|X"
+    network: ws
+    port: 80
+    server: e9c33324-t70f40-tcdlur-1qwom.hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+    ws-opts:
+      headers:
+        HOST: broadcastlv.chat.bilibili.com
+        Host: e9c33324-t70f40-tcdlur-1qwom.hkt.gotochinatown.net
+      path: /
+    servername: broadcastlv.chat.bilibili.com
+  - name: "\U0001F1ED\U0001F1F0HK²_30|5.9MB/s|1%|NF|X|History|[原生|住宅]"
     password: BxceQaOe
     port: 443
     server: 58.152.46.60
     skip-cert-verify: true
     sni: >-
-      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2083%20
+      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20761%20
     type: trojan
     network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK²_26|8.2MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_32|0.5MB/s|1%|YT|NF|D+|X|History"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    delay: 357
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_31|2.9MB/s|1%|YT|NF|D+|X|History"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+    ws-opts:
+      headers:
+        Host: hkt.gotochinatown.net
+      path: /
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_33|4.3MB/s|1%|GPT⁺|YT|NF|D+|X|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+    ws-opts:
+      headers:
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_34|4.0MB/s|1%|GPT|YT|NF|D+|X|History|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
+  - name: "\U0001F1ED\U0001F1F0HK²_35|1.2MB/s|1%|YT|NF|X|History|[原生|住宅]"
     password: BxceQaOe
     port: 443
     server: 58.152.46.60
     skip-cert-verify: true
-    sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
-    type: trojan
-    network: tcp
-  - name: "\U0001F1F8\U0001F1ECSG¹-TW⁰_1|6.4MB/s|GPT|GM|YT|TK|NF|D+|X|Succeed|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 443
-    server: 103.229.96.157
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_15|16.1MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 2096
-    server: 172.64.145.89
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_16|3.5MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 10002
-    server: 223.16.138.113
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_17|15.9MB/s|GPT|YT|NF|D+|X|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 2096
-    server: 172.64.145.196
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK²_27|5.2MB/s|1%|YT|NF|D+|X|History"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    network: tcp
-  - name: "\U0001F1ED\U0001F1F0HK²_28|0.6MB/s|1%|YT|NF|D+|X|History|[原生|住宅]"
-    password: BxceQaOe
-    port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: >-
-      %EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20945%20
+    sni: '%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
     type: trojan
     network: tcp
   - alterId: 2
@@ -1099,170 +1200,38 @@ proxies:
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_29|6.8MB/s|1%|GPT|YT|NF|D+|X|[原生|住宅]"
+    name: "\U0001F1ED\U0001F1F0HK²_36|3.2MB/s|1%|GPT⁺|YT|NF|D+|X"
     network: ws
     port: 80
-    server: a0a6ad34-t7mn40-0-1t0fu.hkt.gotochinatown.net
+    server: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
     skip-cert-verify: true
     type: vmess
-    uuid: bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9
+    uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
     ws-opts:
       headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: a0a6ad34-t7mn40-0-1t0fu.hkt.gotochinatown.net
+        Host: f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net
       path: /
     servername: broadcastlv.chat.bilibili.com
-  - delay: 754
-    name: "\U0001F1F9\U0001F1FCTW¹⁺_1|3.9MB/s|YT|TK|NF|D+|X|Succeed|[广播|机房]"
+  - delay: 626
+    name: "\U0001F1FA\U0001F1F8US¹-TW⁰_4|6.3MB/s|GPT|YT|TK|D+|X"
     network: ws
-    password: 554f139b-f31f-41c4-99f9-73d60647db26
-    port: 10443
-    server: 203.69.248.40
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_4|2.4MB/s|GPT|GM|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: 5a2c16f9
-    port: 446
-    server: 43.155.186.100
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: /%2FTelegram%F0%9F%87%A8%F0%9F%87%B3WangCai2
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_30|6.2MB/s|X"
-    network: ws
-    port: 80
-    server: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - country: "\U0001F1ED\U0001F1F0HK"
-    name: "\U0001F1ED\U0001F1F0HK²_31|5.1MB/s|1%|NF|D+|X|History"
-    password: BxceQaOe
     port: 443
-    server: 58.152.46.60
-    skip-cert-verify: true
-    sni: '������ [By EbraSha] trojan-HK '
-    type: trojan
-    udp: true
-    network: tcp
-  - name: "\U0001F1E9\U0001F1EADE¹-TW⁰_2|3.1MB/s|TK|NF|X|[广播|机房]"
-    network: ws
-    password: 554f139b-f31f-41c4-99f9-73d60647db26
-    port: 443
-    server: 87.120.216.157
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_32|2.6MB/s|1%|YT|D+|X|[原生|住宅]"
-    network: ws
-    port: 80
-    server: b7810513-t6r5s0-t7j1ub-g3b3.hkt.gotochinatown.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-    ws-opts:
-      headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: b7810513-t6r5s0-t7j1ub-g3b3.hkt.gotochinatown.net
-      path: /
-    servername: broadcastlv.chat.bilibili.com
-  - name: "\U0001F1E9\U0001F1EADE¹-TW⁰_3|6.1MB/s|GPT|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    port: 556
-    server: 194.107.126.20
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR¹⁺_1|9.9MB/s|GPT⁺|GM|YT|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    port: 8443
-    server: 59.3.3.161
+    server: nrtcfdns.zone.id
     tls: true
     type: vless
     udp: true
-    uuid: 3afad5df-e056-4301-846d-665b4ef51968
-    ws-opts:
-      headers:
-        Host: x.kkii.eu.org
-      path: '/59.3.3.161:8443'
-    servername: x.kkii.eu.org
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 55 Mbps
-    name: "\U0001F1EB\U0001F1F7FR²_3|2.3MB/s|GPT⁺|YT|TK|X|Succeed|[原生|住宅拨号]"
-    port: 26691
-    protocol: udp
-    server: 62.210.196.68
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 11 Mbps
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F0\U0001F1FFKZ²_1|2.2MB/s|34%|GPT⁺|YT-US|NF|X|[广播|机房]"
-    password: 01dc0d7cbb650bc3
-    port: 11201
-    server: 109.61.39.150
-    type: ss
-    udp: true
-  - name: "\U0001F1E9\U0001F1EADE¹-TW⁰_4|6.1MB/s|GPT⁺|TK|NF|D+|X|History|[广播|机房]"
-    network: ws
-    password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
-    port: 443
-    server: 202.61.254.159
-    skip-cert-verify: true
-    sni: snippets.kkii.eu.org
-    type: trojan
-    udp: true
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_18|16.2MB/s|GPT|YT|NF|D+|X|Succeed|[广播|机房]"
+      path: /
+    servername: snippets.kkii.eu.org
+  - delay: 1978
+    name: "\U0001F1F0\U0001F1F7KR¹-TW⁰_5|1.3MB/s|TK|NF|D+|X"
     network: ws
     password: 5a2c16f9
-    port: 2096
-    server: 172.64.147.71
+    port: 50001
+    server: 112.185.223.152
     skip-cert-verify: true
     sni: snippets.kkii.eu.org
     type: trojan
@@ -1270,32 +1239,112 @@ proxies:
     ws-opts:
       headers:
         Host: snippets.kkii.eu.org
-      path: "/Telegram\U0001F1E8\U0001F1F3WangCai2"
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US²_5|3.7MB/s|33%|GPT⁺|GM|YT|NF|X|[原生|机房]"
-    password: 5d8680180abdb564
-    port: 45234
-    server: 154.53.34.27
-    type: ss
-    udp: true
+      path: "//Telegram\U0001F1E8\U0001F1F3WangCai2"
   - alterId: 2
     cipher: auto
     country: "\U0001F1ED\U0001F1F0HK"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_33|1.7MB/s|1%|GPT|X"
+    name: "\U0001F1ED\U0001F1F0HK²_37|3.2MB/s|1%|GPT⁺|YT|NF|D+|X|[原生|住宅]"
     network: ws
     port: 80
-    server: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
+    server: hkt.gotochinatown.net
     skip-cert-verify: true
     type: vmess
-    uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+    uuid: 28213b50-7ed5-11ee-add6-f23c91369f2d
     ws-opts:
       headers:
-        HOST: broadcastlv.chat.bilibili.com
-        Host: 451e6242-t70f40-t8kgw8-jjv2.hkt.gotochinatown.net
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
       path: /
-    servername: broadcastlv.chat.bilibili.com
+    servername: hkt.gotochinatown.net
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0 HK"
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_38|4.4MB/s|1%|GPT⁺|YT|NF|D+|X|History|[原生|住宅]"
+    network: ws
+    port: 80
+    server: hkt.gotochinatown.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+    ws-opts:
+      headers:
+        HOST: hkt.gotochinatown.net
+        Host: hkt.gotochinatown.net
+      path: /
+    servername: hkt.gotochinatown.net
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EB\U0001F1F7FR²_2|1.0MB/s|42%|GPT⁺|YT|TK|NF|X|[原生|机房]"
+    password: 5bbe7bf7a282ad8b
+    port: 11201
+    server: 51.178.114.93
+    type: ss
+  - name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_20|6.2MB/s|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 172.64.229.20
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+  - client-fingerprint: chrome
+    delay: 2078
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_21|10.8MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    port: 443
+    server: 104.19.39.97
+    tls: true
+    type: vless
+    uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+    ws-opts:
+      headers:
+        Host: snippets.kkii.eu.org
+      path: /
+    servername: snippets.kkii.eu.org
+  - delay: 2646
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_22|6.1MB/s|GPT⁺|YT|NF|D+|X"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: 104.17.162.3
+    skip-cert-verify: true
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      path: /
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0HK¹-TW⁰_23|1.8MB/s|GPT|YT|NF|D+|X|History"
+    network: ws
+    password: 5a2c16f9
+    port: 443
+    server: cf.130519.xyz
+    skip-cert-verify: false
+    sni: snippets.kkii.eu.org
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      path: /
+  - auth: e343471a-aad3-40da-9dea-72cc8c7dce5f
+    name: "\U0001F1E8\U0001F1EDCH²_1|5.6MB/s|11%|GPT⁺|YT-CN|TK|NF|D+|X|History|[广播|机房]"
+    password: e343471a-aad3-40da-9dea-72cc8c7dce5f
+    port: 443
+    server: 152.67.95.183
+    skip-cert-verify: true
+    sni: www.apple.com
+    type: hysteria2
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
