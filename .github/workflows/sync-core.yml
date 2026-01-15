@@ -129,12 +129,11 @@ jobs:
 
       - name: 🕒 获取 Gist 更新时间
         id: gist
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const gistId = '9e5cf2749c0ce79932dd9229d9b4162b';
-            const { data } = await github.rest.gists.get({ gist_id: gistId });
-            core.setOutput('updated_at', data.updated_at || '');
+        run: |
+          set -e
+          api="https://api.github.com/gists/9e5cf2749c0ce79932dd9229d9b4162b"
+          updated=$(curl -fsSL "$api" | python3 -c "import sys,json;print(json.load(sys.stdin).get('updated_at',''))")
+          echo "updated_at=$updated" >> $GITHUB_OUTPUT
 
       - name: ⚙️ 更新 README 统计（脚本）
         shell: pwsh

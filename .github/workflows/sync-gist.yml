@@ -37,27 +37,31 @@ jobs:
           token: ${{ github.token }}
           persist-credentials: true
 
-      - name: 🔍 检查 Gist 是否更新
+      - name: 🔍 检查 Gist 是否更新（匿名）
         id: check
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const fs = require('fs');
-            const gistId = '9e5cf2749c0ce79932dd9229d9b4162b';
-            let stored = '';
-            if (fs.existsSync('README.md')) {
-              const text = fs.readFileSync('README.md', 'utf8');
-              const m = text.match(/<!--\s*GIST_UPDATED_AT:\s*([^\s]+)\s*-->/);
-              if (m) stored = m[1];
-            }
-            const { data } = await github.rest.gists.get({ gist_id: gistId });
-            const updatedAt = data.updated_at || '';
-            const shouldRun = !stored || stored !== updatedAt;
-            core.setOutput('trigger_type', context.eventName);
-            core.setOutput('gist_updated_at', updatedAt);
-            core.setOutput('stored_gist_updated_at', stored);
-            core.setOutput('should_run', shouldRun ? 'true' : 'false');
-            core.setOutput('execution_reason', shouldRun ? (stored ? 'Gist 已更新' : '首次执行，未记录 Gist 版本') : 'Gist 未更新，跳过同步');
+        run: |
+          set -e
+          echo "trigger_type=${{ github.event_name }}" >> $GITHUB_OUTPUT
+          stored=""
+          if [ -f README.md ]; then
+            stored=$(grep -o "<!-- GIST_UPDATED_AT: .* -->" README.md | head -1 | sed -E 's/.*GIST_UPDATED_AT: ([^ ]+).*/\1/')
+          fi
+          api="https://api.github.com/gists/9e5cf2749c0ce79932dd9229d9b4162b"
+          updated=$(curl -fsSL "$api" | python3 -c "import sys,json;print(json.load(sys.stdin).get('updated_at',''))")
+          if [ -z "$updated" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "execution_reason=无法获取 Gist 更新时间，保守执行" >> $GITHUB_OUTPUT
+          else
+            if [ -z "$stored" ] || [ "$stored" != "$updated" ]; then
+              echo "should_run=true" >> $GITHUB_OUTPUT
+              echo "execution_reason=$( [ -z "$stored" ] && echo '首次执行，未记录 Gist 版本' || echo 'Gist 已更新' )" >> $GITHUB_OUTPUT
+            else
+              echo "should_run=false" >> $GITHUB_OUTPUT
+              echo "execution_reason=Gist 未更新，跳过同步" >> $GITHUB_OUTPUT
+            fi
+          fi
+          echo "gist_updated_at=$updated" >> $GITHUB_OUTPUT
+          echo "stored_gist_updated_at=$stored" >> $GITHUB_OUTPUT
 
       - name: 📊 执行状态报告
         run: |
