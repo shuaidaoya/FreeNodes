@@ -3,7 +3,8 @@ param(
   [int]$Base64Lines = 0,
   [string]$Label = '主同步',
   [string]$ReadmePath = 'README.md',
-  [int]$MaxLogRows = 10
+  [int]$MaxLogRows = 10,
+  [string]$GistUpdatedAt = ''
 )
 
 $ErrorActionPreference = 'Stop'
@@ -38,17 +39,49 @@ if ($readme.Contains($start) -and $readme.Contains($end)) {
   Set-Content -Path $ReadmePath -Value $new -NoNewline
 }
 
+$content = Get-Content $ReadmePath -Raw
+if (![string]::IsNullOrWhiteSpace($GistUpdatedAt)) {
+  $markerPattern = '<!--\s*GIST_UPDATED_AT:\s*.*?-->'
+  $marker = "<!-- GIST_UPDATED_AT: $GistUpdatedAt -->"
+  if ([System.Text.RegularExpressions.Regex]::IsMatch($content, $markerPattern)) {
+    $content = [System.Text.RegularExpressions.Regex]::Replace($content, $markerPattern, $marker, 1)
+  } elseif ($content.Contains($end)) {
+    $content = $content.Replace($end, $end + "`n" + $marker)
+  } else {
+    $content = $content + "`n" + $marker + "`n"
+  }
+  Set-Content -Path $ReadmePath -Value $content -NoNewline
+  $content = Get-Content $ReadmePath -Raw
+}
+
 $date = (Get-Date).ToString('yyyy-MM-dd HH:mm:ss')
 $summary = "YAML:$YamlNodes 个, Base64:$Base64Lines 个"
-$content = Get-Content $ReadmePath -Raw
 $headerPattern = '\|------\|------\|----------\|'
+$linesCurrent = $content -split "`r?`n"
+$headerIndexCurrent = -1
+for ($i = 0; $i -lt $linesCurrent.Length; $i++) { if ($linesCurrent[$i] -eq "|------|------|----------|") { $headerIndexCurrent = $i; break } }
+$existingYaml = -1
+$existingBase64 = -1
+if ($headerIndexCurrent -ge 0 -and ($headerIndexCurrent + 1) -lt $linesCurrent.Length) {
+  $firstRow = $linesCurrent[$headerIndexCurrent + 1]
+  if ($firstRow -match 'YAML:(\d+)\s*个') { $existingYaml = [int]$Matches[1] }
+  if ($firstRow -match 'Base64:(\d+)\s*个') { $existingBase64 = [int]$Matches[1] }
+}
+$shouldInsert = $true
+if ($headerIndexCurrent -ge 0 -and $existingYaml -ge 0 -and $existingBase64 -ge 0) {
+  if ($existingYaml -eq $YamlNodes -and $existingBase64 -eq $Base64Lines) { $shouldInsert = $false }
+}
 if ([System.Text.RegularExpressions.Regex]::IsMatch($content, $headerPattern)) {
-  $newContent = [System.Text.RegularExpressions.Regex]::Replace(
-    $content,
-    $headerPattern,
-    "|------|------|----------|`n| $date | $summary | 📊 自动更新 |",
-    1
-  )
+  if ($shouldInsert) {
+    $newContent = [System.Text.RegularExpressions.Regex]::Replace(
+      $content,
+      $headerPattern,
+      "|------|------|----------|`n| $date | $summary | 📊 自动更新 |",
+      1
+    )
+  } else {
+    $newContent = $content
+  }
 } else {
   $newContent = $readme + "`n## 📋 更新日志`n| 时间 -仅保留最新10条 | 节点数量 | 更新方式 |`n|------|------|----------|`n| $date | $summary | 📊 自动更新 |"
 }

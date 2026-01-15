@@ -8,6 +8,11 @@ on:
         required: false
         default: 主同步
         type: string
+      gist_updated_at:
+        description: Gist 最近更新时间（ISO 8601）
+        required: false
+        default: ''
+        type: string
       dry_run:
         description: 演练模式（不提交不推送）
         required: false
@@ -122,13 +127,24 @@ jobs:
           name: nodes-files
           path: nodes
 
+      - name: 🕒 获取 Gist 更新时间
+        id: gist
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const gistId = '9e5cf2749c0ce79932dd9229d9b4162b';
+            const { data } = await github.rest.gists.get({ gist_id: gistId });
+            core.setOutput('updated_at', data.updated_at || '');
+
       - name: ⚙️ 更新 README 统计（脚本）
         shell: pwsh
         run: |
           $yamlNodes = '${{ steps.count.outputs.yaml_nodes }}'
           $base64Lines = '${{ steps.count.outputs.base64_lines }}'
           $label = '${{ inputs.label }}'
-          ./.github/scripts/update_readme.ps1 -YamlNodes $yamlNodes -Base64Lines $base64Lines -Label $label -ReadmePath 'README.md'
+          $gistUpdatedAt = '${{ inputs.gist_updated_at }}'
+          if ([string]::IsNullOrWhiteSpace($gistUpdatedAt)) { $gistUpdatedAt = '${{ steps.gist.outputs.updated_at }}' }
+          ./.github/scripts/update_readme.ps1 -YamlNodes $yamlNodes -Base64Lines $base64Lines -Label $label -ReadmePath 'README.md' -GistUpdatedAt $gistUpdatedAt
 
       - name: 🔐 配置 Git 用户
         run: |

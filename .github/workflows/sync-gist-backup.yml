@@ -1,8 +1,6 @@
 name: 🔄 备用同步 Gist 节点文件
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
