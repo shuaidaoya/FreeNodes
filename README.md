@@ -128,10 +128,10 @@ https://gist.githubusercontent.com/shuaidaoya/9e5cf2749c0ce79932dd9229d9b4162b/r
 
 节点按照以下格式命名，方便用户识别和选择：
 
-- **TW²_1|1.9MB/s**
-- **JP¹-US⁰_1|3.1MB/s**
-- **JP²_1|1.0MB/s**
-- **US¹⁺_1|1.6MB/s**
+- **🇰🇷KR²_1|8.3MB/s|0%|GPT⁺|YT-CN|TK|D+|X|[原生|住宅]**
+- **🇹🇼TW²_1|13.2MB/s|0%|GPT⁺|YT-CN|TK|D+|X|Succeed|[广播|商宽]**
+- **🇺🇸US¹⁺_1|0.6MB/s|4%|GPT⁺|GM|YT|TK|NF|D+|X|Succeed|[原生|机房]**
+- **🇻🇳VN²_10|2.3MB/s|GPT|YT-US|X|History|[原生|机房]**
 
 ## ⚠️ 免责声明
 
