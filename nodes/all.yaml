@@ -1,81 +1,50 @@
 proxies:
-- client-fingerprint: chrome
-  delay: 1439
-  name: 🇭🇰HK¹-US⁰_1|14.5MB/s|X|Succeed
+- name: 🇫🇮FI²_1|7.0MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
   network: ws
-  port: 443
-  server: v2.dabache.top
-  servername: sni.meibidi.pp.ua
-  tls: true
+  port: 80
+  server: 146.75.119.82
   type: vless
   udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: sni.meibidi.pp.ua
-    max-early-data: 2560
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇵🇱PL²_1|6.2MB/s|0%|GPT⁺|YT-RU|NF|X|History|[广播|商宽]
-  network: tcp
-  port: 443
-  server: 144.31.0.64
-  servername: plcdn1.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+      Host: welcomtofreeboarders.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇿KZ²_1|3.2MB/s|0%|GPT⁺|X|Succeed
-  port: 443
-  reality-opts:
-    public-key: rmjxUM7tGXK1tCx9DN6LujbEflBHixsg8oTsVrdTrDM
-    short-id: a28842ab2911096b
-  server: 91.217.10.68
-  servername: kz.fasti.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0d93b787-b66b-4696-a036-a0f549764f69
-- name: 🇭🇰HK²_1|6.2MB/s|1%|YT|D+|X|Succeed
+- country: 🇭🇰 HK
+  name: 🇭🇰HK²_1|2.8MB/s|1%|YT|D+|X|History
   password: BxceQaOe
   port: 443
   server: 58.152.46.246
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_1|3.1MB/s|GPT⁺|GM|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.209
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_2|1.9MB/s|GPT⁺|GM|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.141
-  type: ss
-- name: 🏴‍☠_1🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|3.2MB/s|X|History
-  password: ""
-  port: 1080
-  server: 193.233.254.7
+  udp: true
+- name: 🇭🇰HK¹-KR⁰_1|16.0MB/s|4%|GPT⁺|YT|D+|X|History
+  network: ws
+  port: 443
+  server: store.ubi.com
+  servername: kb.as129394.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- country: 🇭🇰HK
+  name: 🇸🇬SG²_1|16.6MB/s|3%|GPT⁺|GM|YT|TK-TW|D+|X|[广播|机房]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27001
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇭🇰HK¹-KR⁰_1|11.9MB/s|4%|GPT⁺|YT|NF|D+|X|Succeed
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇭🇰HK¹-KR⁰_2|3.7MB/s|4%|GPT⁺|YT|D+|X|Succeed
   network: ws
   port: 443
   server: v1.dabache.top
@@ -89,35 +58,8 @@ proxies:
     headers:
       Host: kb.as129394.me
     path: /?ed=2560
-- cipher: aes-256-cfb
-  country: 🇪🇸ES
-  name: 🇪🇸ES²_1|1.7MB/s|GPT|X|History
-  password: VcFuyXvND2yQWSFY
-  port: 9054
-  server: 5.188.181.201
-  type: ss
-- name: 🇰🇷KR²_1|1.4MB/s|5%|GPT⁺|GM|X|Succeed
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
 - encryption: none
-  name: 🇳🇱NL²_1|6.4MB/s|GPT⁺|TK|NF|X|History|[广播|机房]
-  network: ws
-  port: 80
-  server: bastion.h3.speed.cloudflare.com
-  type: vless
-  udp: true
-  uuid: 👉👉BanV2ray👈👈
-  ws-opts:
-    headers:
-      Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
-    path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143
-  xudp: true
-- encryption: none
-  name: 🇫🇮FI²_1|7.2MB/s|7%|GPT⁺|YT-US|NF|X|Succeed|[广播|机房]
+  name: 🇫🇮FI²_2|6.4MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
   network: ws
   port: 80
   server: 146.75.119.82
@@ -130,12 +72,115 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
   xudp: true
-- name: 🇺🇸US¹⁺_1|1.5MB/s|4%|GPT|GM|TK|NF|D+|X|History|[原生|机房]
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇵🇱PL²_1|6.0MB/s|0%|GPT⁺|YT-RU|X|Succeed|[广播|商宽]
+  network: tcp
+  port: 443
+  server: 144.31.0.64
+  servername: plcdn1.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇦🇹AT²_1|7.0MB/s|20%|GPT⁺|YT-DE|TK|D+|X|Succeed|[广播|机房]
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  server: 152.53.51.24
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- name: 🇸🇬SG²_2|1.5MB/s|4%|GPT⁺|X
+  password: ""
+  port: 10809
+  server: 146.235.19.84
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇰🇷KR²_1|2.2MB/s|5%|GPT⁺|GM|X|Succeed
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- client-fingerprint: chrome
+  delay: 532
+  encryption: none
+  name: 🇭🇰HK¹-US⁰_1|10.2MB/s|D+|X|History
+  network: ws
+  port: 2096
+  server: 172.64.229.220
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- name: 🇮🇳IN²_1|4.3MB/s|GPT⁺|GM|X|History|[广播|机房]
+  password: M7v%w11Se*
+  port: 443
+  server: tttyder.wsone.icu
+  skip-cert-verify: true
+  sni: tttyder.wsone.icu
+  tls: true
+  type: trojan
+- country: 🇭🇰HK
+  name: 🇺🇸US²_1|9.6MB/s|0%|GPT⁺|YT|X|[广播|机房]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27009
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🏴‍☠_1🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.5MB/s|X|History
+  password: ""
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇸🇬SG²_3|2.2MB/s|GPT|X|History
+  password: ""
+  port: 10819
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🏴‍☠_2🏴‍☠_589.148.196.156:1080-01|1.8MB/s|1.3MB/s|X|History
+  password: ""
+  port: 1080
+  server: 89.148.196.156
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹⁺_1|0.5MB/s|GPT⁺|GM|YT|TK|NF|D+|X|History|[原生|机房]
   network: ws
   port: 443
-  server: 162.159.44.142
+  server: 104.21.227.134
   servername: l.ayovo.netlib.re
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -143,48 +188,138 @@ proxies:
   ws-opts:
     headers:
       Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.75 Safari/537.36
     path: /?ed=2560
-- encryption: none
-  name: 🇫🇮FI²_2|5.6MB/s|7%|GPT⁺|YT-US|TK|NF|X|Succeed|[广播|机房]
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  type: vless
-  udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
-    path: /ws/?ed=2048
   xudp: true
+- name: 🇭🇰HK²_2|1.1MB/s|1%|D+|X|Succeed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  sni: 58.152.46.246
+  tls: true
+  type: trojan
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE²_1|5.3MB/s|6%|GPT⁺|YT|TK|NF|D+|X|Succeed|[原生|机房]
+    grpc-service-name: UpdateService
+  name: 🇷🇺RU²_1|4.6MB/s|YT|TK|X|Succeed|[原生|机房]
   network: grpc
-  port: 22955
+  port: 2083
   reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  server: 37.120.175.246
-  servername: one-piece.com
+    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
+    short-id: 6da16b1335651b38
+  server: 95.163.209.178
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
   xudp: true
-- name: 🇸🇬SG²_1|1.8MB/s|GPT⁺|YT-CN|TK|X|[广播|商宽]
-  password: BxceQaOe
-  port: 3127
-  server: 57.180.20.143
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇳IN²_2|7.7MB/s|X|History
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 45.89.105.24
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
+  xudp: true
+- name: 🇸🇬SG²_4|1.7MB/s|GPT⁺|X
+  password: ""
+  port: 10850
+  server: 213.35.110.67
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  type: socks5
+  username: ""
+- country: 🇭🇰HK
+  name: 🇯🇵JP²_1|14.2MB/s|GPT⁺|GM|YT|TK-TW|D+|X|[广播|商宽]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27003
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
   tls: true
   type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_2|4.5MB/s|X|History|[原生|机房]
+  port: 443
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: 048fe5c8be4bb687
+  server: 217.12.40.76
+  servername: sun9-38.userapi.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+- client-fingerprint: firefox
+  name: 🇹🇷TR²_1|5.0MB/s|GPT⁺|YT-US|X|Succeed|[广播|商宽]
+  port: 587
+  reality-opts:
+    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+    short-id: 916e8258c4a01b02
+  server: turkiye.torprospeed.ir
+  servername: excoino.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇿KZ²_1|3.9MB/s|0%|GPT⁺|X|Succeed
+  port: 443
+  reality-opts:
+    public-key: rmjxUM7tGXK1tCx9DN6LujbEflBHixsg8oTsVrdTrDM
+    short-id: a28842ab2911096b
+  server: kz.fasti.win
+  servername: kz.fasti.win
+  tls: true
+  type: vless
+  uuid: 0d93b787-b66b-4696-a036-a0f549764f69
+- client-fingerprint: chrome
+  delay: 691
+  encryption: none
+  name: 🇭🇰HK¹-US⁰_2|4.6MB/s|X|History
+  network: ws
+  port: 2096
+  server: vip3.kaixincloud.top
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- name: 🇭🇰HK¹-US⁰_3|10.1MB/s|YT|D+|X|Succeed
+  network: ws
+  port: 443
+  server: 104.17.25.173
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
 - country: 🇫🇷FR
-  name: 🇫🇷FR²_1|0.6MB/s|1%|GPT⁺|X|[广播|机房]
+  name: 🇫🇷FR²_1|5.7MB/s|1%|GPT⁺|X|Succeed|[广播|机房]
   password: telegram-id-directvpn
   port: 22223
   server: 13.36.202.63
@@ -193,97 +328,27 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_3|3.0MB/s|GPT|X|Succeed
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.54
+- cipher: aes-256-gcm
+  country: 🇩🇪DE
+  name: 🇩🇪DE²_1|1.4MB/s|X|Succeed
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 213.202.208.199
   type: ss
-- name: 🇭🇰HK²_2|4.6MB/s|1%|YT|D+|X|Succeed
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
+- country: 🇭🇰HK
+  name: 🇯🇵JP²_2|7.4MB/s|3%|GPT⁺|YT|TK-TW|X|[广播|机房]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27005
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
-  sni: 58.152.46.246
+  sni: www.bilibili.com
   tls: true
   type: trojan
-- name: 🇵🇱PL²_2|5.9MB/s|0%|GPT⁺|X|[广播|商宽]
-  network: tcp
-  port: 443
-  server: 144.31.0.228
-  servername: plcdn5.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 🇫🇷FR²_2|5.7MB/s|20%|GPT⁺|YT-RU|TK|NF|D+|X|Succeed|[广播|机房]
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: 6da16b1335651b38
-  server: 213.176.73.206
-  servername: apple.com
-  tls: true
-  type: vless
   udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹⁺_2|3.7MB/s|YT|NF|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 8443
-  server: vip2.kaixincloud.top
-  servername: sni.meibidi.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_4|0.6MB/s|GPT|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.150
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1679
-  name: 🇳🇱NL²_2|6.2MB/s|GPT⁺|TK|NF|X|History|[广播|机房]
-  network: ws
-  port: 80
-  server: bastion.h3.speed.cloudflare.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: 👉👉BanV2ray👈👈
-  ws-opts:
-    headers:
-      Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-    path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇹🇭TH²_1|8.9MB/s|33%|GPT⁺|YT|TK|X|[广播|商宽]
-  network: none
-  port: 15542
-  server: 38.60.200.142
-  type: vmess
-  uuid: d5cf6d36-f065-4e1b-ca2d-6fe23710603c
 - client-fingerprint: chrome
   delay: 536
   encryption: none
-  name: 🇺🇸US¹⁺_3|4.6MB/s|GM|YT|NF|D+|X|History
+  name: 🇺🇸US¹⁺_2|1.7MB/s|GPT|GM|YT|TK|NF|D+|X|Succeed|[原生|机房]
   network: ws
   port: 443
   server: 162.159.45.232
@@ -298,9 +363,611 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
+- name: 🏴‍☠_3🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|1.3MB/s|X|Succeed
+  password: ""
+  port: 15081
+  server: 152.53.171.242
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇹🇭TH²_1|7.4MB/s|33%|GPT⁺|YT|TK|X|Succeed|[广播|商宽]
+  network: none
+  port: 15542
+  server: 38.60.200.142
+  type: vmess
+  uuid: d5cf6d36-f065-4e1b-ca2d-6fe23710603c
+- country: 🇭🇰HK
+  name: 🇸🇬SG²_5|7.0MB/s|0%|GPT⁺|GM|YT|D+|X|[广播|商宽]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26010
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US¹⁺_4|0.8MB/s|4%|GPT⁺|GM|YT-HK|X|Succeed
+  flow: xtls-rprx-vision
+  name: 🇨🇾CY²_1|5.1MB/s|20%|GPT⁺|NF|X|Succeed|[广播|机房]
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
+    short-id: aa7e96542880027a
+  server: 5.180.24.11
+  servername: github.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
+  xudp: true
+- name: 🇵🇱PL²_2|6.3MB/s|0%|GPT⁺|YT-RU|X|History|[广播|商宽]
+  network: tcp
+  port: 443
+  server: 144.31.1.127
+  servername: plcdn13.suio.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_1|1.8MB/s|0%|GPT⁺|X|Succeed|[广播|商宽]
+  network: tcp
+  port: 56824
+  reality-opts:
+    public-key: Gpzl6U5r_tIq-xIGyXhzT37vIDsZW6Vot6XL1sH6lVM
+    short-id: aabbccdd
+  server: nl11.odavpn.online
+  servername: ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: af1a9622-5deb-480c-8539-d8763f59e012
+- name: 🇺🇸US¹⁺_3|3.5MB/s|GPT|YT-HK|D+|X|History
+  network: ws
+  port: 8443
+  server: vip3.kaixincloud.top
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- client-fingerprint: chrome
+  delay: 420
+  encryption: none
+  name: 🇺🇸US¹⁺_4|9.0MB/s|GPT⁺|GM|YT|D+|X|History|[原生|机房]
+  network: ws
+  port: 443
+  server: 162.159.16.63
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 1610
+  encryption: none
+  name: 🇺🇸US¹⁺_5|0.7MB/s|GPT|YT-HK|NF|D+|X|Succeed|[原生|机房]
+  network: ws
+  port: 443
+  server: 104.18.185.26
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: l.ayovo.netlib.re
+    max-early-data: 2560
+    path: /
+- country: 🇭🇰HK
+  name: 🇯🇵JP²_3|4.5MB/s|GPT⁺|YT|TK-TW|D+|X|[广播|机房]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 27006
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-US⁰_4|1.0MB/s|YT|D+|X|History
+  network: ws
+  port: 2096
+  server: v3.dabache.top
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE²_2|7.1MB/s|6%|GPT⁺|YT|TK|NF|D+|X|History|[原生|机房]
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  server: octopusss5.info
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- name: 🇭🇰HK¹-KR⁰_3|14.6MB/s|4%|GPT⁺|YT|D+|X|Succeed
+  network: ws
+  port: 443
+  server: staticdelivery.nexusmods.com
+  servername: kb.as129394.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_3|0.9MB/s|1%|YT|D+|X|Succeed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇰🇷KR²_2|0.5MB/s|5%|GPT⁺|GM|X|History
+  password: ""
+  port: 1090
+  server: 121.169.46.116
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇭🇰HK¹-US⁰_5|6.9MB/s|GPT|X|History
+  network: ws
+  port: 8443
+  server: 172.64.145.144
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US²_2|4.8MB/s|67%|GPT⁺|GM|NF|D+|X|History|[原生|机房]
+  network: tcp
+  port: 443
+  server: s415.okgfwbackxyz.xyz
+  servername: u730537u99a3s415.okgfwbackxyz.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e32f9c43-b141-3d58-b879-15c6a402e119
+  xudp: true
+- country: 🇭🇰HK
+  name: 🇸🇬SG²_6|16.8MB/s|0%|GPT⁺|YT|TK-TW|D+|X|[广播|商宽]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26009
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🏴‍☠_4🇩🇪DE²_2|2.6MB/s|History|2.7MB/s|X|Succeed
+  port: 1080
+  server: 193.233.254.7
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-KR⁰_4|2.3MB/s|GPT⁺|D+|X|Succeed
+  network: ws
+  port: 443
+  server: vip1.kaixincloud.top
+  servername: kb.as129394.me
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    headers:
+      Host: kb.as129394.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-US⁰_6|13.5MB/s|GPT⁺|YT|X|Succeed
+  network: ws
+  port: 443
+  server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 🇫🇮FI²_3|7.3MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  servername: welcomtofreeboarders.com
+  tls: false
+  type: vless
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+- name: 🇫🇮FI²_4|6.2MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+- cipher: chacha20-ietf-poly1305
+  country: 🇧🇪BE
+  name: 🇫🇷FR²_2|5.2MB/s|79%|GPT⁺|GM|YT-LA|TK|X|[广播|机房]
+  password: e5c3f903e81d5d4e
+  port: 10013
+  server: 57.128.190.194
+  type: ss
+- name: 🇭🇰HK¹-US⁰_7|3.9MB/s|YT|D+|X|History
+  network: ws
+  port: 2096
+  server: cf.3666888.xyz
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- country: 🇭🇰HK
+  name: 🇹🇼TW²_1|5.7MB/s|3%|GPT⁺|YT|NF|X|[广播|商宽]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26007
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- encryption: none
+  name: 🇫🇮FI²_5|7.0MB/s|7%|GPT⁺|YT-US|TK|X|Succeed|[广播|机房]
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  type: vless
+  udp: true
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.3 Safari/534.24
+    path: /ws/?ed=2048
+  xudp: true
+- name: 🇺🇸US¹⁺_6|3.5MB/s|4%|GM|YT|TK|NF|D+|X|Succeed|[原生|机房]
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- name: 🇭🇰HK¹-US⁰_8|14.6MB/s|D+|X|Succeed|[广播|机房]
+  network: ws
+  port: 2096
+  server: 108.162.198.24
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇩🇪DE²_3|7.9MB/s|6%|GPT⁺|YT|TK|NF|D+|X|Succeed|[原生|机房]
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  server: 37.120.175.246
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- name: 🇺🇸US¹⁺_7|0.6MB/s|X
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- client-fingerprint: chrome
+  name: 🇺🇸US¹⁺_8|0.7MB/s|4%|GPT|GM|YT|TK|NF|D+|X|History|[原生|机房]
+  network: ws
+  port: 443
+  server: www.visa.com
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_4|15.6MB/s|0%|GPT⁺|GM|YT|TK-TW|X|[广播|机房]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26004
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇫🇷FR²_3|3.2MB/s|0%|GPT|X|Succeed
+  password: ""
+  port: 1080
+  server: 185.194.217.97
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇿KZ²_2|3.0MB/s|GPT⁺|X|History|[广播|商宽]
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: 00684d2eae2cdd16
+  server: 5.101.36.153
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
+- name: 🇰🇷KR²_3|1.1MB/s|5%|GPT⁺|GM|X|Succeed
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: Og%3D%3D
+- country: 🇭🇰 HK
+  name: 🇭🇰HK²_5|11.4MB/s|1%|YT-CN|NF|D+|X|History|[原生|住宅]
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.124
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇳🇱NL²_2|5.5MB/s|GPT⁺|X|History
+  password: ""
+  port: 1080
+  server: 161.35.82.57
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_6|12.2MB/s|1%|YT-CN|D+|X|[原生|住宅]
+  password: 4843e94d205f3893f588255a591abe94
+  port: 443
+  server: 58.152.18.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇮FI²_6|7.0MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+  ws-opts:
+    headers:
+      Host: welcomtofreeboarders.com
+    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
+- country: 🇫🇷FR
+  name: 🇫🇷FR²_4|5.6MB/s|1%|GPT⁺|X|Succeed|[广播|机房]
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.36.202.63
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  delay: 537
+  encryption: none
+  name: 🇭🇰HK¹-US⁰_9|9.8MB/s|YT|D+|X|History
+  network: ws
+  port: 2096
+  server: saas.sin.fan
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- country: 🇭🇰HK
+  name: 🇹🇼TW²_2|12.9MB/s|3%|GPT⁺|GM|YT|TK|D+|X|[广播|商宽]
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26005
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  delay: 1997
+  name: 🇭🇰HK¹-US⁰_10|5.9MB/s|4%|GPT|YT|D+|X|History
+  network: ws
+  port: 2096
+  server: vip1.kaixincloud.top
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  delay: 438
+  encryption: none
+  name: 🇭🇰HK¹-KR⁰_5|6.4MB/s|4%|GPT⁺|YT|NF|D+|X|History
+  network: ws
+  port: 443
+  server: staticdelivery.nexusmods.com
+  servername: kb.as129394.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: kb.as129394.me
+    max-early-data: 2560
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺RU²_3|5.1MB/s|0%|GPT|X|[广播|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
+    short-id: aabbccdd
+  server: 176.125.240.166
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 002accb526534fcab24a72b0ea1cff59
+- cipher: chacha20-ietf-poly1305
+  country: 🇮🇱IL
+  name: 🇮🇱IL²_1|1.0MB/s|37%|GPT⁺|X|[广播|机房]
+  password: 317f13c5c2ebdea3
+  port: 11201
+  server: 5.188.227.18
+  type: ss
+- client-fingerprint: chrome
+  delay: 699
+  encryption: none
+  name: 🇭🇰HK¹-US⁰_11|10.1MB/s|GPT|X|History
+  network: ws
+  port: 443
+  server: 104.18.45.223
+  servername: sni.meibidi.pp.ua
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: sni.meibidi.pp.ua
+    max-early-data: 2560
+    path: /
+- name: 🇹🇼TW²_3|4.6MB/s|GPT⁺|GM|YT|D+|X|History|[原生|住宅]
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇭🇰HK²_7|1.2MB/s|1%|YT|D+|X|Succeed
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.246
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US¹⁺_9|1.7MB/s|GPT|YT|D+|X|Succeed|[广播|机房]
   network: ws
   port: 443
   server: 104.18.185.26
@@ -315,729 +982,9 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /?ed=2560
   xudp: true
-- cipher: aes-256-gcm
-  country: 🇭🇰 HK
-  name: 🏴‍☠_2Relay_🇭🇰 HK-🇯🇵JP_352|11.3MB/s|X
-  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
-  port: 15099
-  server: ss.026.node-for-bigairport.win
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_5|1.5MB/s|GPT|GM|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.33
-  type: ss
-- client-fingerprint: chrome
-  delay: 1610
-  encryption: none
-  name: 🇭🇰HK¹-US⁰_2|7.1MB/s|4%|GPT|X|History|[原生|机房]
-  network: ws
-  port: 443
-  server: 104.18.185.26
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- name: 🏴‍☠_388.216.215.144:9083-01|0.6MB/s|X
-  password: ""
-  port: 9083
-  server: 88.216.215.144
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇩🇪DE²_2|2.6MB/s|GPT|X|History
-  port: 1080
-  server: 193.233.254.7
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- name: 🇸🇬SG²_2|2.7MB/s|4%|GPT⁺|GM|X|Succeed
-  password: ""
-  port: 10808
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  name: 🇭🇰HK¹-US⁰_3|16.4MB/s|YT|NF|D+|X|History
-  network: ws
-  port: 443
-  server: 104.16.250.22
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- name: 🇭🇰HK¹-US⁰_4|17.9MB/s|4%|GPT|NF|D+|X|Succeed
-  network: ws
-  port: 8443
-  server: 104.19.150.163
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 🇫🇮FI²_3|6.9MB/s|7%|GPT⁺|YT-US|X|History|[广播|机房]
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇺🇸US²_1|5.5MB/s|0%|GPT⁺|D+|X|Succeed|[广播|机房]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: 15affa0af66dfc79
-  server: 158.160.53.57
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d29bd40-5f23-4024-aab6-17258cd55a7e
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_6|0.8MB/s|GPT⁺|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.147
-  type: ss
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_3|7.5MB/s|1%|YT|D+|X|History
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_7|2.2MB/s|GPT⁺|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.148
-  type: ss
-- country: 🇫🇷FR
-  name: 🇫🇷FR²_3|5.8MB/s|1%|GPT⁺|X|[广播|机房]
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.36.202.63
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_4|1.2MB/s|1%|YT|NF|D+|X|Succeed
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.246
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: 🇭🇰HK¹-US⁰_5|17.3MB/s|GPT|X|History
-  network: ws
-  port: 443
-  server: v2.dabache.top
-  servername: sni.meibidi.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇦🇹AT²_1|6.8MB/s|20%|GPT⁺|YT-DE|TK|NF|D+|X|Succeed|[广播|机房]
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  server: 152.53.48.237
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇮🇳IN²_1|1.5MB/s|X|Succeed|[广播|机房]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: c7e42004e5f024be
-  server: 95.174.92.156
-  servername: sun6-21.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇫🇮FI²_4|7.2MB/s|7%|GPT⁺|YT-US|X|History|[广播|机房]
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  servername: welcomtofreeboarders.com
-  tls: false
-  type: vless
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-    path: /ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-- name: 🇫🇷FR²_4|2.3MB/s|GPT⁺|X|History
-  password: ""
-  port: 1080
-  server: 185.194.217.97
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🏴‍☠_4116.105.17.2:9191|0.7MB/s|X
-  password: ""
-  port: 9191
-  server: 116.105.17.2
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL²_3|2.9MB/s|0%|GPT⁺|X|Succeed|[广播|商宽]
-  network: tcp
-  port: 56824
-  reality-opts:
-    public-key: Gpzl6U5r_tIq-xIGyXhzT37vIDsZW6Vot6XL1sH6lVM
-    short-id: aabbccdd
-  server: nl11.odavpn.online
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: af1a9622-5deb-480c-8539-d8763f59e012
-- name: 🇫🇮FI²_5|6.1MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  type: vless
-  udp: true
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-  xudp: true
-- country: 🇧🇪BE
-  name: 🇸🇬SG²_3|10.8MB/s|GPT⁺|YT-CN|TK|X|[广播|商宽]
-  password: BxceQaOe
-  port: 3127
-  server: 57.180.20.143
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇺🇸US²_2|5.3MB/s|GPT⁺|X|History
-  password: ""
-  port: 1080
-  server: 174.138.61.184
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_8|3.2MB/s|GPT⁺|YT-US|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.176
-  type: ss
-- name: 🇭🇰HK¹-US⁰_6|17.2MB/s|GPT|YT|D+|X|Succeed
-  network: ws
-  port: 443
-  server: 104.17.25.173
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- name: 🇭🇰HK¹-US⁰_7|15.8MB/s|GPT|NF|X|Succeed
-  network: ws
-  port: 443
-  server: 104.18.45.223
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- name: 🇧🇬BG²_1|0.6MB/s|4%|GPT|X|History
-  password: ""
-  port: 8080
-  server: 192.145.31.160
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK¹⁺_1|4.3MB/s|0%|YT|D+|X|Succeed|[广播|机房]
-  network: ws
-  port: 443
-  server: 154.21.201.83
-  servername: hk.nbee.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-  ws-opts:
-    headers:
-      HOST: hk.nbee.pp.ua
-    path: /aa
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_9|2.8MB/s|GPT⁺|X
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.142
-  type: ss
-- name: 🇭🇰HK¹-US⁰_8|2.2MB/s|4%|GPT|YT|D+|X|History|[广播|机房]
-  network: ws
-  port: 443
-  server: 68.64.176.135
-  servername: sni.meibidi.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: UpdateService
-  name: 🇷🇺RU²_1|5.7MB/s|YT|TK|X|Succeed|[原生|机房]
-  network: grpc
-  port: 2083
-  reality-opts:
-    public-key: J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ
-    short-id: 6da16b1335651b38
-  server: 95.163.209.178
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_10|2.2MB/s|GPT|GM|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.102
-  type: ss
-- client-fingerprint: chrome
-  delay: 2883
-  name: 🇺🇸US¹⁺_5|2.9MB/s|GPT⁺|GM|NF|D+|X|History|[原生|机房]
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: sni.meibidi.pp.ua
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: sni.meibidi.pp.ua
-    max-early-data: 2560
-    path: /
-- cipher: aes-256-gcm
-  country: 🇩🇪DE
-  name: 🇩🇪DE²_3|4.7MB/s|30%|GPT|X|[原生|机房]
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 213.202.208.199
-  type: ss
-- name: 🏴‍☠_5152.53.171.242:15081-01|1.2MB/s|X
-  password: ""
-  port: 15081
-  server: 152.53.171.242
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- encryption: none
-  name: 🇳🇱NL²_4|6.3MB/s|GPT⁺|TK|NF|X|History|[广播|机房]
-  network: ws
-  port: 80
-  server: 172.66.0.102
-  type: vless
-  udp: true
-  uuid: 👉👉BanV2ray👈👈
-  ws-opts:
-    headers:
-      Host: visvuev-272526281716252527717252.poshakhowdy.ir.
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK¹-KR⁰_2|15.2MB/s|4%|GPT⁺|YT|NF|D+|X|Succeed
-  network: ws
-  port: 443
-  server: vip1.kaixincloud.top
-  servername: kb.as129394.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    headers:
-      Host: kb.as129394.me
-    path: /?ed=2560
-- name: 🇩🇪DE²_4|5.5MB/s|GPT⁺|X|Succeed
-  password: ""
-  port: 1080
-  server: 161.35.31.237
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_11|1.8MB/s|GPT⁺|GM|X|Succeed
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.175
-  type: ss
-- name: 🇧🇬BG²_2|0.6MB/s|4%|GPT⁺|X
-  password: ""
-  port: 1080
-  server: 192.145.31.160
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: firefox
-  name: 🇹🇷TR²_1|4.4MB/s|GPT⁺|X|History|[广播|商宽]
-  port: 587
-  reality-opts:
-    public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-    short-id: 916e8258c4a01b02
-  server: turkiye.torprospeed.ir
-  servername: excoino.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇮FI²_6|3.8MB/s|X|History
-  network: tcp
-  port: 443
-  server: 144.31.90.215
-  servername: ficdn19.suio.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-  xudp: true
-- name: 🇦🇺AU²_1|6.1MB/s|X|Succeed
-  password: ""
-  port: 1080
-  server: 134.199.159.23
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  delay: 950
-  encryption: none
-  name: 🇺🇸US¹⁺_6|0.9MB/s|4%|GPT|GM|YT|NF|D+|X|History|[原生|机房]
-  network: ws
-  port: 443
-  server: 104.21.224.5
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_12|2.2MB/s|GPT⁺|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.124
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇮FI²_7|0.9MB/s|0%|GPT⁺|D+|X|History|[广播|机房]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: 00684d2eae2cdd16
-  server: 144.31.19.193
-  servername: st.ozone.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_13|1.3MB/s|GPT⁺|X
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.234
-  type: ss
-- name: 🇵🇱PL²_3|6.4MB/s|0%|GPT⁺|X|Succeed|[广播|商宽]
-  network: tcp
-  port: 443
-  server: plcdn13.suio.me
-  servername: plcdn13.suio.me
-  tls: true
-  type: vless
-  uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
-- name: 🇺🇸US¹⁺_7|1.3MB/s|GPT|GM|YT|NF|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_14|1.5MB/s|GPT|YT-US|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.65
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: 🇪🇸ES²_2|2.0MB/s|20%|GPT|X|[广播|机房]
-  password: GA9KzeEgvfxNrgmM
-  port: 9019
-  server: 5.188.181.201
-  type: ss
-- name: 🇩🇪DE²_5|7.8MB/s|9%|GPT⁺|X|History|[原生|机房]
-  network: ws
-  port: 2096
-  server: 25.129.197.138
-  servername: speed1.best-cloud.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
-  ws-opts:
-    headers:
-      Host: speed1.best-cloud.ir
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_15|2.2MB/s|GPT⁺|GM|YT-US|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.34
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇪🇸 ES
-  name: 🇪🇸ES²_3|1.9MB/s|20%|GPT⁺|X|History|[广播|机房]
-  password: JdmRK9gMEqFgs8nP
-  port: 9003
-  server: 5.188.181.201
-  type: ss
-- client-fingerprint: chrome
-  delay: 430
-  encryption: none
-  name: 🇺🇸US¹⁺_8|5.5MB/s|GPT|GM|YT|NF|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 443
-  server: 162.159.44.142
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
-- name: 🇧🇬BG²_3|0.5MB/s|4%|X|[广播|机房]
-  password: ""
-  port: 8888
-  server: 192.145.31.160
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇾CY²_1|1.3MB/s|20%|GPT⁺|X|[广播|机房]
-  network: tcp
-  port: 4443
-  reality-opts:
-    public-key: 5XB_N3ATilH-6tp_MXht-84_y5YaJnx_Z7MbuY2otHE
-    short-id: aa7e96542880027a
-  server: 5.180.24.11
-  servername: github.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3f688b2a-373a-4be1-846d-b159404b73b2
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇺🇸US¹-KR⁰_1|2.0MB/s|GPT|GM|NF|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 443
-  server: vip2.kaixincloud.top
-  servername: kb.as129394.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
-  ws-opts:
-    headers:
-      Host: kb.as129394.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇰🇿KZ²_2|4.6MB/s|0%|GPT⁺|X|History
-  port: 443
-  reality-opts:
-    public-key: rmjxUM7tGXK1tCx9DN6LujbEflBHixsg8oTsVrdTrDM
-    short-id: a28842ab2911096b
-  server: kz.fasti.win
-  servername: kz.fasti.win
-  tls: true
-  type: vless
-  uuid: 0d93b787-b66b-4696-a036-a0f549764f69
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇦🇹AT²_2|7.0MB/s|20%|GPT⁺|YT-DE|TK|NF|D+|X|Succeed|[广播|机房]
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  server: 152.53.51.24
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇦🇹AT²_3|7.3MB/s|20%|GPT⁺|YT-DE|TK|NF|D+|X|Succeed|[广播|机房]
-  network: grpc
-  port: 22955
-  reality-opts:
-    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
-    short-id: 6ba85179e30d4fc2
-  server: 152.53.51.29
-  servername: one-piece.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
-  xudp: true
-- name: 🇫🇮FI²_8|6.5MB/s|7%|GPT⁺|YT-US|X|Succeed|[广播|机房]
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
-  ws-opts:
-    headers:
-      Host: welcomtofreeboarders.com
-    path: ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US¹⁺_9|0.7MB/s|GPT|GM|YT|TK|NF|D+|X|History|[原生|机房]
+  name: 🇺🇸US¹⁺_10|13.8MB/s|GM|YT|TK|D+|X|Succeed|[原生|机房]
   network: ws
   port: 443
   server: 162.159.16.63
@@ -1052,61 +999,11 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /?ed=2560
   xudp: true
-- cipher: rc4-md5
-  country: 🇺🇸US
-  name: 🇦🇪AE²_1|1.0MB/s|23%|GPT⁺|YT|TK|X|History|[广播|机房]
-  password: b13c4c021cec2c0b
-  port: 11201
-  server: 154.90.55.15
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK¹⁺_2|9.6MB/s|0%|D+|X|[广播|机房]
+- client-fingerprint: chrome
+  name: 🇭🇰HK¹-KR⁰_6|1.1MB/s|GPT⁺|YT|D+|X
   network: ws
   port: 443
-  server: 104.19.61.72
-  servername: hk.nbee.pp.ua
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e
-  ws-opts:
-    headers:
-      HOST: hk.nbee.pp.ua
-    path: /aa
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_16|1.6MB/s|GPT⁺|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.238
-  type: ss
-- name: 🇰🇷KR²_2|2.2MB/s|5%|GPT⁺|GM|X|History
-  port: 1090
-  server: 121.169.46.116
-  type: socks5
-  username: Og%3D%3D
-- name: 🇭🇰HK¹-US⁰_9|13.7MB/s|4%|GPT|GM|YT|D+|X|History|[原生|机房]
-  network: ws
-  port: 2096
-  server: 108.162.198.24
-  servername: sni.meibidi.pp.ua
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  ws-opts:
-    headers:
-      Host: sni.meibidi.pp.ua
-    path: /?ed=2560
-- name: 🇭🇰HK¹-KR⁰_3|12.6MB/s|4%|GPT⁺|YT|NF|D+|X|Succeed
-  network: ws
-  port: 443
-  server: staticdelivery.nexusmods.com
+  server: vip3.kaixincloud.top
   servername: kb.as129394.me
   tls: true
   type: vless
@@ -1116,38 +1013,96 @@ proxies:
     headers:
       Host: kb.as129394.me
     path: /?ed=2560
-- country: 🇯🇵JP
-  name: 🇯🇵JP²_1|2.7MB/s|0%|GPT⁺|YT-CN|TK|X|[原生|住宅拨号]
-  password: BxceQaOe
-  port: 2595
-  server: 52.195.11.229
+- encryption: none
+  name: 🇳🇱NL²_3|7.0MB/s|GPT⁺|TK|NF|X|Succeed|[广播|机房]
+  network: ws
+  port: 80
+  server: 172.66.0.102
+  type: vless
+  udp: true
+  uuid: 👉👉BanV2ray👈👈
+  ws-opts:
+    headers:
+      Host: visvuev-272526281716252527717252.poshakhowdy.ir.
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇦🇹AT²_2|6.7MB/s|20%|GPT⁺|YT-DE|TK|NF|D+|X|Succeed|[广播|机房]
+  network: grpc
+  port: 22955
+  reality-opts:
+    public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+    short-id: 6ba85179e30d4fc2
+  server: 152.53.48.237
+  servername: one-piece.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+  xudp: true
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_8|13.8MB/s|0%|GPT⁺|GM|YT|X
+  password: d0d61b6f-4a87-4a73-80cc-4bab641abfc9
+  port: 26003
+  server: f4d7f1c2f3b80976a5e2c1d4b3f0f321.358.onl
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: www.bilibili.com
   tls: true
   type: trojan
   udp: true
-- name: 🇧🇬BG²_4|0.5MB/s|4%|X|History
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇳IN²_3|3.9MB/s|X|Succeed|[广播|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: c7e42004e5f024be
+  server: 95.174.92.156
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
+  xudp: true
+- name: 🇺🇸US²_3|4.5MB/s|GPT⁺|X|Succeed
   password: ""
-  port: 4145
-  server: 192.145.31.160
+  port: 1080
+  server: 174.138.61.184
   skip-cert-verify: true
   type: socks5
   username: ""
 - client-fingerprint: chrome
-  delay: 1384
   encryption: none
-  name: 🇺🇸US¹⁺_10|1.6MB/s|4%|GPT⁺|GM|YT|TK|D+|X|Succeed
+  name: 🇭🇰HK¹-US⁰_12|4.2MB/s|GPT|YT|D+|X|Succeed
   network: ws
   port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  server: v2.dabache.top
+  servername: sni.meibidi.pp.ua
   tls: true
   type: vless
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
+      Host: sni.meibidi.pp.ua
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: 🇭🇰HK¹-US⁰_13|1.9MB/s|4%|GPT|YT|D+|X|Succeed|[广播|机房]
+  network: ws
+  port: 443
+  server: 68.64.176.135
+  servername: sni.meibidi.pp.ua
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  ws-opts:
+    headers:
+      Host: sni.meibidi.pp.ua
+    path: /?ed=2560
