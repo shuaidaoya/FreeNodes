@@ -1,69 +1,53 @@
 proxies:
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP²_1|2.8MB/s|0%|GPT⁺|X|[广播|机房]"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: 2da72ce6
-    server: 154.31.114.125
-    tls: true
-    type: vless
-    udp: true
-    uuid: 505ef73e-daa5-4ff7-ac66-91770cb31dd4
-    servername: navi.bankrate.com
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1ED\U0001F1F0HK²_1|1.5MB/s|GPT|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.247
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_1|5.0MB/s|0%|X|History"
+    password: asd123456
+    port: 8388
+    server: 103.149.183.200
     type: ss
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP²_2|0.9MB/s|0%|GPT⁺|X"
-    network: tcp
+    delay: 1610
+    encryption: none
+    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|3.2MB/s|GPT|YT|D+|X|History"
+    network: ws
     port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: 2da72ce6
-    server: 154.31.114.125
+    server: 104.18.185.26
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: l.ayovo.netlib.re
+      max-early-data: 2560
+      path: /
+    servername: l.ayovo.netlib.re
+  - alpn:
+      - h3
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_1|2.6MB/s|X|History"
+    network: ws
+    port: 443
+    server: 192.0.54.34
     tls: true
     type: vless
     udp: true
-    uuid: 03c766ab-6537-4752-8211-51d575d3a9be
-    servername: navi.bankrate.com
-  - name: "\U0001F1F0\U0001F1F7KR²_1|1.9MB/s|GPT⁺|GM|X|History"
-    port: 1090
-    server: 121.169.46.116
-    tls: false
-    type: socks5
-    username: Og%3D%3D
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E9\U0001F1EADE²_1|0.9MB/s|0%|D+|X|Succeed"
-    network: tcp
-    port: 10100
-    reality-opts:
-      public-key: 2zN5MhusgST2q3NBD1gglc6xTaoTPP9Tmjb9k374QCw
-      short-id: ''
-    server: gcre.segstar.info
-    tls: true
-    type: vless
-    udp: true
-    uuid: '@SEGVPN'
+    uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
+    ws-opts:
+      headers:
+        Host: cErT.sHakHle.iR
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.143 Safari/537.36
+      path: >-
+        /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
     xudp: true
-    servername: refersion.com
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1E8\U0001F1F3CN"
-    name: "\U0001F1ED\U0001F1F0HK²_2|6.4MB/s|3%|GPT⁺|NF|X"
-    password: 66f89621-49f0-4788-85ce-f9a62537a8e4
-    port: 47706
-    server: hk16.network-cdn-gw-yd.net
-    type: ss
+    servername: cErT.sHakHle.iR
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
