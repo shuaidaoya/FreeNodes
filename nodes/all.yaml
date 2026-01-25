@@ -1,15 +1,25 @@
 proxies:
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: 🇭🇰HK²_1|5.0MB/s|0%|X|History
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇭🇰HK¹-US⁰_1|1.1MB/s|GPT|X|History
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2560
+  xudp: true
 - client-fingerprint: chrome
   delay: 1610
   encryption: none
-  name: 🇭🇰HK¹-US⁰_1|3.2MB/s|GPT|YT|D+|X|History
+  name: 🇭🇰HK¹-US⁰_2|9.2MB/s|X|Succeed
   network: ws
   port: 443
   server: 104.18.185.26
@@ -24,24 +34,10 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE²_1|2.6MB/s|X|History
-  network: ws
-  port: 443
-  server: 192.0.54.34
-  servername: cErT.sHakHle.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 96dd3618-ae4e-4a9d-89f9-5316296d7814
-  ws-opts:
-    headers:
-      Host: cErT.sHakHle.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.143 Safari/537.36
-    path: /?ed=1024/?TELEGRAM--BYA--CHANEL----@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN
-  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_1|0.6MB/s|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.49
+  type: ss
