@@ -1,45 +1,8 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_1|2.2MB/s|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.43
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_1|12.8MB/s|GPT|YT|D+|X
-  network: tcp
-  port: 40770
-  server: 151.242.180.6
-  skip-cert-verify: true
-  type: vmess
-  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇫🇷FR²_1|1.4MB/s|GPT|X
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: fr.uploadsho.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 938f3d53-66b0-4d54-b518-287c27bf1ef0
-  ws-opts:
-    headers:
-      Host: fr.uploadsho.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /upload/?ed=2560
-  xudp: true
 - client-fingerprint: chrome
   delay: 731
   encryption: none
-  name: 🇺🇸US¹⁺_1|0.9MB/s|X|History
+  name: 🇺🇸US¹⁺_1|2.7MB/s|GPT|X|History
   network: ws
   port: 443
   server: 162.159.44.142
@@ -54,102 +17,71 @@ proxies:
       Host: l.ayovo.netlib.re
     max-early-data: 2560
     path: /x-aniu/
-- cipher: chacha20-ietf-poly1305
-  country: 🇬🇧GB
-  name: 🇳🇱NL²_1|1.4MB/s|100%|GPT⁺|NF|X
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.82
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: 🇭🇰HK²_1|4.9MB/s|0%|NF|X|History
-  password: asd123456
-  port: 8388
-  server: 103.149.183.200
-  type: ss
-- name: 🇺🇸US¹⁺_2|1.0MB/s|NF|X|History
-  network: ws
+- name: 🇭🇰HK²_1|0.6MB/s|X
+  password: BxceQaOe
   port: 443
-  server: 162.159.16.63
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
-- name: 🇺🇸US¹⁺_3|0.5MB/s|GPT|X|History
-  network: ws
-  port: 443
-  server: 162.159.45.232
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  country: 🇮🇷IR
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_2|14.2MB/s|0%|X
-  network: tcp
-  port: 48389
-  server: 151.242.183.86
+  server: 219.76.135.98
   skip-cert-verify: true
-  type: vmess
-  uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-- cipher: aes-256-cfb
-  name: 🇻🇳VN²_2|3.2MB/s|X
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.229
-  type: ss
-  udp: true
-- name: 🇭🇰HK¹-US⁰_1|15.4MB/s|X|Succeed
-  network: ws
-  port: 443
-  server: 104.16.250.22
-  servername: l.ayovo.netlib.re
-  skip-cert-verify: false
+  sni: t.me%252Fripaojiedian
   tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /x-aniu/?ed=2560
+  type: trojan
 - client-fingerprint: chrome
-  delay: 1943
-  name: 🇭🇰HK¹-US⁰_2|8.7MB/s|YT|D+|X|History
+  encryption: none
+  name: 🇭🇰HK¹-SG⁰_1|5.5MB/s|YT|X
   network: ws
   port: 443
-  server: 104.16.147.32
-  servername: l.ayovo.netlib.re
+  server: 172.64.152.23
+  servername: afsbconfessout.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: l.ayovo.netlib.re
-    max-early-data: 2560
-    path: /
+      Host: afsbconfessout.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /213.35.100.31=47112
+  xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 🇻🇳VN²_3|1.8MB/s|X|History
+  name: 🇻🇳VN²_1|1.1MB/s|GPT⁺|GM|YT|X|History
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.22
+  server: 103.186.155.233
   type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_2|2.3MB/s|GPT⁺|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.4
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_3|2.0MB/s|GPT|GM|YT|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.38
+  type: ss
+- name: 🇰🇷KR²_1|10.9MB/s|YT|X|History
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: 🇰🇷KR²_2|1.1MB/s|GPT|GM|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
+- name: 🏴‍☠_1213.35.110.67:10864|12.1MB/s|X
+  password: ""
+  port: 10864
+  server: 213.35.110.67
+  skip-cert-verify: true
+  type: socks5
+  username: ""

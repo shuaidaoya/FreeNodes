@@ -1,50 +1,8 @@
 proxies:
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|2.2MB/s|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.43
-    type: ss
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EF\U0001F1F5JP²_1|12.8MB/s|GPT|YT|D+|X"
-    network: tcp
-    port: 40770
-    server: 151.242.180.6
-    skip-cert-verify: true
-    type: vmess
-    uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
-    client-fingerprint: chrome
-  - alpn:
-      - http/1.1
-    client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1F7FR²_1|1.4MB/s|GPT|X"
-    network: ws
-    port: 443
-    server: 188.114.98.0
-    tls: true
-    type: vless
-    udp: true
-    uuid: 938f3d53-66b0-4d54-b518-287c27bf1ef0
-    ws-opts:
-      headers:
-        Host: fr.uploadsho.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/36.0.1985.125 Safari/537.36
-      path: /upload/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: fr.uploadsho.com
   - client-fingerprint: chrome
     delay: 731
     encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|0.9MB/s|X|History"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|2.7MB/s|GPT|X|History"
     network: ws
     port: 443
     server: 162.159.44.142
@@ -59,115 +17,78 @@ proxies:
       max-early-data: 2560
       path: /x-aniu/
     servername: l.ayovo.netlib.re
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EC\U0001F1E7GB"
-    name: "\U0001F1F3\U0001F1F1NL²_1|1.4MB/s|100%|GPT⁺|NF|X"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.82
-    type: ss
-  - cipher: chacha20-ietf
-    country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_1|4.9MB/s|0%|NF|X|History"
-    password: asd123456
-    port: 8388
-    server: 103.149.183.200
-    type: ss
-  - name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.0MB/s|NF|X|History"
-    network: ws
+  - name: "\U0001F1ED\U0001F1F0HK²_1|0.6MB/s|X"
+    password: BxceQaOe
     port: 443
-    server: 162.159.16.63
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-      path: /x-aniu/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    client-fingerprint: chrome
-    servername: l.ayovo.netlib.re
-  - name: "\U0001F1FA\U0001F1F8US¹⁺_3|0.5MB/s|GPT|X|History"
-    network: ws
-    port: 443
-    server: 162.159.45.232
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    client-fingerprint: chrome
-    servername: l.ayovo.netlib.re
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EE\U0001F1F7IR"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1ED\U0001F1F0HK²_2|14.2MB/s|0%|X"
-    network: tcp
-    port: 48389
-    server: 151.242.183.86
+    server: 219.76.135.98
     skip-cert-verify: true
-    type: vmess
-    uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+    sni: t.me%252Fripaojiedian
+    type: trojan
+    network: tcp
     client-fingerprint: chrome
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN²_2|3.2MB/s|X"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.229
-    type: ss
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|15.4MB/s|X|Succeed"
-    network: ws
-    port: 443
-    server: 104.16.250.22
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-      path: /x-aniu/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    client-fingerprint: chrome
-    servername: l.ayovo.netlib.re
   - client-fingerprint: chrome
-    delay: 1943
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_2|8.7MB/s|YT|D+|X|History"
+    encryption: none
+    name: "\U0001F1ED\U0001F1F0HK¹-SG⁰_1|5.5MB/s|YT|X"
     network: ws
     port: 443
-    server: 104.16.147.32
+    server: 172.64.152.23
     tls: true
     type: vless
     udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    uuid: 0fb80493-c5e6-4ce1-ad46-b715521bc8d3
     ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
       headers:
-        Host: l.ayovo.netlib.re
-      max-early-data: 2560
-      path: /
-    servername: l.ayovo.netlib.re
+        Host: afsbconfessout.qzz.io
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /213.35.100.31=47112
+    xudp: true
+    servername: afsbconfessout.qzz.io
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|1.8MB/s|X|History"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.1MB/s|GPT⁺|GM|YT|X|History"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.22
+    server: 103.186.155.233
     type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|2.3MB/s|GPT⁺|X|History"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.4
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|2.0MB/s|GPT|GM|YT|X|History"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.38
+    type: ss
+  - name: "\U0001F1F0\U0001F1F7KR²_1|10.9MB/s|YT|X|History"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - name: "\U0001F1F0\U0001F1F7KR²_2|1.1MB/s|GPT|GM|X|History"
+    port: 1090
+    server: 121.169.46.116
+    tls: false
+    type: socks5
+    username: T2clM0QlM0Q6
+  - name: "\U0001F3F4‍☠_1213.35.110.67:10864|12.1MB/s|X"
+    password: ''
+    port: 10864
+    server: 213.35.110.67
+    skip-cert-verify: true
+    type: socks5
+    username: ''
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
