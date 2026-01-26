@@ -1,18 +1,53 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EC\U0001F1E7 GB"
-    name: "\U0001F1EC\U0001F1E7GB²_1|5.8MB/s|0%|GPT⁺|TK|X|[广播|机房]"
-    password: W74XFALLLuw6m5IA
-    port: 443
-    server: series-a2.samanehha.co
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|2.2MB/s|X|History"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.43
     type: ss
-  - client-fingerprint: chrome
-    delay: 420
-    encryption: none
-    name: "\U0001F3F4‍☠_1\U0001F1FA\U0001F1F8US¹⁺_5|5.4MB/s-HK|[原生|机房]|0.7MB/s|X|History"
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EE\U0001F1F7IR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EF\U0001F1F5JP²_1|12.8MB/s|GPT|YT|D+|X"
+    network: tcp
+    port: 40770
+    server: 151.242.180.6
+    skip-cert-verify: true
+    type: vmess
+    uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+    client-fingerprint: chrome
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    name: "\U0001F1EB\U0001F1F7FR²_1|1.4MB/s|GPT|X"
     network: ws
     port: 443
-    server: 162.159.16.63
+    server: 188.114.98.0
+    tls: true
+    type: vless
+    udp: true
+    uuid: 938f3d53-66b0-4d54-b518-287c27bf1ef0
+    ws-opts:
+      headers:
+        Host: fr.uploadsho.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/36.0.1985.125 Safari/537.36
+      path: /upload/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: fr.uploadsho.com
+  - client-fingerprint: chrome
+    delay: 731
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|0.9MB/s|X|History"
+    network: ws
+    port: 443
+    server: 162.159.44.142
     skip-cert-verify: false
     tls: true
     type: vless
@@ -22,9 +57,77 @@ proxies:
       headers:
         Host: l.ayovo.netlib.re
       max-early-data: 2560
-      path: /
+      path: /x-aniu/
     servername: l.ayovo.netlib.re
-  - name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|2.4MB/s|4%|GPT|YT|D+|X|History"
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1EC\U0001F1E7GB"
+    name: "\U0001F1F3\U0001F1F1NL²_1|1.4MB/s|100%|GPT⁺|NF|X"
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    port: 8080
+    server: 82.38.31.82
+    type: ss
+  - cipher: chacha20-ietf
+    country: "\U0001F1ED\U0001F1F0 HK"
+    name: "\U0001F1ED\U0001F1F0HK²_1|4.9MB/s|0%|NF|X|History"
+    password: asd123456
+    port: 8388
+    server: 103.149.183.200
+    type: ss
+  - name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.0MB/s|NF|X|History"
+    network: ws
+    port: 443
+    server: 162.159.16.63
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers:
+        Host: l.ayovo.netlib.re
+      path: /x-aniu/
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    client-fingerprint: chrome
+    servername: l.ayovo.netlib.re
+  - name: "\U0001F1FA\U0001F1F8US¹⁺_3|0.5MB/s|GPT|X|History"
+    network: ws
+    port: 443
+    server: 162.159.45.232
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    ws-opts:
+      headers:
+        Host: l.ayovo.netlib.re
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    client-fingerprint: chrome
+    servername: l.ayovo.netlib.re
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EE\U0001F1F7IR"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_2|14.2MB/s|0%|X"
+    network: tcp
+    port: 48389
+    server: 151.242.183.86
+    skip-cert-verify: true
+    type: vmess
+    uuid: 66f7cab7-866d-4c6b-8a08-5c1d6de58e7e
+    client-fingerprint: chrome
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN²_2|3.2MB/s|X"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.229
+    type: ss
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|15.4MB/s|X|Succeed"
     network: ws
     port: 443
     server: 104.16.250.22
@@ -42,36 +145,14 @@ proxies:
     client-fingerprint: chrome
     servername: l.ayovo.netlib.re
   - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_2|4.9MB/s|D+|X|History"
+    delay: 1943
+    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_2|8.7MB/s|YT|D+|X|History"
     network: ws
     port: 443
-    server: 162.159.16.63
+    server: 104.16.147.32
     tls: true
     type: vless
     udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    xudp: true
-    servername: l.ayovo.netlib.re
-  - client-fingerprint: chrome
-    delay: 1610
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|3.6MB/s|YT-HK|X|History"
-    network: ws
-    port: 443
-    server: 104.18.185.26
-    skip-cert-verify: false
-    tls: true
-    type: vless
     uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
     ws-opts:
       early-data-header-name: Sec-WebSocket-Protocol
@@ -81,25 +162,11 @@ proxies:
       path: /
     servername: l.ayovo.netlib.re
   - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|0.7MB/s|GPT|X|Succeed"
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|1.8MB/s|X|History"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.247
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1E9\U0001F1EADE²_1|5.2MB/s|GPT|D+|X"
-    password: nodes-b211f28a
-    port: 990
-    server: node-de-1.v2sv.top
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1FA\U0001F1F8US"
-    name: "\U0001F1EC\U0001F1E7GB²_2|5.6MB/s|0%|GPT⁺|X|[广播|机房]"
-    password: W74XFALLLuw6m5IA
-    port: 443
-    server: series-a1.samanehha.co
+    server: 103.186.155.22
     type: ss
 proxy-groups:
   - name: "\U0001F680 节点选择"
