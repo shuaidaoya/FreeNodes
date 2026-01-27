@@ -1,277 +1,43 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇭🇰HK¹-US⁰_1|16.1MB/s|5%|GPT|YT|NF|D+|X|[广播|机房]
-  network: ws
-  port: 443
-  server: 172.64.152.23
-  servername: l.ayovo.netlib.re
+- country: 🇺🇸US
+  name: 🇯🇵JP²_1|12.8MB/s|0%|GPT⁺|GM|YT|NF|X|[原生|住宅拨号]
+  password: BxceQaOe
+  port: 2595
+  server: 13.158.129.83
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- client-fingerprint: random
-  name: 🇺🇸US¹⁺_1|13.2MB/s|5%|GPT|D+|X
-  network: ws
-  port: 443
-  server: 8.35.211.198
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  name: 🇭🇰HK¹-US⁰_2|13.0MB/s|YT-US|X
-  network: ws
-  port: 443
-  server: mfa.gov.ua
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB¹-US⁰_1|4.2MB/s|5%|X|History
-  network: ws
-  port: 443
-  server: cloudflare.182682.xyz
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_1|2.4MB/s|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.242
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_2|0.5MB/s|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.38
-  type: ss
-- name: 🇸🇬SG²_1|12.1MB/s|GPT|X|History
+- name: 🇸🇬SG²_1|5.8MB/s|4%|X|History
   password: ""
-  port: 10808
+  port: 10809
   server: 213.35.110.67
   skip-cert-verify: true
   type: socks5
   username: ""
-- name: 🇩🇪DE²_1|6.5MB/s|8%|GPT⁺|X
-  network: ws
-  port: 8880
-  server: dns1.turboo-server.space
-  type: vless
-  udp: true
-  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
-  ws-opts:
-    headers:
-      Host: turboo.turbooo-server.com
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /turboo
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇫🇮FI²_1|2.1MB/s|0%|GPT⁺|X
-  network: tcp
-  port: 47539
-  reality-opts:
-    public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
-    short-id: 82a55f31981ea6be
-  server: 178.17.53.28
-  servername: yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
-  xudp: true
-- name: 🇸🇬SG²_2|4.0MB/s|GPT⁺|X
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 3901
-  server: 160.16.87.174
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-- name: 🏴‍☠_1🇸🇬SG²_12|1.2MB/s|12.4MB/s|X|History
-  password: ""
-  port: 10907
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_3|0.7MB/s|GPT⁺|GM|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.40
-  type: ss
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_1|1.5MB/s|1%|D+|X
-  network: ws
-  port: 80
-  server: 28561085-t8wxs0-ta00rd-1o8ak.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 8bb68d04-6973-11ee-b518-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_2|0.6MB/s|1%|X|History
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- alterId: 2.0
-  cipher: auto
-  name: 🇭🇰HK²_3|0.7MB/s|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 384d1b42-655f-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-  xudp: true
-- name: 🇦🇺AU²_1|7.1MB/s|GPT⁺|X|History
-  password: ""
-  port: 1080
-  server: 134.199.159.23
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE²_2|1.6MB/s|0%|GPT⁺|X|History|[广播|商宽]
-  network: grpc
-  port: 2053
-  reality-opts:
-    public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
-    short-id: ""
-  server: 64.188.91.193
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
-  xudp: true
 - alpn:
+  - h3
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: 🇩🇪DE²_3|6.5MB/s|X
-  network: ws
-  port: 443
-  server: dns.turboo-server.space
-  servername: serverpro.turbooo-server.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
-  ws-opts:
-    headers:
-      Host: serverpro.turbooo-server.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /turboo-server
-  xudp: true
-- name: 🇺🇸US²_1|11.2MB/s|24%|GPT⁺|YT-RU|NF|X
-  password: 869e9086806483ca4744a4cb0f3d6e16
-  port: 5076
-  server: 18.179.118.202
-  sni: www.nintendogames.net
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_4|2.0MB/s|GPT⁺|GM|X
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.11
-  type: ss
-- country: 🇭🇰 HK
-  name: 🇭🇰HK²_4|0.8MB/s|1%|X|Succeed
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK²_5|1.0MB/s|1%|D+|X|[原生|住宅]
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 8300
-  server: 686e7463-t9lmo0-tdtx5w-au6.hkt.east.wctype.com
-  skip-cert-verify: true
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇺🇸US²_2|0.7MB/s|0%|GPT|X
+  name: 🇦🇺AU²_1|5.1MB/s|0%|GPT⁺|X|[广播|机房]
   network: tcp
-  port: 22231
-  server: u1.mizulina.top
-  servername: u1.mizulina.top
+  port: 443
+  server: vy1.sangar.net
+  servername: vy1.sangar.net
   tls: true
   type: vless
   udp: true
-  uuid: 2ad04efa-d18a-442b-875f-48d12e11d822
+  uuid: 5a9a33eb-546c-4ffa-aadc-1c75b3ac084b
   xudp: true
 - client-fingerprint: random
-  name: 🇺🇸US¹⁺_2|2.0MB/s|X
+  name: 🇺🇸US¹⁺_1|1.0MB/s|GPT|X|History
   network: ws
   port: 443
-  server: 108.162.198.38
+  server: 198.41.223.212
   servername: snip.ere.de5.net
   tls: true
   type: vless
@@ -281,13 +47,57 @@ proxies:
     headers:
       Host: snip.ere.de5.net
     path: /?ed=2560
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_1|0.7MB/s|X|History
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 443
+  server: 58.152.110.210
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇹🇼TW²_1|1.1MB/s|X
+  network: tcp
+  port: 31224
+  server: tw.yiciyuanquicken.online
+  servername: tw.yiciyuanquicken.online
+  tls: true
+  type: vmess
+  uuid: d51abb35-94a4-4529-9244-2808beaa4624
 - client-fingerprint: chrome
-  delay: 1154
-  encryption: none
-  name: 🇭🇰HK¹-US⁰_3|13.8MB/s|GPT|YT|NF|D+|X|History|[广播|机房]
+  name: 🇭🇰HK²_2|11.7MB/s|1%|D+|X|[原生|住宅]
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 8300
+  server: 609ff75c-t9lmo0-taedaq-63bp.hkt.east.wctype.com
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- name: 🇭🇰HK¹-US⁰_1|3.7MB/s|5%|YT|D+|X|History
   network: ws
   port: 443
   server: 104.16.250.22
+  servername: l.ayovo.netlib.re
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /x-aniu/?ed=2560
+- client-fingerprint: chrome
+  delay: 997
+  encryption: none
+  name: 🇭🇰HK¹-US⁰_2|8.8MB/s|X|History
+  network: ws
+  port: 443
+  server: 104.17.25.173
   servername: l.ayovo.netlib.re
   skip-cert-verify: false
   tls: true
@@ -300,54 +110,10 @@ proxies:
     max-early-data: 2560
     path: /
 - client-fingerprint: chrome
-  name: 🇭🇰HK²_6|14.6MB/s|1%|YT|NF|D+|X|[原生|住宅]
+  name: 🇭🇰HK²_3|11.4MB/s|1%|YT|NF|D+|X|Succeed|[原生|住宅]
   password: d720a490-d56b-11ef-a1cb-f23c9313b177
   port: 8300
   server: b7fd6a5e-t9lmo0-t9izwa-64gc.hkt.east.wctype.com
   skip-cert-verify: true
   type: anytls
   udp: true
-- client-fingerprint: random
-  name: 🇺🇸US¹⁺_3|2.2MB/s|5%|GPT|NF|D+|X
-  network: ws
-  port: 443
-  server: 162.159.44.228
-  servername: snip.ere.de5.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-  ws-opts:
-    headers:
-      Host: snip.ere.de5.net
-    path: /?ed=2560
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL²_1|3.1MB/s|GPT⁺|X|[广播|机房]
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: evD8WalRSfQZ19cuSjbszCdh6IhaHX1_a_GZqJ51GAs
-    short-id: ""
-  server: 146.103.98.100
-  servername: pimg.mycdn.me
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ed1ff3b-dfe6-478f-95d4-0dcdc512c1bf
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇭🇰HK¹-US⁰_4|18.1MB/s|NF|X|History|[广播|机房]
-  network: ws
-  port: 443
-  server: 104.16.250.22
-  servername: l.ayovo.netlib.re
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-  ws-opts:
-    headers:
-      Host: l.ayovo.netlib.re
-    path: /?ed=2560
