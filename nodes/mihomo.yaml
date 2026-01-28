@@ -1,28 +1,11 @@
 proxies:
-  - encryption: none
-    name: "\U0001F1E8\U0001F1E6CA²_1|1.4MB/s|31%|GPT⁺|GM|X"
-    network: ws
-    port: 80
-    server: nodejs.org
-    type: vless
-    udp: true
-    uuid: 6abc2840-25fd-4dd7-b1aa-0892fe98f2d9
-    ws-opts:
-      headers:
-        Host: MySterIOUS-chECk94Bl5oXQ6C.eCoTOUriSs.cO.uK.
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /?ed
-    xudp: true
-    client-fingerprint: chrome
   - client-fingerprint: chrome
-    delay: 1154
+    delay: 731
     encryption: none
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_1|15.2MB/s|GPT|YT|NF|D+|X|History"
+    name: "\U0001F1FA\U0001F1F8US¹⁺_1|0.7MB/s|X|History|[原生|机房]"
     network: ws
     port: 443
-    server: 104.16.250.22
+    server: 162.159.44.142
     skip-cert-verify: false
     tls: true
     type: vless
@@ -32,188 +15,102 @@ proxies:
       headers:
         Host: l.ayovo.netlib.re
       max-early-data: 2560
-      path: /
+      path: /x-aniu/
     servername: l.ayovo.netlib.re
-  - name: "\U0001F1FA\U0001F1F8US²_1|7.4MB/s|0%|GPT⁺|GM|X|[广播|商宽]"
-    password: 54faef23-3516-4131-b788-8f3853dac8fa
-    port: 43533
-    server: faq1.lieerr222.cn
-    skip-cert-verify: true
-    sni: faq1.lieerr222.cn
-    type: trojan
+  - client-fingerprint: random
+    name: "\U0001F1FA\U0001F1F8US¹⁺_2|6.5MB/s|D+|X"
+    network: ws
+    port: 443
+    server: 173.245.59.220
+    tls: true
+    type: vless
+    udp: true
+    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+    ws-opts:
+      headers:
+        Host: snip.ere.de5.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snip.ere.de5.net
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1F0\U0001F1F7KR²_1|9.3MB/s|D+|X"
+    port: 443
+    reality-opts:
+      public-key: SXqEq6ZholDwAcZRjV-E4IjCP_qUNeDcnzroQ4lwoA8
+    server: 2026.01.1.kr.aimirror.top
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: eeaa07ca-2693-42f8-e544-a16521d8e922
     network: tcp
-    client-fingerprint: chrome
+    servername: www.icloud.com
+  - client-fingerprint: random
+    name: "\U0001F1F8\U0001F1ECSG²_1|9.8MB/s|X|History"
+    network: ws
+    port: 443
+    server: 108.162.198.38
+    tls: true
+    type: vless
+    udp: true
+    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
+    ws-opts:
+      headers:
+        Host: snip.ere.de5.net
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    servername: snip.ere.de5.net
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL²_1|1.2MB/s|X"
+    network: ws
+    port: 2083
+    server: 192.200.160.9
+    tls: true
+    type: vless
+    udp: true
+    uuid: 517c776e-afbf-4749-9643-73c3ea26b905
+    ws-opts:
+      headers:
+        Host: xiz20.wizard2shop.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: /
+    xudp: true
+    servername: xiz20.wizard2shop.org
   - alterId: 0
     cipher: auto
     h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F2\U0001F1FEMY²_1|3.7MB/s|0%|GPT⁺|GM|X|History|[原生|商宽]"
-    network: none
-    port: 33651
-    server: 23.27.28.125
+    http-opts:
+      method: GET
+      path:
+        - /QQqun-737805443
+    name: "\U0001F1ED\U0001F1F0HK²_1|9.3MB/s|X|History|[原生|住宅]"
+    network: http
+    port: 52080
+    server: 61.15.60.153
     type: vmess
-    uuid: 2ef740c4-08ed-4924-a8d8-7517fc987a8a
+    uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
     client-fingerprint: chrome
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US¹⁺_1|0.8MB/s|GPT|D+|X"
-    network: ws
-    port: 443
-    server: 8.39.125.179
-    tls: true
-    type: vless
-    udp: true
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    ws-opts:
-      headers:
-        Host: snip.ere.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.ere.de5.net
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US¹⁺_2|1.9MB/s|D+|X|History"
-    network: ws
-    port: 443
-    server: 8.35.211.198
-    tls: true
-    type: vless
-    udp: true
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    ws-opts:
-      headers:
-        Host: snip.ere.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.ere.de5.net
-  - name: "\U0001F1F5\U0001F1EDPH²_1|1.6MB/s|X|History"
-    password: ''
-    port: 1080
-    server: 8.212.161.91
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG²_1|10.6MB/s|0%|GPT|X"
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1EB\U0001F1F7FR²_1|2.0MB/s|X|History"
     network: tcp
-    port: 59510
-    server: ffiw.owwoedu.com
-    tls: false
-    type: vmess
-    uuid: fd38c40b-7465-4b1d-832f-6d096d859bd2
-    client-fingerprint: chrome
-  - client-fingerprint: random
-    flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1EEFI²_1|0.5MB/s|X|History"
-    port: 8443
+    port: 3032
     reality-opts:
-      public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
-      short-id: 58c512b4422e2517
-    server: 78.153.139.68
-    tls: true
-    type: vless
-    uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
-    network: tcp
-    servername: images.apple.com
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG²_2|13.6MB/s|X"
-    network: tcp
-    port: 59510
-    server: ffiw.owwoedu.com
-    tls: false
-    type: vmess
-    uuid: fc33118c-6294-46b7-91f1-0f3a60371c8a
-    client-fingerprint: chrome
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US¹⁺_3|0.6MB/s|NF|D+|X"
-    network: ws
-    port: 443
-    server: 162.159.39.198
+      public-key: 21V_VkMUD2XRbyRDg7hjpblUAwxHvlLmbarATdhhJQI
+      short-id: ''
+    server: fr.locations-service.com
     tls: true
     type: vless
     udp: true
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    ws-opts:
-      headers:
-        Host: snip.ere.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.ere.de5.net
-  - name: "\U0001F1FA\U0001F1F8US²_2|2.9MB/s|GPT|X|[广播|商宽]"
-    password: 7b6ab433-b1da-41d0-b69a-55892d6cac4c
-    port: 43533
-    server: faq1.lieerr222.cn
-    skip-cert-verify: true
-    sni: faq1.lieerr222.cn
-    type: trojan
-    network: tcp
-    client-fingerprint: chrome
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.9MB/s|GPT|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.227
-    type: ss
-  - client-fingerprint: random
-    name: "\U0001F1FA\U0001F1F8US¹⁺_4|1.2MB/s|NF|X|Succeed"
-    network: ws
-    port: 443
-    server: 198.41.223.212
-    tls: true
-    type: vless
-    udp: true
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    ws-opts:
-      headers:
-        Host: snip.ere.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.ere.de5.net
-  - name: "\U0001F1ED\U0001F1F0HK¹-US⁰_2|4.4MB/s|D+|X|Succeed"
-    network: ws
-    port: 443
-    server: 104.16.250.22
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-    ws-opts:
-      headers:
-        Host: l.ayovo.netlib.re
-      path: /x-aniu/
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    client-fingerprint: chrome
-    servername: l.ayovo.netlib.re
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|1.4MB/s|GPT⁺|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.68
-    type: ss
-  - client-fingerprint: random
-    name: "\U0001F1ED\U0001F1F0HK¹-US⁰_3|12.5MB/s|D+|X|History"
-    network: ws
-    port: 443
-    server: staticdelivery.nexusmods.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 15235ce9-4cd2-4483-b6b6-7fc4a3f44735
-    ws-opts:
-      headers:
-        Host: snip.ere.de5.net
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: snip.ere.de5.net
+    uuid: e59083aa-d933-4952-8cf0-eec74f718705
+    xudp: true
+    servername: refersion.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
