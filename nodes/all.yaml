@@ -1,111 +1,207 @@
 proxies:
-- name: 🏴‍☠_1🇸🇬SG²_3|1.0MB/s|3.5MB/s|X|History
-  password: ""
-  port: 10907
-  server: 213.35.110.67
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  delay: 2622
-  name: 🇬🇧GB¹-SG⁰_1|0.6MB/s|D+|X|[广播|机房]
-  network: ws
-  port: 443
-  server: 172.67.194.187
-  servername: teams.live.com.afrcloud1.c01.kr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 21f9985c-d363-4eee-957f-720e9e9f9b8d
-  ws-opts:
-    headers:
-      Host: teams.live.com.afrcloud1.c01.kr
-    path: /
-- name: 🇯🇵JP²_1|1.1MB/s|29%|GPT⁺|X
-  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  port: 27233
-  server: 04e92be6-t9zts0-tbc0ig-1ssud.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-- country: 🇨🇳CN
-  name: 🇺🇸US²_1|0.7MB/s|0%|GPT⁺|GM|YT|D+|X|History
-  password: 15c914bb-a29c-40bb-acd2-e660e40a7690
-  port: 30210
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇰🇷KR²_1|1.0MB/s|GPT⁺|X
-  password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  port: 31433
-  server: 0cc5fa26-t9zts0-tbnk1n-ueq.kr.oshuawei.com
-  tls: true
-  type: http
-  username: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-- country: 🇬🇧GB
-  name: 🇯🇵JP²_2|9.0MB/s|0%|X
-  password: cfac72e0-1fec-459e-b5a7-89670abf1919
-  port: 41273
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  tls: true
-  type: trojan
-  udp: true
-- country: 🇬🇧GB
-  name: 🇭🇰HK²_1|7.5MB/s|X|Succeed
-  password: 9559228b-11f9-435d-be65-f963d8e270f8
-  port: 49213
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
-  tls: true
-  type: trojan
-  udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: 🇫🇷FR²_1|6.3MB/s|GPT|X
-  network: ws
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇳🇱NL²_1|4.8MB/s|GPT|X|[广播|机房]
+  network: tcp
   port: 443
-  server: 194.76.18.25
-  servername: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
+  reality-opts:
+    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
+    short-id: 8bcfe256cf216fd8
+  server: 91.84.109.130
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  uuid: a44e0875-210f-4941-9062-89b6361a14c6
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG²_1|0.8MB/s|0%|GPT⁺|GM|X|[原生|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bS0sniF87mp40JiHO6fEuNZmv0ZyHxu55ulj41pL038
+    short-id: 0f4dacf62201e05f
+  server: 64.120.94.73
+  servername: sg.asbndx.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 666250e3-362e-440a-b9e3-2b7794c02af8
+  xudp: true
+- country: 🇫🇷FR
+  name: 🇫🇷FR²_1|4.4MB/s|1%|GPT|X
+  password: telegram-id-directvpn
+  port: 22223
+  server: 13.38.161.110
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇫🇷FR²_2|4.1MB/s|X
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  port: 443
+  server: ca6467d1-t9zts0-tfpsin-1q3dm.fr.oshuawei.com
+  tls: true
+  type: http
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
+- name: 🇰🇷KR²_1|10.1MB/s|10%|GPT|GM|YT|NF|D+|X|History|[广播|机房]
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: 🇪🇸ES²_1|1.3MB/s|X|History
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss
+- name: 🇺🇸US²_1|11.0MB/s|GPT|YT|NF|D+|X
+  password: c357a728-1211-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
+  tls: true
+  type: http
+  username: c357a728-1211-11f0-9a65-f23c9164ca5d
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_1|1.9MB/s|GPT|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.120
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇰🇷KR²_2|6.1MB/s|X
+  password: qwerREWQ@@
+  port: 25879
+  server: 168.126.234.233
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇨🇳CN
+  name: 🇯🇵JP²_1|2.6MB/s|0%|GPT⁺|X|History
+  password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  port: 48802
+  server: jp2.network-cdn-gw-yd.net
+  type: ss
+- name: 🇰🇷KR²_3|8.1MB/s|4%|GPT|GM|X|History
+  port: 1090
+  server: 121.169.46.116
+  tls: false
+  type: socks5
+  username: T2clM0QlM0Q6
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_2|1.9MB/s|GPT⁺|YT-US|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.59
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_1|6.5MB/s|49%|GPT⁺|X|[广播|机房]
+  network: ws
+  port: 443
+  server: 208.103.161.110
+  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258bad91-733a-4e6a-96f4-11568b97c04a
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-fr-1.pArSa.dPdNs.oRg
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36
+      Host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /ws
   xudp: true
-- country: 🇨🇳CN
-  name: 🇺🇸US²_2|0.6MB/s|X
-  password: 95b4c6dc-9367-45c9-9b09-a0e51b9b1fad
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
-  sni: douyin.com
+- name: 🇭🇰HK²_1|0.5MB/s|X
+  password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+  port: 5228
+  server: 4d866649-t9zts0-tcr22d-1rsuw.cm4.oshuawei.com
   tls: true
-  type: trojan
-  udp: true
-- country: 🇨🇳CN
-  name: 🇺🇸US²_3|0.9MB/s|X
-  password: 9a9865f9-82fa-475e-a634-165f4737f6fe
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
+  type: http
+  username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
+- country: 🇫🇷FR
+  name: 🇫🇷FR²_3|0.8MB/s|1%|X
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.38.161.110
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- country: 🇨🇳CN
-  name: 🇺🇸US²_4|0.6MB/s|D+|X|History
-  password: a940d1f5-2c1a-45b7-a140-0d7653d47932
-  port: 41275
-  server: xiaozhu1.kkieo555.cn
-  skip-cert-verify: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_3|1.8MB/s|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.126
+  type: ss
+- client-fingerprint: random
+  name: 🇭🇰HK¹-US⁰_1|5.0MB/s|GPT⁺|YT|X|History
+  network: ws
+  port: 443
+  server: 172.64.144.213
+  servername: yxk.longlivecpc.dpdns.org
   tls: true
-  type: trojan
+  type: vless
   udp: true
+  uuid: 6ef1b079-e936-4c37-b4b4-8e59baf31eb8
+  ws-opts:
+    headers:
+      Host: yxk.longlivecpc.dpdns.org
+    path: /proxyip=ProxyIP.Oracle.cmliussss.net
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 🇷🇺RU²_1|0.6MB/s|GPT|X|History|[原生|机房]
+  password: nKohne07VrxB-nq43cxzs7Vu9Nnp4JXY
+  port: 504
+  server: ru1.clear-vpn.org
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_4|1.0MB/s|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.213
+  type: ss
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  alterId: "0"
+  cipher: auto
+  name: 🇫🇷FR²_4|4.5MB/s|D+|X
+  network: ws
+  port: 8443
+  server: 162.159.152.4
+  servername: frsys.fl-dl.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 19e52bf4-1b7d-4bd4-ae66-6ca024436c17
+  ws-opts:
+    headers:
+      Host: frsys.fl-dl.com
+    path: /gbt
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_5|1.1MB/s|GPT|X
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.147
+  type: ss
