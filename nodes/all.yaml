@@ -1,63 +1,217 @@
 proxies:
 - alterId: 0
   cipher: auto
+  country: 🇺🇸 US
+  http-opts: {}
+  name: 🇺🇸US²_1|2.4MB/s|0%|GM|YT|NF|D+|X|[原生|商宽]
+  network: none
+  port: 24004
+  server: 156.233.232.192
+  skip-cert-verify: true
+  type: vmess
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+  ws-opts:
+    path: /
+- alterId: "0"
+  cipher: auto
+  name: 🇩🇪DE²_1|6.6MB/s|47%|GPT⁺|YT-US|X|History|[广播|机房]
+  network: ws
+  port: 8080
+  server: tgju.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: nasnet
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    max-early-data: 2560
+    path: /nasnet/cdn
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇮🇶IQ²_1|3.6MB/s|40%|GPT⁺|TK|D+|X|[广播|机房]
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: WckOSneVajAzpH0sZSAFAWPnmwuuEXKZrTICNj5_hHU
+    short-id: 423bccc9c13fb509
+  server: 178.17.59.73
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  xudp: true
+- name: 🇳🇱NL²_1|6.7MB/s|GPT|X|History|[广播|住宅拨号]
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  udp: true
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+    path: /?ed
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_1|1.5MB/s|GPT⁺|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.31
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_2|1.2MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.27
+  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE¹⁺_1|4.6MB/s|100%|GPT⁺|X|History|[广播|机房]
+  network: tcp
+  port: 443
+  server: 20.79.160.49
+  servername: jina-207916049-direct.yektanet.co
+  tls: true
+  type: vless
+  udp: true
+  uuid: jina
+  xudp: true
+- name: 🇨🇦CA²_1|5.1MB/s|GPT⁺|X|History
+  password: ""
+  port: 1080
+  server: 143.110.217.153
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- alterId: 0
+  cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 🇸🇬SG²_1|11.6MB/s|0%|YT-CN|X|[广播|机房]
+  name: 🇸🇬SG²_1|17.9MB/s|0%|YT-CN|X|[广播|机房]
   network: ws
   port: 12901
   server: gtm1.ktmwan.net
   type: vmess
   udp: true
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- name: 🇭🇰HK²_1|3.9MB/s|0%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_3|2.2MB/s|GPT⁺|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.124
+  type: ss
+- name: 🇭🇰HK²_1|10.2MB/s|D+|X|Succeed|[原生|住宅]
+  password: <password>
+  port: 8443
+  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
   tls: true
-  type: trojan
+  type: http
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
 - client-fingerprint: chrome
-  name: 🇩🇪DE¹-CA⁰_1|5.0MB/s|D+|X|[广播|机房]
-  network: ws
-  port: 443
-  server: 77.221.140.170
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: false
+  encryption: none
+  name: 🇵🇱PL²_1|5.7MB/s|6%|GPT⁺|X|[广播|商宽]
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: a1xQOijfR3NuJRVfCNfNr4YMdcb7eqsKpvhuv-Gs9l8
+    short-id: "6670"
+  server: 37.139.42.234
+  servername: www.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 8def6a24-8bd8-4e7d-82ec-938412cae499
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇷🇺RU²_1|5.4MB/s|YT|X|[原生|机房]
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ
+    short-id: 8bd29483ded126b4
+  server: meow-msc.nethcloud.top
+  servername: wikihow.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bf9931be-a7fd-46b3-9919-b858299e9f65
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_2|2.1MB/s|0%|GM|YT|NF|D+|X|[原生|商宽]
+  network: tcp
+  port: 44329
+  server: 156.233.232.177
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ba1fb56-e235-419e-c193-1c291adad4a7
   ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?ed=2560
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇵🇱PL²_1|5.6MB/s|12%|GPT|YT-RU|X|[原生|机房]
+  name: 🇩🇪DE²_2|5.3MB/s|25%|GPT⁺|YT-RU|X|[广播|商宽]
   network: tcp
   port: 443
   reality-opts:
-    public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
-    short-id: a7ab02dfcc1f2c04
-  server: 195.3.223.143
-  servername: pl.jojack.ru
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ""
+  server: deu435.unlocknet.org
+  servername: www.metal.de
   tls: true
   type: vless
   udp: true
-  uuid: dd9c0ccd-1aeb-4f2d-9ab1-5f6996518c77
+  uuid: 6867f208-1e50-48cb-9baf-e3ce539f90f5
   xudp: true
-- name: 🇭🇰HK²_2|4.6MB/s|0%|NF|D+|X|History|[原生|住宅]
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  http-opts: {}
+  name: 🇺🇸US²_3|1.5MB/s|0%|GM|YT|NF|D+|X|[原生|商宽]
+  network: none
+  port: 24004
+  server: 156.233.232.177
+  skip-cert-verify: true
+  type: vmess
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+  ws-opts:
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: 🇳🇱NL²_2|6.0MB/s|18%|GPT⁺|X|[原生|机房]
+  network: ws
+  port: 2083
+  server: 5.255.114.61
+  servername: native.loveplus.de5.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: b658a9a6-f8f5-4a86-a438-f912a8509db2
+  ws-opts:
+    headers:
+      Host: native.loveplus.de5.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /ehueueuejs
+  xudp: true
+- name: 🇭🇰HK²_2|7.3MB/s|0%|YT-CN|D+|X|Succeed|[原生|住宅]
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
@@ -65,28 +219,26 @@ proxies:
   sni: t.me%25252Fripaojiedian
   tls: true
   type: trojan
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_1|1.6MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.24
-  type: ss
-- country: 🇩🇪DE
-  name: 🇩🇪DE²_1|1.1MB/s|1%|GPT⁺|X|[广播|商宽]
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.28.55.17
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_4|4.1MB/s|35%|GPT⁺|GM|YT|NF|X|[原生|机房]
+  network: tcp
+  port: 27641
+  server: 192.227.249.227
   skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
+  type: vmess
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
+  ws-opts:
+    path: /
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE²_2|6.8MB/s|6%|GPT⁺|YT-US|X|History|[原生|机房]
+  name: 🇩🇪DE²_3|6.3MB/s|6%|GPT⁺|YT-US|X|Succeed|[原生|机房]
   network: ws
   port: 443
   server: 172.67.193.88
@@ -101,197 +253,189 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /assets
   xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_1|2.7MB/s|X|[广播|机房]
-  network: ws
-  port: 43403
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE²_3|5.3MB/s|0%|GPT⁺|D+|X|[原生|商宽]
-  port: 443
-  reality-opts:
-    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
-    short-id: 00684d2eae2cdd16
-  server: 45.145.43.147
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_1|14.1MB/s|0%|GPT|YT|NF|D+|X|History|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      HOST: baidu.com
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_2|4.7MB/s|X|[广播|机房]
-  network: ws
-  port: 40446
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_3|5.2MB/s|X|[广播|机房]
-  network: ws
-  port: 44818
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_2|7.5MB/s|0%|GPT|GM|YT|NF|D+|X|History|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_4|4.5MB/s|X|[广播|机房]
-  network: ws
-  port: 48983
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇩🇪DE¹⁺_1|5.6MB/s|0%|GPT⁺|X|History|[广播|机房]
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE²_4|5.8MB/s|0%|GPT⁺|X|[广播|商宽]
   network: tcp
   port: 443
-  server: 20.218.137.249
-  servername: jina-20218137249-direct.yektanet.co
+  reality-opts:
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: d17bd238f23fba92
+  server: 51.250.0.147
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: jina
+  uuid: 4a7367c5-3c77-400d-b292-dd01a3a6ecbf
   xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬SG²_2|15.5MB/s|0%|YT-CN|X|[广播|机房]
-  network: ws
-  port: 12901
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      HOST: baidu.com
-    path: /
-- name: 🇭🇰HK²_3|4.4MB/s|0%|X|History|[原生|住宅]
+- country: 🇭🇰 HK
+  name: 🇭🇰HK²_3|10.0MB/s|0%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
   password: BxceQaOe
   port: 443
   server: 219.76.135.98
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_1|5.7MB/s|35%|GPT⁺|YT-CN|X|Succeed|[原生|机房]
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇭🇰HK²_4|2.4MB/s|GPT⁺|GM|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.67
+  type: ss
+- client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US¹-SG⁰_1|0.7MB/s|TK|D+|X|History|[原生|机房]
-  network: ws
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_5|3.4MB/s|43%|GPT⁺|YT-RU|D+|X|[广播|商宽]
+  network: tcp
   port: 443
-  server: 172.67.180.92
-  servername: web.abcallcenter.com
+  reality-opts:
+    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+    short-id: ""
+  server: deu659.webunlocked.org
+  servername: www.fh-aachen.de
   tls: true
   type: vless
   udp: true
-  uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+  uuid: c9051f7b-f42c-45a8-adaa-58822b353f59
+  xudp: true
+- encryption: none
+  name: 🇫🇮FI²_1|7.3MB/s|6%|GPT⁺|X|[广播|机房]
+  network: ws
+  port: 80
+  server: 151.101.76.254
+  type: vless
+  udp: true
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
   ws-opts:
     headers:
-      Host: web.abcallcenter.com
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /--Telegram---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN?ed=2560
+      Host: adspeedx23.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇵🇱PL²_2|4.5MB/s|20%|GPT⁺|X|[广播|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 8f222b3475800821
+  server: 158.160.105.121
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8accc46-c511-42fb-919b-9283799a88a1
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_4|0.5MB/s|GPT⁺|X|Succeed
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.168
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  http-opts: {}
+  name: 🇭🇰HK²_5|0.6MB/s|0%|GM|YT-US|NF|D+|X|[广播|商宽]
+  network: none
+  port: 35760
+  server: 149.88.95.217
+  skip-cert-verify: true
+  type: vmess
+  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_5|2.7MB/s|0%|GM|YT|NF|D+|X|[原生|商宽]
+  network: none
+  port: 24004
+  server: 156.233.232.192
+  type: vmess
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇸🇬SG²_2|2.3MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.116
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_6|0.6MB/s|0%|GM|YT-US|NF|D+|X|[广播|商宽]
+  network: none
+  port: 18937
+  server: 149.88.95.94
+  type: vmess
+  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+- encryption: none
+  name: 🇭🇰HK¹-SG⁰_1|13.6MB/s|GPT⁺|YT|D+|X|[广播|机房]
+  network: ws
+  port: 80
+  server: 104.16.244.232
+  type: vless
+  udp: true
+  uuid: b00d9e6d-227d-4944-8ffd-b1a806196356
+  ws-opts:
+    headers:
+      Host: neuroonvpn.mamadjacki83.workers.dev
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: "%2F%3Fed%3D2048"
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_5|2.6MB/s|GPT⁺|GM|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.111
+  type: ss
+- name: 🏴‍☠_1🏴‍☠_3DE13｜原生/疑似家宽｜高风险 (黑名单)|0.8MB/s|2.6MB/s|X|History
+  port: 1080
+  server: 193.233.254.8
+  tls: false
+  type: socks5
+  username: T2dAMTkzLjIzMy4yNTQuODo%3D
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇺🇸US²_6|3.3MB/s|0%|GPT⁺|X|Succeed|[原生|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
+    short-id: 5a2d4f49
+  server: 104.167.197.27
+  servername: azure.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
   xudp: true
 - alterId: "0"
   cipher: auto
-  name: 🇫🇷FR²_1|6.0MB/s|43%|GPT⁺|X|History|[原生|机房]
+  name: 🇫🇷FR²_1|7.6MB/s|43%|GPT⁺|X|Succeed|[原生|机房]
   network: ws
   port: 8080
   server: 188.114.98.0
@@ -305,114 +449,74 @@ proxies:
       Host: nasnet-162191099.sharghdaily.co
     path: /nasnet/cdn?ed=2560/?TELEGRAM--KANAL--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN
   xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_2|6.6MB/s|35%|GPT|YT-CN|NF|X|History|[原生|机房]
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+- name: 🇳🇱NL²_3|5.9MB/s|GPT⁺|X|Succeed
+  password: ""
+  port: 1080
+  server: 161.35.82.57
   skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  type: socks5
+  username: ""
+- cipher: chacha20-ietf
+  country: 🇭🇰 HK
+  name: 🇭🇰HK²_7|4.9MB/s|0%|X|History
+  password: asd123456
+  port: 8388
+  server: 103.149.182.158
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_6|1.8MB/s|GPT⁺|X|Succeed
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.4
+  type: ss
 - encryption: none
-  name: 🇫🇮FI²_1|6.4MB/s|GPT|X|Succeed
+  name: 🇩🇪DE²_6|3.8MB/s|47%|GPT|X|History|[广播|机房]
   network: ws
   port: 80
-  server: 151.101.9.80
+  server: 104.18.32.47
   type: vless
   udp: true
-  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  uuid: 1e35b4bf-b270-4c0b-918d-62746eedd2ad
   ws-opts:
     headers:
-      Host: adspeedx23.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.79 Safari/537.36
-    path: /
+      Host: EveRLaSTinG-fiNANcE439p1sxXHY.SPORtLAND.CompanY.
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /?ed
   xudp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_4|9.3MB/s|0%|GPT⁺|GM|YT-CN|NF|D+|X|[广播|机房]
-  network: ws
-  port: 12890
-  server: gtm1.ktmwan.net
-  type: vmess
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_7|1.7MB/s|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.57
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇫🇷FR²_2|6.5MB/s|43%|GPT⁺|YT-RU|D+|X|[广播|商宽]
+  network: tcp
+  port: 52042
+  reality-opts:
+    public-key: Z23_1wSIy1CNUEB7YEJwPZzCEsMTmzTNGe_h5bzEMHY
+    short-id: 8e8dcb9a67bf43f1
+  server: 185.156.72.124
+  servername: yandex.ru
+  tls: true
+  type: vless
   udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_5|5.4MB/s|X|[广播|机房]
-  network: ws
-  port: 45563
-  server: 94.156.181.190
-  servername: imafake.locker
+  uuid: f557eadb-1715-4c0b-aaae-f9b9577d827d
+  xudp: true
+- name: 🇮🇩ID¹⁺_1|4.0MB/s|X|History|[广播|机房]
+  password: ""
+  port: 1080
+  server: 103.197.188.63
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: b2da9920-b0a7-4354-9e26-3833ab8d00d0
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_2|1.3MB/s|GPT⁺|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.27
-  type: ss
-- name: 🇭🇰HK²_5|10.8MB/s|2%|NF|D+|X|History
-  password: <password>
-  port: 8443
-  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_3|0.6MB/s|GPT⁺|GM|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.131
-  type: ss
-- country: 🇩🇪DE
-  name: 🇩🇪DE²_4|1.1MB/s|1%|GPT⁺|X|[广播|商宽]
-  password: telegram-id-directvpn
-  port: 22223
-  server: 52.28.55.17
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_4|1.9MB/s|GPT⁺|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.116
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_5|1.7MB/s|GPT⁺|GM|YT-US|X|Succeed|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.85
-  type: ss
-- name: 🇻🇳VN¹⁺_1|1.0MB/s|GPT|X|[广播|机房]
-  password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
-  port: 50017
-  server: zz.9966663.xyz
-  skip-cert-verify: true
-  sni: do-vnyear.9966663.xyz
-  tls: false
-  type: hysteria2
+  type: socks5
+  username: ""
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -420,53 +524,209 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇵🇱PL²_2|3.9MB/s|0%|GPT⁺|X
+  name: 🇵🇱PL²_3|3.9MB/s|20%|GPT⁺|X|History|[广播|机房]
   network: tcp
   port: 443
   reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: "31"
-  server: pol01-vls01.tcp-reset-club.net
-  servername: hls-svod.itunes.apple.com
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 8f222b3475800821
+  server: 158.160.221.132
+  servername: yandex.ru
   tls: true
   type: vless
   udp: true
-  uuid: 6178d1c9-884d-4390-98b0-801aa3ad3ad8
+  uuid: e8accc46-c511-42fb-919b-9283799a88a1
   xudp: true
 - cipher: aes-256-cfb
   country: 🏁 ZZ
-  name: 🇻🇳VN²_6|2.0MB/s|GPT⁺|X|History
+  name: 🇻🇳VN²_8|2.1MB/s|GM|X|History
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.226
+  server: 103.186.154.242
   type: ss
-- country: 🇫🇷FR
-  name: 🇫🇷FR²_2|5.3MB/s|1%|GPT⁺|X|[广播|机房]
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  http-opts: {}
+  name: 🇭🇰HK²_8|1.0MB/s|0%|GM|YT-US|D+|X|[广播|商宽]
+  network: none
+  port: 18937
+  server: 149.88.95.217
+  skip-cert-verify: true
+  type: vmess
+  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+  ws-opts:
+    path: /
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇺🇸US²_7|6.5MB/s|33%|GPT⁺|X|History|[广播|机房]
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: 3JGwSDrfkiCPdU3rvQP5m0z4Ag_UB_2w8Qq3VMXmo28
+    short-id: abc123
+  server: netherland.boot-lee.ru
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05dc09d5-5c56-454b-a34e-6ef743d91e1a
+  xudp: true
+- name: 🇸🇬SG²_3|13.5MB/s|41%|GPT⁺|GM|YT|X|History|[广播|机房]
+  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
+  port: 4449
+  server: 4-ndsrzkgg.mix.dexiansheng.com
+  tls: true
+  type: http
+  username: walless
+- name: 🏴‍☠_278.153.155.31:1081-01|4.8MB/s|X
+  password: ""
+  port: 1081
+  server: 78.153.155.31
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇭🇰HK²_9|1.0MB/s|0%|YT-CN|NF|D+|X|Succeed|[原生|住宅]
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.76.135.98
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  tls: true
+  type: trojan
+- name: 🇫🇷FR²_3|1.7MB/s|0%|GPT|X|History
+  password: ""
+  port: 1080
+  server: 194.163.167.32
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE²_7|8.1MB/s|6%|GPT⁺|X|[原生|机房]
+  network: ws
+  port: 8443
+  server: 172.64.152.23
+  servername: hm3.hamrahconf.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: fee95190-fa52-4178-bcb6-03e74b560102
+  ws-opts:
+    headers:
+      Host: hm3.hamrahconf.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /
+  xudp: true
+- country: 🇺🇸US
+  name: 🇫🇷FR²_4|5.2MB/s|1%|GPT⁺|X|[广播|机房]
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.54.119
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- country: 🇩🇪DE
+  name: 🇩🇪DE²_8|5.5MB/s|1%|GPT⁺|TK|X|Succeed|[广播|商宽]
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.69.95.50
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  http-opts: {}
+  name: 🇭🇰HK²_10|0.8MB/s|0%|GM|YT-US|NF|D+|X|[广播|商宽]
+  network: none
+  port: 18937
+  server: 149.88.95.94
+  skip-cert-verify: true
+  type: vmess
+  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+  ws-opts:
+    path: /
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_9|3.2MB/s|GPT⁺|X
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.207
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇮🇱 IL
+  http-opts: {}
+  name: 🇭🇰HK²_11|0.8MB/s|0%|GM|YT-US|D+|X|[广播|商宽]
+  network: none
+  port: 35760
+  server: 149.88.95.94
+  skip-cert-verify: true
+  type: vmess
+  uuid: 17e96792-d8c3-4741-9c34-e5d1c11d754f
+  ws-opts:
+    path: /
+- name: 🇰🇷KR²_1|9.0MB/s|9%|GPT⁺|YT|NF|D+|X|Succeed|[广播|机房]
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- country: 🇩🇪DE
+  name: 🇩🇪DE²_9|6.4MB/s|1%|GPT⁺|TK|X|[广播|商宽]
   password: telegram-id-privatevpns
   port: 22222
-  server: 35.181.88.119
+  server: 52.28.55.17
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  country: 🇷🇺RU
+  name: 🇷🇺RU²_2|5.0MB/s|YT-US|X|[原生|机房]
+  password: 5y5cwrCR8Iun5nlMSFS8uJ
+  port: 62238
+  server: 95.142.47.40
+  type: ss
 - client-fingerprint: chrome
   encryption: none
-  name: 🇳🇱NL²_1|6.4MB/s|0%|GPT⁺|YT-RU|TK|D+|X|Succeed|[原生|机房]
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_4|6.8MB/s|1%|GPT⁺|YT-RU|TK|NF|X|[广播|机房]
   network: tcp
   port: 443
   reality-opts:
-    public-key: DbZWMfQTZQQrOJDgnWetu1ChTlXISZWKt4Kn_G0YyUI
-    short-id: ""
-  server: 43.250.54.175
-  servername: fonts.gstatic.com
+    public-key: i5a8i2AWUSMZ-rYA6hGBRCBBoe7W5ah33SCdF5JkMk4
+    short-id: 8bcfe256cf216fd8
+  server: 91.84.109.124
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: ed6dd416-1339-4dbe-8562-c9786d41041b
+  uuid: a44e0875-210f-4941-9062-89b6361a14c6
   xudp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_8|2.7MB/s|0%|GM|YT|NF|D+|X|[原生|商宽]
+  network: none
+  port: 24004
+  server: 156.233.232.177
+  type: vmess
+  uuid: 582fcb35-20a0-452c-e179-4c759c62c494
 - alterId: "0"
   cipher: auto
-  name: 🇯🇵JP²_3|9.7MB/s|0%|GPT|GM|YT|D+|X|History|[原生|机房]
+  name: 🇯🇵JP²_1|13.2MB/s|0%|GPT|X|Succeed
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -480,223 +740,51 @@ proxies:
       Host: baidu.com
     path: /
   xudp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_7|2.7MB/s|GPT⁺|GM|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.227
-  type: ss
-- encryption: none
-  name: 🇫🇷FR²_3|2.8MB/s|28%|GPT⁺|X|History|[广播|机房]
-  network: tcp
-  port: 6244
-  server: fr.sv9.ir
-  type: vless
-  udp: true
-  uuid: a9db840e-9568-42d6-aa71-c93a9ef16f81
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇸🇬SG²_3|7.7MB/s|X
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_8|2.2MB/s|GPT⁺|GM|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.249
-  type: ss
-- client-fingerprint: chrome
-  name: 🇳🇱NL²_2|6.4MB/s|0%|GPT⁺|YT-RU|D+|X|[原生|机房]
-  port: 443
-  reality-opts:
-    public-key: DbZWMfQTZQQrOJDgnWetu1ChTlXISZWKt4Kn_G0YyUI
-  server: 43.250.54.175
-  servername: fonts.gstatic.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ed6dd416-1339-4dbe-8562-c9786d41041b
-- name: 🇭🇰HK²_6|2.0MB/s|0%|YT-CN|D+|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: 219.76.135.98
-  tls: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_6|5.4MB/s|X|[广播|机房]
-  network: ws
-  port: 43600
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US²_3|0.9MB/s|6%|GPT⁺|X
-  network: ws
-  port: 443
-  server: 172.67.213.180
-  servername: usc.ketabv.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: d453b11a-5988-4b9a-9aca-5cfb9b336946
-  ws-opts:
-    headers:
-      Host: usc.ketabv.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /V9RZyjTD5QiH08HK8A2L9XMg
-  xudp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_7|4.8MB/s|X|[广播|机房]
-  network: ws
-  port: 48202
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_8|5.4MB/s|X|[广播|机房]
-  network: ws
-  port: 48737
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- name: 🇳🇱NL²_3|5.8MB/s|GPT|X|History
+- name: 🇷🇺RU²_3|5.7MB/s|X|History
   password: ""
   port: 1080
-  server: 161.35.82.57
+  server: 37.200.67.75
   skip-cert-verify: true
   type: socks5
   username: ""
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_9|4.9MB/s|X|[广播|机房]
-  network: ws
-  port: 41982
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- name: 🇸🇬SG²_4|9.4MB/s|GPT⁺|X
-  password: ""
-  port: 8888
-  server: 178.128.212.127
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- country: 🇩🇪DE
-  name: 🇩🇪DE²_5|2.3MB/s|1%|GPT|X|[广播|商宽]
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.69.95.50
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_10|4.6MB/s|X
-  network: ws
-  port: 45563
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_11|5.9MB/s|X|[广播|机房]
-  network: ws
-  port: 47396
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
 - cipher: aes-256-cfb
-  name: 🇻🇳VN²_9|0.6MB/s|GPT⁺|GM|YT-US|X|[原生|机房]
+  country: 🏁ZZ
+  name: 🇻🇳VN²_10|0.8MB/s|GPT⁺|GM|X|History
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.44
+  server: 103.186.155.75
   type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_5|5.0MB/s|0%|GPT⁺|YT-RU|TK|X|History|[广播|机房]
+  network: tcp
+  port: 443
+  server: usa69.openbypass.org
+  servername: usa69.openbypass.org
+  tls: true
+  type: vless
   udp: true
+  uuid: 93741b49-1a11-4882-b02f-10fb78bf0d22
+  xudp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_12|9.5MB/s|0%|GPT|D+|X|Succeed|[广播|机房]
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
+  type: vmess
+  udp: true
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇷🇺RU²_12|5.5MB/s|X|[原生|机房]
+  name: 🇷🇺RU²_4|5.4MB/s|X|Succeed|[原生|机房]
   port: 443
   reality-opts:
     public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
@@ -708,35 +796,64 @@ proxies:
   type: vless
   udp: true
   uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
-- country: 🇹🇼TW
-  name: 🇻🇳VN¹⁺_2|0.9MB/s|GPT⁺|NF|X|[广播|机房]
-  password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
-  port: 50017
-  server: zz.9966663.xyz
-  skip-cert-verify: true
-  sni: do-vnyear.9966663.xyz
-  type: hysteria2
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_11|1.8MB/s|GPT⁺|GM|YT-US|X|Succeed
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.226
+  type: ss
+- encryption: none
+  name: 🇳🇱NL²_6|5.7MB/s|GPT⁺|X|History|[广播|住宅拨号]
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
   udp: true
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_7|8.1MB/s|GPT⁺|YT-US|X|[广播|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SySMR9yW2kna78L7nmfkSYeQ-DkS7nIx98AsTsHy0gM
+    short-id: 7fec027d1852df40
+  server: nl.zeepo.ir
+  servername: tgju.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 29b40c3d-8b30-d91d-707b-24e9063f7726
+  xudp: true
 - client-fingerprint: chrome
-  name: 🇭🇰HK²_7|7.6MB/s|2%|YT|D+|X|Succeed|[原生|住宅]
-  password: BxceQaOe
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇱🇹LT²_1|2.1MB/s|0%|GPT⁺|D+|X|[原生|商宽]
+  network: tcp
   port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  reality-opts:
+    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    short-id: ""
+  server: 84.32.151.60
+  servername: yahoo.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- country: 🇭🇰 HK
-  name: 🇭🇰HK²_8|9.2MB/s|2%|YT|NF|D+|X|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: 🇭🇰HK²_9|14.2MB/s|2%|YT-CN|D+|X|Succeed|[原生|住宅]
+  uuid: 9b5dffa2-8ab0-4e7c-af62-725a320957cc
+  xudp: true
+- name: 🇭🇰HK²_13|4.2MB/s|YT-CN|D+|X|Succeed|[原生|住宅]
   password: ""
   port: 7897
   server: 101.36.224.130
@@ -746,221 +863,21 @@ proxies:
   username: ""
 - alterId: 0
   cipher: auto
+  country: 🇦🇱AL
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰HK²_10|8.5MB/s|0%|GPT⁺|GM|YT-CN|NF|D+|X|[广播|机房]
+  name: 🇳🇱NL²_8|2.7MB/s|25%|GPT⁺|TK|NF|X|[广播|商宽]
   network: ws
-  port: 12890
-  server: gtm1.ktmwan.net
-  type: vmess
-  udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 🇺🇸US²_4|6.4MB/s|GPT|TK|NF|X|History
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_13|6.0MB/s|X|[广播|机房]
-  network: ws
-  port: 45563
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_14|4.5MB/s|X|[广播|机房]
-  network: ws
-  port: 49840
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE¹-CA⁰_2|6.4MB/s|X|History|[广播|机房]
-  network: ws
-  port: 443
-  server: 192.46.239.191
-  servername: sni.111000.dynv6.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /?ed=2560
-  xudp: true
-- country: 🇭🇰 HK
-  name: 🇭🇰HK²_11|2.1MB/s|0%|YT-CN|X|History|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇸🇬SG²_5|6.1MB/s|GM|D+|X|History|[原生|商宽]
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_15|4.4MB/s|X
-  network: ws
-  port: 46172
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  country: 🇧🇬BG
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_16|3.5MB/s|X
-  network: ws
-  port: 49573
-  server: 94.156.181.190
-  servername: imafake.locker
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
-  ws-opts:
-    headers:
-      HOST: imafake.locker
-    path: /speedtest
-- name: 🇭🇰HK²_12|3.4MB/s|0%|YT-CN|D+|X|History|[原生|住宅]
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  tls: true
-  type: trojan
-- name: 🇷🇺RU²_17|1.0MB/s|X
-  password: ""
-  port: 1080
-  server: 185.244.77.62
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇷FR²_4|4.7MB/s|GPT⁺|X|Succeed|[原生|住宅拨号]
-  network: tcp
-  port: 17401
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  server: 195.154.200.13
-  servername: itunes.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-  xudp: true
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_13|5.4MB/s|0%|D+|X|Succeed|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_10|2.4MB/s|GPT⁺|GM|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.4
-  type: ss
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇭🇰HK¹-SG⁰_1|17.4MB/s|5%|GPT⁺|YT|D+|X|Succeed|[广播|机房]
-  network: ws
-  port: 2053
-  server: bestcf.030101.xyz
-  servername: snippet.fgfw.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: snippet.fgfw.eu.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /danfeng?ed=2560
-  xudp: true
-- name: 🏴‍☠_1🏴‍☠_3DE144｜原生/疑似家宽｜高风险 (黑名单)|2.3MB/s|2.5MB/s|X|History
-  port: 1080
-  server: 193.233.254.7
-  tls: false
-  type: socks5
-  username: T2dAMTkzLjIzMy4yNTQuNzpAMTkzLjIzMy4yNTQuNw%3D%3D
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇺🇸US²_5|3.9MB/s|35%|GPT⁺|YT-CN|NF|X|History|[原生|机房]
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
+  port: 20104
+  server: 109.104.153.12
+  servername: 109.104.153.12
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 40e306a6-7cab-40ac-a085-a961895eb11b
   ws-opts:
-    path: /
+    headers:
+      HOST: 109.104.153.12
+    path: /arki
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -968,273 +885,338 @@ proxies:
     headers: {}
     path:
     - /
-  name: 🇺🇸US²_6|5.0MB/s|0%|GPT⁺|GM|YT|X|History|[原生|机房]
+  name: 🇷🇺RU²_5|3.7MB/s|X|[原生|机房]
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk
-    short-id: 5a2d4f49
-  server: 104.167.197.27
-  servername: azure.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd
-  xudp: true
-- client-fingerprint: chrome
-  name: 🇩🇪DE²_6|2.2MB/s|6%|GPT⁺|X|[原生|机房]
-  network: tcp
-  port: 2018
-  reality-opts:
-    public-key: pY4Vwx68IazGJq4BPHFVAXzmQhOz9DmKjpNM2CSxehc
-    short-id: 83f404
-  server: riali22.carpet-carpet-carped.ir
-  servername: ub.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 352f047c-3176-4271-9bc6-3f7d33ee03c7
-  xudp: true
-- name: 🇭🇰HK²_14|5.9MB/s|0%|YT-CN|D+|X|Succeed|[原生|住宅]
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: 219.76.135.98
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: 🇬🇧GB¹-CA⁰_1|6.6MB/s|GPT⁺|TK|NF|D+|X|[广播|机房]
-  network: ws
-  port: 443
-  server: 135.84.74.118
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?ed=2560
-- name: 🇳🇱NL²_4|4.4MB/s|18%|GPT|X|History
-  password: ""
-  port: 1080
-  server: 5.255.117.250
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- client-fingerprint: chrome
-  name: 🇫🇷FR²_5|4.9MB/s|GPT⁺|X|[原生|住宅拨号]
-  port: 17401
-  reality-opts:
-    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
-    short-id: 8ef4455ba637425b
-  server: 195.154.200.13
-  servername: itunes.apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
-- name: 🇭🇰HK²_15|3.2MB/s|0%|YT-CN|D+|X|Succeed
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.76.135.98
-  skip-cert-verify: true
-  sni: t.me%25252Fripaojiedian
-  tls: true
-  type: trojan
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_11|1.0MB/s|GPT⁺|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.168
-  type: ss
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_7|4.1MB/s|X
-  network: ws
-  port: 37009
-  server: 137.175.49.107
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.86838014.xyz
-    path: /path/1736589576858
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇷FR²_6|2.3MB/s|GPT|X|[广播|机房]
-  network: tcp
-  port: 37928
-  server: 135.125.174.103
-  type: vless
-  udp: true
-  uuid: 88181007-9bb3-4e6c-826d-4400b191b8d7
-  xudp: true
-- name: 🇰🇷KR²_1|0.5MB/s|GPT|NF|D+|X|History
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: 🇩🇪DE²_7|5.4MB/s|6%|GPT⁺|X|[原生|机房]
-  network: ws
-  port: 80
-  server: 140.248.159.164
-  type: vless
-  udp: true
-  uuid: 505997ba-cbdb-466e-a3ad-69c6a4553b38
-  ws-opts:
-    headers:
-      Host: ahlekarbala.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.36
-    path: /containers/fi
-  xudp: true
-- country: 🇫🇷FR
-  name: 🇫🇷FR²_7|1.5MB/s|1%|GPT⁺|X|[广播|机房]
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.88.119
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  country: 🏁ZZ
-  h2-opts: {}
-  http-opts: {}
-  name: 🇳🇱NL²_5|5.8MB/s|0%|GPT⁺|YT-US|TK|NF|D+|X|[原生|住宅]
-  network: tcp
-  port: 40553
-  server: 194.29.79.171
-  skip-cert-verify: true
-  type: vmess
-  uuid: 49cf4c1d-087d-4be6-adb7-2f6939214203
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺RU²_18|3.4MB/s|X|History
   port: 443
   reality-opts:
     public-key: tYFlc_8tzrwDisZbxlHj06rw_YE154TVYeEBuwOQZHE
     short-id: 8a6605e7
   server: 45.139.26.213
   servername: www.yandex.ru
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 8ff544c5-303c-46f4-80fe-8e8e166fd981
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇫🇷FR²_5|4.3MB/s|GPT⁺|X|Succeed|[原生|住宅拨号]
+  network: tcp
+  port: 17401
+  reality-opts:
+    public-key: IXcXrT_Y0ATTZlGOhPnSmKo-cuGr4yMKV9Rz4-nA3yU
+    short-id: 8ef4455ba637425b
+  server: 195.154.200.13
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: add14a5b-f648-4423-8a1f-8b8f54c0daef
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE²_10|7.2MB/s|47%|GPT⁺|X|History|[广播|机房]
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: a5712440-3cec-4a1b-82e8-767c54acd83a
+  ws-opts:
+    headers:
+      Host: authENTIC-cABinEtgqc4XfW2ud.spORTLAND.COmPAny.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /?ed
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_12|1.3MB/s|GPT⁺|GM|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.84
+  type: ss
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇳🇱NL²_9|0.7MB/s|0%|GPT⁺|YT-RU|X|History|[广播|机房]
+  network: ws
+  port: 8443
+  server: usa69.openbypass.org
+  servername: usa69.openbypass.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93741b49-1a11-4882-b02f-10fb78bf0d22
+  ws-opts:
+    headers:
+      Host: usa69.openbypass.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /ws-vless/
+  xudp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇦🇸Local ISP_1|9.4MB/s|GPT|D+|X|Succeed
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  http-opts: {}
+  name: 🇺🇸US²_9|5.0MB/s|35%|GPT⁺|GM|YT|NF|X|[原生|机房]
+  network: none
+  port: 27641
+  server: 192.227.249.227
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3b134252-e7c2-43df-98b7-da204104aa79
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_14|0.9MB/s|0%|GM|YT-US|NF|D+|X|History|[广播|商宽]
+  network: none
+  port: 18937
+  server: 149.88.95.217
+  type: vmess
+  uuid: ebaa1ae1-fa4d-40d8-958f-d4524d551218
+- country: 🇩🇪DE
+  name: 🇩🇪DE²_11|6.0MB/s|1%|GPT⁺|NF|X|Succeed|[广播|商宽]
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.28.55.17
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_15|0.5MB/s|0%|GM|YT-US|NF|D+|X|[广播|商宽]
+  network: none
+  port: 40741
+  server: 149.88.95.217
+  type: vmess
+  uuid: 1b8a751b-4909-4fec-f019-907d92e6c47f
+- client-fingerprint: chrome
+  name: 🇭🇰HK²_16|15.6MB/s|2%|YT|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_13|2.0MB/s|GPT⁺|GM|YT-US|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.235
+  type: ss
+- name: 🇭🇰HK²_17|10.3MB/s|2%|YT|NF|D+|X|History|[原生|住宅]
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.123.162
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  country: 🇺🇸 US
+  h2-opts: {}
+  http-opts: {}
+  name: 🇺🇸US²_10|3.1MB/s|0%|GM|YT|NF|D+|X|[原生|商宽]
+  network: tcp
+  port: 44329
+  server: 156.233.232.192
+  skip-cert-verify: true
+  type: vmess
+  uuid: 1ba1fb56-e235-419e-c193-1c291adad4a7
+  ws-opts:
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_6|5.7MB/s|YT|X|History|[原生|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7IOtSp0-n2_uNS5nMO9ywZbn2HibMRGy0KbLad3szXc
+    short-id: b8cf9578640a9edf
+  server: 176.109.106.241
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 07cd9dbe-21ac-4871-817d-c772687e4b7c
+  xudp: true
+- name: 🏴‍☠_3🏴‍☠_4193.233.254.9:1080-01|2.5MB/s|2.4MB/s|X|History
+  password: ""
+  port: 1080
+  server: 193.233.254.9
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_12|3.7MB/s|0%|GPT⁺|NF|D+|X|Succeed|[原生|商宽]
+  port: 443
+  reality-opts:
+    public-key: 9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU
+    short-id: 00684d2eae2cdd16
+  server: 45.145.43.147
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95abaefc-7861-417a-81b7-166cb788ce1a
 - alterId: "0"
   cipher: auto
-  name: 🇩🇪DE²_8|4.8MB/s|X
-  network: ws
-  port: 8080
-  server: 172.64.149.182
+  name: 🇺🇸US²_11|5.2MB/s|22%|GPT⁺|NF|X|History|[广播|机房]
+  network: tcp
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: nasnet
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: nasnet-5712964102.sharghdaily.co
-    max-early-data: 2560
-    path: /nasnet/cdn
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- country: 🇫🇷FR
-  name: 🇫🇷FR²_8|1.1MB/s|1%|GPT⁺|X|[广播|机房]
-  password: telegram-id-directvpn
-  port: 22223
-  server: 35.181.88.119
-  skip-cert-verify: true
-  tls: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_18|13.2MB/s|0%|GPT⁺|YT-CN|D+|X|Succeed|[广播|机房]
+  network: ws
+  port: 12890
+  server: gtm1.ktmwan.net
+  type: vmess
   udp: true
-- name: 🏴‍☠_2🏴‍☠_343.163.124.13:20000-01|0.8MB/s|2.4MB/s|X|History
-  password: ""
-  port: 20000
-  server: 43.163.124.13
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_12|0.6MB/s|GPT⁺|X
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.148
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_13|1.9MB/s|GPT⁺|GM|YT|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.129
-  type: ss
-- cipher: chacha20-ietf
-  country: 🇭🇰 HK
-  name: 🇭🇰HK²_16|0.9MB/s|0%|X|History
-  password: asd123456
-  port: 8388
-  server: 103.141.221.124
-  type: ss
-- name: 🇦🇺AU²_1|7.6MB/s|GPT⁺|X|History
-  password: ""
-  port: 1080
-  server: 134.199.159.23
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- country: 🇩🇪DE
-  name: 🇩🇪DE²_9|5.8MB/s|1%|GPT⁺|TK|X|[广播|商宽]
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.28.55.17
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+- name: 🇫🇮FI²_2|6.1MB/s|6%|GPT⁺|X|History|[广播|机房]
+  network: ws
+  port: 80
+  server: 151.101.9.80
+  type: vless
   udp: true
+  uuid: 5a1d2c0c-abfa-4050-918f-bfab3eaee62a
+  ws-opts:
+    headers:
+      Host: adspeedx23.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=1049
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇳🇱NL²_6|5.9MB/s|26%|GPT⁺|X|Succeed|[广播|机房]
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_7|5.7MB/s|GPT⁺|X|[原生|机房]
   network: tcp
   port: 443
   reality-opts:
-    public-key: AxKcd0MCWbdB6W3miBUoFI9gn-cImgvOZldgx0p3oBY
-    short-id: ""
-  server: vultr.nl1.node.stash.tg
-  servername: www.apple.com
+    public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+    short-id: 43df3983229a1c73
+  server: 81.200.151.14
+  servername: m.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: d33b839f-9d1d-480b-a3f8-f647af157cd7
+  uuid: 4a7367c5-3c77-400d-b292-dd01a3a6ecbf
   xudp: true
-- name: 🏴‍☠_3🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|2.8MB/s|X|History
+- cipher: rc4-md5
+  country: 🇸🇬 SG
+  name: 🇸🇬SG²_4|5.8MB/s|GPT⁺|YT|X|History|[广播|机房]
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: 🇷🇺RU²_8|5.4MB/s|X|Succeed|[广播|机房]
+  network: ws
+  port: 44818
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- name: 🏴‍☠_4🏴‍☠_3🏴‍☠_1193.233.254.7:1080-01|3.1MB/s|2.8MB/s|History|3.5MB/s|X|Succeed
   password: ""
   port: 1080
   server: 193.233.254.7
   skip-cert-verify: true
   type: socks5
   username: ""
+- alterId: 0
+  cipher: auto
+  country: 🇧🇬BG
+  h2-opts: {}
+  http-opts: {}
+  name: 🇷🇺RU²_9|4.8MB/s|X|Succeed|[广播|机房]
+  network: ws
+  port: 40446
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      HOST: imafake.locker
+    path: /speedtest
+- alterId: 0.0
+  cipher: auto
+  name: 🇷🇺RU²_10|5.5MB/s|X|[广播|机房]
+  network: ws
+  port: 29271
+  server: 94.156.181.190
+  servername: imafake.locker
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c6e0562f-7ad1-40fb-a255-26194b2de84a
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+  xudp: true
