@@ -1,30 +1,118 @@
 proxies:
-- country: 🇭🇰HK
-  name: 🇯🇵JP²_1|0.9MB/s|GPT⁺|GM|YT|D+|X|Succeed|[广播|机房]
-  password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
-  port: 30003
-  server: jp10.jsyjiedian8.com
+- name: 🇳🇱NL²_1|0.5MB/s|GPT|X|History
+  password: ""
+  port: 5555
+  server: 146.19.254.101
   skip-cert-verify: true
-  sni: jsygouer.weixin-baidu-qq.com
+  type: socks5
+  username: ""
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇻🇳VN²_1|2.0MB/s|GPT⁺|YT-CN|X|[原生|机房]
+  network: ws
+  port: 12891
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK²_1|2.1MB/s|D+|X|History
+  port: 443
+  reality-opts:
+    public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+  server: 2.hk.1.cdn-bilibili.cn
+  servername: www.icloud.com
+  skip-cert-verify: false
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- alpn:
-  - h2
-  - http/1.1
-  name: 🇮🇳IN²_1|2.3MB/s|GPT|X|Succeed|[广播|机房]
-  password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
-  port: 50012
-  server: zz.9966663.xyz
+  uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇸🇬SG²_1|4.5MB/s|YT-CN|X|[广播|机房]
+  network: ws
+  port: 12901
+  server: gtm1.ktmwan.net
+  servername: baidu.com
   skip-cert-verify: true
-  type: anytls
+  type: vmess
+  uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /
+- name: 🇹🇼TW²_1|1.7MB/s|GPT|D+|X|History|[原生|住宅]
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History
+  network: grpc
+  port: 5432
+  reality-opts:
+    public-key: r6_et-HNS6OcTf79Yk_A6y8l5lF-EU2Et_thotTHlgk
+    short-id: 538b84e2
+  server: gbr11.tcpdoor.net
+  servername: www.samsung.com
+  tls: true
+  type: vless
   udp: true
+  uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
+  xudp: true
+- name: 🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇹🇼TW²_3|1.0MB/s|X|Succeed
+  password: ""
+  port: 1080
+  server: 141.11.42.163
+  skip-cert-verify: true
+  type: socks5
+  username: ""
 - alterId: 0
   cipher: auto
   country: 🇺🇸US
   h2-opts: {}
   http-opts: {}
-  name: 🇩🇪DE²_1|0.6MB/s|X|Succeed|[广播|机房]
+  name: 🇩🇪DE²_1|0.7MB/s|GPT⁺|X|Succeed|[广播|机房]
   network: ws
   port: 8080
   server: tgju.org
@@ -38,56 +126,11 @@ proxies:
     path: /nasnet/cdn
 - alterId: 2
   cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇺🇸US²_1|2.3MB/s|X|History
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History
+  name: 🇩🇪DE²_2|0.7MB/s|X|History|[广播|机房]
   network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇹🇼TW²_1|0.5MB/s|0%|X|History
-  password: ""
-  port: 1080
-  server: 141.11.42.163
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- delay: 1247
-  name: 🇭🇰HK²_1|0.8MB/s|X
-  password: BxceQaOe
-  port: 443
-  server: 203.198.123.162
-  skip-cert-verify: true
-  sni: 203.198.123.162
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  servername: v46.hdacd.com
-  skip-cert-verify: true
+  port: 30833
+  server: v33.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
