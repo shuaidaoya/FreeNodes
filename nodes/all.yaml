@@ -1,37 +1,118 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: TunService
-  name: 🇺🇦UA²_1|0.6MB/s|0%|GPT⁺|X|History
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
-    short-id: ""
-  server: 91.218.122.10
-  servername: www.microsoft.com
+- name: 🇺🇸US²_1|2.1MB/s|GPT⁺|D+|X|Succeed
+  password: c357a728-1211-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
   tls: true
-  type: vless
+  type: http
+  username: c357a728-1211-11f0-9a65-f23c9164ca5d
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: 🇺🇸US²_2|0.6MB/s|GPT⁺|X
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
+  type: hysteria2
   udp: true
-  uuid: c10999b4-7f93-5a50-3908-1467b1e52ae2
-  xudp: true
 - alterId: 0
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇭🇰HK²_1|0.6MB/s|3%|GPT⁺|GM|YT|NF|D+|X|[广播|机房]
-  network: tcp
-  port: 45861
-  server: hk.fastcokeasdasd.com
-  servername: hk.fastcokeasdasd.com
+  name: 🇯🇵JP²_1|1.3MB/s|GPT|GM|D+|X|History|[原生|机房]
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
   skip-cert-verify: true
   type: vmess
-  uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  ws-opts:
+    headers:
+      HOST: baidu.com
+    path: /
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_1|0.6MB/s|D+|X|Succeed|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US²_3|4.3MB/s|GPT|YT-CN|NF|X|History
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰HK
+  h2-opts: {}
+  http-opts: {}
+  name: 🇭🇰HK²_2|0.8MB/s|X|Succeed|[原生|住宅]
+  network: ws
+  port: 80
+  server: f30bc1db-t9xz40-td5oia-1m49t.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: c357a728-1211-11f0-9a65-f23c9164ca5d
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- name: 🇹🇼TW²_1|1.7MB/s|GPT|GM|D+|X|History|[原生|住宅]
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇳🇱NL²_1|0.7MB/s|GPT|X|History|[广播|住宅拨号]
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  tls: false
+  type: vless
+  udp: true
+  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+  ws-opts:
+    headers:
+      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+    path: /?ed
+- country: 🇺🇸US
+  name: 🇺🇸US²_4|2.6MB/s|22%|GPT⁺|GM|YT-CN|TK|D+|X|History|[原生|商宽]
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: mg5.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg5.mangshe.xyz
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇯🇵JP²_2|1.3MB/s|0%|GM|YT|X|Succeed|[原生|机房]
+  network: ws
+  port: 12883
+  server: gtm1.ktmwan.net
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
 - alterId: 0.0
   cipher: auto
-  name: 🇯🇵JP²_1|0.9MB/s|0%|GPT|GM|YT|D+|X|History|[原生|机房]
+  name: 🇯🇵JP²_3|1.2MB/s|0%|GPT|YT|D+|X|Succeed|[原生|机房]
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -46,216 +127,31 @@ proxies:
       Host: gtm1.ktmwan.net
     path: /
   xudp: true
-- alterId: "0"
+- alterId: 0
   cipher: auto
-  name: 🇯🇵JP²_2|4.2MB/s|0%|GPT|D+|X|Succeed|[原生|机房]
+  h2-opts: {}
+  http-opts: {}
+  name: 🇩🇪DE²_1|0.6MB/s|X|History
   network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
+  port: 8443
+  server: dll.avaaaal.ir
+  servername: cdge.avaaaal.ir
+  tls: true
+  type: vmess
+  uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110
+  ws-opts:
+    headers:
+      host: cdge.avaaaal.ir
+    path: /
+- alterId: 0.0
+  cipher: auto
+  name: 🇺🇸US²_5|1.1MB/s|5%|GPT⁺|NF|D+|X
+  network: tcp
+  port: 31350
+  server: c86s3.portablesubmarines.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
   xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇺🇸US²_1|3.4MB/s|35%|GPT|YT-CN|NF|X|History|[原生|机房]
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_2|7.2MB/s|8%|GPT⁺|GM|YT|D+|X|Succeed|[广播|机房]
-  network: tcp
-  port: 21552
-  server: hk.fastcokeasdasd.com
-  servername: hk.fastcokeasdasd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 16bdb787-7a82-4e35-a7a3-e0821b3a50bf
-- alpn:
-  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇫🇷FR²_1|0.5MB/s|GPT|D+|X|Succeed
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8LWgKu6h8cXgOAixKaKPdGponKkAeQaq-IszDEQ4ojM
-    short-id: 3bdec72a5a0ffd84
-  server: fr.cdn.stun.su
-  servername: fr.cdn.stun.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_3|0.7MB/s|2%|GPT⁺|YT|D+|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: f30bc1db-t9xz40-td5oia-1m49t.hkt.gotochinatown.net
-  servername: broadcastlv.chat.bilibili.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: c357a728-1211-11f0-9a65-f23c9164ca5d
-  ws-opts:
-    headers:
-      HOST: broadcastlv.chat.bilibili.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱NL²_1|0.7MB/s|50%|GPT⁺|X|History|[原生|机房]
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.214
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_2|3.5MB/s|GPT⁺|YT-CN|X|Succeed|[原生|机房]
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_3|3.4MB/s|35%|GPT|X|Succeed|[原生|机房]
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- country: 🇭🇰HK
-  name: 🇭🇰HK²_4|0.6MB/s|YT|D+|X|[原生|住宅]
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  tls: true
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_5|4.5MB/s|2%|GPT|YT|D+|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: ac02ad1a-t9w4g0-td5oia-1m49t.hkt.gotochinatown.net
-  type: vmess
-  udp: true
-  uuid: c357a728-1211-11f0-9a65-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_4|4.7MB/s|35%|GPT|YT-CN|X|History
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪DE²_1|1.4MB/s|X|History|[广播|机房]
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇸🇬SG²_1|0.7MB/s|45%|GPT⁺|YT|X|Succeed|[原生|机房]
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  servername: v45.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_3|0.5MB/s|0%|GPT|YT|D+|X|History|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  delay: 1154
-  name: 🇺🇸US²_5|4.5MB/s|GPT⁺|GM|YT|NF|X|History
-  network: tcp
-  port: 30846
-  server: v46.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK²_6|1.3MB/s|2%|YT|NF|D+|X|[原生|住宅]
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  tls: true
-  type: trojan
-- name: 🇺🇸US²_6|2.5MB/s|13%|GPT⁺|NF|D+|X|History
-  password: c357a728-1211-11f0-9a65-f23c9164ca5d
-  port: 443
-  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
-  tls: true
-  type: http
-  username: c357a728-1211-11f0-9a65-f23c9164ca5d
