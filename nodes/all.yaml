@@ -1,74 +1,6 @@
 proxies:
-- name: 🏴‍☠_1🇸🇬SG²_8|1.8MB/s|1.1MB/s|X|History
-  password: ""
-  port: 10810
-  server: 146.235.19.84
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇩🇪DE²_1|0.6MB/s|GPT⁺|X|Succeed
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- name: 🇹🇼TW²_1|1.3MB/s|0%|GM|X|History|[广播|商宽]
-  password: ""
-  port: 1080
-  server: 141.11.42.163
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇰🇷KR²_1|0.6MB/s|GPT⁺|NF|X|Succeed|[广播|机房]
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪DE²_2|0.7MB/s|X|Succeed
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      HOST: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn
-- name: 🇮🇳IN²_1|1.2MB/s|GPT⁺|X|History|[广播|机房]
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
-  skip-cert-verify: true
-  sni: tttyder.wsone.icu
-  tls: true
-  type: trojan
-- name: 🇭🇰HK²_1|2.9MB/s|NF|D+|X|History
-  password: <password>
-  port: 8443
-  server: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
 - country: 🇭🇰 HK
-  name: 🇭🇰HK²_2|1.1MB/s|2%|X|Succeed|[原生|住宅]
+  name: 🇭🇰HK²_1|1.4MB/s|2%|YT|D+|X|Succeed
   password: BxceQaOe
   port: 443
   server: 58.152.25.208
@@ -78,13 +10,13 @@ proxies:
   udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: 🇭🇰HK²_3|0.6MB/s|2%|D+|X|Succeed|[原生|住宅]
-  network: tcp
+  name: 🇭🇰HK²_2|2.2MB/s|YT-RU|X|History|[原生|住宅]
   port: 443
   reality-opts:
     public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
   server: 2.hk.1.cdn-bilibili.cn
   servername: www.icloud.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true

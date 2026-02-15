@@ -1,80 +1,6 @@
 proxies:
-  - name: "\U0001F3F4‍☠_1\U0001F1F8\U0001F1ECSG²_8|1.8MB/s|1.1MB/s|X|History"
-    password: ''
-    port: 10810
-    server: 146.235.19.84
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F3C1 ZZ"
-    http-opts: {}
-    name: "\U0001F1E9\U0001F1EADE²_1|0.6MB/s|GPT⁺|X|Succeed"
-    network: tcp
-    port: 30833
-    server: v33.hdacd.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      path: /
-    client-fingerprint: chrome
-  - name: "\U0001F1F9\U0001F1FCTW²_1|1.3MB/s|0%|GM|X|History|[广播|商宽]"
-    password: ''
-    port: 1080
-    server: 141.11.42.163
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1F0\U0001F1F7KR²_1|0.6MB/s|GPT⁺|NF|X|Succeed|[广播|机房]"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1FA\U0001F1F8US"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1E9\U0001F1EADE²_2|0.7MB/s|X|Succeed"
-    network: ws
-    port: 8080
-    server: tgju.org
-    skip-cert-verify: true
-    type: vmess
-    uuid: nasnet
-    ws-opts:
-      headers:
-        HOST: nasnet-571296497.iranpress.co
-        Host: tgju.org
-      path: /nasnet/cdn
-    client-fingerprint: chrome
-    servername: nasnet-571296497.iranpress.co
-  - name: "\U0001F1EE\U0001F1F3IN²_1|1.2MB/s|GPT⁺|X|History|[广播|机房]"
-    password: M7v%w11Se*
-    port: 443
-    server: tttyder.wsone.icu
-    skip-cert-verify: true
-    sni: tttyder.wsone.icu
-    type: trojan
-    network: tcp
-    client-fingerprint: chrome
-  - name: "\U0001F1ED\U0001F1F0HK²_1|2.9MB/s|NF|D+|X|History"
-    password: <password>
-    port: 8443
-    server: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
-    sni: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
   - country: "\U0001F1ED\U0001F1F0 HK"
-    name: "\U0001F1ED\U0001F1F0HK²_2|1.1MB/s|2%|X|Succeed|[原生|住宅]"
+    name: "\U0001F1ED\U0001F1F0HK²_1|1.4MB/s|2%|YT|D+|X|Succeed"
     password: BxceQaOe
     port: 443
     server: 58.152.25.208
@@ -85,16 +11,17 @@ proxies:
     client-fingerprint: chrome
   - client-fingerprint: safari
     flow: xtls-rprx-vision
-    name: "\U0001F1ED\U0001F1F0HK²_3|0.6MB/s|2%|D+|X|Succeed|[原生|住宅]"
-    network: tcp
+    name: "\U0001F1ED\U0001F1F0HK²_2|2.2MB/s|YT-RU|X|History|[原生|住宅]"
     port: 443
     reality-opts:
       public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
     server: 2.hk.1.cdn-bilibili.cn
+    skip-cert-verify: false
     tls: true
     type: vless
     udp: true
     uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+    network: tcp
     servername: www.icloud.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
