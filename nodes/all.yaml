@@ -1,55 +1,16 @@
 proxies:
-- country: 🇺🇸US
-  name: 🇭🇰HK¹-US⁰_1|2.2MB/s|5%|GPT⁺|YT|D+|X|[广播|机房]
-  network: ws
-  port: 2095
-  server: cf.090227.xyz
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
+- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  name: 🇩🇪DE²_1|0.8MB/s|GPT⁺|D+|X|Succeed|[原生|机房]
+  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+  port: 2056
+  server: nlb1.mangshe.xyz
   skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: ""
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-    path: /fp=randomized
-- alterId: 0
-  cipher: auto
-  country: 🇬🇧GB
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_1|1.5MB/s|0%|GPT|GM|YT|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  servername: baidu.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-- country: 🏁ZZ
-  name: 🇭🇰HK¹-US⁰_2|7.3MB/s|GPT⁺|YT|D+|X|History|[广播|机房]
-  network: ws
-  port: 2095
-  server: www.fbi.gov
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: ""
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-    path: /fp=randomized
-- cipher: chacha20-ietf-poly1305
-  name: 🇮🇳IN²_1|0.9MB/s|GPT⁺|GM|YT|D+|X|Succeed|[广播|机房]
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 34411
-  server: ldu.izenny.com
-  type: ss
+  sni: nlb1.mangshe.xyz
+  type: hysteria2
   udp: true
 - alterId: 0.0
   cipher: auto
-  name: 🇯🇵JP²_2|5.2MB/s|0%|GPT|GM|YT|D+|X|Succeed|[原生|机房]
+  name: 🇯🇵JP²_1|0.7MB/s|0%|GPT|X|Succeed|[原生|机房]
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -64,81 +25,12 @@ proxies:
       Host: gtm1.ktmwan.net
     path: /
   xudp: true
-- name: 🇯🇵JP²_3|1.8MB/s|36%|GPT|GM|X
-  password: ""
-  port: 5555
-  server: 64.176.34.132
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- country: 🏁ZZ
-  name: 🇺🇸US¹⁺_1|0.6MB/s|GPT|YT-HK|D+|X|History|[原生|机房]
-  network: ws
-  port: 2095
-  server: www.npmjs.com
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: ""
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-    path: /fp=randomized
-- name: 🇭🇰HK²_1|0.8MB/s|2%|YT|D+|X|Succeed|[原生|住宅]
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.208
-  skip-cert-verify: true
-  sni: 58.152.25.208
-  tls: true
-  type: trojan
-- country: 🏁ZZ
-  name: 🇭🇰HK¹-US⁰_3|1.8MB/s|5%|GPT⁺|YT|D+|X|History|[广播|机房]
-  network: ws
-  port: 2095
-  server: cloudflare-dns.com
-  servername: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-  skip-cert-verify: true
-  type: vless
-  udp: true
-  uuid: ""
-  ws-opts:
-    headers:
-      Host: cnmfangbinxingnmsl.fangbinxing-cnm.workers.dev
-    path: /fp=randomized
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇩🇪DE²_1|0.5MB/s|GPT⁺|X|History|[广播|机房]
-  network: ws
-  port: 8080
-  server: tgju.org
-  servername: nasnet-571296497.iranpress.co
-  skip-cert-verify: true
-  type: vmess
-  uuid: nasnet
-  ws-opts:
-    headers:
-      HOST: nasnet-571296497.iranpress.co
-    path: /nasnet/cdn
-- name: 🇹🇼TW²_1|2.9MB/s|GPT⁺|GM|YT|D+|X|Succeed|[原生|住宅]
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   country: 🇬🇧GB
   h2-opts: {}
   http-opts: {}
-  name: 🇯🇵JP²_4|6.1MB/s|0%|GPT|GM|YT|D+|X|History|[原生|机房]
+  name: 🇯🇵JP²_2|1.1MB/s|0%|GPT|YT|D+|X|Succeed
   network: ws
   port: 12883
   server: gtm1.ktmwan.net
@@ -146,162 +38,34 @@ proxies:
   skip-cert-verify: true
   type: vmess
   uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      HOST: baidu.com
-    path: /
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: 🇩🇪DE²_2|0.7MB/s|25%|GPT⁺|TK|NF|D+|X|Succeed|[原生|机房]
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: nlb1.mangshe.xyz
+- name: 🇰🇷KR²_1|1.5MB/s|GPT⁺|X|History|[广播|机房]
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
   skip-cert-verify: true
-  sni: nlb1.mangshe.xyz
-  type: hysteria2
-  udp: true
-- country: 🇮🇷IR
-  name: 🇺🇸US²_1|2.2MB/s|0%|YT|NF|X
-  password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
-  port: 43642
-  server: 5.34.222.4
-  skip-cert-verify: true
-  sni: iepl.usq1.cat.bilibili.com
   tls: true
-  type: trojan
+  type: http
   udp: true
+  username: test
 - alterId: 2
   cipher: auto
-  country: 🇮🇷IR
-  h2-opts: {}
+  country: 🏁 ZZ
   http-opts: {}
-  name: 🇸🇬SG²_1|5.1MB/s|45%|GPT⁺|GM|X|Succeed
+  name: 🇸🇬SG²_1|1.1MB/s|GPT|NF|X|History|[原生|机房]
   network: tcp
   port: 30845
   server: v45.hdacd.com
   skip-cert-verify: true
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_2|3.5MB/s|33%|GPT⁺|NF|X|Succeed|[原生|机房]
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE²_3|4.2MB/s|6%|GPT⁺|X|Succeed|[原生|机房]
-  network: ws
-  port: 2053
-  server: www.speedtest.net
-  servername: dl.immerchauffage.ir.
-  tls: true
-  type: vless
-  udp: true
-  uuid: Golestan-vpn
   ws-opts:
-    headers:
-      Host: dl.immerchauffage.ir.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- name: 🇹🇼TW²_2|3.3MB/s|GPT⁺|YT|D+|X|Succeed|[原生|住宅]
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 🇳🇱NL²_1|1.0MB/s|GPT⁺|X|Succeed
-  network: ws
-  port: 80
-  server: 104.18.32.47
-  tls: false
-  type: vless
-  udp: true
-  uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
-  ws-opts:
-    headers:
-      Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
-    path: /?ed
-- alterId: "0"
-  cipher: auto
-  name: 🇯🇵JP²_5|8.4MB/s|0%|GPT|YT|NF|D+|X|Succeed|[原生|机房]
-  network: ws
-  port: 12883
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-  ws-opts:
-    headers:
-      Host: baidu.com
     path: /
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇲🇽MX²_1|0.5MB/s|X|[广播|机房]
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 20149
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- country: 🇭🇰 HK
-  name: 🇭🇰HK²_2|1.0MB/s|2%|YT|D+|X|Succeed|[原生|住宅]
+- name: 🇭🇰HK²_1|0.9MB/s|X|History
+  network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.25.208
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   tls: true
   type: trojan
-  udp: true
-- auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  name: 🇺🇸US²_3|0.7MB/s|GPT|X|Succeed
-  password: 7dd10318-28fd-413f-81f0-cd0a286e4779
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: mg2.mangshe.xyz
-  type: hysteria2
-  udp: true
-- alterId: 2
-  cipher: auto
-  country: 🏁 ZZ
-  http-opts: {}
-  name: 🇺🇸US²_4|2.7MB/s|35%|GPT⁺|X|History|[原生|机房]
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /
-- cipher: aes-256-cfb
-  country: 🇺🇸US
-  name: 🇺🇸US²_5|0.7MB/s|20%|GPT|X|History|[原生|机房]
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇩🇪DE²_4|0.5MB/s|GPT⁺|X|History
-  port: 30833
-  server: v33.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
