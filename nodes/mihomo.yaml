@@ -1,6 +1,85 @@
 proxies:
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_1|3.8MB/s|X|History|[原生|机房]"
+    network: tcp
+    port: 30846
+    server: v46.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    client-fingerprint: chrome
+    servername: v46.hdacd.com
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7GB"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1EF\U0001F1F5JP²_1|0.6MB/s|0%|GPT|YT|X|History|[原生|机房]"
+    network: ws
+    port: 12883
+    server: gtm1.ktmwan.net
+    skip-cert-verify: true
+    type: vmess
+    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+    ws-opts:
+      headers:
+        HOST: baidu.com
+        Host: gtm1.ktmwan.net
+      path: /
+    client-fingerprint: chrome
+    servername: baidu.com
+  - name: "\U0001F1ED\U0001F1F0HK²_1|1.7MB/s|2%|NF|D+|X|History|[原生|住宅]"
+    network: tcp
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.208
+    skip-cert-verify: true
+    sni: 58.152.25.208
+    type: trojan
+    client-fingerprint: chrome
+  - name: "\U0001F1ED\U0001F1F0HK²_2|1.4MB/s|2%|YT|D+|X|History|[原生|住宅]"
+    password: BxceQaOe
+    port: 443
+    server: 58.152.25.208
+    skip-cert-verify: true
+    sni: t.me%2Fripaojiedian
+    type: trojan
+    udp: true
+    network: tcp
+    client-fingerprint: chrome
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F1ED\U0001F1F0HK"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_2|3.4MB/s|GPT⁺|YT|X|History"
+    network: tcp
+    port: 30829
+    server: v29.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    client-fingerprint: chrome
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK²_3|0.8MB/s|2%|YT-RU|D+|X|History|[原生|住宅]"
+    port: 443
+    reality-opts:
+      public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+    server: 2.hk.1.cdn-bilibili.cn
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+    network: tcp
+    servername: www.icloud.com
   - auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
-    name: "\U0001F1E9\U0001F1EADE²_1|0.8MB/s|GPT⁺|D+|X|Succeed|[原生|机房]"
+    name: "\U0001F1E9\U0001F1EADE²_1|1.0MB/s|25%|GPT⁺|X|Succeed"
     password: 7dd10318-28fd-413f-81f0-cd0a286e4779
     port: 2056
     server: nlb1.mangshe.xyz
@@ -8,75 +87,49 @@ proxies:
     sni: nlb1.mangshe.xyz
     type: hysteria2
     udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP²_1|0.7MB/s|0%|GPT|X|Succeed|[原生|机房]"
-    network: ws
-    port: 12883
-    server: gtm1.ktmwan.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-    ws-opts:
-      headers:
-        Host: gtm1.ktmwan.net
-      path: /
-    xudp: true
-    client-fingerprint: chrome
-    servername: baidu.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EC\U0001F1E7GB"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1EF\U0001F1F5JP²_2|1.1MB/s|0%|GPT|YT|D+|X|Succeed"
-    network: ws
-    port: 12883
-    server: gtm1.ktmwan.net
-    skip-cert-verify: true
-    type: vmess
-    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
-    ws-opts:
-      headers:
-        Host: gtm1.ktmwan.net
-      path: /
-    client-fingerprint: chrome
-    servername: baidu.com
-  - name: "\U0001F1F0\U0001F1F7KR²_1|1.5MB/s|GPT⁺|X|History|[广播|机房]"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK²_4|3.2MB/s|D+|X|History"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+    server: 2.hk.1.cdn-bilibili.cn
     tls: true
-    type: http
+    type: vless
     udp: true
-    username: test
-    sni: testkr3.ssv.vc
+    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+    servername: www.icloud.com
   - alterId: 2
     cipher: auto
-    country: "\U0001F3C1 ZZ"
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
     http-opts: {}
-    name: "\U0001F1F8\U0001F1ECSG²_1|1.1MB/s|GPT|NF|X|History|[原生|机房]"
+    name: "\U0001F3F4‍☠_1\U0001F1FA\U0001F1F8US²_4|3.1MB/s|[原生|机房]|2.9MB/s|X|History|[原生|机房]"
     network: tcp
-    port: 30845
-    server: v45.hdacd.com
+    port: 30829
+    server: v29.hdacd.com
     skip-cert-verify: true
     type: vmess
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      path: /
     client-fingerprint: chrome
-  - name: "\U0001F1ED\U0001F1F0HK²_1|0.9MB/s|X|History"
-    network: tcp
-    password: BxceQaOe
-    port: 443
-    server: 58.152.25.208
+    servername: v29.hdacd.com
+  - auth: 7dd10318-28fd-413f-81f0-cd0a286e4779
+    name: "\U0001F1FA\U0001F1F8US²_3|0.8MB/s|0%|GPT⁺|TK|NF|X|History|[原生|机房]"
+    password: 7dd10318-28fd-413f-81f0-cd0a286e4779
+    port: 2056
+    server: mg2.mangshe.xyz
     skip-cert-verify: true
-    sni: t.me%2Fripaojiedian
-    type: trojan
-    client-fingerprint: chrome
+    sni: mg2.mangshe.xyz
+    type: hysteria2
+    udp: true
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1EE\U0001F1F3IN²_1|0.8MB/s|X|History"
+    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
+    port: 34411
+    server: ldu.izenny.com
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
