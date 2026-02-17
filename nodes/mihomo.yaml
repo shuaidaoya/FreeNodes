@@ -2,48 +2,148 @@ proxies:
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1EB\U0001F1F7FR²_1|0.6MB/s|GPT|X|History"
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL²_1|0.7MB/s|6%|GPT|X|History|[广播|商宽]"
     network: tcp
     port: 443
     reality-opts:
-      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
-      short-id: 4fa44664f6a566d3
-    server: fran.scroogethebest.com
+      public-key: xxn1N1KQQ8UU0UMBBvRgVw9m09rCpV-EVvDj4YwDbDg
+      short-id: 1111aaaa
+    server: 144.31.5.94
+    tls: true
+    type: vless
+    udp: true
+    uuid: 192f7c25-0c3a-4089-a67b-5138c5d5d561
+    xudp: true
+    servername: deepl.com
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0HK²_1|0.6MB/s|1%|D+|X|History"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+    server: 2.hk.1.cdn-bilibili.cn
+    tls: true
+    type: vless
+    udp: true
+    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
+    servername: www.icloud.com
+  - encryption: none
+    name: "\U0001F1F3\U0001F1F1NL²_1|0.5MB/s|X|History"
+    network: ws
+    port: 80
+    server: 104.18.32.47
+    type: vless
+    udp: true
+    uuid: e31085f9-7f55-4a7d-b00e-ce94149477cb
+    ws-opts:
+      headers:
+        Host: PrICKLy-AdverTisEMEnt6OaD5Z64MK.onEEaT.cO.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: /?ed
+    xudp: true
+    client-fingerprint: chrome
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F3C1 ZZ"
+    http-opts: {}
+    name: "\U0001F1F8\U0001F1ECSG²_1|3.4MB/s|43%|GPT⁺|YT|X|History|[原生|机房]"
+    network: tcp
+    port: 30845
+    server: v45.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      path: /
+    client-fingerprint: chrome
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1F9AT²_1|0.5MB/s|10%|GPT|D+|X|History"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+      short-id: 9c2378562188c3cb
+    server: 152.53.46.3
     tls: true
     type: vless
     udp: true
     uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
     xudp: true
-    servername: fran.scroogethebest.com
-  - client-fingerprint: random
-    flow: xtls-rprx-vision
-    name: "\U0001F1EF\U0001F1F5JP²_1|1.5MB/s|8%|GPT|X"
+    servername: au1.scroogethebest.com
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL²_2|0.7MB/s|X|History"
     network: tcp
-    port: 20001
-    reality-opts:
-      public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
-      short-id: 4b070735
-    server: 42.2.28.64
+    port: 443
+    server: 144.31.4.67
     tls: true
     type: vless
     udp: true
-    uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6
-    servername: buylite.music.apple.com
+    uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+    xudp: true
+    servername: plcdn14.suio.me
   - client-fingerprint: chrome
+    encryption: none
     flow: xtls-rprx-vision
-    name: "\U0001F1F8\U0001F1ECSG²_1|0.6MB/s|GPT|X|[原生|商宽]"
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL²_3|0.9MB/s|17%|GPT|X|History"
+    network: tcp
     port: 443
     reality-opts:
-      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-      short-id: 4daa022e84f8edf2
-    server: de.cdn.stun.su
-    skip-cert-verify: false
+      public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+      short-id: 4fa44664f6a566d3
+    server: 144.31.3.35
     tls: true
     type: vless
     udp: true
-    uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+    xudp: true
+    servername: poland.scroogethebest.com
+  - name: "\U0001F1F9\U0001F1FCTW²_1|2.2MB/s|GPT⁺|GM|YT|X|History|[原生|住宅]"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+  - client-fingerprint: chrome
+    encryption: none
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL²_4|0.6MB/s|6%|GPT⁺|X|History"
     network: tcp
-    servername: de.cdn.stun.su
+    port: 443
+    server: 144.31.2.20
+    tls: true
+    type: vless
+    udp: true
+    uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+    xudp: true
+    servername: plcdn18.suio.me
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
