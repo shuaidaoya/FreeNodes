@@ -1,55 +1,7 @@
 proxies:
-  - alterId: 2
+  - alterId: 0
     cipher: auto
-    country: "\U0001F1ED\U0001F1F0HK"
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US²_1|2.0MB/s|33%|GPT⁺|X|History|[原生|机房]"
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    client-fingerprint: chrome
-    servername: v8.hdacd.com
-  - alterId: 2
-    cipher: auto
-    country: "\U0001F3C1 ZZ"
-    http-opts: {}
-    name: "\U0001F1F8\U0001F1ECSG²_1|4.1MB/s|X|History"
-    network: tcp
-    port: 30845
-    server: v45.hdacd.com
-    skip-cert-verify: true
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      path: /
-    client-fingerprint: chrome
-  - name: "\U0001F1F9\U0001F1FCTW²_1|1.1MB/s|GPT|X|Succeed|[原生|住宅]"
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-  - name: "\U0001F1F0\U0001F1F7KR²_1|0.8MB/s|GPT⁺|X|History"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History"
+    name: "\U0001F1EF\U0001F1F5JP²_1|0.6MB/s|0%|GPT|GM|YT|D+|X|History"
     network: ws
     port: 12883
     server: gtm1.ktmwan.net
@@ -60,16 +12,28 @@ proxies:
     uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
     ws-opts:
       headers:
-        Host: baidu.com
+        Host: gtm1.ktmwan.net
       path: /
     xudp: true
+    client-fingerprint: chrome
+    servername: baidu.com
+  - alterId: 2
+    cipher: auto
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1E9\U0001F1EADE²_1|0.5MB/s|X|History|[广播|机房]"
+    network: tcp
+    port: 30833
+    server: v33.hdacd.com
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     client-fingerprint: chrome
   - alterId: 0
     cipher: auto
     country: "\U0001F1EC\U0001F1E7GB"
     h2-opts: {}
     http-opts: {}
-    name: "\U0001F1EF\U0001F1F5JP²_2|1.6MB/s|0%|GPT|NF|D+|X|History"
+    name: "\U0001F1EF\U0001F1F5JP²_2|0.9MB/s|GPT|YT|D+|X|History"
     network: ws
     port: 12883
     server: gtm1.ktmwan.net
@@ -78,10 +42,58 @@ proxies:
     uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
     ws-opts:
       headers:
+        HOST: baidu.com
         Host: gtm1.ktmwan.net
       path: /
     client-fingerprint: chrome
     servername: baidu.com
+  - alterId: 2
+    cipher: auto
+    client-fingerprint: chrome
+    delay: 1154
+    name: "\U0001F1FA\U0001F1F8US²_1|2.5MB/s|NF|X|History|[原生|机房]"
+    network: tcp
+    port: 30846
+    server: v46.hdacd.com
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    udp: true
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - alterId: 2
+    cipher: auto
+    country: "\U0001F3C1 ZZ"
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_2|2.5MB/s|X|History"
+    network: tcp
+    port: 30829
+    server: v29.hdacd.com
+    skip-cert-verify: true
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    ws-opts:
+      path: /
+    client-fingerprint: chrome
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1E6\U0001F1F9AT²_1|0.5MB/s|10%|GPT⁺|X|History"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: wgoLhL4pRP0y6fu6He4qW_ElohCM_ANWJF3HEoUhNz4
+      short-id: 9c2378562188c3cb
+    server: 152.53.46.3
+    tls: true
+    type: vless
+    udp: true
+    uuid: ccedb1b1-35f3-46d1-a85a-c699eef5f3e1
+    xudp: true
+    servername: au1.scroogethebest.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
