@@ -1,32 +1,17 @@
 proxies:
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1F5\U0001F1F1PL²_1|1.9MB/s|33%|GPT⁺|X|History"
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 42295
-    server: f.sdnlv0.cn
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EE\U0001F1F9IT²_1|1.3MB/s|33%|GPT⁺|D+|X|Succeed|[广播|机房]"
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 46253
-    server: f.sdnlv0.cn
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    country: "\U0001F1EE\U0001F1F7IR"
-    name: "\U0001F1EC\U0001F1E7GB²_1|1.6MB/s|GPT|D+|X|Succeed|[广播|机房]"
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 31032
-    server: f.sdnlv0.cn
-    type: ss
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1EE\U0001F1F9IT²_2|2.0MB/s|33%|GPT⁺|D+|X"
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 46253
-    server: 151.242.183.219
-    type: ss
-    udp: true
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK²_1|1.7MB/s|0%|NF|D+|X|[广播|政府]"
+    port: 10001
+    server: 27.44.141.89
+    skip-cert-verify: true
+    type: vmess
+    uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
+    network: tcp
+    client-fingerprint: chrome
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
