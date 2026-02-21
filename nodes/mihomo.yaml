@@ -1,37 +1,11 @@
 proxies:
-  - alterId: 2
-    cipher: auto
-    client-fingerprint: chrome
-    delay: 1154
-    name: "\U0001F1FA\U0001F1F8US²_1|0.8MB/s|X|History"
-    network: tcp
-    port: 30846
-    server: v46.hdacd.com
+  - name: "\U0001F1EC\U0001F1E7GB²_1|0.6MB/s|8%|GPT⁺|X"
+    password: f40ca239-4a76-4808-b56c-84d4e9969939
+    port: 65535
+    server: 132.145.28.17
     skip-cert-verify: true
-    tls: false
-    type: vmess
-    udp: true
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1E6\U0001F1F9AT²_1|0.6MB/s|D+|X|Succeed"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
-      short-id: 8dc4fccb2bcfc99d
-    server: 152.53.46.200
-    tls: true
-    type: vless
-    udp: true
-    uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
-    xudp: true
-    servername: at.jojack.ru
+    sni: www.microsoft.com
+    type: hysteria2
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
