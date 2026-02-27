@@ -1,50 +1,137 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇯🇵JP²_1|1.6MB/s|X|History
-  network: tcp
-  port: 27724
-  reality-opts:
-    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
-    short-id: ""
-  server: 116.80.44.144
-  servername: www.yahoo.co.jp
-  tls: true
-  type: vless
+- auth: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
+  name: 🇨🇦CA²_1|0.7MB/s|4%|GPT⁺|D+|X|[广播|商宽]
+  password: cac966c1-b596-48ff-ab7c-6d58f8d6ca04
+  port: 65535
+  server: 40.233.77.86
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
-  xudp: true
+- name: 🇧🇭BH²_1|0.6MB/s|GPT|X|History|[广播|机房]
+  password: M7v%w11Se*
+  port: 443
+  server: blaab.wsone.icu
+  skip-cert-verify: true
+  sni: blaab.wsone.icu
+  tls: true
+  type: trojan
 - alterId: 2
   cipher: auto
   country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 🇩🇪DE²_1|0.8MB/s|GPT⁺|X|History
-  network: tcp
-  port: 30833
-  server: v33.hdacd.com
-  servername: v33.hdacd.com
+  name: 🇭🇰HK²_1|3.4MB/s|GPT|YT|D+|X|[原生|住宅]
+  network: ws
+  port: 80
+  server: 1da2ae9d-t70f40-tao3bn-ggww.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
-  country: 🇨🇳CN
+  country: 🇭🇰HK
   h2-opts: {}
   http-opts: {}
-  name: 🇺🇸US²_1|1.5MB/s|X|Succeed
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
+  name: 🇭🇰HK²_2|2.3MB/s|YT|D+|X|History|[原生|住宅]
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
   skip-cert-verify: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇮🇩ID²_1|3.9MB/s|26%|GPT⁺|GM|YT|TK|X|[广播|机房]
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 32233
-  server: 51a80f84-tax5s0-tcdmjc-1gevg.id.oshuawei.com
+  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: hkt.gotochinatown.net
+    path: /
+- name: 🇭🇰HK²_3|1.6MB/s|X
+  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  port: 5228
+  server: c5bf9a29-tb89s0-tvk1qn-19les.cm4.oshuawei.com
   tls: true
   type: http
-  username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- name: 🇰🇷KR²_1|3.7MB/s|GPT|X|[广播|机房]
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  port: 31433
+  server: 71ec55a3-tb89s0-tu0ezx-1m7l4.kr.oshuawei.com
+  tls: true
+  type: http
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- name: 🇲🇾MY²_1|1.9MB/s|GPT⁺|X
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  port: 31233
+  server: 872e697e-tb89s0-tu0ezx-1m7l4.my.oshuawei.com
+  tls: true
+  type: http
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  http-opts: {}
+  name: 🇭🇰HK²_4|3.0MB/s|0%|D+|X|History|[原生|住宅]
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  country: 🇭🇰 HK
+  http-opts: {}
+  name: 🇭🇰HK²_5|3.1MB/s|0%|YT|X|[原生|住宅]
+  network: ws
+  port: 80
+  server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
+  ws-opts:
+    headers:
+      HOST: broadcastlv.chat.bilibili.com
+    path: /
+- country: 🇮🇳IN
+  name: 🇮🇳IN²_1|1.2MB/s|GPT|X|History|[广播|机房]
+  password: M7v%w11Se*
+  port: 443
+  server: amanm.wsone.icu
+  skip-cert-verify: true
+  sni: amanm.wsone.icu
+  tls: true
+  type: trojan
+  udp: true
+- name: 🇩🇪DE²_1|1.2MB/s|8%|GPT⁺|D+|X
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  port: 443
+  server: 2334761b-tb89s0-tu0ezx-1m7l4.de.oshuawei.com
+  tls: true
+  type: http
+  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
+- cipher: aes-256-cfb
+  name: 🇪🇸ES²_1|0.6MB/s|23%|GPT⁺|X|History
+  password: KnJGad3FqTvjqbaX
+  port: 9014
+  server: 5.188.181.201
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 🇸🇬SG²_1|2.9MB/s|GPT⁺|GM|X|History
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
