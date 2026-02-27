@@ -67,7 +67,7 @@ FreeNodes 是一个专门分享**免费、可用、高质量**代理节点的开
 
 ## 📡 订阅链接
 
-### 订阅链接分享（4小时一更）
+### 订阅链接分享（一天两更，凌晨4点和下午4点）
 
 Clash Meta 客户端订阅（支持 Clash Meta、Clash、Clash for Windows、Shadowrocket）
 
