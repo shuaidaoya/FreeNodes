@@ -1,295 +1,183 @@
 proxies:
-- name: 🇺🇸US²_1|8.6MB/s|16%|GPT⁺|NF|D+|X|History|[原生|机房]
-  password: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-  port: 15229
-  server: 44f07857-t9zts0-tb5rbt-1kcpe.cu.oshuawei.com
+- name: 🇹🇼TW²_1|0.7MB/s|GPT⁺|GM|YT|NF|D+|X|History|[原生|住宅]
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
   tls: true
   type: http
-  username: 3f514ea2-4662-11ed-a8bf-f23c91cfbbc9
-- name: 🇸🇬SG²_1|12.8MB/s|46%|GPT⁺|GM|YT|X|History|[广播|机房]
-  password: 5edb4d21-6cc1-4d46-8823-9a0e14d83455
-  port: 4449
-  server: 4-ndsrzkgg.mix.dexiansheng.com
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 🇻🇳VN²_1|1.1MB/s|X
+  password: ""
+  port: 20063
+  server: 117.1.48.242
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- name: 🇻🇳VN²_2|0.5MB/s|X
+  password: ""
+  port: 20075
+  server: 117.1.48.242
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- alpn:
+  - ""
+  alterId: "0"
+  cipher: auto
+  name: 🇺🇸US²_2|7.0MB/s|3%|GPT⁺|GM|YT|TK|NF|D+|X|History|[广播|商宽]
+  network: raw
+  port: 31350
+  server: c86s3.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f7e4a08-757a-48fa-8ed8-38599c684851
+  xudp: true
+- name: 🇺🇸US²_1|11.1MB/s|16%|GPT⁺|GM|YT|TK|NF|D+|X|History|[原生|机房]
+  password: c357a728-1211-11f0-9a65-f23c9164ca5d
+  port: 443
+  server: cd2fd5f5-t9zts0-td5oia-1m49t.jp.oshuawei.com
   tls: true
   type: http
-  username: walless
-- name: 🇭🇰HK²_1|13.2MB/s|1%|X|History|[原生|住宅]
-  password: <password>
-  port: 8443
-  server: 8875d66c-t9zts0-trhks8-1c9em.hkt.cdnhuawei.com
-  tls: true
-  type: http
-  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
-- name: 🇺🇸US²_2|4.1MB/s|100%|GPT|X|History
+  username: c357a728-1211-11f0-9a65-f23c9164ca5d
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_3|2.1MB/s|GPT⁺|GM|YT|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.179
+  type: ss
+- name: 🇺🇸US²_3|6.4MB/s|100%|GPT⁺|X|Succeed
   password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
   port: 443
   server: 1f8e697e-ta3j40-tsw0xs-19ord.se.oshuawei.com
   tls: true
   type: http
   username: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-- name: 🇺🇸US²_3|5.3MB/s|GPT|X|History
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+- name: 🇩🇪DE²_1|8.1MB/s|8%|GPT⁺|NF|D+|X|History|[广播|住宅]
+  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
   port: 443
-  server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+  server: 81af7b98-t9zts0-trhks8-1c9em.de.oshuawei.com
   tls: true
   type: http
-  username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇼TW²_1|0.9MB/s|X
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 25612
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- name: 🇲🇾MY²_1|5.1MB/s|25%|GPT|YT|NF|X|History|[广播|机房]
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 31233
-  server: 872e697e-tb89s0-tu0ezx-1m7l4.my.oshuawei.com
-  tls: true
-  type: http
-  username: bd515574-3b10-11ee-ac14-f23c9164ca5d
-- name: 🇯🇵JP²_1|10.4MB/s|25%|GPT|NF|X|History
-  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-  port: 27233
-  server: 8e786aea-ta3j40-tsw0xs-19ord.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: 🇲🇩MD²_1|1.7MB/s|22%|GPT⁺|X
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 18244
-  server: ldu.izenny.com
-  type: ss
-- name: 🇭🇰HK²_2|10.2MB/s|X|History|[原生|住宅]
-  password: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-  port: 5228
-  server: 4d866649-t9zts0-tcr22d-1rsuw.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 0de37cdc-abff-11ef-b7c6-f23c913c8d2b
-- name: 🇯🇵JP²_2|4.3MB/s|25%|GPT|NF|X|History
-  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  port: 27233
-  server: 04e92be6-t9zts0-tbc0ig-1ssud.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  country: 🇨🇳CN
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_4|5.4MB/s|GPT|NF|X|History
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  servername: v29.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  username: 336501b6-51d2-11ee-a993-f23c9164ca5d
 - client-fingerprint: chrome
+  encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇬🇧GB²_1|4.4MB/s|67%|GPT|X|History
+  network: tcp
+  port: 55057
+  reality-opts:
+    public-key: uSzNQq_GJZGbq4SHtEsqBY93C2acsM-K-QACZC-J6Eo
+    short-id: aa5f8562357295ff
+  server: 87.120.219.99
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d837e94-967d-43a8-8e36-440ddfa4fd15
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇾CY²_1|1.8MB/s|X|History
-  port: 8443
+  name: 🇳🇱NL²_1|4.5MB/s|100%|GPT⁺|X|[广播|机房]
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
-    short-id: 7cad5040
-  server: 45.82.249.129
-  servername: www.cloudflare.com
-  skip-cert-verify: false
-  tfo: false
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 143.20.236.51
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 309fa273-6579-4cb2-9143-7cad50401eba
-- name: 🇩🇪DE²_1|4.5MB/s|GPT|X
-  password: ""
-  port: 1080
-  server: 193.233.254.77
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- name: 🇰🇷KR²_1|11.6MB/s|7%|GPT⁺|X|History|[广播|机房]
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- name: 🇫🇮FI²_1|0.5MB/s|40%|GPT|X
-  password: ""
-  port: 1080
-  server: 81.177.214.249
-  skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US²_5|1.7MB/s|X|History|[广播|机房]
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_6|0.7MB/s|38%|GPT⁺|NF|X|History
-  port: 180
-  server: 82.198.246.97
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 2
-  cipher: auto
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- cipher: chacha20-ietf
   country: 🇭🇰HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇺🇸US²_7|0.9MB/s|X|History
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🏴‍☠_1Relay_-🇺🇸US_521|8.4MB/s|X
-  network: ws
-  port: 443
-  server: cg1c11.waimaojd.com
-  servername: cg1c11.waimaojd.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c11.waimaojd.com
-    path: /api/v1/graphql
-- name: 🇰🇷KR²_2|1.5MB/s|GPT|X|History
-  port: 1090
-  server: 121.169.46.116
-  tls: false
-  type: socks5
-  username: Og%3D%3D
-- name: 🇺🇸US²_8|8.2MB/s|16%|GPT|X|History
-  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
-  port: 15229
-  server: 0ad1e07c-t9zts0-tcj3xn-1o20w.cu.oshuawei.com
-  tls: true
-  type: http
-  username: d70a9508-5477-11ef-bf61-f23c913c8d2b
-- name: 🇭🇰HK²_3|17.8MB/s|0%|YT-CN|X|History
-  password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
-  port: 5228
-  server: 3a5c4caf-t9zts0-tcfo40-17xo8.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
-- name: 🇺🇸US²_9|4.8MB/s|GPT|NF|X|History
-  password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-  port: 443
-  server: 059be268-t9zts0-tpaqgu-1smhu.se.oshuawei.com
-  tls: true
-  type: http
-  username: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
-- name: 🇰🇷KR²_3|11.3MB/s|GPT|YT|X|History|[广播|机房]
-  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
-  port: 31433
-  server: e39855ba-ta3j40-tsw0xs-19ord.kr.oshuawei.com
-  tls: true
-  type: http
-  username: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  name: 🇸🇬SG²_1|1.1MB/s|0%|D+|X|History|[原生|商宽]
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - client-fingerprint: chrome
-  name: 🇯🇵JP²_3|1.3MB/s|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-    short-id: 2da72ce6
-  server: 154.31.114.125
-  servername: navi.bankrate.com
+  encryption: none
+  name: 🇺🇸US¹-SG⁰_1|1.3MB/s|D+|X|History
+  network: ws
+  port: 2053
+  server: bestcf.030101.xyz
+  servername: snippet.fgfw.eu.org
   tls: true
   type: vless
   udp: true
-  uuid: e5ef24a6-522e-4e95-a9c6-3cca87f3a564
-- alterId: 0
-  cipher: auto
-  country: 🇯🇵JP
-  h2-opts: {}
-  http-opts: {}
-  name: 🇯🇵JP²_4|4.4MB/s|0%|GPT⁺|YT-CN|NF|X|[原生|机房]
-  network: ws
-  port: 443
-  server: w13.luoli.de
-  servername: w13.luoli.de
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      HOST: w13.luoli.de
-    path: /v2ws
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇷🇺RU²_1|1.3MB/s|X
-  network: ws
+      Host: snippet.fgfw.eu.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /danfeng?ed=2560
+  xudp: true
+- name: 🇺🇸US²_4|12.2MB/s|16%|GPT⁺|GM|YT|TK|NF|D+|X|History|[原生|机房]
+  password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
   port: 443
-  server: cg1c08.waimaojd.com
-  servername: cg1c08.waimaojd.com
+  server: cea3f67a-tatgg0-ttk5iz-i8ie.jp.oshuawei.com
   tls: true
-  type: vmess
-  udp: true
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c08.waimaojd.com
-    path: /api/v1/graphql
-- name: 🇭🇰HK²_4|0.8MB/s|1%|YT-CN|D+|X|History|[原生|住宅]
+  type: http
+  username: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+- name: 🇭🇰HK²_1|4.5MB/s|1%|NF|D+|X|History|[原生|住宅]
   password: <password>
   port: 8443
-  server: d91b51ab-t9zts0-tbmeud-1th9y.hkt.cdnhuawei.com
+  server: cc416daa-ta1og0-trftb1-1psmw.hkt.cdnhuawei.com
   tls: true
   type: http
-  username: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
+  username: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
+- name: 🇩🇪DE²_2|7.8MB/s|8%|GPT⁺|X|History|[广播|住宅]
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  port: 443
+  server: bd1509c5-t9zts0-tbao5v-gacy.de.oshuawei.com
+  tls: true
+  type: http
+  username: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  country: 🇯🇵JP
   h2-opts: {}
   http-opts: {}
-  name: 🇯🇵JP²_5|4.4MB/s|0%|GPT⁺|GM|YT|X
+  name: 🇺🇸US²_5|4.8MB/s|GPT|YT|X|[原生|机房]
   network: ws
   port: 443
-  server: w12.luoli.de
-  servername: w12.luoli.de
-  skip-cert-verify: true
+  server: cg1c14.waimaojd.com
+  servername: cg1c14.waimaojd.com
   tls: true
   type: vmess
-  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  udp: true
+  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
   ws-opts:
     headers:
-      HOST: w12.luoli.de
-    path: /v2ws
-- name: 🇯🇵JP²_6|16.0MB/s|25%|GPT⁺|YT|X|History
+      Host: cg1c14.waimaojd.com
+    path: /api/v1/graphql
+- name: 🇯🇵JP²_1|2.0MB/s|25%|GPT|X|Succeed
   password: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
   port: 27233
   server: ec008a95-t9zts0-tryjtz-12ach.cm4.oshuawei.com
   tls: true
   type: http
   username: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-- name: 🇭🇰HK²_5|18.2MB/s|0%|YT-CN|NF|X|History|[原生|住宅]
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 5228
-  server: c5bf9a29-tb89s0-tvk1qn-19les.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_4|3.1MB/s|GM|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.239
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_5|1.8MB/s|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.176
+  type: ss
