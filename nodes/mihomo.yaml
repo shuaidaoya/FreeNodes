@@ -1,39 +1,104 @@
 proxies:
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|1.2MB/s|GPT⁺|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.240
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_2|0.7MB/s|GPT⁺|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.213
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|0.8MB/s|GPT⁺|X|History|[原生|机房]"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.144
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|1.6MB/s|GPT|GM|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.4
-    type: ss
-  - name: "\U0001F1F0\U0001F1F7KR²_1|1.4MB/s|6%|GPT⁺|X|History"
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR¹-CA⁰_1|7.7MB/s|YT|D+|X|History"
+    network: ws
+    port: 12312
+    server: 211.48.77.114
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.dynv6.net
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2560
+    xudp: true
+    servername: sni.111000.dynv6.net
+  - name: "\U0001F1F0\U0001F1F7KR²_1|1.0MB/s|6%|GPT|X|History"
     port: 1090
     server: 121.169.46.116
+    tls: false
     type: socks5
-    username: Og%3D%3D
+    username: T2clM0QlM0Q6
+  - name: "\U0001F1F0\U0001F1F7KR²_2|1.1MB/s|GPT|X|History"
+    password: test.+
+    port: 30446
+    server: testkr3.ssv.vc
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: test
+    sni: testkr3.ssv.vc
+  - name: "\U0001F1F8\U0001F1ECSG²_1|11.5MB/s|X"
+    password: ''
+    port: 10820
+    server: 146.235.19.84
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|0.8MB/s|X|Succeed"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.123
+    type: ss
+  - auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+    name: "\U0001F1ED\U0001F1F0HK²_1|2.6MB/s|28%|YT-CN|NF|D+|X|[广播|机房]"
+    obfs: salamander
+    obfs-password: vzbsyah3Y%5%2fPz
+    password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+    port: 30000
+    server: hk2.shiyuandian.shop
+    skip-cert-verify: true
+    sni: hk2.shiyuandian.shop
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1E7\U0001F1E9BD²_1|0.6MB/s|GPT|X"
+    password: ''
+    port: 22122
+    server: 119.148.2.22
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1EC\U0001F1E7GB"
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US²_1|1.8MB/s|GPT|X"
+    network: tcp
+    port: 30003
+    server: a.cdn-bilibili.cn
+    skip-cert-verify: true
+    type: vmess
+    uuid: 69de9a52-36b0-4265-a3cf-d06bcefe713d
+    client-fingerprint: chrome
+  - name: "\U0001F1EC\U0001F1E7GB²_1|0.6MB/s|X|History|[原生|商宽]"
+    password: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    port: 443
+    server: 4152686e-t9zts0-t9x9zr-1lkt0.uk.oshuawei.com
+    tls: true
+    type: http
+    username: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
+    sni: 4152686e-t9zts0-t9x9zr-1lkt0.uk.oshuawei.com
+  - auth: dongtaiwang.com
+    name: "\U0001F1E9\U0001F1EADE²_1|4.0MB/s|0%|GPT⁺|YT-US|TK|NF|D+|X|[广播|商宽]"
+    password: dongtaiwang.com
+    port: 43608
+    server: 89.144.35.34
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria2
+    udp: true
   - cipher: none
-    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|17.1MB/s|D+|X|[广播|机房]"
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|14.5MB/s|5%|YT|NF|D+|X|Succeed|[广播|机房]"
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
@@ -47,113 +112,238 @@ proxies:
     type: ss
     udp: true
   - auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-    name: "\U0001F1E9\U0001F1EADE²_1|0.5MB/s|31%|GPT⁺|X|[广播|机房]"
-    obfs: salamander
-    obfs-password: 8qEG16vXX8gARc3y
+    name: "\U0001F1F8\U0001F1ECSG²_2|0.6MB/s|29%|GPT⁺|YT-CN|NF|X|History|[广播|商宽]"
     password: ae845cbd-08fb-4346-929a-e28a6f3960a8
     port: 2056
-    server: de1.shiyuandian.shop
+    server: sg1.shiyuandian.shop
     skip-cert-verify: true
-    sni: de1.shiyuandian.shop
+    sni: sg1.shiyuandian.shop
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1F9\U0001F1FCTW²_1|10.3MB/s|YT|NF|D+|X|History"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
+  - cipher: chacha20-ietf-poly1305
+    country: "\U0001F1FA\U0001F1F8US"
+    name: "\U0001F1FA\U0001F1F8US²_2|3.1MB/s|0%|GPT⁺|X|[广播|商宽]"
+    password: yoNzQ7Q6qbC1Mx5QpGvdPsHpRsqkvQxk
+    port: 9443
+    server: 144.31.131.64
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_2|0.6MB/s|GPT|YT-US|X|History"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.36
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_3|1.9MB/s|GPT⁺|X|History|[原生|机房]"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.228
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: "\U0001F1F3\U0001F1F1NL²_1|3.7MB/s|11%|GPT⁺|X|History|[广播|机房]"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+      short-id: c39cc7310a
+    server: 143.20.236.51
+    tls: true
+    type: vless
+    udp: true
+    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+    xudp: true
+    servername: yahoo.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F7\U0001F1FARU²_1|2.5MB/s|GPT⁺|X"
+    network: tcp
+    port: 52006
+    reality-opts:
+      public-key: 4CH3o5zOMcFNMbnwXnkAg0FFepmsc0QzhahXkUzb1ik
+      short-id: d8c6b58bcbb0c323
+    server: 109.120.191.66
+    tls: true
+    type: vless
+    udp: true
+    uuid: 10a4c929-0643-07d0-9b89-0b823adaa2a8
+    xudp: true
+    servername: max.ru
+  - alpn:
+      - h2
+    name: "\U0001F1FF\U0001F1E6ZA²_1|7.1MB/s|0%|GPT|YT-CN|NF|D+|X|[广播|商宽]"
+    password: dongtaiwang.com
+    port: 59901
+    server: 45.221.98.14
+    skip-cert-verify: true
+    type: anytls
+    udp: true
+  - name: "\U0001F1ED\U0001F1F0HK²_2|1.8MB/s|2%|X"
+    password: ''
+    port: 8888
+    server: 38.246.249.217
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE²_2|1.7MB/s|25%|GPT⁺|X|History|[原生|商宽]"
+    network: tcp
+    port: 2280
+    reality-opts:
+      public-key: 3O9CVvzD_0omAKw17VJoL0NlezpzxRAHNIbOWGBto2I
+      short-id: faf804ddc2e49f6c
+    server: 192.76.160.216
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3fa2f5cd-0cbc-4e4f-bce1-a59ae090eef4
+    xudp: true
+    servername: tgju.org
+  - encryption: none
+    name: "\U0001F1F2\U0001F1E9MD²_1|6.4MB/s|GPT|X|History"
+    network: ws
+    port: 2052
+    server: 104.18.32.47
+    type: vless
+    udp: true
+    uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+    ws-opts:
+      headers:
+        Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK.
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/39.0.2171.95 Safari/537.36
+      path: /
+    xudp: true
+    client-fingerprint: chrome
+  - name: "\U0001F1F8\U0001F1ECSG²_3|0.7MB/s|0%|GPT⁺|X"
+    password: ''
+    port: 1080
+    server: 124.156.207.229
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F2\U0001F1E9MD²_2|4.7MB/s|21%|GPT⁺|X|History"
+    network: ws
+    port: 443
+    server: 198.62.62.235
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+    ws-opts:
+      headers:
+        Host: bank.alaska-tigr.info
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/65.0.3325.181 Safari/537.36
+      path: /love
+    xudp: true
+    servername: bank.alaska-tigr.info
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1FA\U0001F1FFUZ²_1|2.3MB/s|X"
+    network: tcp
+    port: 8443
+    reality-opts:
+      public-key: G1tysmIvHOz3fYUAyXIIUIXNjor4oyoXjq1ktGykdCY
+      short-id: 85998b6e877785ea
+    server: 31.13.208.89
+    tls: true
+    type: vless
+    udp: true
+    uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
+    xudp: true
+    servername: stats.vk-portal.net
+  - auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+    name: "\U0001F1E6\U0001F1EAAE²_1|1.1MB/s|28%|GPT⁺|GM|YT-US|TK|NF|D+|X|[广播|机房]"
+    obfs: salamander
+    obfs-password: Faf^fv#mQCMKxxSM
+    password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+    port: 30000
+    server: sg2.shiyuandian.shop
+    skip-cert-verify: true
+    sni: sg2.shiyuandian.shop
     type: hysteria2
     udp: true
   - cipher: aes-256-cfb
     country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|2.5MB/s|GPT⁺|YT|X|History"
+    name: "\U0001F1FB\U0001F1F3VN²_4|0.6MB/s|GPT⁺|X|Succeed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.65
+    server: 103.186.155.70
     type: ss
+  - name: "\U0001F1FA\U0001F1F8US²_3|6.0MB/s|X|History"
+    password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+    port: 443
+    server: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
+    tls: true
+    type: http
+    username: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+    sni: 4a5864a9-t9zts0-tbicd9-1go3q.se.oshuawei.com
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_6|2.1MB/s|GPT⁺|X|History"
+    name: "\U0001F1FB\U0001F1F3VN²_5|1.7MB/s|X|Succeed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
     server: 103.186.154.57
     type: ss
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|2.4MB/s|X|History|[原生|机房]"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.241
-    type: ss
-  - name: "\U0001F1FB\U0001F1F3VN²_8|0.7MB/s|GPT⁺|GM|X"
-    password: ''
-    port: 1050
-    server: 183.81.91.186
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - name: "\U0001F1ED\U0001F1F0HK²_1|6.5MB/s|0%|X"
-    password: ''
-    port: 1080
-    server: 38.55.105.63
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_9|2.2MB/s|GPT|GM|YT-US|X|History|[原生|机房]"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.123
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_10|1.6MB/s|X|History|[原生|机房]"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.27
-    type: ss
-  - name: "\U0001F1F0\U0001F1F7KR²_2|4.2MB/s|6%|GPT⁺|X|History"
-    port: 1090
-    server: 121.169.46.116
-    tls: false
-    type: socks5
-    username: Og%3D%3D
-  - name: "\U0001F1F3\U0001F1F1NL²_1|5.7MB/s|0%|GPT⁺|X|History"
-    password: ''
-    port: 1080
-    server: 45.129.140.213
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - cipher: aes-256-cfb
     country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_11|2.8MB/s|GPT⁺|GM|YT|X|History"
+    name: "\U0001F1FB\U0001F1F3VN²_6|0.6MB/s|GPT|X|Succeed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
     server: 103.186.154.189
     type: ss
-  - name: "\U0001F1EE\U0001F1E9ID²_1|3.9MB/s|X|History"
-    password: ''
-    port: 1080
-    server: 103.197.188.63
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_12|1.6MB/s|GPT|GM|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.56
-    type: ss
-  - name: "\U0001F1F0\U0001F1F7KR²_3|0.5MB/s|6%|X|History"
-    password: ''
-    port: 1090
-    server: 121.169.46.116
-    skip-cert-verify: true
-    type: socks5
-    username: ''
   - cipher: aes-256-cfb
     country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_13|2.0MB/s|GPT⁺|X|History|[原生|机房]"
+    name: "\U0001F1FB\U0001F1F3VN²_7|0.6MB/s|GPT|GM|X|History"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.70
+    server: 103.186.155.10
     type: ss
+  - name: "\U0001F1EF\U0001F1F5JP²_1|5.9MB/s|4%|GPT⁺|X"
+    password: ''
+    port: 1080
+    server: 138.2.47.198
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: "\U0001F1F9\U0001F1FCTW²_2|8.7MB/s|GPT⁺|D+|X|History"
+    password: mrwdfNTD8M79LCukCieldrqZWqs=
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+    sni: twmoon1-cdn-route.couldflare-cdn.com
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
