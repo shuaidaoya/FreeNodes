@@ -1,368 +1,156 @@
 proxies:
-- client-fingerprint: random
-  name: 🇬🇧GB¹-SG⁰_1|2.2MB/s|GPT⁺|D+|X|[广播|机房]
-  network: ws
-  port: 443
-  server: 162.159.153.241
-  servername: snippet.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sh21.eu.org
-    path: /danfeng
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_1|6.5MB/s|0%|YT|D+|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  type: vmess
-  uuid: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    path: /
-- country: 🇩🇪DE
-  name: 🇩🇪DE²_1|1.0MB/s|1%|GPT|X|[广播|机房]
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.124.229.240
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf
-  country: 🇭🇰HK
-  name: 🇸🇬SG²_1|14.1MB/s|0%|YT-CN|NF|D+|X|History
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_1|1.8MB/s|GPT⁺|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.20
-  type: ss
-- client-fingerprint: random
-  name: 🇩🇪DE¹-SG⁰_1|2.0MB/s|X
-  network: ws
-  port: 2053
-  server: 188.241.241.33
-  servername: snippet.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sh21.eu.org
-    path: /danfeng
-- client-fingerprint: random
-  name: 🇺🇸US¹-SG⁰_1|1.9MB/s|GM|TK|X
-  network: ws
-  port: 443
-  server: 172.67.70.64
-  servername: snippet.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sh21.eu.org
-    path: /danfeng
-- cipher: chacha20-ietf-poly1305
-  country: 🇨🇳CN
-  name: 🇲🇾MY²_1|17.5MB/s|0%|GPT⁺|GM|YT-CN|D+|X|History|[广播|机房]
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 13828
-  server: ldu.izenny.com
-  type: ss
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 🇺🇸US²_1|1.9MB/s|7%|GPT⁺|GM|NF|X|History
-  network: http
-  port: 80
-  server: 132.145.154.72
-  servername: a.189.cn
-  skip-cert-verify: true
-  type: vmess
-  uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3
-- alterId: 0
-  cipher: auto
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_2|16.0MB/s|0%|GPT⁺|YT|NF|D+|X|History|[原生|住宅]
-  network: tcp
-  port: 25210
-  server: ncgddx.gdsxrk.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: 623787ef-7786-4572-abf5-0180892558aa
-- delay: 1497
-  name: 🇭🇰HK²_3|13.0MB/s|2%|YT-CN|X
-  password: <password>
-  port: 8443
-  server: 3d60a50f-ta1og0-tkp3tl-1s09x.hkt.cdnhuawei.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 🇸🇬SG²_2|1.7MB/s|GPT|GM|X|Succeed|[原生|机房]
-  network: tcp
-  port: 30812
-  server: v12.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 🇻🇳VN²_2|1.5MB/s|GPT⁺|GM|X|Succeed|[原生|机房]
+  name: 🇻🇳VN²_1|1.2MB/s|GPT⁺|X|History
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.111
+  server: 103.186.155.240
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇷🇺RU²_1|0.9MB/s|X|History
-  network: tcp
-  port: 8081
-  reality-opts:
-    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
-    short-id: 425ba80cd1a821a8
-  server: 51.250.75.255
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1449968-0329-468b-b56b-1c573ac2a767
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US²_2|2.9MB/s|0%|GPT⁺|GM|YT|D+|X|History|[广播|机房]
-  password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-  port: 12589
-  server: ldu.izenny.com
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_2|0.7MB/s|GPT⁺|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.213
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_3|0.8MB/s|GPT⁺|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.144
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_4|1.6MB/s|GPT|GM|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.4
+  type: ss
+- name: 🇰🇷KR²_1|1.4MB/s|6%|GPT⁺|X|History
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: Og%3D%3D
+- cipher: none
+  name: 🇭🇰HK¹⁺_1|17.1MB/s|D+|X|[广播|机房]
+  password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ylnhh.us.ci
+    mode: websocket
+    mux: false
+    path: "/14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\\"
+    tls: true
+  port: 443
+  server: 185.241.41.72
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 🇬🇧GB²_1|2.3MB/s|GPT|X|History|[广播|机房]
-  network: ws
-  port: 443
-  server: 198.62.62.248
-  servername: tar.alabama-tigr.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
-  ws-opts:
-    headers:
-      Host: tar.alabama-tigr.info
-    path: /love
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇨🇭CH²_1|1.1MB/s|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: eQXsYV276NoiN9SDwuloNrJkX-NU2tDtkMK6ntKQwlg
-    short-id: df13327f2677fc90
-  server: 138.124.32.20
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 30c04389-bbcb-431f-9d47-a8ad24406bd4
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇳🇱NL²_1|2.3MB/s|11%|GPT⁺|X|History|[广播|机房]
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 143.20.236.51
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  xudp: true
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  http-opts: {}
-  name: 🇭🇰HK²_4|6.9MB/s|0%|GPT|YT|X
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  servername: hkt.gotochinatown.net
+- auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  name: 🇩🇪DE²_1|0.5MB/s|31%|GPT⁺|X|[广播|机房]
+  obfs: salamander
+  obfs-password: 8qEG16vXX8gARc3y
+  password: ae845cbd-08fb-4346-929a-e28a6f3960a8
+  port: 2056
+  server: de1.shiyuandian.shop
   skip-cert-verify: true
-  type: vmess
-  uuid: e8a960d8-14f5-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      HOST: hkt.gotochinatown.net
-    path: /
-- name: 🇳🇱NL²_2|2.0MB/s|3%|GPT|X|History
+  sni: de1.shiyuandian.shop
+  type: hysteria2
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_5|2.5MB/s|GPT⁺|YT|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.65
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_6|2.1MB/s|GPT⁺|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.57
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_7|2.4MB/s|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.241
+  type: ss
+- name: 🇻🇳VN²_8|0.7MB/s|GPT⁺|GM|X
   password: ""
-  port: 5000
-  server: 212.34.135.86
+  port: 1050
+  server: 183.81.91.186
   skip-cert-verify: true
   type: socks5
   username: ""
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇲🇩MD²_1|0.9MB/s|21%|GPT⁺|X|History
-  network: tcp
-  port: 443
-  server: mlb.tunnelguard.ru
-  servername: mlb.tunnelguard.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: a619d576-1380-4aac-8732-99e8dfe8df0f
-  xudp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 🇳🇱NL²_3|2.2MB/s|0%|GPT|X
-  network: tcp
-  port: 50521
-  server: 141.11.21.219
-  servername: a.sezar.top
-  tls: true
-  type: vmess
-  uuid: 7b4c6795-3be5-4a4e-b234-07a46f580c45
-- client-fingerprint: random
-  name: 🇫🇷FR¹-SG⁰_1|0.9MB/s|GPT|X
-  network: ws
-  port: 2053
-  server: 51.75.23.173
-  servername: snippet.sh21.eu.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-  ws-opts:
-    headers:
-      Host: snippet.sh21.eu.org
-    path: /danfeng
-- alterId: 2
-  cipher: auto
-  country: 🇭🇰 HK
-  h2-opts: {}
-  http-opts: {}
-  name: 🇭🇰HK²_5|6.8MB/s|0%|YT|D+|X|[原生|住宅]
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
+- name: 🇭🇰HK²_1|6.5MB/s|0%|X
+  password: ""
+  port: 1080
+  server: 38.55.105.63
   skip-cert-verify: true
-  type: vmess
-  uuid: dcccacba-fa44-11ef-8400-f23c9164ca5d
-  ws-opts:
-    path: /
-- name: 🇰🇷KR²_1|0.6MB/s|GPT⁺|X|History
+  type: socks5
+  username: ""
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_9|2.2MB/s|GPT|GM|YT-US|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.123
+  type: ss
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_10|1.6MB/s|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.27
+  type: ss
+- name: 🇰🇷KR²_2|4.2MB/s|6%|GPT⁺|X|History
   port: 1090
   server: 121.169.46.116
   tls: false
   type: socks5
-  username: T2clM0QlM0Q6
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇳🇱NL²_4|2.4MB/s|7%|GPT|D+|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Ncb78PVwvwU2tB1eiOlJd0ZCG2CbqG7-dPIHztlq2yM
-    short-id: 69cc4c0d5e
-  server: nl2.miyazono-kaori.com
-  servername: www.philips.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f6c7016b-6f94-4a32-975c-013f2494d312
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 🇧🇾BY²_1|0.5MB/s|X
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 0L6FE1vTechnKhN9LxFgmcDzqGVIfEQz8ZBGfvzKGzg
-    short-id: 79400b6f0813381c
-  server: hb-by2.cdns.su
-  servername: hb-by2.cdns.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: c67f81df-34e8-4cb3-ab43-599585775fa9
-  xudp: true
-- name: 🇧🇩BD²_1|0.6MB/s|X
+  username: Og%3D%3D
+- name: 🇳🇱NL²_1|5.7MB/s|0%|GPT⁺|X|History
   password: ""
-  port: 22122
-  server: 119.148.62.130
+  port: 1080
+  server: 45.129.140.213
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 🇻🇳VN²_11|2.8MB/s|GPT⁺|GM|YT|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.189
+  type: ss
+- name: 🇮🇩ID²_1|3.9MB/s|X|History
+  password: ""
+  port: 1080
+  server: 103.197.188.63
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_12|1.6MB/s|GPT|GM|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.56
+  type: ss
+- name: 🇰🇷KR²_3|0.5MB/s|6%|X|History
+  password: ""
+  port: 1090
+  server: 121.169.46.116
   skip-cert-verify: true
   type: socks5
   username: ""
 - cipher: aes-256-cfb
   country: 🏁ZZ
-  name: 🇻🇳VN²_3|2.6MB/s|GPT|X|History
+  name: 🇻🇳VN²_13|2.0MB/s|GPT⁺|X|History|[原生|机房]
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.58
+  server: 103.186.155.70
   type: ss
-- name: 🇮🇳IN²_1|10.6MB/s|GPT|X|History
-  password: ""
-  port: 1080
-  server: 167.71.226.135
-  skip-cert-verify: true
-  type: socks5
-  username: ""
