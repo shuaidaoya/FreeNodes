@@ -1,59 +1,11 @@
 proxies:
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_1|0.9MB/s|GPT⁺|YT|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.79
-  type: ss
-- cipher: chacha20-ietf
-  name: 🇭🇰HK²_1|0.6MB/s|X|History
-  password: asd123456
-  port: 8388
-  server: 103.149.183.80
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇨🇳 CN
-  name: 🇻🇳VN²_2|1.8MB/s|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.112
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_3|0.9MB/s|GPT⁺|YT-US|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.70
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_4|1.3MB/s|GPT|GM|YT|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.26
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_5|2.3MB/s|GPT|YT-US|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.33
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁ZZ
-  name: 🇻🇳VN²_6|0.6MB/s|GPT|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.128
-  type: ss
 - alpn:
-  - http/1.1
+  - http%2F1.1
   client-fingerprint: random
-  name: 🇰🇷KR¹-SG⁰_1|3.5MB/s|X
+  name: 🇩🇪DE¹-SG⁰_1|1.6MB/s|GPT|X
   network: ws
-  port: 32920
-  server: 203.170.125.48
+  port: 8443
+  server: 152.53.143.195
   servername: snippet.gfw.nn.kg
   tls: true
   type: vless
@@ -63,75 +15,247 @@ proxies:
     headers:
       Host: snippet.gfw.nn.kg
     path: /danfeng
-- name: 🏴‍☠_1🇮🇩ID²_1|0.6MB/s|1.2MB/s|X|History
-  password: ""
-  port: 8199
-  server: 223.25.110.37
+- country: 🇭🇰HK
+  name: 🇭🇰HK²_1|1.2MB/s|2%|X
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
   skip-cert-verify: true
-  type: socks5
-  username: ""
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_7|0.8MB/s|GPT|X|History
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.155.222
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_8|1.7MB/s|GPT⁺|X|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.21
-  type: ss
-- cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_9|1.1MB/s|GPT|X|History|[原生|机房]
-  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-  port: 38388
-  server: 103.186.154.220
-  type: ss
-- alpn:
-  - ""
-  alterId: "0"
-  cipher: auto
-  name: 🇺🇸US²_1|4.6MB/s|X|History|[广播|机房]
-  network: ws
-  port: 2086
-  server: hb.seacloudmachinery.com
-  skip-cert-verify: false
+  sni: t.me/ripaojiedian
   tls: true
-  type: vmess
+  type: trojan
   udp: true
-  uuid: rootface💀
-  ws-opts:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
     headers: {}
-    path: /telegram id @rootface
+    path:
+    - /
+  name: 🇪🇪EE²_1|2.7MB/s|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XBBVeMURFu7jmYJ9MZwjEWgfQlGTnRs0B5So5Fy7jWs
+    short-id: 992f3294e2336744
+  server: ndt.fasti.win
+  servername: ndt.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
   xudp: true
-- name: 🇭🇰HK²_2|3.8MB/s|YT-CN|X|History
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🏴‍☠_1🔥Join+Telegram:@Farah_VPN🟣-6692|1.9MB/s|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: "23"
+  server: best4.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: 🇪🇸ES²_1|1.7MB/s|100%|GPT|X|History|[广播|机房]
+  password: UkXRsXvR6buDMG2Y
+  port: 9001
+  server: 5.188.181.201
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE²_1|6.1MB/s|GPT|NF|X|[原生|机房]
+  network: tcp
+  port: 433
+  reality-opts:
+    public-key: Bz2HLyFLCOrdtrxIgBPFIIb7BJFfLpnqJ1u-pw0Gpwo
+    short-id: 374dc2
+  server: 78.47.172.250
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c8181481-8544-49da-b4dd-46a3ddb27cae
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇬🇧GB²_1|5.2MB/s|0%|GPT⁺|D+|X|[原生|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: "23"
+  server: uk2.pineappled.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇵🇱PL²_1|3.2MB/s|0%|GPT⁺|X|[广播|机房]
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  server: 45.144.51.136
+  servername: pl.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  xudp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_1|1.8MB/s|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.183
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇪🇸ES²_2|2.5MB/s|38%|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+    short-id: feedbacc
+  server: es.fasti.win
+  servername: es.fasti.win
+  tls: true
+  type: vless
+  udp: true
+  uuid: a16bd0e2-ff2e-4e4c-a955-0c684255a065
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇱🇹LT²_1|0.5MB/s|GPT⁺|X|[广播|住宅]
+  network: tcp
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  country: 🏁 ZZ
+  name: 🇻🇳VN²_2|2.7MB/s|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.190
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇬🇧GB²_2|6.9MB/s|22%|GPT|X|History
+  network: ws
+  port: 443
+  server: 198.62.62.235
+  servername: bank.alaska-tigr.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: bank.alaska-tigr.info
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /love
+  xudp: true
+- name: 🇭🇰HK²_2|11.4MB/s|X|History|[原生|住宅]
   password: <password>
   port: 8443
-  server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
+  server: d91b51ab-t9zts0-tbmeud-1th9y.hkt.cdnhuawei.com
   tls: true
   type: http
-  udp: true
-  username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: 🇰🇷KR²_1|0.9MB/s|YT|X|History
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
+  username: 12a81f5a-fa9e-11ef-8400-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  country: 🇨🇳CN
+  h2-opts: {}
+  http-opts: {}
+  name: 🇨🇦CA²_1|3.9MB/s|X|History
+  network: tcp
+  port: 30846
+  server: v46.hdacd.com
+  servername: v46.hdacd.com
   skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇩🇪DE²_2|2.9MB/s|GPT|X
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: whYmACpNNY4B3Yv8iBJ9AmxokZL2Tb7O210utmzvGSo
+    short-id: 6ba85179e30d4fc2
+  server: 84.201.4.191
+  servername: cdn.uxfeedback.ru
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- alpn:
-  - http/1.1
-  client-fingerprint: random
-  name: 🇰🇷KR¹-SG⁰_2|2.0MB/s|5%|D+|X|[广播|机房]
+  uuid: a774f61d-a518-4c61-902f-807797da6caf
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇬🇧GB²_3|7.3MB/s|22%|GPT⁺|YT-US|X|History
+  network: ws
+  port: 443
+  server: 198.62.62.248
+  servername: tar.alabama-tigr.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: tar.alabama-tigr.info
+    path: /love
+- cipher: aes-256-cfb
+  country: 🏁ZZ
+  name: 🇻🇳VN²_3|2.1MB/s|GPT⁺|GM|X|History|[原生|机房]
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.154.244
+  type: ss
+- client-fingerprint: chrome
+  name: 🇰🇷KR¹-SG⁰_1|3.4MB/s|5%|GPT⁺|X
   network: ws
   port: 17988
-  server: 125.137.81.171
+  server: 222.117.162.245
   servername: snippet.fgfw.ndjp.net
   tls: true
   type: vless
@@ -141,10 +265,206 @@ proxies:
     headers:
       Host: snippet.fgfw.ndjp.net
     path: /danfeng
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇷🇺RU²_1|5.1MB/s|X
+  network: tcp
+  port: 2777
+  reality-opts:
+    public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao
+    short-id: 0f4dacf08722a29f
+  server: 51.250.26.81
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7559ad2a-a419-4fd7-bc6a-9350a017f72a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇳🇱NL²_1|4.5MB/s|X|History
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 143.20.236.51
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  xudp: true
+- name: 🇭🇰HK²_3|1.8MB/s|YT-CN|D+|X|History|[原生|住宅]
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: 🇬🇧GB²_4|3.2MB/s|X
+  network: tcp
+  port: 30573
+  server: ali.kavrtest.ir
+  servername: ali.kavrtest.ir
+  tls: true
+  type: vmess
+  udp: true
+  uuid: cfd46598-6814-4198-9273-e78339b14b9f
+  xudp: true
+- name: 🇭🇰HK²_4|16.5MB/s|X|History
+  password: <password>
+  port: 8443
+  server: 02d5920d-tbdts0-thntyd-1f596.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
 - cipher: aes-256-cfb
-  country: 🏁 ZZ
-  name: 🇻🇳VN²_10|1.1MB/s|GPT|GM|X|History
+  name: 🇻🇳VN²_4|2.8MB/s|GPT⁺|YT|X|History|[原生|机房]
   password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
   port: 38388
-  server: 103.186.155.109
+  server: 103.186.155.140
   type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 🇬🇧GB¹-SG⁰_1|2.0MB/s|GPT|D+|X|[广播|机房]
+  network: ws
+  port: 443
+  server: 192.0.63.107
+  servername: snippet.gfw.nn.kg
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: /danfeng
+- country: 🇬🇧GB
+  name: 🇱🇹LT²_2|0.6MB/s|GPT⁺|X|[广播|住宅]
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  name: 🇿🇦ZA²_1|5.7MB/s|0%|GPT⁺|YT-CN|NF|D+|X|History|[广播|机房]
+  password: dongtaiwang.com
+  port: 59901
+  server: 45.221.98.14
+  skip-cert-verify: true
+  type: anytls
+  udp: true
+- cipher: aes-256-cfb
+  country: 🇪🇸 ES
+  name: 🇪🇸ES²_3|2.0MB/s|100%|GPT⁺|X|History|[广播|机房]
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  server: 5.188.181.201
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: 🇬🇧GB
+  h2-opts: {}
+  http-opts: {}
+  name: 🇦🇺AU²_1|11.7MB/s|GPT⁺|YT|X|[广播|机房]
+  network: ws
+  port: 12889
+  server: 85.211.242.85
+  servername: baidu.com
+  skip-cert-verify: true
+  type: vmess
+  uuid: 37c67a5e-2b2a-49b2-a197-889e80b28bee
+- name: 🇯🇵JP²_1|15.5MB/s|25%|GPT⁺|GM|YT|NF|X
+  password: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+  port: 27233
+  server: 4d2f203f-ta1og0-ta00rd-1o8ak.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 8bb68d04-6973-11ee-b518-f23c9164ca5d
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP²_2|6.8MB/s|0%|GPT⁺|X|History|[原生|住宅拨号]
+  network: tcp
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+    short-id: ""
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+  xudp: true
+- name: 🇸🇬SG²_1|5.9MB/s|X|History
+  password: ""
+  port: 1080
+  server: 159.223.53.194
+  skip-cert-verify: true
+  type: socks5
+  username: ""
+- alterId: 0
+  cipher: auto
+  name: 🇦🇺AU²_2|5.3MB/s|GPT⁺|YT|X|[广播|机房]
+  network: ws
+  port: 12889
+  server: 85.211.242.85
+  tls: false
+  type: vmess
+  uuid: 37c67a5e-2b2a-49b2-a197-889e80b28bee
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- cipher: aes-256-cfb
+  country: 🇨🇳 CN
+  name: 🇻🇳VN²_5|2.0MB/s|GPT⁺|GM|YT-KH|X|History
+  password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+  port: 38388
+  server: 103.186.155.23
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 🇨🇭CH²_1|5.3MB/s|0%|GPT⁺|D+|X|[广播|机房]
+  port: 443
+  reality-opts:
+    public-key: AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc
+    short-id: 4fa44664f6a566d3
+  server: estonia.scroogethebest.com
+  servername: estonia.scroogethebest.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e2e1ddaa-1acf-4c4c-a211-92284f6440ed
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG²_2|5.3MB/s|39%|GPT|GM|X|History
+  network: tcp
+  port: 30812
+  server: v12.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
